@@ -328,6 +328,33 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
       src="https://maps.google.com/maps?q=India&t=&z=4&ie=UTF8&iwloc=&output=embed"></iframe>
 
     <div class="card-grid" id="regionGrid"></div>
+
+    <div class="sheet-frame tickcorner" style="padding:20px;margin-top:24px;">
+      <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      <div class="mono" style="font-size:10.5px;color:var(--ink-soft);text-transform:uppercase;margin-bottom:4px;">Original schematic diagram — simplified, not to scale</div>
+      <h4 style="margin:0 0 12px;font-size:15px;">Northern Plains cross-section: Himalaya to Ganga</h4>
+      <svg viewBox="0 0 560 220" style="width:100%;max-width:640px;display:block;margin:0 auto;">
+        <!-- Himalaya -->
+        <path d="M 10 200 L 60 60 L 110 200 Z" fill="var(--forest-soft)" stroke="var(--forest)" stroke-width="1.5"/>
+        <text x="35" y="215" font-family="JetBrains Mono" font-size="9" fill="var(--forest)">HIMALAYA</text>
+        <!-- Bhabar -->
+        <rect x="110" y="170" width="60" height="30" fill="var(--paper-deep)" stroke="var(--line-strong)"/>
+        <text x="113" y="212" font-family="JetBrains Mono" font-size="8" fill="var(--ink-soft)">BHABAR</text>
+        <!-- Terai -->
+        <rect x="170" y="175" width="70" height="25" fill="var(--river-soft)" stroke="var(--line-strong)"/>
+        <text x="176" y="212" font-family="JetBrains Mono" font-size="8" fill="var(--ink-soft)">TERAI</text>
+        <!-- Bhangar -->
+        <rect x="240" y="180" width="150" height="20" fill="var(--saffron-soft)" stroke="var(--line-strong)"/>
+        <text x="280" y="212" font-family="JetBrains Mono" font-size="8" fill="var(--ink-soft)">BHANGAR (older alluvium)</text>
+        <!-- Khadar -->
+        <rect x="390" y="185" width="150" height="15" fill="var(--paper)" stroke="var(--line-strong)"/>
+        <text x="420" y="212" font-family="JetBrains Mono" font-size="8" fill="var(--ink-soft)">KHADAR (new alluvium)</text>
+        <!-- River in khadar -->
+        <path d="M 400 192 Q 460 188 530 192" fill="none" stroke="var(--river)" stroke-width="3"/>
+        <text x="20" y="30" font-family="JetBrains Mono" font-size="9" fill="var(--ink-soft)">Coarse gravel → marshy → older alluvium → active floodplain</text>
+      </svg>
+      <p style="font-size:12.5px;color:var(--ink-soft);margin:10px 0 0;">Sediment texture fines from north to south: Bhabar's coarse gravel gives way to marshy Terai, then the stable older Bhangar upland, and finally Khadar — the active, regularly flood-renewed floodplain closest to today's river channel.</p>
+    </div>
   </div>
 </section>
 
@@ -355,6 +382,41 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
       </div>
     </div>
     <p class="section-sub">Step through the mechanism stage by stage — from summer land heating to the two monsoon branches splitting at the Western Ghats and the Bay of Bengal.</p>
+
+    <div class="sheet-frame tickcorner" style="padding:20px;margin-bottom:24px;">
+      <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      <div class="mono" style="font-size:10.5px;color:var(--ink-soft);text-transform:uppercase;margin-bottom:8px;">Original schematic diagram — simplified, not to scale</div>
+      <svg viewBox="0 0 520 480" style="width:100%;max-width:560px;display:block;margin:0 auto;">
+        <!-- simplified India landmass -->
+        <path d="M 260 20 L 340 40 L 380 90 L 400 160 L 380 220 L 400 280 L 360 360 L 300 440 L 260 460 L 220 420 L 190 340 L 150 260 L 130 190 L 150 120 L 200 60 Z"
+          fill="var(--paper-deep)" stroke="var(--ink)" stroke-width="1.5"/>
+        <!-- Himalaya arc -->
+        <path d="M 190 60 Q 260 20 340 45" fill="none" stroke="var(--forest)" stroke-width="4" stroke-linecap="round"/>
+        <text x="245" y="30" font-family="JetBrains Mono" font-size="10" fill="var(--forest)">HIMALAYA (deflects moist air west)</text>
+        <!-- Western Ghats line -->
+        <path d="M 200 130 L 230 330" fill="none" stroke="var(--river)" stroke-width="3" stroke-dasharray="2 3"/>
+        <text x="60" y="230" font-family="JetBrains Mono" font-size="10" fill="var(--river)">WESTERN GHATS</text>
+        <!-- Arabian Sea branch arrow -->
+        <path d="M 60 400 Q 110 320 190 220" fill="none" stroke="var(--saffron)" stroke-width="3" marker-end="url(#arrowSaffron)"/>
+        <text x="30" y="420" font-family="JetBrains Mono" font-size="10" fill="var(--saffron)">ARABIAN SEA BRANCH</text>
+        <!-- rain-shadow marker -->
+        <text x="250" y="230" font-family="JetBrains Mono" font-size="9" fill="var(--vermillion)">rain-shadow →</text>
+        <!-- Bay of Bengal branch arrow -->
+        <path d="M 430 420 Q 400 300 300 120" fill="none" stroke="var(--river)" stroke-width="3" marker-end="url(#arrowRiver)"/>
+        <text x="380" y="440" font-family="JetBrains Mono" font-size="10" fill="var(--river)">BAY OF BENGAL BRANCH</text>
+        <!-- ITCZ label -->
+        <text x="200" y="470" font-family="JetBrains Mono" font-size="9" fill="var(--ink-soft)">Both branches driven north by the ITCZ shifting over the heated Gangetic plain</text>
+        <defs>
+          <marker id="arrowSaffron" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="var(--saffron)"/>
+          </marker>
+          <marker id="arrowRiver" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="var(--river)"/>
+          </marker>
+        </defs>
+      </svg>
+    </div>
+
     <div class="monsoon-box">
       <div class="monsoon-stage-track" id="monsoonTrack"></div>
       <div class="mplayer-controls">
@@ -711,6 +773,7 @@ const flowData = [
 
 const regionData = [
   {id:'himalaya',tag:'01 · Fold Mountains',name:'Himalayan Mountains',blurb:'Youngest, highest fold mountains on Earth, formed by the Indian–Eurasian plate collision.',
+   coords:{lat:30.7333,lon:79.0667,label:'Central Himalaya, Uttarakhand'},
    formation:'Formed from sediments of the Tethys Sea, folded upward as the Indian Plate pushed into the Eurasian Plate — a process that is still ongoing today.',
    relief:'Three parallel ranges: Greater Himalaya (highest, permanent snow), Lesser/Middle Himalaya, and the Shiwaliks (outermost, low foothills).',
    rivers:'Source of the Indus, Ganga and Brahmaputra systems — perennial due to glacier + snowmelt feed.',
@@ -719,6 +782,7 @@ const regionData = [
    agri:'Terraced farming, horticulture (apples, tea on lower slopes), limited by terrain.',
    hazards:'Earthquakes, landslides, cloudbursts, Glacial Lake Outburst Floods (GLOFs).'},
   {id:'plains',tag:'02 · Alluvial Trough',name:'Northern Plains',blurb:'A vast alluvial plain built by sediment from the Indus, Ganga and Brahmaputra systems.',
+   coords:{lat:26.8467,lon:80.9462,label:'Northern Plains near Lucknow, UP'},
    formation:'Formed by infilling of the trough between the Himalayas and the Peninsular block with river-borne sediment over millions of years.',
    relief:'Extremely flat, sub-divided into Bhabar (coarse gravel belt), Terai (marshy), Bhangar (older alluvium) and Khadar (newer, flood-renewed alluvium).',
    rivers:'Ganga, Yamuna, Brahmaputra and their tributaries; dense drainage network.',
@@ -727,6 +791,7 @@ const regionData = [
    agri:'India\'s agricultural heartland — wheat and rice belt, site of the Green Revolution.',
    hazards:'Recurrent flooding (especially Bihar, Assam), riverbank erosion.'},
   {id:'plateau',tag:'03 · Peninsular Shield',name:'Peninsular Plateau',blurb:'One of the oldest, most geologically stable landmasses on Earth.',
+   coords:{lat:19.7515,lon:75.7139,label:'Deccan Plateau, Maharashtra'},
    formation:'Made of ancient Precambrian crystalline, igneous and metamorphic rocks, with the Deccan Trap basalt overlay from volcanic activity.',
    relief:'Includes the Central Highlands, Chota Nagpur Plateau, Deccan Plateau, and the Western and Eastern Ghats along its edges.',
    rivers:'Godavari, Krishna, Cauvery, Narmada, Tapi — mostly seasonal, rain-fed.',
@@ -735,6 +800,7 @@ const regionData = [
    agri:'Cotton (black soil belt), millets, pulses; horticulture in the Ghats.',
    hazards:'Drought-prone in rain-shadow zones; landslides on the Western Ghats escarpment.'},
   {id:'desert',tag:'04 · Arid Zone',name:'Indian (Thar) Desert',blurb:'A large arid tract in western Rajasthan, lying in the rain-shadow of the Aravallis relative to the monsoon.',
+   coords:{lat:27.0,lon:71.5,label:'Thar Desert, Rajasthan'},
    formation:'Shaped by wind erosion and deposition (aeolian processes) under low, erratic rainfall.',
    relief:'Rolling sand dunes, some rocky outcrops; the Aravalli range forms its eastern edge.',
    rivers:'Very few perennial rivers; the Luni is a notable seasonal exception.',
@@ -743,6 +809,7 @@ const regionData = [
    agri:'Limited rain-fed farming; irrigation via the Indira Gandhi Canal has expanded cultivation.',
    hazards:'Drought, desertification, sandstorms.'},
   {id:'coast',tag:'05 · Coastal Margins',name:'Coastal Plains',blurb:'Narrow West Coast and broader East Coast plains flanking the Peninsula.',
+   coords:{lat:16.9891,lon:82.2475,label:'East Coast — Godavari delta, AP'},
    formation:'The West Coast is a submergent coastline (narrow shelf); the East Coast is emergent with a wider shelf and larger deltas.',
    relief:'West coast: narrow, backed steeply by the Western Ghats. East coast: broader, with major deltas (Godavari, Krishna, Cauvery, Mahanadi).',
    rivers:'East coast receives the mouths of most major Peninsular rivers, forming rich deltas.',
@@ -751,6 +818,7 @@ const regionData = [
    agri:'Rice-dominated deltaic agriculture; coconut and spices along the west coast.',
    hazards:'Cyclones (East coast especially), coastal erosion, storm surge, sea-level rise risk.'},
   {id:'islands',tag:'06 · Island Territories',name:'Islands',blurb:'Andaman & Nicobar (Bay of Bengal) and Lakshadweep (Arabian Sea) — geologically very different island groups.',
+   coords:{lat:11.7401,lon:92.6586,label:'Andaman Islands (Port Blair)'},
    formation:'Andaman & Nicobar are the exposed peaks of a submerged mountain arc (tectonically active). Lakshadweep are coral atolls built on a submerged platform.',
    relief:'Andaman & Nicobar: hilly, forested. Lakshadweep: low, flat coral islands.',
    rivers:'No major river systems on either group.',
@@ -762,36 +830,42 @@ const regionData = [
 
 const riverData = [
   {id:'ganga',name:'Ganga',type:'Himalayan',chain:['Gangotri glacier (Uttarakhand)','Bhagirathi + Alaknanda → Devprayag','Haridwar (enters plains)','Prayagraj (confluence with Yamuna)','Patna → Bhagalpur','Sundarbans delta → Bay of Bengal'],
+   sourceCoords:{lat:30.9944,lon:79.0849,label:'Gangotri Glacier (source)'},mouthCoords:{lat:21.65,lon:88.15,label:'Sundarbans (mouth, Bay of Bengal)'},
    detail:'India\'s largest river by basin population and cultural significance. Fed by both Himalayan snowmelt and monsoon rain, so it stays perennial year-round.',
    tributaries:'Yamuna, Ghaghara, Gandak, Kosi, Son, Chambal.',
    states:'Uttarakhand, UP, Bihar, Jharkhand, West Bengal.',
    dams:'Tehri Dam (on the Bhagirathi).',
    note:'Forms the Sundarbans delta jointly with the Brahmaputra — the world\'s largest mangrove delta.'},
   {id:'indus',name:'Indus',type:'Himalayan',chain:['Near Mansarovar, Tibetan Plateau','Enters India in Ladakh','Flows through Pakistan (Punjab plain)','Joined by five Punjab rivers (Panjnad)','Arabian Sea delta (Pakistan)'],
+   sourceCoords:{lat:31.3667,lon:81.2833,label:'Near Senge Khabab, Tibet (source)'},mouthCoords:{lat:24.0,lon:67.47,label:'Arabian Sea delta, Pakistan (mouth)'},
    detail:'Gives India its name; only a smaller upper stretch of its basin lies within India (mainly Ladakh and Punjab), the rest is in Pakistan.',
    tributaries:'Jhelum, Chenab, Ravi, Beas, Sutlej (the "five rivers" of Punjab).',
    states:'Jammu & Kashmir / Ladakh, Punjab, Himachal Pradesh (tributary catchments).',
    dams:'Bhakra Nangal (on the Sutlej tributary).',
    note:'Governed by the India–Pakistan Indus Waters Treaty (1960) — a recurring current-affairs and Mains topic.'},
   {id:'brahmaputra',name:'Brahmaputra',type:'Himalayan',chain:['Angsi Glacier, Tibet (known as Yarlung Tsangpo)','Enters India through Arunachal Pradesh (as Siang/Dihang)','Flows across Assam valley (braided channel)','Joined by Teesta, enters Bangladesh','Merges with Ganga → Bay of Bengal'],
+   sourceCoords:{lat:30.4167,lon:82.0,label:'Angsi Glacier, Tibet (source, as Yarlung Tsangpo)'},mouthCoords:{lat:22.05,lon:90.5,label:'Joins Ganga toward Bay of Bengal (mouth area)'},
    detail:'Unusual among major rivers for flowing south, west and then south again around the eastern Himalayan syntaxis; famous for a wide, braided, shifting channel in Assam.',
    tributaries:'Teesta, Subansiri, Manas, Dibang, Lohit.',
    states:'Arunachal Pradesh, Assam (India); Tibet and Bangladesh outside India.',
    dams:'Multiple hydropower projects proposed/under development in Arunachal Pradesh — an active current-affairs and geopolitical topic given its Tibet origin.',
    note:'Causes some of India\'s most severe annual flooding in the Assam valley.'},
   {id:'godavari',name:'Godavari',type:'Peninsular',chain:['Trimbakeshwar, Western Ghats (Maharashtra)','Flows east across the Deccan Plateau','Joined by Purna, Manjira, Penganga, Wainganga','Andhra Pradesh coastal plain','Godavari delta → Bay of Bengal'],
+   sourceCoords:{lat:19.9333,lon:73.5333,label:'Trimbakeshwar, Western Ghats (source)'},mouthCoords:{lat:16.95,lon:82.25,label:'Godavari delta, Bay of Bengal (mouth)'},
    detail:'Longest Peninsular river; called the "Dakshin Ganga" (Ganga of the South) for its length and cultural importance.',
    tributaries:'Manjira, Penganga, Wainganga, Indravati.',
    states:'Maharashtra, Telangana, Andhra Pradesh, Chhattisgarh, Odisha (basin).',
    dams:'Sriram Sagar, Polavaram (under development).',
    note:'Its delta is a major rice-growing tract.'},
   {id:'krishna',name:'Krishna',type:'Peninsular',chain:['Mahabaleshwar, Western Ghats','Flows east across Maharashtra, Karnataka','Joined by Bhima, Tungabhadra','Andhra Pradesh coastal plain','Krishna delta → Bay of Bengal'],
+   sourceCoords:{lat:17.9167,lon:73.6667,label:'Mahabaleshwar, Western Ghats (source)'},mouthCoords:{lat:15.8,lon:80.92,label:'Krishna delta, Bay of Bengal (mouth)'},
    detail:'Second-longest Peninsular river after the Godavari; its inter-state water sharing (Maharashtra–Karnataka–Telangana–Andhra Pradesh) is a recurring policy and current-affairs theme.',
    tributaries:'Tungabhadra, Bhima, Koyna.',
    states:'Maharashtra, Karnataka, Telangana, Andhra Pradesh.',
    dams:'Nagarjuna Sagar, Srisailam, Almatti.',
    note:'Krishna–Godavari (KG) basin offshore is also a major natural gas producing region.'},
   {id:'narmada',name:'Narmada',type:'Peninsular',chain:['Amarkantak Plateau (Madhya Pradesh)','Flows west through a rift valley','Between the Vindhya and Satpura ranges','Forms Gujarat border stretch','Gulf of Khambhat (Arabian Sea)'],
+   sourceCoords:{lat:22.6725,lon:81.755,label:'Amarkantak Plateau (source)'},mouthCoords:{lat:21.65,lon:72.6167,label:'Gulf of Khambhat, Arabian Sea (mouth)'},
    detail:'One of only two major Peninsular rivers (with the Tapi) to flow west into the Arabian Sea, because it runs along a rift valley rather than the general eastward slope of the Peninsula.',
    tributaries:'Relatively few major tributaries due to its rift-valley course.',
    states:'Madhya Pradesh, Maharashtra, Gujarat.',
@@ -1017,16 +1091,18 @@ const oceanData = [
    rows:[['Cyclone frequency','The Bay of Bengal generates more tropical cyclones than the Arabian Sea, due to warmer sea-surface temperatures and a funnel-shaped coastline that intensifies storm surge.'],
      ['Trade role','The Arabian Sea side connects India to Middle East and African shipping lanes; the Bay of Bengal side connects it to Southeast and East Asian trade routes.']]},
   {id:'chokepoints',tag:'Strategic',name:'Strategic Maritime Chokepoints',blurb:'Narrow sea passages that carry a hugely disproportionate share of India\'s energy imports.',
-   rows:[['Strait of Hormuz','The passage for a large share of India\'s crude oil imports from the Persian Gulf — any disruption here is an immediate energy-security concern.'],
-     ['Strait of Malacca','The main sea route for India\'s trade with East and Southeast Asia.'],
-     ['Bab-el-Mandeb','Connects the Red Sea to the Gulf of Aden, relevant to India-Europe/Suez Canal trade routes.'],
+   rows:[['Strait of Hormuz','The passage for a large share of India\'s crude oil imports from the Persian Gulf — any disruption here is an immediate energy-security concern. <a href="https://www.google.com/maps?q=26.5667,56.25" target="_blank" rel="noopener" class="mono" style="font-size:12px;">26.5667°, 56.2500° → view on Google Maps</a>'],
+     ['Strait of Malacca','The main sea route for India\'s trade with East and Southeast Asia. <a href="https://www.google.com/maps?q=2.5,101.0" target="_blank" rel="noopener" class="mono" style="font-size:12px;">2.5000°, 101.0000° → view on Google Maps</a>'],
+     ['Bab-el-Mandeb','Connects the Red Sea to the Gulf of Aden, relevant to India-Europe/Suez Canal trade routes. <a href="https://www.google.com/maps?q=12.5,43.3" target="_blank" rel="noopener" class="mono" style="font-size:12px;">12.5000°, 43.3000° → view on Google Maps</a>'],
      ['Why it matters for UPSC','Chokepoint security is a standard Mains GS-II/III "Indo-Pacific strategy" and energy-security theme.']]},
   {id:'andaman',tag:'Tectonic + strategic',name:'Andaman &amp; Nicobar Islands',blurb:'Geologically active and strategically vital — India\'s easternmost territory.',
    rows:[['Geology','The exposed peaks of a submerged tectonic mountain arc, making the islands earthquake and tsunami-prone (see Disaster Geography).'],
-     ['Strategic role','Positioned close to the Strait of Malacca, giving India a forward maritime presence near one of the world\'s busiest shipping lanes — a recurring Indo-Pacific strategy topic.']]},
+     ['Strategic role','Positioned close to the Strait of Malacca, giving India a forward maritime presence near one of the world\'s busiest shipping lanes — a recurring Indo-Pacific strategy topic.'],
+     ['Coordinates','<a href="https://www.google.com/maps?q=11.7401,92.6586" target="_blank" rel="noopener" class="mono" style="font-size:12px;">Port Blair, 11.7401°, 92.6586° → view on Google Maps</a>']]},
   {id:'lakshadweep',tag:'Coral atolls',name:'Lakshadweep',blurb:'Low coral atolls in the Arabian Sea, ecologically fragile and increasingly discussed for tourism/blue-economy development.',
    rows:[['Geology','Built on a submerged platform as coral atolls — low-lying and structurally very different from the tectonic Andaman & Nicobar group.'],
-     ['Vulnerability','Sea-level rise and coral bleaching make Lakshadweep one of India\'s most climate-vulnerable territories.']]},
+     ['Vulnerability','Sea-level rise and coral bleaching make Lakshadweep one of India\'s most climate-vulnerable territories.'],
+     ['Coordinates','<a href="https://www.google.com/maps?q=10.5669,72.6420" target="_blank" rel="noopener" class="mono" style="font-size:12px;">Kavaratti, 10.5669°, 72.6420° → view on Google Maps</a>']]},
   {id:'blueeconomy',tag:'Policy',name:'Blue Economy',blurb:'The push to sustainably develop ocean-based economic activity — fisheries, offshore energy, and deep-sea resources.',
    rows:[['Concept','Covers fisheries, offshore renewable energy, port-led development, and deep ocean mineral/resource exploration as a growth strategy built around India\'s maritime geography.'],
      ['Why it matters for UPSC','A frequent Mains GS-III theme linking economic development directly to ocean/coastal geography — verify current mission details (e.g. India\'s deep ocean exploration programme) from the Ministry of Earth Sciences.']]},
@@ -1410,6 +1486,12 @@ showFlowNode('location');
 
 /* ===================== RENDER: REGIONS ===================== */
 const regionGrid = document.getElementById('regionGrid');
+/* ===================== GOOGLE MAPS COORD HELPER ===================== */
+function gmapLink(coord){
+  if(!coord) return '';
+  return `<a href="https://www.google.com/maps?q=${coord.lat},${coord.lon}" target="_blank" rel="noopener" class="mono" style="font-size:12.5px;">${coord.label} — ${coord.lat.toFixed(4)}°, ${coord.lon.toFixed(4)}° → open in Google Maps</a>`;
+}
+
 function renderRegions(){
   let html = regionData.map(r=>`
     <div class="geo-card" data-id="reg-${r.id}"><span class="plus">+</span><div class="tag mono">${r.tag}</div><h4>${r.name}</h4><p>${r.blurb}</p></div>
@@ -1425,6 +1507,7 @@ function renderRegions(){
         <button class="close-x" id="regClose">✕</button>
         <div class="tag mono">${r.tag}</div>
         <h3>${r.name}</h3>
+        <div style="margin:8px 0 4px;">${gmapLink(r.coords)}</div>
         <div class="mini-grid">
           <div><div class="k mono">Formation</div><div class="v">${r.formation}</div></div>
           <div><div class="k mono">Relief</div><div class="v">${r.relief}</div></div>
@@ -1462,6 +1545,10 @@ function renderRivers(){
         <h3>${r.name}</h3>
         <p style="margin:8px 0 0;font-size:14.5px;">${r.detail}</p>
         <div class="chain-row">${r.chain.map((s,i)=>`<span class="seg">${s}</span>${i<r.chain.length-1?'<span class="arrow">→</span>':''}`).join('')}</div>
+        <div class="mini-grid" style="margin-top:14px;">
+          <div><div class="k mono">Source location</div><div class="v">${gmapLink(r.sourceCoords)}</div></div>
+          <div><div class="k mono">Mouth location</div><div class="v">${gmapLink(r.mouthCoords)}</div></div>
+        </div>
         <div class="mini-grid">
           <div><div class="k mono">Tributaries</div><div class="v">${r.tributaries}</div></div>
           <div><div class="k mono">States</div><div class="v">${r.states}</div></div>
