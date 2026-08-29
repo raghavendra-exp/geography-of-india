@@ -253,9 +253,13 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
       <a href="#rivers">Rivers</a>
       <a href="#climate">Climate</a>
       <a href="#disasters">Disasters</a>
+      <a href="#vegetation">Vegetation</a>
+      <a href="#resources">Resources</a>
       <a href="#soils">Soils</a>
       <a href="#cropgame">Crop Game</a>
       <a href="#mappractice">Map Practice</a>
+      <a href="#syllabus">Syllabus Map</a>
+      <a href="#pyq">PYQ Explorer</a>
       <a href="#quiz">Prelims Quiz</a>
       <a href="#sources">Sources</a>
     </nav>
@@ -276,7 +280,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
       <div><div class="num">16</div><div class="lbl">Linked processes</div></div>
       <div><div class="num">6</div><div class="lbl">Physiographic divisions</div></div>
       <div><div class="num">6</div><div class="lbl">River systems mapped</div></div>
-      <div><div class="num">8</div><div class="lbl">Practice questions</div></div>
+      <div><div class="num">43</div><div class="lbl">Practice questions</div></div>
     </div>
   </div>
 </section>
@@ -374,12 +378,40 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
   </div>
 </section>
 
+<!-- ================= VEGETATION LAB ================= -->
+<section id="vegetation">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-code">06 / NATURAL VEGETATION LAB</div>
+        <h2>Rainfall + altitude → vegetation zone</h2>
+      </div>
+    </div>
+    <p class="section-sub">India's five major vegetation types, each keyed to the rainfall band and altitude that produces it.</p>
+    <div class="card-grid" id="vegGrid"></div>
+  </div>
+</section>
+
+<!-- ================= RESOURCES & MINERALS LAB ================= -->
+<section id="resources">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-code">07 / RESOURCE ATLAS</div>
+        <h2>Minerals &amp; energy — where, why, and what it feeds</h2>
+      </div>
+    </div>
+    <p class="section-sub">Six resources that anchor India's industrial geography, from ore belt to the industry it supplies.</p>
+    <div class="card-grid" id="resGrid"></div>
+  </div>
+</section>
+
 <!-- ================= SOIL LAB ================= -->
 <section id="soils">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="section-code">06 / SOIL LAB</div>
+        <div class="section-code">08 / SOIL LAB</div>
         <h2>Formation → properties → crops</h2>
       </div>
     </div>
@@ -393,7 +425,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="section-code">07 / AGRICULTURE LAB</div>
+        <div class="section-code">09 / AGRICULTURE LAB</div>
         <h2>Where would you grow this crop?</h2>
       </div>
     </div>
@@ -414,7 +446,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="section-code">08 / MAP PRACTICE MODE</div>
+        <div class="section-code">10 / MAP PRACTICE MODE</div>
         <h2>Locate it on the grid</h2>
       </div>
     </div>
@@ -428,12 +460,44 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
   </div>
 </section>
 
+<!-- ================= SYLLABUS MAP ================= -->
+<section id="syllabus">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-code">11 / SYLLABUS MAP</div>
+        <h2>Where this atlas fits UPSC &amp; UPPSC</h2>
+      </div>
+    </div>
+    <p class="section-sub">Geography shows up differently across exams. This maps each syllabus's actual language onto the modules above, so you know what to study where.</p>
+    <div class="mini-grid" id="syllabusGrid" style="grid-template-columns:1fr 1fr;gap:22px;"></div>
+  </div>
+</section>
+
+<!-- ================= PYQ EXPLORER ================= -->
+<section id="pyq">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-code">12 / PYQ EXPLORER</div>
+        <h2>Previous year papers, by exam and year</h2>
+      </div>
+    </div>
+    <div class="quiz-note">
+      Reliable scope note: reproducing exact question text for a full 20-year archive risks getting details wrong, and this atlas never fabricates PYQs. What's below is instead a set of <b>verified direct links</b> to official papers — click through for the actual questions, exactly as UPSC/UPPSC set them. Coverage here currently runs several recent years for UPSC (fetched live from upsc.gov.in); use the official archive links for the complete back-catalogue on both exams.
+    </div>
+    <div class="layer-toggle-row" id="pyqExamRow"></div>
+    <div class="layer-toggle-row" id="pyqStageRow" style="margin-top:-8px;"></div>
+    <div class="card-grid" id="pyqGrid" style="margin-top:20px;"></div>
+  </div>
+</section>
+
 <!-- ================= QUIZ ================= -->
 <section id="quiz">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="section-code">09 / PRELIMS PRACTICE</div>
+        <div class="section-code">13 / PRELIMS PRACTICE</div>
         <h2>Test the connections</h2>
       </div>
     </div>
@@ -448,7 +512,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="section-code">10 / SOURCES &amp; FURTHER READING</div>
+        <div class="section-code">14 / SOURCES &amp; FURTHER READING</div>
         <h2>Verify everything here officially</h2>
       </div>
     </div>
@@ -462,7 +526,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="section-code">11 / BUILD ROADMAP</div>
+        <div class="section-code">15 / BUILD ROADMAP</div>
         <h2>What this prototype covers vs. what's next</h2>
       </div>
     </div>
@@ -665,6 +729,86 @@ const soilData = [
    loc:'Himalayan slopes, Western Ghats, Northeastern hills.'},
 ];
 
+const vegData = [
+  {id:'evergreen',tag:'>200cm rainfall',name:'Tropical Evergreen',blurb:'Dense, multi-layered rainforest with year-round green cover.',
+   formation:'Rainfall band: over 200cm annual rainfall spread across most of the year leaves no dry season long enough for trees to shed leaves together.',
+   relief:'Structure: multiple canopy layers, very high biodiversity, broad-leaved hardwood species (rosewood, ebony, mahogany-type timber).',
+   rivers:'Where: Western Ghats windward slopes, Andaman & Nicobar Islands, parts of Upper Assam.',
+   climate:'Altitude note: at higher elevations within these wet zones, evergreen forest gradually gives way to montane forest.',
+   soil:'—',agri:'Economic use: valuable hardwood timber, though large-scale logging is restricted for conservation.',
+   hazards:'Conservation status: among India\'s most biodiverse and most threatened forest types due to fragmentation.'},
+  {id:'deciduous',tag:'70–200cm rainfall',name:'Tropical Deciduous (Monsoon)',blurb:'India\'s most widespread forest type — trees shed leaves in the dry season.',
+   formation:'Rainfall band: moderate rainfall (70–200cm) with a distinct dry season triggers synchronized leaf shedding to conserve water.',
+   relief:'Structure: split into moist deciduous (closer to 200cm, e.g. sal-dominated) and dry deciduous (closer to 70cm, e.g. teak-dominated).',
+   rivers:'Where: a broad belt across the Peninsula — MP, Chhattisgarh, Odisha, parts of the Himalayan foothills.',
+   climate:'Species: sal in wetter tracts, teak in drier tracts — both economically important timber species.',
+   soil:'—',agri:'Economic use: teak and sal are major commercial timbers; also supports significant tribal forest-produce livelihoods.',
+   hazards:'Pressure: most exposed to clearance for agriculture given its overlap with fertile, populated regions.'},
+  {id:'thornscrub',tag:'<70cm rainfall',name:'Thorn &amp; Scrub',blurb:'Sparse, drought-adapted vegetation of India\'s semi-arid and arid tracts.',
+   formation:'Rainfall band: under 70cm annual rainfall supports only hardy, drought-resistant plants.',
+   relief:'Structure: thorny, small-leaved or leafless shrubs (babul, cacti-like succulents) with deep or widespread root systems to capture scarce water.',
+   rivers:'Where: western Rajasthan, parts of Punjab, Haryana, Gujarat, and interior rain-shadow Deccan.',
+   climate:'Adaptation: small/thick leaves or thorns reduce water loss through transpiration.',
+   soil:'—',agri:'Economic use: fodder and fuelwood for pastoral communities; gum arabic from babul.',
+   hazards:'Risk: vulnerable to further desertification under overgrazing and climate stress.'},
+  {id:'mangrove',tag:'Deltaic/coastal',name:'Mangroves (Tidal Forest)',blurb:'Salt-tolerant forest in river deltas and tidal coastal zones.',
+   formation:'Where formed: at the meeting point of fresh river water and saline tidal water in deltas and estuaries.',
+   relief:'Structure: distinctive stilt/prop roots and breathing roots (pneumatophores) adapted to waterlogged, oxygen-poor mud.',
+   rivers:'Where: Sundarbans (Ganga-Brahmaputra delta, the world\'s largest contiguous mangrove forest), Mahanadi and Godavari-Krishna deltas, Andaman coasts.',
+   climate:'Function: buffers the coast against cyclone storm surge and erosion — their loss increases cyclone vulnerability.',
+   soil:'—',agri:'Economic use: nursery habitat for fish and shrimp, supporting coastal fisheries.',
+   hazards:'Pressure: shrinking due to aquaculture expansion, agriculture and sea-level rise.'},
+  {id:'montane',tag:'High altitude',name:'Montane &amp; Alpine',blurb:'Forest type shifts in bands as altitude increases up the Himalayas.',
+   formation:'Mechanism: temperature drops with altitude, so vegetation shifts the same way it would moving toward the poles — a "vertical zonation."',
+   relief:'Bands (low to high): wet temperate forest → coniferous forest (pine, deodar, fir) → alpine scrub and meadows → bare rock and permanent snow above the tree line.',
+   rivers:'Where: through the Himalayan states, and at high elevation in the Western Ghats (shola forest-grassland mosaic).',
+   climate:'Note: the exact elevation of each band shifts with latitude and slope aspect (sun-facing vs shaded).',
+   soil:'—',agri:'Economic use: coniferous timber, and alpine meadows used for seasonal grazing (transhumance).',
+   hazards:'Risk: treeline shift and species stress are an active climate-change monitoring theme in the Himalayas.'},
+];
+
+const resData = [
+  {id:'ironore',tag:'Metallic ore',name:'Iron Ore',blurb:'India\'s steel industry is built directly on the Chota Nagpur–Odisha ore belt.',
+   formation:'Geology: found in ancient Precambrian rock formations of the Peninsular Shield, especially banded iron formations.',
+   relief:'Belt: Odisha (Sundargarh, Keonjhar, Mayurbhanj) and Jharkhand (Singhbhum) form India\'s richest iron ore tract; Karnataka (Bellary-Hospet) and Chhattisgarh (Bastar) are other major belts.',
+   rivers:'Feeds: the steel plants at Jamshedpur, Rourkela, Bhilai and Durgapur were sited specifically near this ore belt.',
+   climate:'Grades: India has both hematite (higher grade) and magnetite ore.',
+   soil:'—',agri:'Current affairs link: iron ore export policy and beneficiation technology are recurring Mains GS-III themes.',
+   hazards:'—'},
+  {id:'coal',tag:'Fossil fuel',name:'Coal',blurb:'India\'s single largest domestic energy source, concentrated in Gondwana-age river valleys.',
+   formation:'Geology: formed from compressed plant matter in Gondwana-era sedimentary basins, roughly 250+ million years old.',
+   relief:'Belt: Damodar valley (Jharkhand-West Bengal), and the Mahanadi, Godavari and Wardha valley coalfields.',
+   rivers:'Feeds: thermal power plants (still the backbone of India\'s electricity mix) and the steel industry (coking coal).',
+   climate:'Types: non-coking coal (mostly for power) is far more abundant domestically than coking coal (needed for steel), which India still imports significantly.',
+   soil:'—',agri:'Current affairs link: coal-to-clean-energy transition and coal block auctions are active policy topics.',
+   hazards:'Environmental cost: opencast mining causes major land degradation and displacement in these belts.'},
+  {id:'bauxite',tag:'Aluminium ore',name:'Bauxite',blurb:'Forms from intense tropical weathering — so it clusters with laterite soil zones.',
+   formation:'Geology: forms through the same intense lateritic weathering process that produces laterite soil, so the two are geographically linked.',
+   relief:'Belt: Odisha (highest reserves, Koraput-Kalahandi plateau), followed by Jharkhand, Gujarat, Chhattisgarh, Madhya Pradesh, Maharashtra.',
+   rivers:'Feeds: aluminium smelters — an energy-intensive industry that tends to locate near cheap power sources rather than the ore itself.',
+   climate:'Note: high-rainfall plateau edges are the classic bauxite-forming environment.',
+   soil:'—',agri:'Current affairs link: bauxite mining vs. tribal land rights (e.g. Niyamgiri hills) is a recurring GS-II/III ethics-adjacent theme.',
+   hazards:'—'},
+  {id:'manganese',tag:'Ferro-alloy ore',name:'Manganese',blurb:'A key input for steel-making, found alongside India\'s major iron ore belts.',
+   formation:'Geology: occurs in the same ancient Precambrian rock systems as iron ore, often in nearby but distinct deposits.',
+   relief:'Belt: Odisha, Madhya Pradesh, Maharashtra (Nagpur-Bhandara), Karnataka.',
+   rivers:'Feeds: steel industry (as a hardening alloy) and battery manufacturing.',
+   climate:'—',soil:'—',agri:'—',
+   hazards:'—'},
+  {id:'petroleum',tag:'Energy',name:'Petroleum &amp; Natural Gas',blurb:'India\'s hydrocarbon geography spans onshore basins, an offshore giant, and a fast-growing gas sector.',
+   formation:'Geology: forms in sedimentary basins from organic matter compressed over geological time; requires specific trap structures to accumulate.',
+   relief:'Fields: Bombay High (offshore Maharashtra, India\'s largest single field), Assam (India\'s oldest oil-producing region, from the 1890s), Krishna-Godavari basin (major gas), Cambay basin (Gujarat), Rajasthan (Barmer).',
+   rivers:'Note: onshore refining capacity is concentrated near ports (Jamnagar, Vizag) for imported crude, since India imports most of its crude oil needs.',
+   climate:'—',soil:'—',agri:'Current affairs link: strategic petroleum reserves, and diversification of crude-import sources, are recurring current-affairs themes.',
+   hazards:'—'},
+  {id:'critical',tag:'Current affairs',name:'Critical Minerals',blurb:'A fast-moving policy category — minerals essential for clean energy, electronics and defence, where India is building new capacity.',
+   formation:'What counts: lithium, cobalt, nickel, rare earth elements, graphite and similar minerals essential for batteries, semiconductors, and renewable-energy hardware.',
+   relief:'India context: a 2023 lithium find was reported in Jammu & Kashmir (Salal-Haimana, Reasi district); India has also moved to auction critical mineral blocks domestically.',
+   rivers:'Strategy: India joined the Mineral Security Partnership and is pursuing overseas critical-mineral assets to reduce import dependence, particularly on China for rare earths.',
+   climate:'—',soil:'—',agri:'Why it matters for UPSC: this is one of the highest-yield current-affairs → static-geography link topics in recent Prelims and Mains papers — verify the latest figures from the Ministry of Mines before an exam.',
+   hazards:'—'},
+];
+
 const monsoonStages = [
   {t:'Summer heating', d:'By April–May, the landmass of northwest India and the Tibetan Plateau heats up far faster than the surrounding ocean.'},
   {t:'Pressure difference builds', d:'The intensely heated land creates a low-pressure zone; the relatively cooler ocean stays higher-pressure.'},
@@ -674,6 +818,46 @@ const monsoonStages = [
   {t:'Arabian Sea branch', d:'Moves north along the west coast, strikes the Western Ghats causing heavy windward rainfall, and gives a rain-shadow on the Deccan plateau to the lee side.'},
   {t:'Bay of Bengal branch', d:'Moves toward Bengal and the Northeast, gets deflected west by the Himalayas, and waters the Gangetic plain — peaking near the Meghalaya hills.'},
   {t:'Withdrawal (Oct–Dec)', d:'The monsoon retreats from northwest to southeast by around October; retreating/northeast winds then bring the main rainy season to Tamil Nadu\'s coast.'},
+];
+
+const syllabusData = [
+  {exam:'UPSC Civil Services',
+   points:[
+     'Prelims GS Paper I — "Indian and World Geography: Physical, Social and Economic Geography of India and the World." Covered here by: Master Flow, Map Lab, Rivers, Climate/Monsoon, Disasters, Soils, Vegetation, Resources.',
+     'Prelims GS Paper I also tests "General issues on Environmental Ecology, Bio-diversity and Climate Change" — covered by: Disaster Geography, Resources (Critical Minerals), and the Climate Change master-flow station.',
+     'Mains GS Paper I — "Salient features of world physical geography," "distribution of key natural resources," "important Geophysical phenomena" — covered by: Physiography, Rivers, Resources, Disaster Geography.',
+     'Mains GS Paper III — Geography overlaps here via Agriculture, Infrastructure, Environment and Disaster Management — covered by: Crop-Location Game, Resource Atlas, Disaster Geography.',
+     'Geography Optional (for those who take it) goes far deeper — Geomorphology, Climatology, Oceanography, Economic Geography of India — this atlas is a strong foundation layer, not a substitute for optional-level depth.'
+   ]},
+  {exam:'UPPSC PCS (Uttar Pradesh)',
+   points:[
+     'Prelims GS Paper I — "Indian & World Geography, Physical, Social & Economic Geography of India" — same core coverage as UPSC: Master Flow, Map Lab, Rivers, Climate, Soils, Vegetation, Resources.',
+     'Prelims also names "Environmental Issues" explicitly as a separate line item — covered by: Disaster Geography and the Climate Change station.',
+     'Mains — General Studies papers combine "History and Geography" with "Environment and Ecology" as named paper themes — covered by: the same physical-geography modules plus Disaster Geography.',
+     'UP-specific layer: UPPSC candidates should additionally know Uttar Pradesh\'s own physiography (Northern Plains sub-zones — Bhabar/Terai/Bhangar/Khadar — are especially UP-relevant), the state\'s stretch of the Ganga-Yamuna doab, and UP-specific disaster exposure (Gangetic floods, especially in the Terai belt) — all covered in the Northern Plains card under Map Lab.',
+     'Verify current UPPSC syllabus and question papers directly at uppsc.up.nic.in — state PSC syllabi are revised more frequently than UPSC\'s.'
+   ]},
+];
+
+const pyqData = [
+  // UPSC — verified live from upsc.gov.in on the date this was built. Direct official PDF links.
+  {exam:'UPSC',stage:'Prelims',year:2026,paper:'General Studies Paper I',url:'https://www.upsc.gov.in/sites/default/files/QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf'},
+  {exam:'UPSC',stage:'Prelims',year:2025,paper:'General Studies Paper I',url:'https://www.upsc.gov.in/sites/default/files/QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf'},
+  {exam:'UPSC',stage:'Prelims',year:2024,paper:'General Studies Paper I',url:'https://www.upsc.gov.in/sites/default/files/QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2025,paper:'General Studies Paper I',url:'https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER%20I-QP-CSM-25-010925.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2025,paper:'General Studies Paper III',url:'https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-III-QP-CSM-25-010925.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2024,paper:'General Studies Paper I',url:'https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_I_03102024.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2024,paper:'General Studies Paper III',url:'https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_III_03102024.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2025,paper:'Geography Optional Paper I',url:'https://www.upsc.gov.in/sites/default/files/GEOGRAPHY-PAPER-I-QP-CSM-25-010925.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2025,paper:'Geography Optional Paper II',url:'https://www.upsc.gov.in/sites/default/files/GEOGRAPHY-PAPER%20II-QP-CSM-25-010925.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2024,paper:'Geography Optional Paper I',url:'https://www.upsc.gov.in/sites/default/files/QP-CSM-24-GEOGRAPHY-PAPER-I-031024.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2024,paper:'Geography Optional Paper II',url:'https://www.upsc.gov.in/sites/default/files/QP-CSM-24-GEOGRAPHY-PAPER-II-031024.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2023,paper:'Geography Optional Paper I',url:'https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GEOGRAPHY-PAPER-I-29092023.pdf'},
+  {exam:'UPSC',stage:'Mains',year:2023,paper:'Geography Optional Paper II',url:'https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GEOGRAPHY-PAPER-II-29092023.pdf'},
+  // UPPSC — official archive doesn't expose stable direct-year PDF links the way upsc.gov.in does;
+  // point straight to the commission's own paper archive rather than guess at a URL.
+  {exam:'UPPSC',stage:'Prelims',year:null,paper:'Official UPPSC question paper archive (all years)',url:'https://uppsc.up.nic.in/'},
+  {exam:'UPPSC',stage:'Mains',year:null,paper:'Official UPPSC question paper archive (all years)',url:'https://uppsc.up.nic.in/'},
 ];
 
 const quizData = [
@@ -701,6 +885,118 @@ const quizData = [
   {q:'The Indus Waters Treaty (1960), which governs the sharing of the Indus system\'s waters, is between India and which country?',
    opts:['China','Nepal','Pakistan','Bangladesh'],correct:2,
    why:'The Indus Waters Treaty, brokered by the World Bank in 1960, governs water-sharing of the Indus system between India and Pakistan, since most of the basin lies downstream in Pakistan even though the river originates near Tibet and enters India first, through Ladakh.'},
+
+  {q:'India\'s most widespread natural forest type, dominant across a broad Peninsular belt with 70–200cm rainfall, is:',
+   opts:['Tropical evergreen','Tropical deciduous (monsoon) forest','Thorn and scrub','Mangrove'],correct:1,
+   why:'Tropical deciduous (monsoon) forest, which sheds leaves in the dry season, is India\'s most widespread forest type, covering a broad moderate-rainfall belt across the Peninsula — far more extensive than the narrower high-rainfall evergreen belt.'},
+  {q:'Which vegetation type is specifically adapted to waterlogged, saline conditions at the meeting of river and tidal water?',
+   opts:['Montane forest','Thorn and scrub','Mangrove','Tropical evergreen'],correct:2,
+   why:'Mangroves grow in deltas and estuaries where fresh river water meets saline tidal water, using stilt/prop roots and breathing roots (pneumatophores) to survive oxygen-poor, waterlogged, salty mud — conditions no other Indian forest type tolerates.'},
+  {q:'As one climbs a Himalayan slope, forest type typically shifts through which sequence?',
+   opts:['Alpine meadow → coniferous → wet temperate → tropical deciduous','Wet temperate → coniferous → alpine scrub/meadow → bare rock and snow','Mangrove → deciduous → thorn scrub → evergreen','Thorn scrub → mangrove → coniferous → alpine'],correct:1,
+   why:'Vegetation zones shift with altitude the same way they shift with latitude: wet temperate forest gives way to coniferous forest (pine, deodar, fir), then alpine scrub and meadows, and finally bare rock and permanent snow above the tree line.'},
+  {q:'The Sundarbans, the world\'s largest contiguous mangrove forest, is formed at the delta of which river system(s)?',
+   opts:['Godavari alone','Indus alone','Ganga and Brahmaputra','Narmada and Tapi'],correct:2,
+   why:'The Sundarbans forms at the joint delta of the Ganga and Brahmaputra as they empty into the Bay of Bengal, straddling India (West Bengal) and Bangladesh.'},
+  {q:'Thorn and scrub vegetation, found in India\'s driest regions, typically shows which adaptation?',
+   opts:['Broad, thin leaves to maximise photosynthesis in shade','Small or absent leaves and thorns to reduce water loss through transpiration','Stilt roots to survive waterlogging','Dense multi-layered canopy'],correct:1,
+   why:'In regions receiving under 70cm annual rainfall, plants reduce leaf surface area (or replace leaves with thorns) specifically to cut down water loss through transpiration — the opposite strategy of a broad-leaved rainforest canopy.'},
+
+  {q:'India\'s richest iron ore belt, which also anchors steel plants like Rourkela and Jamshedpur, straddles which two states?',
+   opts:['Rajasthan and Gujarat','Odisha and Jharkhand','Punjab and Haryana','Kerala and Tamil Nadu'],correct:1,
+   why:'The Odisha–Jharkhand belt (Sundargarh, Keonjhar, Mayurbhanj in Odisha; Singhbhum in Jharkhand) holds India\'s richest iron ore reserves, which is why major steel plants (Rourkela, Jamshedpur) were sited nearby.'},
+  {q:'Bauxite (aluminium ore) tends to be found in the same regions as which soil type, because both form through the same weathering process?',
+   opts:['Black soil','Laterite soil','Arid soil','Alluvial soil'],correct:1,
+   why:'Bauxite forms through intense tropical leaching — the same lateritic weathering process that produces laterite soil — so bauxite deposits and laterite soil zones geographically overlap, especially on Odisha\'s plateau edges.'},
+  {q:'India\'s largest single offshore oil field is:',
+   opts:['Bombay High','Digboi','Barmer','Krishna-Godavari'],correct:0,
+   why:'Bombay High, off the coast of Maharashtra in the Arabian Sea, is India\'s largest single producing oil field. Digboi in Assam was historically important as India\'s first oil discovery but is far smaller in scale.'},
+  {q:'Which region holds the distinction of India\'s oldest commercial oil-producing area, dating to the 1890s?',
+   opts:['Krishna-Godavari basin','Cambay basin, Gujarat','Assam','Bombay High'],correct:2,
+   why:'Assam (Digboi) has been producing oil commercially since the 1890s, making it India\'s oldest oil-producing region — well before Bombay High was developed offshore in the later 20th century.'},
+  {q:'"Critical minerals" — a term now central to UPSC current-affairs coverage of resource geography — primarily refers to minerals essential for:',
+   opts:['Traditional handicrafts','Clean-energy technology, electronics and defence applications (e.g. lithium, cobalt, rare earths)','Cement and construction only','Textile dyeing'],correct:1,
+   why:'Critical minerals — lithium, cobalt, nickel, rare earth elements, graphite and similar — are termed "critical" because they are essential inputs for batteries, semiconductors, renewable-energy hardware and defence technology, and many have supply chains dominated by a few countries.'},
+  {q:'Manganese, a key steel-hardening alloy, is typically found in India:',
+   opts:['Only in the Himalayan region','In the same ancient Precambrian rock systems as iron ore, often in nearby belts','Only along the coastline','Exclusively in river deltas'],correct:1,
+   why:'Manganese occurs in the same ancient Precambrian crystalline rock systems as iron ore, which is why manganese belts (Odisha, MP, Maharashtra, Karnataka) often lie near or overlap with iron ore tracts.'},
+
+  {q:'The Green Revolution of the mid-1960s, associated with a sharp rise in wheat and rice yields, was most concentrated in:',
+   opts:['Kerala and Tamil Nadu','Punjab, Haryana and western Uttar Pradesh','Rajasthan and Gujarat','Assam and West Bengal'],correct:1,
+   why:'The Green Revolution\'s high-yield variety seeds, irrigation and fertiliser package were adopted earliest and most intensively in Punjab, Haryana and western UP, thanks to their assured irrigation and fertile alluvial soil — turning this belt into India\'s wheat bowl.'},
+  {q:'Which crop is most associated with the acidic, well-drained hill soils of Assam, Darjeeling and the Nilgiris?',
+   opts:['Wheat','Cotton','Tea','Bajra'],correct:2,
+   why:'Tea specifically requires acidic, well-drained hill-slope soil, high rainfall and a cool, humid climate — conditions found on the slopes of Assam, Darjeeling and the Nilgiris, not on flat plains.'},
+  {q:'Coffee cultivation in India (Arabica and Robusta) is concentrated mainly in which region?',
+   opts:['Northern Plains','Thar Desert','Western Ghats hill slopes (Karnataka, Kerala, Tamil Nadu)','Eastern coastal deltas'],correct:2,
+   why:'Coffee needs shaded, well-drained hill soil with moderate rainfall and a narrow temperature range — conditions specific to the Western Ghats\' hill tracts, especially Karnataka\'s Kodagu (Coorg) district.'},
+  {q:'A semi-arid crop like bajra (pearl millet) is specifically suited to regions that are unsuitable for rice mainly because bajra:',
+   opts:['Requires standing water like rice','Is drought-tolerant and grows well in low-rainfall, sandy-soil conditions','Only grows at high altitude','Requires acidic hill soil'],correct:1,
+   why:'Bajra is a hardy, drought-tolerant crop adapted to semi-arid tracts with sandy soil and low, erratic rainfall — precisely the conditions (as in Rajasthan, Gujarat, Haryana) where water-hungry rice cannot be grown.'},
+  {q:'Sugarcane cultivation is concentrated in regions that share which common requirement?',
+   opts:['Very low rainfall and sandy soil','Assured irrigation and a long, warm growing season','High altitude and cool temperatures','Saline coastal soil'],correct:1,
+   why:'Sugarcane is highly water-intensive and needs a long, warm growing season with assured irrigation — conditions met in well-irrigated tracts of western UP and Maharashtra, its two largest producing states.'},
+
+  {q:'Industrial location theory identifies raw material, power, labour, capital, market and transport as the key factors deciding where an industry sites. Mineral-based industries like steel typically weight most heavily on:',
+   opts:['Market proximity alone','Raw material and power availability','Labour cost alone','Climate suitability'],correct:1,
+   why:'Heavy, mineral-based industries like steel are typically "raw-material oriented" because ore and coal are bulky and costly to transport — so plants locate near the ore/coal belt itself (e.g. Chota Nagpur) rather than near the eventual market.'},
+  {q:'The Chota Nagpur Plateau region is often described as India\'s industrial heartland primarily because of its:',
+   opts:['Fertile alluvial soil for agriculture','Concentration of iron, coal and other minerals','Coastal ports','High population density alone'],correct:1,
+   why:'Chota Nagpur\'s dense concentration of iron ore, coal and other minerals gave rise to major steel and heavy industry clusters (Jamshedpur, Bokaro, Rourkela nearby) — a classic case of resource geography shaping industrial geography.'},
+  {q:'India\'s IT industry clusters (Bengaluru, Hyderabad, Pune) are best explained by which locational factor, unlike mineral-based industries?',
+   opts:['Proximity to coal deposits','Skilled labour availability and market/infrastructure access rather than raw material proximity','Proximity to iron ore','Proximity to major rivers for water-intensive processing'],correct:1,
+   why:'IT is a "footloose" industry not tied to raw material location — it clusters instead around skilled labour pools, educational institutions, and telecom/urban infrastructure, which is why Bengaluru and Hyderabad (far from any mineral belt) became major hubs.'},
+  {q:'The Golden Quadrilateral and Dedicated Freight Corridors are examples of India\'s investment in which geography-linked infrastructure?',
+   opts:['Irrigation canals','Transport corridors linking industrial/resource zones to markets and ports','Forest conservation zones','Urban housing schemes'],correct:1,
+   why:'Both are transport infrastructure projects designed to connect resource and industrial zones to markets and ports more efficiently — transport geography is what actually lets a resource or crop advantage translate into economic activity.'},
+
+  {q:'Population density in India is highest in which type of physiographic zone?',
+   opts:['Himalayan high-altitude zones','Thar Desert interior','Fertile Northern Plains and coastal deltas','Dense forested Northeast hills'],correct:2,
+   why:'Population concentrates where agriculture and water are most reliable — the fertile, flat, well-irrigated Northern Plains and coastal river deltas — while harsh terrain (Himalaya, desert) and dense forest (Northeast hills) support much sparser populations.'},
+  {q:'India became the world\'s most populous country (surpassing China), per UN estimates, around which year?',
+   opts:['2011','2015','2023','2030'],correct:2,
+   why:'UN population estimates indicated India overtook China as the world\'s most populous country around 2023 — a widely reported demographic milestone relevant to current-affairs-linked population geography questions.'},
+  {q:'Rural-to-urban migration in India is typically driven by a combination of "push" and "pull" factors. Which pairing correctly matches an example to its category?',
+   opts:['Push: better job opportunities in cities; Pull: agricultural distress in villages','Push: agricultural distress/limited rural employment; Pull: better jobs, education and services in cities','Push and pull are the same thing','Migration is driven only by government policy, not push/pull factors'],correct:1,
+   why:'"Push" factors are conditions driving people away from their origin (agricultural distress, limited rural employment); "pull" factors are what attracts them to the destination (urban jobs, education, healthcare, services) — the classic migration framework.'},
+  {q:'Rapid, unplanned urban growth in Indian cities is most directly linked to which set of problems?',
+   opts:['Reduced traffic and pollution','Traffic congestion, air pollution, water stress and urban flooding','Improved groundwater levels','Lower housing demand'],correct:1,
+   why:'Rapid urbanisation without matching infrastructure investment strains transport, air quality, water supply and drainage systems simultaneously — producing the traffic, pollution, water-stress and flooding problems common to Indian mega-cities.'},
+  {q:'Which is a commonly proposed solution to urban flooding linked to unplanned city growth?',
+   opts:['Removing all urban green cover','Blue-green infrastructure (wetlands, urban forests, rainwater harvesting) to restore natural drainage capacity','Paving over all remaining open land','Banning public transport'],correct:1,
+   why:'"Blue-green infrastructure" — wetlands, urban forests, permeable surfaces, rainwater harvesting — restores some of the natural water-absorption capacity that unplanned concrete expansion removes, directly addressing a major cause of urban flooding.'},
+
+  {q:'Biodiversity hotspots in India, as recognised internationally, include the Western Ghats and which other region?',
+   opts:['Thar Desert','Eastern Himalaya (as part of the wider Himalaya/Indo-Burma hotspots)','Deccan plateau interior','Gujarat coastal plain'],correct:1,
+   why:'The Western Ghats and the Eastern Himalaya (falling within the broader Himalaya and Indo-Burma global biodiversity hotspots) are India\'s two internationally recognised biodiversity hotspot regions, prized for high species richness and endemism.'},
+  {q:'A "Ramsar site" designation specifically recognises a wetland\'s:',
+   opts:['Mineral wealth','International importance for wetland conservation','Industrial output','Population density'],correct:1,
+   why:'The Ramsar Convention designates "Wetlands of International Importance" — India has a growing list of Ramsar sites, reflecting a wetland\'s ecological significance for biodiversity, water regulation and migratory bird habitat.'},
+  {q:'Elephant corridors, a recurring UPSC environment topic, primarily address the problem of:',
+   opts:['Excess rainfall in a region','Habitat fragmentation blocking traditional elephant migration routes, increasing human-wildlife conflict','Soil erosion on hill slopes','Urban air pollution'],correct:1,
+   why:'As forests are fragmented by roads, agriculture and settlements, elephants lose traditional migration routes between habitat patches — elephant corridors aim to preserve or restore these routes, reducing habitat isolation and human-elephant conflict.'},
+  {q:'Coral reefs in Indian waters are most significantly found around:',
+   opts:['The Northern Plains rivers','Lakshadweep, the Gulf of Mannar, and parts of the Andaman & Nicobar coast','The Thar Desert','The Himalayan lakes'],correct:1,
+   why:'Coral reef ecosystems in India are concentrated in warm, clear tropical waters — Lakshadweep\'s atolls, the Gulf of Mannar (Tamil Nadu), the Gulf of Kutch, and around the Andaman & Nicobar Islands.'},
+  {q:'Tiger reserves in India are managed under a framework that primarily aims to:',
+   opts:['Maximise timber extraction','Conserve tiger populations and their habitat, often protecting a wider ecosystem in the process','Expand mining activity','Increase urban housing near forests'],correct:1,
+   why:'Tiger reserves, under Project Tiger, focus on conserving a top predator whose protection requires safeguarding large, intact habitat and prey populations — making the tiger an "umbrella species" whose conservation protects the wider ecosystem.'},
+
+  {q:'India\'s standard time (IST) is based on a meridian passing near which city?',
+   opts:['Delhi','Mirzapur (near 82.5°E)','Mumbai','Kolkata'],correct:1,
+   why:'India\'s standard meridian, 82°30′E, passes near Mirzapur in Uttar Pradesh and is the reference line for Indian Standard Time — a classic location-geography fact.'},
+  {q:'The formation of the Himalayas is best explained by which tectonic process?',
+   opts:['Volcanic eruption of the Deccan Trap','Collision of the Indian Plate with the Eurasian Plate, folding sediments of the former Tethys Sea','Rifting of the Indian Plate away from Africa','Erosion of an ancient plateau'],correct:1,
+   why:'The Himalayas formed as the northward-moving Indian Plate collided with the Eurasian Plate, folding and uplifting the sediments of the ancient Tethys Sea that once lay between them — a process that continues today, which is why the Himalayas are still slowly rising.'},
+  {q:'The Deccan Trap, a vast basalt plateau covering much of west-central India, was formed by:',
+   opts:['Coral reef accumulation','Glacial deposition','Massive volcanic eruptions roughly 66 million years ago','Wind-blown sand deposition'],correct:2,
+   why:'The Deccan Trap formed from huge basaltic lava eruptions around the Cretaceous-Paleogene boundary (~66 million years ago) — among the largest volcanic events in Earth\'s history, and the parent rock for the Deccan\'s black soil.'},
+  {q:'The Western Ghats and Eastern Ghats differ most fundamentally in that:',
+   opts:['The Western Ghats are continuous and higher; the Eastern Ghats are discontinuous and lower, broken by major river deltas','The Eastern Ghats are higher and continuous','Both are equally continuous mountain chains','Neither range affects rainfall patterns'],correct:0,
+   why:'The Western Ghats form a continuous, relatively high escarpment that strongly shapes monsoon rainfall patterns, while the Eastern Ghats are lower, discontinuous, and cut through by the deltas of major east-flowing rivers like the Godavari, Krishna and Mahanadi.'},
+  {q:'Which best describes the difference between Himalayan and Peninsular drainage systems?',
+   opts:['Himalayan rivers are seasonal; Peninsular rivers are perennial','Himalayan rivers are perennial (snow + rain fed) with youthful valleys; Peninsular rivers are seasonal (rain-fed) with older, more rigid valleys','Both are identical in behaviour','Peninsular rivers are fed mainly by glaciers'],correct:1,
+   why:'Himalayan rivers stay perennial year-round because they combine glacier/snowmelt with monsoon rain, cutting active, youthful valleys through young mountains. Peninsular rivers depend almost entirely on monsoon rainfall, running dry in parts during the dry season, through older and more geologically stable valleys.'},
 ];
 
 const sourceData = [
@@ -1061,6 +1357,127 @@ function renderDisasters(){
   });
 }
 renderDisasters();
+
+/* ===================== RENDER: VEGETATION ===================== */
+const vegGrid = document.getElementById('vegGrid');
+function renderVeg(){
+  let html = vegData.map(v=>`
+    <div class="geo-card" data-id="veg-${v.id}"><span class="plus">+</span><div class="tag mono">${v.tag}</div><h4>${v.name}</h4><p>${v.blurb}</p></div>
+  `).join('');
+  html += `<div class="geo-detail" id="veg-detail"></div>`;
+  vegGrid.innerHTML = html;
+  vegGrid.querySelectorAll('.geo-card').forEach(c=>{
+    c.addEventListener('click',()=>{
+      const id = c.getAttribute('data-id').replace('veg-','');
+      const v = vegData.find(x=>x.id===id);
+      const det = document.getElementById('veg-detail');
+      det.innerHTML = `
+        <button class="close-x" id="vegClose">✕</button>
+        <div class="tag mono">${v.tag}</div>
+        <h3>${v.name}</h3>
+        <div class="mini-grid">
+          <div><div class="k mono">Formation</div><div class="v">${v.formation}</div></div>
+          <div><div class="k mono">Structure</div><div class="v">${v.relief}</div></div>
+          <div><div class="k mono">Where</div><div class="v">${v.rivers}</div></div>
+          <div><div class="k mono">Note</div><div class="v">${v.climate}</div></div>
+          <div><div class="k mono">Economic use</div><div class="v">${v.agri}</div></div>
+          <div><div class="k mono">Status / risk</div><div class="v">${v.hazards}</div></div>
+        </div>
+      `;
+      det.classList.add('open');
+      document.getElementById('vegClose').addEventListener('click',()=>det.classList.remove('open'));
+      det.scrollIntoView({behavior:'smooth',block:'nearest'});
+    });
+  });
+}
+renderVeg();
+
+/* ===================== RENDER: RESOURCES ===================== */
+const resGrid = document.getElementById('resGrid');
+function renderRes(){
+  let html = resData.map(r=>`
+    <div class="geo-card" data-id="res-${r.id}"><span class="plus">+</span><div class="tag mono">${r.tag}</div><h4>${r.name}</h4><p>${r.blurb}</p></div>
+  `).join('');
+  html += `<div class="geo-detail" id="res-detail"></div>`;
+  resGrid.innerHTML = html;
+  resGrid.querySelectorAll('.geo-card').forEach(c=>{
+    c.addEventListener('click',()=>{
+      const id = c.getAttribute('data-id').replace('res-','');
+      const r = resData.find(x=>x.id===id);
+      const det = document.getElementById('res-detail');
+      const rows = [
+        ['Geology / formation', r.formation],
+        ['Belt / location', r.relief],
+        ['Feeds / linked to', r.rivers],
+        ['Note', r.climate],
+        ['Detail', r.soil],
+        ['Current affairs link', r.agri],
+        ['Note', r.hazards],
+      ].filter(([,v]) => v && v !== '—');
+      det.innerHTML = `
+        <button class="close-x" id="resClose">✕</button>
+        <div class="tag mono">${r.tag}</div>
+        <h3>${r.name}</h3>
+        <div class="mini-grid">${rows.map(([k,v])=>`<div><div class="k mono">${k}</div><div class="v">${v}</div></div>`).join('')}</div>
+      `;
+      det.classList.add('open');
+      document.getElementById('resClose').addEventListener('click',()=>det.classList.remove('open'));
+      det.scrollIntoView({behavior:'smooth',block:'nearest'});
+    });
+  });
+}
+renderRes();
+
+/* ===================== RENDER: SYLLABUS MAP ===================== */
+document.getElementById('syllabusGrid').innerHTML = syllabusData.map(s=>`
+  <div class="geo-card" style="cursor:default;">
+    <h4>${s.exam}</h4>
+    <ul class="facts-list" style="margin-top:10px;">${s.points.map(p=>`<li>${p}</li>`).join('')}</ul>
+  </div>
+`).join('');
+
+/* ===================== RENDER: PYQ EXPLORER ===================== */
+let pyqExamFilter = 'ALL', pyqStageFilter = 'ALL';
+const pyqExamRow = document.getElementById('pyqExamRow');
+const pyqStageRow = document.getElementById('pyqStageRow');
+['ALL','UPSC','UPPSC'].forEach(e=>{
+  const b = document.createElement('button');
+  b.className = 'layer-btn' + (e==='ALL' ? ' on' : '');
+  b.textContent = e === 'ALL' ? 'ALL EXAMS' : e;
+  b.addEventListener('click',()=>{
+    pyqExamFilter = e;
+    pyqExamRow.querySelectorAll('.layer-btn').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    renderPyq();
+  });
+  pyqExamRow.appendChild(b);
+});
+['ALL','Prelims','Mains'].forEach(s=>{
+  const b = document.createElement('button');
+  b.className = 'layer-btn' + (s==='ALL' ? ' on' : '');
+  b.textContent = s === 'ALL' ? 'ALL STAGES' : s;
+  b.addEventListener('click',()=>{
+    pyqStageFilter = s;
+    pyqStageRow.querySelectorAll('.layer-btn').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    renderPyq();
+  });
+  pyqStageRow.appendChild(b);
+});
+function renderPyq(){
+  const filtered = pyqData.filter(p =>
+    (pyqExamFilter==='ALL' || p.exam===pyqExamFilter) &&
+    (pyqStageFilter==='ALL' || p.stage===pyqStageFilter)
+  );
+  document.getElementById('pyqGrid').innerHTML = filtered.map(p=>`
+    <a class="geo-card" href="${p.url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+      <div class="tag mono">${p.exam} · ${p.stage}${p.year ? ' · ' + p.year : ''}</div>
+      <h4 style="margin-top:8px;">${p.paper}</h4>
+      <p style="margin-top:8px;">Open official ${p.year ? p.year + ' ' : ''}paper (PDF) →</p>
+    </a>
+  `).join('') || '<p style="color:var(--ink-soft);">No papers match this filter yet.</p>';
+}
+renderPyq();
 
 /* ===================== CROP GAME ===================== */
 let cropIndex = 0, cropScore = 0, cropAnswered = 0, cropLocked = false;
