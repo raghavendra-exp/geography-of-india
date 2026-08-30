@@ -831,6 +831,7 @@ const regionData = [
 const riverData = [
   {id:'ganga',name:'Ganga',type:'Himalayan',chain:['Gangotri glacier (Uttarakhand)','Bhagirathi + Alaknanda → Devprayag','Haridwar (enters plains)','Prayagraj (confluence with Yamuna)','Patna → Bhagalpur','Sundarbans delta → Bay of Bengal'],
    sourceCoords:{lat:30.9944,lon:79.0849,label:'Gangotri Glacier (source)'},mouthCoords:{lat:21.65,lon:88.15,label:'Sundarbans (mouth, Bay of Bengal)'},
+   stats:'Length: ~2,525 km within India — India\'s longest river. Its basin is India\'s largest by area.',
    detail:'India\'s largest river by basin population and cultural significance. Fed by both Himalayan snowmelt and monsoon rain, so it stays perennial year-round.',
    tributaries:'Yamuna, Ghaghara, Gandak, Kosi, Son, Chambal.',
    states:'Uttarakhand, UP, Bihar, Jharkhand, West Bengal.',
@@ -838,13 +839,16 @@ const riverData = [
    note:'Forms the Sundarbans delta jointly with the Brahmaputra — the world\'s largest mangrove delta.'},
   {id:'indus',name:'Indus',type:'Himalayan',chain:['Near Mansarovar, Tibetan Plateau','Enters India in Ladakh','Flows through Pakistan (Punjab plain)','Joined by five Punjab rivers (Panjnad)','Arabian Sea delta (Pakistan)'],
    sourceCoords:{lat:31.3667,lon:81.2833,label:'Near Senge Khabab, Tibet (source)'},mouthCoords:{lat:24.0,lon:67.47,label:'Arabian Sea delta, Pakistan (mouth)'},
+   stats:'Length: ~1,114 km within India (total length including Pakistan is much longer — the Indus is a transboundary river).',
    detail:'Gives India its name; only a smaller upper stretch of its basin lies within India (mainly Ladakh and Punjab), the rest is in Pakistan.',
    tributaries:'Jhelum, Chenab, Ravi, Beas, Sutlej (the "five rivers" of Punjab).',
    states:'Jammu & Kashmir / Ladakh, Punjab, Himachal Pradesh (tributary catchments).',
    dams:'Bhakra Nangal (on the Sutlej tributary).',
-   note:'Governed by the India–Pakistan Indus Waters Treaty (1960) — a recurring current-affairs and Mains topic.'},
+   current:'Current affairs (verify latest before an exam): India placed the 1960 Indus Waters Treaty "in abeyance" on 23 April 2025, following a terror attack in Pahalgam, and paused hydrological data-sharing and Permanent Indus Commission meetings with Pakistan. Pakistan disputes that a treaty can be unilaterally suspended and maintains it remains legally binding; a Court of Arbitration issued a further award on related dam disputes in May 2026, which India has rejected as invalid. As of this update, the treaty remains suspended and the dispute unresolved — this is one of the most exam-relevant live geography/current-affairs stories touching this river.',
+   note:'Governed by the India–Pakistan Indus Waters Treaty (1960) — a recurring current-affairs and Mains topic, now further sharpened by the 2025 suspension above.'},
   {id:'brahmaputra',name:'Brahmaputra',type:'Himalayan',chain:['Angsi Glacier, Tibet (known as Yarlung Tsangpo)','Enters India through Arunachal Pradesh (as Siang/Dihang)','Flows across Assam valley (braided channel)','Joined by Teesta, enters Bangladesh','Merges with Ganga → Bay of Bengal'],
    sourceCoords:{lat:30.4167,lon:82.0,label:'Angsi Glacier, Tibet (source, as Yarlung Tsangpo)'},mouthCoords:{lat:22.05,lon:90.5,label:'Joins Ganga toward Bay of Bengal (mouth area)'},
+   stats:'Length: ~916 km within India (total length including Tibet and Bangladesh is considerably longer).',
    detail:'Unusual among major rivers for flowing south, west and then south again around the eastern Himalayan syntaxis; famous for a wide, braided, shifting channel in Assam.',
    tributaries:'Teesta, Subansiri, Manas, Dibang, Lohit.',
    states:'Arunachal Pradesh, Assam (India); Tibet and Bangladesh outside India.',
@@ -852,13 +856,15 @@ const riverData = [
    note:'Causes some of India\'s most severe annual flooding in the Assam valley.'},
   {id:'godavari',name:'Godavari',type:'Peninsular',chain:['Trimbakeshwar, Western Ghats (Maharashtra)','Flows east across the Deccan Plateau','Joined by Purna, Manjira, Penganga, Wainganga','Andhra Pradesh coastal plain','Godavari delta → Bay of Bengal'],
    sourceCoords:{lat:19.9333,lon:73.5333,label:'Trimbakeshwar, Western Ghats (source)'},mouthCoords:{lat:16.95,lon:82.25,label:'Godavari delta, Bay of Bengal (mouth)'},
+   stats:'Length: ~1,465 km — the longest Peninsular river. Basin area: ~312,812 km² — India\'s second-largest river basin after the Ganga.',
    detail:'Longest Peninsular river; called the "Dakshin Ganga" (Ganga of the South) for its length and cultural importance.',
    tributaries:'Manjira, Penganga, Wainganga, Indravati.',
-   states:'Maharashtra, Telangana, Andhra Pradesh, Chhattisgarh, Odisha (basin).',
+   states:'Maharashtra (largest basin share, ~49%), Telangana, Andhra Pradesh, Chhattisgarh, Odisha.',
    dams:'Sriram Sagar, Polavaram (under development).',
    note:'Its delta is a major rice-growing tract.'},
   {id:'krishna',name:'Krishna',type:'Peninsular',chain:['Mahabaleshwar, Western Ghats','Flows east across Maharashtra, Karnataka','Joined by Bhima, Tungabhadra','Andhra Pradesh coastal plain','Krishna delta → Bay of Bengal'],
    sourceCoords:{lat:17.9167,lon:73.6667,label:'Mahabaleshwar, Western Ghats (source)'},mouthCoords:{lat:15.8,lon:80.92,label:'Krishna delta, Bay of Bengal (mouth)'},
+   stats:'Length: ~1,400 km — India\'s third-longest river overall (after Ganga and Godavari) and third-largest Peninsular basin.',
    detail:'Second-longest Peninsular river after the Godavari; its inter-state water sharing (Maharashtra–Karnataka–Telangana–Andhra Pradesh) is a recurring policy and current-affairs theme.',
    tributaries:'Tungabhadra, Bhima, Koyna.',
    states:'Maharashtra, Karnataka, Telangana, Andhra Pradesh.',
@@ -866,6 +872,7 @@ const riverData = [
    note:'Krishna–Godavari (KG) basin offshore is also a major natural gas producing region.'},
   {id:'narmada',name:'Narmada',type:'Peninsular',chain:['Amarkantak Plateau (Madhya Pradesh)','Flows west through a rift valley','Between the Vindhya and Satpura ranges','Forms Gujarat border stretch','Gulf of Khambhat (Arabian Sea)'],
    sourceCoords:{lat:22.6725,lon:81.755,label:'Amarkantak Plateau (source)'},mouthCoords:{lat:21.65,lon:72.6167,label:'Gulf of Khambhat, Arabian Sea (mouth)'},
+   stats:'Length: ~1,312 km — the longest west-flowing river in India.',
    detail:'One of only two major Peninsular rivers (with the Tapi) to flow west into the Arabian Sea, because it runs along a rift valley rather than the general eastward slope of the Peninsula.',
    tributaries:'Relatively few major tributaries due to its rift-valley course.',
    states:'Madhya Pradesh, Maharashtra, Gujarat.',
@@ -967,10 +974,11 @@ const resData = [
    climate:'—',soil:'—',agri:'Current affairs link: strategic petroleum reserves, and diversification of crude-import sources, are recurring current-affairs themes.',
    hazards:'—'},
   {id:'critical',tag:'Current affairs',name:'Critical Minerals',blurb:'A fast-moving policy category — minerals essential for clean energy, electronics and defence, where India is building new capacity.',
-   formation:'What counts: lithium, cobalt, nickel, rare earth elements, graphite and similar minerals essential for batteries, semiconductors, and renewable-energy hardware.',
-   relief:'India context: a 2023 lithium find was reported in Jammu & Kashmir (Salal-Haimana, Reasi district); India has also moved to auction critical mineral blocks domestically.',
-   rivers:'Strategy: India joined the Mineral Security Partnership and is pursuing overseas critical-mineral assets to reduce import dependence, particularly on China for rare earths.',
-   climate:'—',soil:'—',agri:'Why it matters for UPSC: this is one of the highest-yield current-affairs → static-geography link topics in recent Prelims and Mains papers — verify the latest figures from the Ministry of Mines before an exam.',
+   formation:'What counts: the government\'s critical minerals list (30 identified in 2022, 24 given exclusive central-auction status under the MMDR Act, 1957 as amended in 2023) includes lithium, cobalt, nickel, copper, graphite, manganese and rare earth elements — essential for batteries, semiconductors, and renewable-energy hardware.',
+   relief:'India context: a 2023 lithium find was reported in Jammu & Kashmir (Salal-Haimana, Reasi district). Multiple auction tranches of critical mineral blocks (lithium, REE, nickel, graphite, tungsten and others) have since been launched under the amended MMDR Act.',
+   rivers:'National Critical Mineral Mission (NCMM): launched by the Union Cabinet in January 2025 with an outlay of ₹34,300 crore over FY 2024-25 to 2030-31 (₹16,300 crore direct government spend plus ₹18,000 crore expected from PSUs). It tasks the Geological Survey of India with 1,200 exploration projects through 2030-31, aims for domestic production of at least 15 critical minerals, and covers the full value chain — exploration, mining, processing, and recycling from end-of-life products.',
+   climate:'Overseas strategy: Khanij Bidesh India Ltd. (KABIL), a public-sector joint venture, has acquired roughly 15,700 hectares in Catamarca province, Argentina, for lithium exploration and mining — part of a wider push (alongside the Mineral Security Partnership) to secure assets abroad, since India is currently almost entirely import-dependent for lithium, cobalt and nickel.',
+   soil:'—',agri:'Why it matters for UPSC: this is one of the highest-yield current-affairs → static-geography link topics in recent Prelims and Mains papers. The specific figures above (outlay, exploration targets, mineral list) are current as of this update — always verify the latest from the Ministry of Mines before an exam, since auction tranches and budget allocations are revised frequently.',
    hazards:'—'},
 ];
 
@@ -1054,9 +1062,10 @@ const urbData = [
   {id:'urbanproblems',tag:'Core issue',name:'Urban Problems',blurb:'Rapid growth without matching infrastructure produces a predictable set of stresses.',
    rows:[['Cluster of problems','Traffic congestion, air pollution, water stress, waste management gaps, and urban flooding tend to appear together where infrastructure investment lags population growth.'],
      ['Urban heat island','Concrete and reduced green cover make cities measurably hotter than surrounding rural areas — worsening heat-wave impact specifically in urban zones.']]},
-  {id:'smartcities',tag:'Policy',name:'Smart Cities Mission',blurb:'A central government programme aimed at improving urban infrastructure and services through technology and planning.',
-   rows:[['Concept','Launched in 2015, the Smart Cities Mission funds selected cities to upgrade core infrastructure, mobility, and governance using data and technology.'],
-     ['Why it matters for UPSC','A frequently referenced current-affairs example in Mains GS-III answers on urbanisation — verify current implementation status from the Ministry of Housing and Urban Affairs before citing specifics in an exam.']]},
+  {id:'smartcities',tag:'Policy',name:'Smart Cities Mission',blurb:'A completed central government programme that funded 100 cities to upgrade infrastructure and services through technology and planning.',
+   rows:[['Concept','Launched 25 June 2015 by the Ministry of Housing and Urban Affairs, funding 100 selected cities (chosen in rounds through 2018) to upgrade core infrastructure, mobility, and governance using data and technology, via city-level Special Purpose Vehicles.'],
+     ['Status','The Mission\'s financial phase officially closed on 31 March 2025, after multiple deadline extensions from the original 2019 target. As of the most recent parliamentary update, roughly 96% of its 8,064 projects (worth over ₹1.55 lakh crore) were complete, and all 100 cities have operational Integrated Command and Control Centres.'],
+     ['Why it matters for UPSC','A frequently referenced Mains GS-III case study on urbanisation — now closed, so exam answers should discuss it as a completed programme and its documented outcomes/shortfalls, not an ongoing one. Verify the final completion figures from the Ministry of Housing and Urban Affairs before citing exact numbers.']]},
   {id:'slums',tag:'Housing',name:'Slums &amp; Informal Housing',blurb:'A direct consequence of urban growth outpacing formal affordable housing supply.',
    rows:[['Cause','When formal housing supply and wages can\'t keep pace with urban in-migration, informal settlements fill the gap — often on marginal, flood-prone, or otherwise undesirable land.'],
      ['Policy response','The Pradhan Mantri Awas Yojana (Urban) is the primary current central scheme addressing affordable urban housing — verify current scheme status before citing specifics.']]},
@@ -1075,9 +1084,10 @@ const bioData = [
   {id:'tigerreserve',tag:'Umbrella species',name:'Project Tiger &amp; Tiger Reserves',blurb:'India\'s flagship conservation programme, protecting an "umbrella species" and its whole ecosystem.',
    rows:[['Concept','Launched in 1973, Project Tiger protects tigers as an "umbrella species" — safeguarding enough intact habitat and prey base for tigers automatically protects thousands of other species sharing that ecosystem.'],
      ['Current relevance','Tiger reserve expansion, corridor connectivity, and periodic tiger census results remain an active current-affairs theme — verify the latest count from the National Tiger Conservation Authority before an exam.']]},
-  {id:'ramsar',tag:'International',name:'Ramsar Wetlands',blurb:'India has one of the larger national lists of internationally recognised wetlands.',
-   rows:[['What it means','A Ramsar designation recognises a wetland\'s international importance for conservation, particularly for migratory waterbirds.'],
-     ['Why it matters for UPSC','New Ramsar site additions are announced periodically and are a recurring current-affairs → static-geography Prelims link — check the Ministry of Environment, Forest and Climate Change for the current full list.']]},
+  {id:'ramsar',tag:'International',name:'Ramsar Wetlands',blurb:'India has one of the largest national lists of internationally recognised wetlands in the world.',
+   rows:[['What it means','A Ramsar designation recognises a wetland\'s international importance for conservation, particularly for migratory waterbirds, under the 1971 Ramsar Convention (India signed on 1 February 1982).'],
+     ['Current count','101 Ramsar sites as of August 2026 (up from just 26 before 2014) — Tamil Nadu leads with 20 sites, followed by Uttar Pradesh. India ranks 3rd globally in Ramsar site count, after the UK and Mexico, and 1st in Asia. Sundarban Wetland (West Bengal) is the largest at over 4,230 km²; several of the smallest are under 1 km². This count changes every few months, so verify the latest figure from MoEFCC before an exam.'],
+     ['Why it matters for UPSC','New Ramsar site additions are announced frequently and are a recurring current-affairs → static-geography Prelims link — recent additions have given Chhattisgarh, Sikkim and Jharkhand their first-ever Ramsar sites.']]},
   {id:'coral',tag:'Marine',name:'Coral Reefs',blurb:'Concentrated in four main zones around India\'s coastline and islands.',
    rows:[['Where','Gulf of Mannar and Gulf of Kutch (mainland coastal reefs), Lakshadweep (coral atolls), and reefs around the Andaman & Nicobar Islands.'],
      ['Threat','Coral bleaching from rising sea temperatures is an active climate-change-linked conservation concern across all four zones.']]},
@@ -1334,7 +1344,7 @@ const disasterData = [
    relief:'Human factors: encroachment on floodplains, deforestation in catchments raising runoff, poor drainage in growing towns.',
    rivers:'Most vulnerable zones: North Bihar (Kosi basin), Assam (Brahmaputra), parts of the Ganga plain.',
    climate:'Impact: crop and property loss, displacement, disease outbreaks after floodwaters recede.',
-   soil:'Historical case: the 2013 Uttarakhand flash floods (triggered by a cloudburst near Kedarnath) and the 2018 Kerala floods are two of the most widely studied recent Indian flood disasters.',
+   soil:'Historical case: the 2013 Uttarakhand flash floods (triggered by a cloudburst near Kedarnath) and the 2018 Kerala floods are two of the most widely studied recent Indian flood disasters. More recently, the August 2025 Punjab floods — described as the state\'s worst in nearly four decades — affected over 1,400 villages and roughly 3.5 million people across 13+ districts. Separately, a cloudburst/flash-flood event struck Dharali village in Uttarkashi, Uttarakhand on 5 August 2025, killing several and leaving dozens missing, with the exact trigger (cloudburst vs. glacial lake involvement) still under investigation. Nationally, 2025 saw extreme weather on nearly every day from January to September, with floods and landslides responsible for most of the year\'s weather-related deaths.',
    agri:'Institutional framework: the Central Water Commission issues flood forecasts; the National Disaster Response Force (NDRF) and State Disaster Response Force (SDRF) lead rescue operations.',
    hazards:'Mitigation: embankments, flood forecasting, wetland/floodplain zoning, catchment afforestation.'},
   {id:'urbanflood',tag:'Hydrological · Urban',name:'Urban Flooding',blurb:'A distinct hazard from river flooding — cities flood even without a nearby river overflowing.',
@@ -1544,6 +1554,7 @@ function renderRivers(){
         <div class="tag mono">${r.type} SYSTEM</div>
         <h3>${r.name}</h3>
         <p style="margin:8px 0 0;font-size:14.5px;">${r.detail}</p>
+        <p class="mono" style="margin:8px 0 0;font-size:12px;color:var(--river);">${r.stats || ''}</p>
         <div class="chain-row">${r.chain.map((s,i)=>`<span class="seg">${s}</span>${i<r.chain.length-1?'<span class="arrow">→</span>':''}`).join('')}</div>
         <div class="mini-grid" style="margin-top:14px;">
           <div><div class="k mono">Source location</div><div class="v">${gmapLink(r.sourceCoords)}</div></div>
@@ -1555,6 +1566,7 @@ function renderRivers(){
           <div><div class="k mono">Key dams</div><div class="v">${r.dams}</div></div>
           <div><div class="k mono">Note</div><div class="v">${r.note}</div></div>
         </div>
+        ${r.current ? `<div class="mini-grid" style="margin-top:4px;"><div><div class="k mono" style="color:var(--vermillion);">Live current-affairs status</div><div class="v">${r.current}</div></div></div>` : ''}
       `;
       det.classList.add('open');
       document.getElementById('rivClose').addEventListener('click',()=>det.classList.remove('open'));
