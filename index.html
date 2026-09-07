@@ -492,8 +492,17 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Minerals &amp; energy — where, why, and what it feeds</h2>
       </div>
     </div>
-    <p class="section-sub">Six resources that anchor India's industrial geography, from ore belt to the industry it supplies.</p>
+    <p class="section-sub">Eight resources that anchor India's industrial geography, from ore belt to the industry it supplies.</p>
     <div class="card-grid" id="resGrid"></div>
+
+    <div class="section-head" style="margin-top:40px;">
+      <div>
+        <div class="section-code">08.1 / MULTI-PURPOSE RIVER VALLEY PROJECTS</div>
+        <h2 style="font-size:22px;">Dams built to do more than one job</h2>
+      </div>
+    </div>
+    <p class="section-sub">A multi-purpose project combines irrigation, power, flood control and more from a single dam — India's earliest and largest examples, sourced from Majid Hussain's <i>Geography of India</i>.</p>
+    <div class="card-grid" id="mppGrid"></div>
   </div>
 </section>
 
@@ -1058,6 +1067,38 @@ const resData = [
    climate:'Overseas strategy: Khanij Bidesh India Ltd. (KABIL), a public-sector joint venture, has acquired roughly 15,700 hectares in Catamarca province, Argentina, for lithium exploration and mining — part of a wider push (alongside the Mineral Security Partnership) to secure assets abroad, since India is currently almost entirely import-dependent for lithium, cobalt and nickel.',
    soil:'—',agri:'Why it matters for UPSC: this is one of the highest-yield current-affairs → static-geography link topics in recent Prelims and Mains papers. The specific figures above (outlay, exploration targets, mineral list) are current as of this update — always verify the latest from the Ministry of Mines before an exam, since auction tranches and budget allocations are revised frequently.',
    hazards:'—'},
+  {id:'nuclear',tag:'Energy',name:'Nuclear Power',blurb:'India\'s atomic power stations run on domestic thorium and uranium, sited mostly in coastal or peninsular locations away from dense population.',
+   formation:'Fuel minerals: thorium (occurs as thorianite, allanite and monazite — India holds large monazite reserves in the beach sands of Kerala, Tamil Nadu, Andhra Pradesh and Odisha); uranium (found in Bihar, Jharkhand, Rajasthan, Uttarakhand, Chhattisgarh, and in ilmenite beach sands in Kerala); beryllium (from beryl ore, found in Bihar, Rajasthan, Andhra Pradesh, MP, J&K and Sikkim); zirconium (from zircon, found in Bihar and Tamil Nadu).',
+   relief:'Stations: Tarapur, Maharashtra (India\'s first, commissioned 1969); Rawatbhata, near Kota, Rajasthan; Kalpakkam (Madras Atomic Power Station), Tamil Nadu; Narora, UP; Kakrapar, Gujarat; Kaiga, Karnataka; and Kudankulam, Tamil Nadu — India\'s largest single-site nuclear plant, built with Russian collaboration.',
+   rivers:'Why coastal/peninsular siting: most plants sit near a coastline or large river for cooling water, and are generally sited away from the most seismically active Himalayan belt.',
+   climate:'Limitations: safety risk from potential radioactive leaks, unresolved long-term radioactive waste disposal, thermal pollution from coolant discharge (often heavy water), and the catastrophic risk of a nuclear accident if not administered properly.',
+   soil:'—',agri:'Why it matters for UPSC: nuclear energy sits at the intersection of static resource geography (where thorium/uranium occur) and Mains GS-III energy-security/environment themes — verify current operational capacity from the Department of Atomic Energy/NPCIL before an exam, since new units are added periodically.',
+   hazards:'—'},
+];
+
+const mppData = [
+  {id:'bhakra',tag:'Sutlej · Punjab-HP-Rajasthan',name:'Bhakra Nangal Project',
+   rows:[['River & location','Built across the Satluj (Sutlej) river near the Bhakra gorge, on the Punjab–Himachal Pradesh border.'],
+     ['Structure','The dam is about 518 m long and 226 m high — among the highest gravity dams in the world. Its reservoir, Gobind Sagar, is named after the tenth Sikh Guru, Guru Gobind Singh.'],
+     ['Purposes','A textbook multi-purpose project: hydroelectric power, irrigation, flood control, soil conservation, silt control, navigation, pisciculture, and wildlife/cattle support — funded by the Central Government.']]},
+  {id:'dvc',tag:'Damodar · Jharkhand-West Bengal',name:'Damodar Valley Corporation (DVC)',
+   rows:[['River & location','The Damodar River, a Hooghly tributary flowing through Jharkhand and West Bengal, was historically nicknamed the "Sorrow of Bengal" for its devastating floods.'],
+     ['Model','India\'s first multi-purpose river valley project, explicitly modelled on the USA\'s Tennessee Valley Authority (TVA); the Corporation was established on 18 February 1948.'],
+     ['Structure','Four dams were built under the project: Tilaiya (on the Barakar river, completed 1953, provides irrigation to ~40,000 hectares and cheap power to the Kodarma/Hazaribagh mica mines), Maithon, Konar (completed 1955), and Panchet.'],
+     ['Purposes','Flood control on the Damodar, irrigation, and hydroelectric power generation for the Jharkhand–West Bengal industrial belt.']]},
+  {id:'hirakud',tag:'Mahanadi · Odisha',name:'Hirakud Dam',
+   rows:[['River & location','Built across the Mahanadi river in Odisha.'],
+     ['Note','Long cited as one of the longest earthen dams in the world at the time of construction, built primarily to control the Mahanadi\'s severe recurrent flooding.'],
+     ['Purposes','Flood control, irrigation, and hydroelectric power for Odisha.']]},
+  {id:'nagarjunasagar',tag:'Krishna · Telangana-Andhra Pradesh',name:'Nagarjuna Sagar Project',
+   rows:[['River & location','Built across the Krishna river, on the Telangana–Andhra Pradesh border.'],
+     ['Purposes','One of the world\'s largest masonry dams at the time of construction; supplies irrigation and hydroelectric power to both states, and remains central to their ongoing Krishna water-sharing discussions.']]},
+  {id:'tungabhadra',tag:'Tungabhadra · Karnataka-Andhra Pradesh',name:'Tungabhadra Project',
+   rows:[['River & location','Built across the Tungabhadra river, a Krishna tributary, on the Karnataka–Andhra Pradesh border.'],
+     ['Purposes','Joint-state irrigation and hydroelectric project, an early example of inter-state river cooperation in Peninsular India.']]},
+  {id:'chambal',tag:'Chambal · Rajasthan-Madhya Pradesh',name:'Chambal Valley Project',
+   rows:[['River & location','A series of dams across the Chambal river across Rajasthan and Madhya Pradesh, including the Gandhi Sagar, Rana Pratap Sagar and Jawahar Sagar dams.'],
+     ['Purposes','Irrigation and hydroelectric power for the Chambal valley; also relevant to the Chambal ravines\' historic soil-erosion problem, which the project\'s afforestation and land-management components aimed to address.']]},
 ];
 
 const indData = [
@@ -1901,6 +1942,7 @@ function renderRes(){
   });
 }
 renderRes();
+renderGenericLab(mppData,'mppGrid','mpp');
 
 /* ===================== GENERIC LAB RENDERER (Industry/Transport/Population/Urban/Biodiversity/Ocean) ===================== */
 function renderGenericLab(data, gridId, prefix){
