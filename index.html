@@ -229,12 +229,6 @@ section{padding:64px 0;border-bottom:1px solid var(--line);}
 .src-row a{font-weight:500;}
 
 /* roadmap */
-.phase-track{display:flex;overflow-x:auto;gap:0;border:1px solid var(--line-strong);}
-.phase{min-width:150px;padding:14px 16px;border-right:1px solid var(--line);flex:1;}
-.phase:last-child{border-right:none;}
-.phase.done{background:var(--forest-soft);}
-.phase .pn{font-family:'JetBrains Mono';font-size:10px;color:var(--ink-soft);}
-.phase h5{margin:4px 0 0;font-size:13px;}
 
 footer{padding:40px 0 60px;text-align:center;}
 footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
@@ -713,7 +707,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
 </section>
 
 <!-- ================= SOURCES ================= -->
-<section id="sources">
+<section id="sources" style="border-bottom:none;">
   <div class="wrap">
     <div class="section-head">
       <div>
@@ -723,31 +717,6 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
     </div>
     <p class="section-sub">This atlas is a teaching aid. For exam-grade accuracy, cross-check facts, maps and current data against these primary sources before relying on them in an answer.</p>
     <div class="src-grid" id="sourceGrid"></div>
-  </div>
-</section>
-
-<!-- ================= ROADMAP ================= -->
-<section style="border-bottom:none;">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <div class="section-code">22 / BUILD ROADMAP</div>
-        <h2>What this prototype covers vs. what's next</h2>
-      </div>
-    </div>
-    <p class="section-sub">This atlas now covers every major static-geography module from the original spec (physical, climate, disasters, resources, industry, transport, population, urbanisation, biodiversity, ocean & islands) plus exam tooling (syllabus map, PYQ explorer, 43-question practice bank). A production build (see the Next.js scaffold provided alongside this file) would add a real database, an admin panel, a live-updating current-affairs feed, spaced-repetition revision, and an AI tutor grounded in cited sources.</p>
-    <div class="phase-track mono">
-      <div class="phase done"><div class="pn">PH.1</div><h5>Architecture + Home + Master Flow + Map</h5></div>
-      <div class="phase done"><div class="pn">PH.2</div><h5>Physical Geo + Rivers + Climate</h5></div>
-      <div class="phase done"><div class="pn">PH.3</div><h5>Soils + Vegetation + Disaster map (9 hazards)</h5></div>
-      <div class="phase done"><div class="pn">PH.4</div><h5>Agriculture, Industry, Transport</h5></div>
-      <div class="phase done"><div class="pn">PH.5</div><h5>Population + Urbanisation</h5></div>
-      <div class="phase done"><div class="pn">PH.6</div><h5>Map practice mode</h5></div>
-      <div class="phase done"><div class="pn">PH.7</div><h5>Biodiversity + Ocean &amp; Islands</h5></div>
-      <div class="phase done"><div class="pn">PH.7.5</div><h5>Syllabus Map + PYQ Explorer (UPSC/UPPSC)</h5></div>
-      <div class="phase"><div class="pn">PH.8</div><h5>Live current-affairs feed + AI Tutor + Revision system</h5></div>
-      <div class="phase"><div class="pn">PH.9</div><h5>Database + auth + admin panel (see scaffold)</h5></div>
-    </div>
   </div>
 </section>
 
