@@ -234,38 +234,478 @@ footer{padding:40px 0 60px;text-align:center;}
 footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
 
 @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important;}}
+
+/* ---------- NIGHT ATLAS (DARK THEME) ---------- */
+body.dark-theme {
+  --paper: #0c1017;
+  --paper-deep: #141b26;
+  --panel: #182232;
+  --ink: #f1f5f9;
+  --ink-soft: #94a3b8;
+  --saffron: #f59e0b;
+  --saffron-soft: rgba(245, 158, 11, 0.22);
+  --river: #38bdf8;
+  --river-soft: rgba(56, 189, 248, 0.2);
+  --forest: #4ade80;
+  --forest-soft: rgba(74, 222, 128, 0.2);
+  --vermillion: #f87171;
+  --vermillion-soft: rgba(248, 113, 113, 0.2);
+  --line: #253043;
+  --line-strong: #3b4860;
+  background-color: var(--paper);
+  color: var(--ink);
+}
+body.dark-theme header.topnav {
+  background: rgba(12, 16, 23, 0.94);
+  border-bottom: 1px solid var(--line-strong);
+}
+
+/* Nav Actions & Search Button */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search-trigger-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--panel);
+  border: 1px solid var(--line-strong);
+  color: var(--ink-soft);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11.5px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.search-trigger-btn:hover {
+  border-color: var(--saffron);
+  color: var(--ink);
+  background: var(--paper-deep);
+}
+.search-trigger-btn kbd {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+.theme-toggle-btn {
+  background: var(--panel);
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.15s ease;
+}
+.theme-toggle-btn:hover {
+  border-color: var(--saffron);
+}
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+@media(max-width: 900px) {
+  .mobile-menu-btn { display: flex; }
+  nav.links { display: none; }
+}
+
+/* Categorized Nav Pills in Desktop */
+.mega-nav-ribbon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 6px 0;
+}
+.mega-nav-ribbon::-webkit-scrollbar { display: none; }
+.mega-pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--ink-soft);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+.mega-pill:hover {
+  color: var(--ink);
+  border-color: var(--saffron);
+  background: var(--paper-deep);
+}
+
+/* Search Modal Overlay */
+.search-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(10, 15, 23, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12vh 16px 20px 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  visibility: hidden;
+}
+.search-modal-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+.search-modal-card {
+  background: var(--panel);
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  width: 620px;
+  max-width: 100%;
+  max-height: 75vh;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: searchSlideDown 0.2s ease-out;
+}
+@keyframes searchSlideDown {
+  from { transform: translateY(-16px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.search-input-header {
+  display: flex;
+  align-items: center;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+  gap: 12px;
+}
+.search-input-header input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  color: var(--ink);
+}
+.search-input-header input::placeholder {
+  color: var(--ink-soft);
+  opacity: 0.7;
+}
+.search-close-esc {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--ink-soft);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.search-results-box {
+  overflow-y: auto;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 55vh;
+}
+.search-item {
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--paper);
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  transition: all 0.12s ease;
+}
+.search-item:hover, .search-item.selected {
+  border-color: var(--saffron);
+  background: var(--paper-deep);
+  transform: translateX(4px);
+}
+.search-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-item-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ink);
+}
+.search-item-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--river);
+  text-transform: uppercase;
+}
+.search-item-sub {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Mobile Bottom Action Bar */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: var(--panel);
+  border-top: 1px solid var(--line-strong);
+  padding: 6px 12px;
+  justify-content: space-around;
+  backdrop-filter: blur(8px);
+}
+@media(max-width: 768px) {
+  .mobile-bottom-nav { display: flex; }
+  body { padding-bottom: 60px; }
+}
+.mbn-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.mbn-item .icon { font-size: 16px; }
+.mbn-item:hover, .mbn-item.active { color: var(--saffron); }
+
+/* Mobile Drawer */
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -280px;
+  width: 280px;
+  z-index: 10000;
+  background: var(--panel);
+  border-right: 1px solid var(--line-strong);
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.mobile-drawer.open {
+  transform: translateX(280px);
+  box-shadow: 20px 0 60px rgba(0,0,0,0.5);
+}
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+.drawer-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Interactive SVG Map Lab Styles */
+.svg-map-wrapper {
+  background: var(--panel);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 24px;
+  position: relative;
+}
+.svg-map-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.svg-map-svg {
+  width: 100%;
+  max-width: 580px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.map-tooltip {
+  position: absolute;
+  background: var(--panel);
+  border: 1px solid var(--saffron);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  z-index: 100;
+  max-width: 240px;
+}
+.map-feature {
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.map-feature:hover {
+  filter: drop-shadow(0 0 4px var(--saffron));
+  stroke-width: 3.5;
+}
+
+/* Quiz Filter Row */
+.quiz-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
 </style>
 </head>
 <body>
 
 <header class="topnav">
   <div class="navbar">
-    <div class="brand"><span class="mark"></span> BHARAT ATLAS <span class="mono" style="font-size:10px;color:var(--ink-soft);font-weight:400;">/ UPSC GEO</span></div>
+    <div class="brand">
+      <span class="mark"></span> BHARAT ATLAS <span class="mono" style="font-size:10px;color:var(--ink-soft);font-weight:400;">/ UPSC &amp; STATE PSC GEO</span>
+    </div>
+
+    <!-- Categorized Navigation for Desktop -->
     <nav class="links">
-      <a href="#flow">Master Flow</a>
+      <a href="#flow">Flow</a>
       <a href="#maplab">Map Lab</a>
-      <a href="#passes">Passes &amp; Peaks</a>
+      <a href="#passes">Passes/Peaks</a>
       <a href="#rivers">Rivers</a>
       <a href="#climate">Climate</a>
       <a href="#disasters">Disasters</a>
+      <a href="#soils">Soils</a>
       <a href="#vegetation">Vegetation</a>
       <a href="#resources">Resources</a>
       <a href="#industry">Industry</a>
       <a href="#transport">Transport</a>
-      <a href="#population">Population</a>
-      <a href="#urbanisation">Urbanisation</a>
       <a href="#biodiversity">Biodiversity</a>
-      <a href="#ocean">Ocean &amp; Islands</a>
-      <a href="#soils">Soils</a>
+      <a href="#ocean">Oceans/Islands</a>
       <a href="#cropgame">Crop Game</a>
       <a href="#mappractice">Map Practice</a>
-      <a href="#syllabus">Syllabus Map</a>
-      <a href="#pyq">PYQ Explorer</a>
+      <a href="#pyq">PYQs</a>
       <a href="#quiz">Prelims Quiz</a>
-      <a href="#sources">Sources</a>
     </nav>
+
+    <!-- Search, Theme, Mobile Hamburger -->
+    <div class="nav-actions">
+      <button class="search-trigger-btn" id="searchTriggerBtn" title="Search Atlas (Ctrl+K)">
+        <span>🔍 Search</span> <kbd>Ctrl+K</kbd>
+      </button>
+      <button class="theme-toggle-btn" id="geoThemeBtn" title="Toggle Night Atlas / Parchment Mode" aria-label="Toggle Theme">
+        <span id="geoThemeIcon">🌙</span>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">☰</button>
+    </div>
   </div>
 </header>
+
+<!-- Mobile Slide-Out Drawer -->
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="mobile-drawer" id="mobileDrawer">
+  <div style="display:flex;align-items:center;justify-content:space-between;">
+    <div class="brand"><span class="mark"></span> BHARAT ATLAS</div>
+    <button id="drawerCloseBtn" style="background:none;border:none;font-size:20px;cursor:pointer;color:var(--ink);">✕</button>
+  </div>
+
+  <button class="search-trigger-btn" id="drawerSearchBtn" style="width:100%;justify-content:center;padding:10px;">
+    <span>🔍 Instant Search Atlas</span>
+  </button>
+
+  <div style="font-family:'JetBrains Mono';font-size:11px;color:var(--saffron);text-transform:uppercase;margin-top:8px;">Physical Geography</div>
+  <a href="#flow" class="mega-pill">01. Master Flow</a>
+  <a href="#maplab" class="mega-pill">02. India Map Lab</a>
+  <a href="#passes" class="mega-pill">03. Passes &amp; Peaks</a>
+  <a href="#rivers" class="mega-pill">04. Major Rivers</a>
+  <a href="#ocean" class="mega-pill">14. Oceans &amp; Islands</a>
+
+  <div style="font-family:'JetBrains Mono';font-size:11px;color:var(--saffron);text-transform:uppercase;margin-top:8px;">Climate &amp; Ecology</div>
+  <a href="#climate" class="mega-pill">05. Monsoon &amp; Climate</a>
+  <a href="#disasters" class="mega-pill">06. Disaster Geography</a>
+  <a href="#vegetation" class="mega-pill">07. Forest &amp; Vegetation</a>
+  <a href="#biodiversity" class="mega-pill">13. Biodiversity &amp; Ramsar</a>
+  <a href="#soils" class="mega-pill">15. Soils of India</a>
+
+  <div style="font-family:'JetBrains Mono';font-size:11px;color:var(--saffron);text-transform:uppercase;margin-top:8px;">Economic &amp; Human</div>
+  <a href="#resources" class="mega-pill">08. Minerals &amp; Energy</a>
+  <a href="#industry" class="mega-pill">09. Industrial Clusters</a>
+  <a href="#transport" class="mega-pill">10. Transport &amp; DFCs</a>
+  <a href="#population" class="mega-pill">11. Demographic Structure</a>
+  <a href="#urbanisation" class="mega-pill">12. Urbanisation &amp; Cities</a>
+
+  <div style="font-family:'JetBrains Mono';font-size:11px;color:var(--saffron);text-transform:uppercase;margin-top:8px;">Exam Practice</div>
+  <a href="#cropgame" class="mega-pill">16. Crop Match Game</a>
+  <a href="#mappractice" class="mega-pill">17. Map Practice Grid</a>
+  <a href="#syllabus" class="mega-pill">18. Syllabus Mapping</a>
+  <a href="#pyq" class="mega-pill">19. PYQ Explorer</a>
+  <a href="#quiz" class="mega-pill">20. Prelims Quiz Bank</a>
+  <a href="#sources" class="mega-pill">21. Primary Sources</a>
+</aside>
+
+<!-- Search Spotlight Modal -->
+<div class="search-modal-backdrop" id="searchModal">
+  <div class="search-modal-card">
+    <div class="search-input-header">
+      <span style="font-size:18px;">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search rivers, passes, peaks, soils, dams, minerals, hazards, PYQs... (e.g. Zojila, Kaveri, Bhabar)" autocomplete="off">
+      <span class="search-close-esc">ESC</span>
+    </div>
+    <div class="search-results-box" id="searchResults">
+      <div style="padding:16px;text-align:center;color:var(--ink-soft);font-size:13px;">Type to instantly search across 21 geographical modules...</div>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile Fixed Bottom Action Bar -->
+<nav class="mobile-bottom-nav">
+  <a href="#flow" class="mbn-item"><span class="icon">🌊</span><span>Flow</span></a>
+  <a href="#maplab" class="mbn-item"><span class="icon">🗺️</span><span>Map</span></a>
+  <div class="mbn-item" id="mbnSearchBtn"><span class="icon">🔍</span><span>Search</span></div>
+  <a href="#quiz" class="mbn-item"><span class="icon">📝</span><span>Quiz</span></a>
+  <div class="mbn-item" id="mbnMenuBtn"><span class="icon">☰</span><span>Menu</span></div>
+</nav>
 
 <section class="hero">
   <div class="wrap">
@@ -322,6 +762,166 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
     <iframe class="map-embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
       src="https://maps.google.com/maps?q=India&t=&z=4&ie=UTF8&iwloc=&output=embed"></iframe>
 
+    
+    <!-- Interactive Vector SVG India Map Lab -->
+    <div class="svg-map-wrapper sheet-frame tickcorner">
+      <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      <div class="svg-map-header">
+        <div>
+          <div class="section-code mono">INTERACTIVE VECTOR ATLAS</div>
+          <h3 style="margin:4px 0 0;font-size:18px;">India Physiographic, River &amp; Reserve Explorer</h3>
+        </div>
+        <div class="layer-toggle-row" id="svgMapLayers" style="margin-bottom:0;">
+          <button class="layer-btn on" data-layer="ranges">🏔️ Ranges &amp; Relief</button>
+          <button class="layer-btn on" data-layer="rivers">🌊 Major Rivers</button>
+          <button class="layer-btn on" data-layer="reserves">🐯 Biosphere Reserves</button>
+          <button class="layer-btn" data-layer="passes">📍 Passes &amp; Peaks</button>
+        </div>
+      </div>
+      <p class="muted" style="font-size:12.5px;margin:0 0 16px;">Hover or tap any mountain range, river line, or marker to view instant exam details and jump to its study module.</p>
+      
+      <div style="position:relative;display:flex;justify-content:center;">
+        <svg class="svg-map-svg" id="interactiveIndiaSvg" viewBox="0 0 460 520">
+          <defs>
+            <radialGradient id="oceanGrad" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="var(--paper)"/>
+              <stop offset="100%" stop-color="var(--paper-deep)"/>
+            </radialGradient>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+              <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+
+          <!-- Simplified Realistic India Boundary Outline -->
+          <path id="indiaBoundary" d="M 160 40 L 195 25 L 225 50 L 220 75 L 245 95 L 270 95 L 290 120 L 320 125 L 340 145 L 380 145 L 405 165 L 430 160 L 415 195 L 390 190 L 370 215 L 345 205 L 335 225 L 335 250 L 305 270 L 295 310 L 270 360 L 240 430 L 210 475 L 185 430 L 165 370 L 150 320 L 140 270 L 115 270 L 95 260 L 90 280 L 110 300 L 135 285 L 140 250 L 105 230 L 85 220 L 110 180 L 140 160 L 155 105 Z" 
+                fill="var(--panel)" stroke="var(--line-strong)" stroke-width="2"/>
+
+          <!-- Geographic Latitude / Longitude Guide Lines -->
+          <line x1="20" y1="260" x2="440" y2="260" stroke="var(--line)" stroke-width="0.8" stroke-dasharray="4 4"/>
+          <text x="25" y="255" font-family="JetBrains Mono" font-size="9" fill="var(--saffron)">Tropic of Cancer (23.5° N)</text>
+          
+          <line x1="230" y1="20" x2="230" y2="500" stroke="var(--line)" stroke-width="0.8" stroke-dasharray="4 4"/>
+          <text x="235" y="495" font-family="JetBrains Mono" font-size="9" fill="var(--river)">82.5° E (Standard Meridian)</text>
+
+          <!-- Layer 1: Mountain Ranges -->
+          <g id="layerRanges">
+            <!-- Greater Himalayas -->
+            <path class="map-feature" data-title="The Great Himalaya (Himadri)" data-desc="Average elevation 6,100 m. Youngest fold mountains, source of perennial rivers."
+                  d="M 155 70 Q 240 120 380 155" fill="none" stroke="var(--forest)" stroke-width="5" stroke-linecap="round"/>
+            <!-- Pir Panjal -->
+            <path class="map-feature" data-title="Pir Panjal Range" data-desc="Lesser Himalaya, cut by Jhelum & Chenab. Hosts Banihal Pass."
+                  d="M 160 85 Q 190 100 210 115" fill="none" stroke="var(--forest)" stroke-width="3.5" stroke-linecap="round"/>
+            <!-- Aravalli Range -->
+            <path class="map-feature" data-title="Aravalli Range" data-desc="Oldest fold mountains on Earth. Relict hills running SW to NE from Gujarat to Delhi (Guru Shikhar 1,722 m)."
+                  d="M 130 220 L 180 165" fill="none" stroke="#bd7317" stroke-width="4.5" stroke-linecap="round"/>
+            <!-- Vindhya Range -->
+            <path class="map-feature" data-title="Vindhyan Range" data-desc="Traditional boundary between North and South India. Sandstone escarpment north of Narmada rift."
+                  d="M 145 250 Q 210 245 270 235" fill="none" stroke="#a93b24" stroke-width="4" stroke-linecap="round"/>
+            <!-- Satpura Range -->
+            <path class="map-feature" data-title="Satpura Range" data-desc="Horst mountain flanked by Narmada (north) and Tapi (south) rift valleys. Highest peak: Dhupgarh (1,350 m)."
+                  d="M 150 270 Q 210 268 265 260" fill="none" stroke="#a93b24" stroke-width="4" stroke-linecap="round"/>
+            <!-- Western Ghats (Sahyadri) -->
+            <path class="map-feature" data-title="Western Ghats (Sahyadris)" data-desc="Continuous escarpment along western coast. UNESCO World Heritage Biodiversity Hotspot. Peak: Anamudi (2,695 m)."
+                  d="M 150 285 Q 165 370 205 460" fill="none" stroke="var(--forest)" stroke-width="5" stroke-linecap="round"/>
+            <!-- Eastern Ghats -->
+            <path class="map-feature" data-title="Eastern Ghats" data-desc="Discontinuous relict mountain chain dissected by Godavari, Krishna, Mahanadi, Kaveri. Peak: Jindhagada / Arma Konda (1,690 m)."
+                  d="M 285 270 Q 255 350 230 435" fill="none" stroke="var(--forest)" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="6 3"/>
+            <!-- Nilgiri Hills -->
+            <circle class="map-feature" data-title="Nilgiri Hills (Blue Mountains)" data-desc="Meeting knot of Western and Eastern Ghats. Doddabetta (2,637 m). First Indian Biosphere Reserve (1986)."
+                    cx="195" cy="425" r="7" fill="#bd7317" stroke="#fff" stroke-width="1.5"/>
+          </g>
+
+          <!-- Layer 2: Major River Paths -->
+          <g id="layerRivers">
+            <!-- Indus -->
+            <path class="map-feature" data-title="Indus River" data-desc="Origin near Mansarovar. Transboundary river flowing through Ladakh into Arabian Sea."
+                  d="M 220 60 L 175 65 L 140 95 L 110 240 L 95 285" fill="none" stroke="var(--river)" stroke-width="2.5"/>
+            <!-- Ganga -->
+            <path class="map-feature" data-title="Ganga River System" data-desc="2,525 km. Origin at Gangotri. Enters plains at Haridwar, drains through Prayagraj into Sundarbans."
+                  d="M 205 105 Q 240 160 330 220 L 350 235" fill="none" stroke="var(--river)" stroke-width="3.2"/>
+            <!-- Yamuna -->
+            <path class="map-feature" data-title="Yamuna River" data-desc="1,376 km. Longest tributary of Ganga. Joins at Triveni Sangam Prayagraj. Chambal, Betwa, Ken feed from right."
+                  d="M 195 110 Q 220 165 290 205" fill="none" stroke="var(--river)" stroke-width="2.2" stroke-dasharray="4 2"/>
+            <!-- Brahmaputra -->
+            <path class="map-feature" data-title="Brahmaputra River" data-desc="Origin at Angsi glacier (Tibet). Yarlung Tsangpo → enters Arunachal as Dihang → Assam valley → Bay of Bengal."
+                  d="M 250 85 L 340 135 L 420 150 Q 370 170 340 215 L 350 240" fill="none" stroke="var(--river)" stroke-width="3"/>
+            <!-- Narmada -->
+            <path class="map-feature" data-title="Narmada River" data-desc="1,312 km. West-flowing in rift valley between Vindhya and Satpura from Amarkantak into Gulf of Khambhat."
+                  d="M 260 250 L 195 258 L 138 260" fill="none" stroke="var(--river)" stroke-width="2.8"/>
+            <!-- Tapi -->
+            <path class="map-feature" data-title="Tapi River" data-desc="724 km. West-flowing rift river from Multai (Satpura) through Khandesh plain into Arabian Sea at Surat."
+                  d="M 235 272 L 185 274 L 142 275" fill="none" stroke="var(--river)" stroke-width="2"/>
+            <!-- Mahanadi -->
+            <path class="map-feature" data-title="Mahanadi River" data-desc="851 km. Origin at Sihawa (Chhattisgarh), drains through Hirakud Dam (Odisha) into Bay of Bengal."
+                  d="M 255 275 Q 285 265 315 255" fill="none" stroke="var(--river)" stroke-width="2.5"/>
+            <!-- Godavari -->
+            <path class="map-feature" data-title="Godavari River (Dakshin Ganga)" data-desc="1,465 km. Longest Peninsular river. Origin at Trimbakeshwar (Nashik), delta in Andhra Pradesh."
+                  d="M 160 300 Q 230 305 285 315" fill="none" stroke="var(--river)" stroke-width="3"/>
+            <!-- Krishna -->
+            <path class="map-feature" data-title="Krishna River" data-desc="1,400 km. Origin at Mahabaleshwar. Major tributaries: Tungabhadra, Bhima. Delta at Vijayawada."
+                  d="M 165 335 Q 220 345 270 355" fill="none" stroke="var(--river)" stroke-width="2.8"/>
+            <!-- Kaveri -->
+            <path class="map-feature" data-title="Kaveri River (Cauvery)" data-desc="805 km. Origin at Talakaveri (Brahmagiri). Perennial flow from SW and NE monsoons. Delta at Thanjavur."
+                  d="M 175 405 Q 210 410 245 415" fill="none" stroke="var(--river)" stroke-width="2.5"/>
+          </g>
+
+          <!-- Layer 3: Key Biosphere Reserves & Ramsar Hubs -->
+          <g id="layerReserves">
+            <!-- Sundarbans -->
+            <circle class="map-feature" data-title="Sundarbans Biosphere &amp; Ramsar" data-desc="World's largest mangrove delta. Home of Royal Bengal Tiger. UNESCO World Heritage Site."
+                    cx="345" cy="235" r="5" fill="#4ade80" stroke="#fff" stroke-width="1.2"/>
+            <!-- Gulf of Mannar -->
+            <circle class="map-feature" data-title="Gulf of Mannar Biosphere Reserve" data-desc="First Marine Biosphere Reserve in South Asia. 21 islands, coral reefs, sea cow (Dugong)."
+                    cx="225" cy="460" r="5" fill="#4ade80" stroke="#fff" stroke-width="1.2"/>
+            <!-- Nanda Devi -->
+            <circle class="map-feature" data-title="Nanda Devi Biosphere Reserve" data-desc="High-altitude Himalayan biodiversity zone (Uttarakhand). UNESCO MAB list."
+                    cx="205" cy="98" r="5" fill="#4ade80" stroke="#fff" stroke-width="1.2"/>
+            <!-- Similipal -->
+            <circle class="map-feature" data-title="Similipal Biosphere Reserve" data-desc="Mayurbhanj district, Odisha. Red silk cotton trees, melanistic tigers, Sal forests."
+                    cx="295" cy="245" r="5" fill="#4ade80" stroke="#fff" stroke-width="1.2"/>
+            <!-- Pachmarhi -->
+            <circle class="map-feature" data-title="Pachmarhi Biosphere Reserve" data-desc="Satpura Range, MP. Transition zone between Western and Eastern Indian forests."
+                    cx="210" cy="265" r="5" fill="#4ade80" stroke="#fff" stroke-width="1.2"/>
+            <!-- Great Nicobar -->
+            <circle class="map-feature" data-title="Great Nicobar Biosphere Reserve" data-desc="Southernmost territory of India (Indira Point). Tropical wet evergreen forests, Nicobar Megapode."
+                    cx="410" cy="480" r="5" fill="#4ade80" stroke="#fff" stroke-width="1.2"/>
+          </g>
+
+          <!-- Layer 4: Mountain Passes -->
+          <g id="layerPasses" style="display:none;">
+            <!-- Zoji La -->
+            <circle class="map-feature" data-title="Zoji La Pass (3,528 m)" data-desc="Great Himalaya. Connects Srinagar Valley with Kargil and Leh Ladakh on NH-1."
+                    cx="175" cy="62" r="4.5" fill="#e11d48" stroke="#fff" stroke-width="1"/>
+            <!-- Rohtang / Atal Tunnel -->
+            <circle class="map-feature" data-title="Rohtang Pass &amp; Atal Tunnel (3,979 m)" data-desc="Pir Panjal range. Connects Kullu Valley with Lahaul-Spiti. 9.02 km Atal Tunnel beneath."
+                    cx="195" cy="85" r="4.5" fill="#e11d48" stroke="#fff" stroke-width="1"/>
+            <!-- Shipki La -->
+            <circle class="map-feature" data-title="Shipki La Pass" data-desc="Himachal Pradesh border with Tibet. Sutlej River enters India through this gorge."
+                    cx="205" cy="90" r="4.5" fill="#e11d48" stroke="#fff" stroke-width="1"/>
+            <!-- Nathu La -->
+            <circle class="map-feature" data-title="Nathu La Pass (4,310 m)" data-desc="Sikkim-Tibet border. Ancient Silk Route branch; reopened for border trade in 2006."
+                    cx="325" cy="145" r="4.5" fill="#e11d48" stroke="#fff" stroke-width="1"/>
+            <!-- Sela Pass & Tunnel -->
+            <circle class="map-feature" data-title="Sela Pass &amp; Tunnel (4,170 m)" data-desc="Arunachal Pradesh. World's longest twin-lane tunnel above 13,000 ft connecting Tawang."
+                    cx="370" cy="148" r="4.5" fill="#e11d48" stroke="#fff" stroke-width="1"/>
+            <!-- Palghat Gap -->
+            <circle class="map-feature" data-title="Palghat / Palakkad Gap (140 m)" data-desc="Break in Western Ghats between Nilgiri and Anaimalai hills. Connects Kerala and Tamil Nadu."
+                    cx="190" cy="435" r="4.5" fill="#e11d48" stroke="#fff" stroke-width="1"/>
+            <!-- Thal Ghat -->
+            <circle class="map-feature" data-title="Thal Ghat (Kasara Ghat, 585 m)" data-desc="Western Ghats, Maharashtra. Connects Mumbai to Nashik and northern plains on NH-3."
+                    cx="155" cy="290" r="4.5" fill="#e11d48" stroke="#fff" stroke-width="1"/>
+            <!-- Bhor Ghat -->
+            <circle class="map-feature" data-title="Bhor Ghat (390 m)" data-desc="Western Ghats, Maharashtra. Connects Mumbai and Konkan coast to Pune on the Deccan Plateau."
+                    cx="158" cy="305" r="4.5" fill="#e11d48" stroke="#fff" stroke-width="1"/>
+          </g>
+        </svg>
+
+        <!-- Tooltip overlay -->
+        <div class="map-tooltip" id="mapSvgTooltip"></div>
+      </div>
+    </div>
+
     <div class="card-grid" id="regionGrid"></div>
 
     <div class="sheet-frame tickcorner" style="padding:20px;margin-top:24px;">
@@ -362,13 +962,13 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Every named pass and peak is a possible map question</h2>
       </div>
     </div>
-    <p class="section-sub">A reference set of India's most-tested Himalayan passes and peaks — the classic UPSC Prelims "locate on map" and "match the following" material. Sourced and cross-checked from Majid Hussain's <i>Geography of India</i>.</p>
+    <p class="section-sub">A reference set of India\'s most-tested Himalayan passes and peaks — the classic UPSC Prelims "locate on map" and "match the following" material. Sourced and cross-checked from Majid Hussain's <i>Geography of India</i>.</p>
     <div class="layer-toggle-row" id="passPeakRow"></div>
     <div class="card-grid" id="passPeakGrid" style="margin-top:16px;"></div>
 
     <div class="sheet-frame tickcorner" style="padding:20px;margin-top:24px;">
       <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
-      <div class="mono" style="font-size:10.5px;color:var(--ink-soft);text-transform:uppercase;margin-bottom:8px;">India's extreme points — official reference (Survey of India convention)</div>
+      <div class="mono" style="font-size:10.5px;color:var(--ink-soft);text-transform:uppercase;margin-bottom:8px;">India\'s extreme points — official reference (Survey of India convention)</div>
       <div class="mini-grid" id="extremePointsGrid"></div>
       <p style="font-size:12.5px;color:var(--ink-soft);margin:14px 0 0;">India: 7th-largest country in the world, ~2.4% of world land area, ~3.287 million km². North-south extent ~3,214 km; east-west extent ~2,933 km. Lies entirely in the Northern and Eastern hemispheres, between 6°45′N–37°6′N and 68°7′E–97°25′E.</p>
     </div>
@@ -455,7 +1055,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
     <div class="section-head">
       <div>
         <div class="section-code">06 / DISASTER GEOGRAPHY</div>
-        <h2>Why here? — India's hazard map</h2>
+        <h2>Why here? — India\'s hazard map</h2>
       </div>
     </div>
     <p class="section-sub">Every hazard below follows directly from physiography and climate. Click one to see the physical cause, human factors, vulnerability and mitigation.</p>
@@ -472,7 +1072,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Rainfall + altitude → vegetation zone</h2>
       </div>
     </div>
-    <p class="section-sub">India's five major vegetation types, each keyed to the rainfall band and altitude that produces it.</p>
+    <p class="section-sub">India\'s five major vegetation types, each keyed to the rainfall band and altitude that produces it.</p>
     <div class="card-grid" id="vegGrid"></div>
   </div>
 </section>
@@ -486,7 +1086,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Minerals &amp; energy — where, why, and what it feeds</h2>
       </div>
     </div>
-    <p class="section-sub">Nine resources that anchor India's industrial geography, from ore belt to the industry it supplies.</p>
+    <p class="section-sub">Nine resources that anchor India\'s industrial geography, from ore belt to the industry it supplies.</p>
     <div class="card-grid" id="resGrid"></div>
 
     <div class="section-head" style="margin-top:40px;">
@@ -495,7 +1095,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2 style="font-size:22px;">Dams built to do more than one job</h2>
       </div>
     </div>
-    <p class="section-sub">A multi-purpose project combines irrigation, power, flood control and more from a single dam — India's earliest and largest examples, sourced from Majid Hussain's <i>Geography of India</i>.</p>
+    <p class="section-sub">A multi-purpose project combines irrigation, power, flood control and more from a single dam — India\'s earliest and largest examples, sourced from Majid Hussain's <i>Geography of India</i>.</p>
     <div class="card-grid" id="mppGrid"></div>
   </div>
 </section>
@@ -537,7 +1137,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Distribution, migration, and demographic structure</h2>
       </div>
     </div>
-    <p class="section-sub">Six angles on where India's population lives, how it moves, and what shape it's in.</p>
+    <p class="section-sub">Six angles on where India\'s population lives, how it moves, and what shape it's in.</p>
     <div class="card-grid" id="popGrid"></div>
   </div>
 </section>
@@ -551,7 +1151,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Village → town → megacity, and what goes wrong along the way</h2>
       </div>
     </div>
-    <p class="section-sub">Six facets of India's urban growth, its recurring problems, and the fixes being tried.</p>
+    <p class="section-sub">Six facets of India\'s urban growth, its recurring problems, and the fixes being tried.</p>
     <div class="card-grid" id="urbGrid"></div>
   </div>
 </section>
@@ -565,7 +1165,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Hotspots, protected areas, and what threatens them</h2>
       </div>
     </div>
-    <p class="section-sub">Six pillars of India's conservation geography — where biodiversity concentrates and how it's protected.</p>
+    <p class="section-sub">Six pillars of India\'s conservation geography — where biodiversity concentrates and how it's protected.</p>
     <div class="card-grid" id="bioGrid"></div>
   </div>
 </section>
@@ -579,7 +1179,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Maritime geography, strategy, and the blue economy</h2>
       </div>
     </div>
-    <p class="section-sub">Six angles on India's seas and islands — trade routes, strategy, and two very different island groups.</p>
+    <p class="section-sub">Six angles on India\'s seas and islands — trade routes, strategy, and two very different island groups.</p>
     <div class="card-grid" id="oceanGrid"></div>
   </div>
 </section>
@@ -593,7 +1193,7 @@ footer p{font-size:12.5px;color:var(--ink-soft);font-family:'JetBrains Mono';}
         <h2>Formation → properties → crops</h2>
       </div>
     </div>
-    <p class="section-sub">India's six major soil groups, each traced from parent rock/process to the crops it typically supports.</p>
+    <p class="section-sub">India\'s six major soil groups, each traced from parent rock/process to the crops it typically supports.</p>
     <div class="card-grid" id="soilGrid"></div>
   </div>
 </section>
@@ -815,6 +1415,15 @@ const passData = [
   {id:'nandadevi',cat:'peak',tag:'Peak · Uttarakhand',name:'Nanda Devi',rows:[['Elevation','7,817 m'],['Rank','India\'s highest peak located entirely within Indian territory (Kanchenjunga sits on the border)'],['Location','Kumaun Himalaya, Uttarakhand'],['Note','Gives its name to the Nanda Devi Biosphere Reserve, a UNESCO World Heritage Site.']]},
   {id:'kamet',cat:'peak',tag:'Peak · Uttarakhand',name:'Kamet',rows:[['Elevation','7,756 m'],['Location','Kumaun Himalaya, Uttarakhand, near the Tibet border']]},
   {id:'trisul',cat:'peak',tag:'Peak · Uttarakhand',name:'Trisul',rows:[['Elevation','~7,120–7,140 m'],['Location','Kumaun Himalaya, Uttarakhand, close to Nanda Devi']]},
+  {id:'palghat',cat:'pass',tag:'Pass · Kerala-Tamil Nadu',name:'Palghat / Palakkad Gap',rows:[['Elevation','~140 m above sea level'],['Connects','Palakkad (Kerala) with Coimbatore (Tamil Nadu) through the Western Ghats'],['Note','A major geographic discontinuity (break) in the Western Ghats between the Nilgiri Hills to the north and the Anamalai Hills to the south. Serves as a primary conduit for the Southwest Monsoon into interior Tamil Nadu and the main road/rail freight corridor between Kerala and Chennai.']]},
+  {id:'thalghat',cat:'pass',tag:'Pass · Maharashtra',name:'Thal Ghat (Kasara Ghat)',rows:[['Elevation','~585 m'],['Connects','Mumbai with Nashik, Dhule and northern India across the Western Ghats'],['Note','Carries National Highway 3 (Mumbai–Agra) and the Central Railway line. Noted for its steep gradient and railway reversal reversing-stations.']]},
+  {id:'bhorghat',cat:'pass',tag:'Pass · Maharashtra',name:'Bhor Ghat (Khandala Ghat)',rows:[['Elevation','~390 m'],['Connects','Mumbai/Konkan coast with Pune and the Deccan Plateau'],['Note','Carries National Highway 48 and the Mumbai–Pune Expressway. Historically connected ancient coastal ports like Kalyan and Chaul to inland Buddhist caves (Karla, Bhaja) and markets on the plateau.']]},
+  {id:'shencottah',cat:'pass',tag:'Pass · Kerala-Tamil Nadu',name:'Shencottah Gap',rows:[['Elevation','~160 m'],['Connects','Kollam (Kerala) with Madurai and Tenkasi (Tamil Nadu) across the southern Western Ghats'],['Note','Located south of the Cardamom Hills and north of the Agasthyamalai Hills; carries ancient spice trade route and the Kollam–Sengottai railway line.']]},
+  {id:'selapass',cat:'pass',tag:'Pass · Arunachal Pradesh',name:'Sela Pass &amp; Sela Tunnel',rows:[['Elevation','~4,170 m (~13,700 ft)'],['Connects','Tawang district with West Kameng and Guwahati in Arunachal Pradesh'],['Note','Border Roads Organisation constructed the Sela Tunnel (opened March 2024), the world\'s longest bi-lane tunnel at an altitude above 13,000 ft, guaranteeing all-weather military and civilian connectivity to the strategic Tawang frontier.']]},
+  {id:'doddabetta',cat:'peak',tag:'Peak · Tamil Nadu',name:'Doddabetta Peak',rows:[['Elevation','2,637 m'],['Rank','Highest mountain in the Nilgiri Hills; second-highest peak in South India after Anamudi'],['Location','Near Udhagamandalam (Ooty), Tamil Nadu'],['Note','Located at the junction of the Western Ghats and Eastern Ghats; surrounded by reserved shola forests.']]},
+  {id:'jindhagada',cat:'peak',tag:'Peak · Andhra Pradesh',name:'Arma Konda / Jindhagada Peak',rows:[['Elevation','1,690 m'],['Rank','Highest peak of the Eastern Ghats and the highest point in Andhra Pradesh'],['Location','Araku Valley, Visakhapatnam district, Andhra Pradesh'],['Note','Coffee plantations and bauxite deposits characterise the surrounding plateau. Surpasses Mahendragiri (1,501 m) in Odisha.']]},
+  {id:'dhupgarh',cat:'peak',tag:'Peak · Madhya Pradesh',name:'Mount Dhupgarh',rows:[['Elevation','1,350 m'],['Rank','Highest peak of the Satpura Range and the highest point in Madhya Pradesh'],['Location','Pachmarhi biosphere reserve, Hoshangabad district, MP'],['Note','Famous for sunset viewpoints over the rugged sandstone escarpments of the Mahadeo Hills.']]},
+  {id:'saddlepeak',cat:'peak',tag:'Peak · Andaman & Nicobar',name:'Saddle Peak',rows:[['Elevation','732 m'],['Rank','Highest point in the entire Andaman & Nicobar archipelago'],['Location','North Andaman Island, surrounded by Saddle Peak National Park'],['Note','Hosts unique insular rainforest vegetation and feeds the Kalpong River, the only river in the Andaman islands with a hydroelectric project.']]},
   {id:'guruShikhar',cat:'peak',tag:'Peak · Rajasthan',name:'Guru Shikhar',rows:[['Elevation','~1,722 m'],['Rank','Highest point of the Aravalli Range — India\'s oldest fold mountain system'],['Location','Mount Abu, Rajasthan']]},
   {id:'anaimudi',cat:'peak',tag:'Peak · Kerala',name:'Anaimudi',rows:[['Elevation','~2,695 m'],['Rank','Highest peak in the Western Ghats and in Peninsular/South India'],['Location','Anamalai Hills, Kerala']]},
   {id:'kudremukh',cat:'peak',tag:'Peak · Karnataka',name:'Kudremukh &amp; Baba Budan Hills',rows:[['Elevation','Kudremukh ~1,892 m'],['Location','Karnataka stretch of the Western Ghats'],['Note','Also the name of Kudremukh National Park, a Western Ghats biodiversity site.']]},
@@ -926,6 +1535,40 @@ const riverData = [
    states:'Maharashtra, Karnataka, Telangana, Andhra Pradesh.',
    dams:'Nagarjuna Sagar, Srisailam, Almatti.',
    note:'Krishna–Godavari (KG) basin offshore is also a major natural gas producing region.'},
+  {id:'kaveri',name:'Kaveri (Cauvery)',type:'Peninsular',chain:['Talakaveri, Brahmagiri Range (Karnataka)','Shivanasamudra Falls (island waterfall)','Hogenakkal Falls → Enters Tamil Nadu','Mettur Dam (Stanley Reservoir)','Tiruchirappalli → Thanjavur delta → Bay of Bengal (Poompuhar)'],
+   sourceCoords:{lat:12.3833,lon:75.4833,label:'Talakaveri, Brahmagiri Hills (source)'},mouthCoords:{lat:11.1333,lon:79.85,label:'Poompuhar delta, Bay of Bengal (mouth)'},
+   stats:'Length: ~805 km. Basin area: ~81,155 km² (Karnataka ~41%, Tamil Nadu ~56%, Kerala & Puducherry ~3%).',
+   detail:'Celebrated as the "Ganga of the South" (Ponni in Tamil). Unique among Peninsular rivers because its upper basin receives South-West Monsoon rains (June–Sept) and its lower basin receives North-East Monsoon rains (Oct–Dec), maintaining relatively steady flow year-round.',
+   tributaries:'Left Bank: Harangi, Hemavati, Shimsha, Arkavathi. Right Bank: Lakshmantirtha, Kabini, Suvarnavathi, Bhavani, Noyyal, Amaravati.',
+   states:'Karnataka, Tamil Nadu, Kerala, Puducherry.',
+   dams:'Krishna Raja Sagara (KRS), Mettur Dam, Gorur Dam (Hemavati), Kabini Dam.',
+   current:'The Cauvery Water Management Authority (CWMA) and the Mekedatu balancing reservoir dispute between Karnataka and Tamil Nadu are frequent current-affairs examination themes.',
+   note:'Its fertile delta in Thanjavur is celebrated as the "Garden of Southern India" or "Granary of South India".'},
+  {id:'mahanadi',name:'Mahanadi',type:'Peninsular',chain:['Sihawa foothills, Dhamtari (Chhattisgarh)','Flows across fertile Chhattisgarh plain (Rice Bowl)','Enters Odisha near Sambalpur','Hirakud Dam (longest earthen dam)','Cuttack delta → Bay of Bengal (False Point)'],
+   sourceCoords:{lat:20.35,lon:81.97,label:'Sihawa, Dhamtari (source)'},mouthCoords:{lat:20.3,lon:86.7,label:'False Point delta, Bay of Bengal (mouth)'},
+   stats:'Length: ~851 km. Basin area: ~141,600 km² across Chhattisgarh (53%) and Odisha (46%).',
+   detail:'Drains the mineral- and forest-rich Chota Nagpur and Dandakaranya peripheries. Historically known for severe recurrent flooding, now comprehensively regulated by Hirakud Reservoir.',
+   tributaries:'Left Bank: Seonath (longest tributary), Hasdeo, Mand, Ib. Right Bank: Ong, Tel, Jonk.',
+   states:'Chhattisgarh, Odisha, Jharkhand, Maharashtra (minor catchment).',
+   dams:'Hirakud Dam (one of India\'s first post-independence multi-purpose projects, 25.8 km total length), Gangrel Dam (Ravishankar Sagar).',
+   note:'Forms a joint delta with Brahmani and Baitarani rivers at Kendrapara and Paradip port.'},
+  {id:'tapi',name:'Tapi (Tapti)',type:'Peninsular',chain:['Multai, Betul district, Satpura Range (MP)','Flows westward in rift valley between Satpura and Ajanta/Satpmala','Drains Khandesh plain of Maharashtra','Surat city → Gulf of Khambhat (Arabian Sea)'],
+   sourceCoords:{lat:21.78,lon:78.25,label:'Multai, Betul district, MP (source)'},mouthCoords:{lat:21.05,lon:72.68,label:'Dumas, Surat, Gulf of Khambhat (mouth)'},
+   stats:'Length: ~724 km. Basin area: ~65,145 km² (Maharashtra 79%, MP 15%, Gujarat 6%).',
+   detail:'The twin and counterpart of the Narmada. One of the few rivers flowing west into the Arabian Sea through a tectonic rift valley south of the Satpura range, forming an estuary instead of a delta.',
+   tributaries:'Chief tributary: Purna (left bank). Others: Girna, Panjhra, Bori, Vaghur, Aner.',
+   states:'Madhya Pradesh, Maharashtra, Gujarat.',
+   dams:'Ukai Dam (Vallabh Sagar, 2nd largest reservoir in Gujarat), Kakrapar Weir.',
+   note:'The historical port of Surat at its mouth was India\'s premier international maritime trading gateway during the Mughal era.'},
+  {id:'yamuna',name:'Yamuna',type:'Himalayan',chain:['Yamunotri Glacier, Bandarpunch Peak (Uttarakhand)','Enters plains near Tajewala/Hathnikund (Haryana)','Flows past Delhi, Mathura, Agra','Receives Chambal, Betwa, Ken from Peninsular Plateau','Prayagraj (Triveni Sangam confluence with Ganga)'],
+   sourceCoords:{lat:31.02,lon:78.45,label:'Yamunotri Glacier, Uttarkashi (source)'},mouthCoords:{lat:25.43,lon:81.88,label:'Triveni Sangam, Prayagraj (mouth)'},
+   stats:'Length: ~1,376 km — India\'s longest and largest tributary river. Basin area: ~366,223 km² (~40.2% of Ganga basin).',
+   detail:'Originates in the Mussoorie range of the Lower Himalayas. Drains both the Himalayan south face and vast tracts of the northern Peninsular plateau through its right-bank tributaries.',
+   tributaries:'Himalayan (Left): Tons (largest tributary, carries more water than Yamuna at confluence), Giri, Asan, Hindon. Peninsular (Right): Chambal, Sind, Betwa, Ken.',
+   states:'Uttarakhand, Himachal Pradesh, Haryana, Delhi, Uttar Pradesh.',
+   dams:'Hathnikund Barrage, Lakhwar Dam (under construction), Kota Barrage (on Chambal), Matatila Dam (on Betwa).',
+   current:'Ken-Betwa River Interlinking Project (KBRP): India\'s pioneer river interlinking project under the National Perspective Plan, transferring surplus water from Ken to water-deficit Betwa basin in Bundelkhand.',
+   note:'The Yamuna-Ganga Doab is one of the most agriculturally productive and densely settled alluvial tracts on Earth.'},
   {id:'narmada',name:'Narmada',type:'Peninsular',chain:['Amarkantak Plateau (Madhya Pradesh)','Flows west through a rift valley','Between the Vindhya and Satpura ranges','Forms Gujarat border stretch','Gulf of Khambhat (Arabian Sea)'],
    sourceCoords:{lat:22.6725,lon:81.755,label:'Amarkantak Plateau (source)'},mouthCoords:{lat:21.65,lon:72.6167,label:'Gulf of Khambhat, Arabian Sea (mouth)'},
    stats:'Length: ~1,312 km — the longest west-flowing river in India.',
@@ -1072,6 +1715,29 @@ const mppData = [
   {id:'nagarjunasagar',tag:'Krishna · Telangana-Andhra Pradesh',name:'Nagarjuna Sagar Project',
    rows:[['River & location','Built across the Krishna river, on the Telangana–Andhra Pradesh border.'],
      ['Purposes','One of the world\'s largest masonry dams at the time of construction; supplies irrigation and hydroelectric power to both states, and remains central to their ongoing Krishna water-sharing discussions.']]},
+  {id:'sardarsarovar',tag:'Narmada · Gujarat-MP-Maharashtra',name:'Sardar Sarovar Project',
+   rows:[['River & location','Built across the Narmada river near Kevadia (Ekta Nagar), Gujarat.'],
+     ['Dimensions','A 138.68 m high concrete gravity dam with a 1,210 m crest length. Its reservoir (Sardar Sarovar) stretches over 214 km into Madhya Pradesh.'],
+     ['Purposes','Multi-state project providing drinking water and irrigation to water-stressed Saurashtra, Kutch, and southern Rajasthan via the 458 km Narmada Main Canal (world\'s largest lined irrigation canal); 1,450 MW power split between MP (57%), Maharashtra (27%), and Gujarat (16%). Hosts the Statue of Unity.']]},
+  {id:'tehri',tag:'Bhagirathi · Uttarakhand',name:'Tehri Dam Project',
+   rows:[['River & location','Built across the Bhagirathi river at New Tehri, Garhwal Himalaya, Uttarakhand.'],
+     ['Dimensions','At 260.5 m (855 ft), it is the highest dam in India and the 5th-highest dam in the world. An earth and rock-fill embankment dam with Swami Ramtirth Sagar reservoir.'],
+     ['Purposes','2,400 MW installed capacity (hydro + pumped storage), irrigation for 2.7 lakh hectares, and municipal drinking water supply for Delhi, UP and Uttarakhand. Subject of major seismic safety debate due to location in Central Himalayan Seismic Gap (Zone V).']]},
+  {id:'rihand',tag:'Rihand · Uttar Pradesh-MP',name:'Rihand Dam (Govind Ballabh Pant Sagar)',
+   rows:[['River & location','Built across the Rihand River (a Son tributary) at Pipri in Sonbhadra district, Uttar Pradesh.'],
+     ['Reservoir','Govind Ballabh Pant Sagar is the largest artificial reservoir in India by surface area and water volume (~10.6 billion m³).'],
+     ['Significance','Powers heavy core industries in the Singrauli industrial belt (Hindalco aluminium smelter at Renukoot, chemical plants, thermal power stations) earning the region the nickname "Energy Capital of India."']]},
+  {id:'idukki',tag:'Periyar · Kerala',name:'Idukki Hydroelectric Project',
+   rows:[['River & location','Constructed across the gorge of the Periyar River between the Kuravan and Kurathi hills in Kerala.'],
+     ['Engineering feat','A 168.9 m high double-curvature thin arch dam — Asia\'s first and one of the world\'s highest arch dams, built with Canadian technical assistance.'],
+     ['Purposes','A 780 MW underground powerhouse at Moolamattom generating roughly a third of Kerala\'s total domestic electricity supply.']]},
+  {id:'polavaram',tag:'Godavari · Andhra Pradesh',name:'Polavaram National Irrigation Project',
+   rows:[['River & location','Built across the Godavari river in West Godavari district, Andhra Pradesh.'],
+     ['National project status','Conferred National Project status under the Andhra Pradesh Reorganisation Act (2014); features a massive 50 m high earth-cum-rockfill dam with 48 radial spillway gates.'],
+     ['Purposes','Irrigation for 7.2 lakh acres, 960 MW hydropower, inter-basin water transfer of 80 TMC from Godavari to Krishna basin via Right Main Canal, and industrial water supply to Visakhapatnam port city.']]},
+  {id:'kosi',tag:'Kosi · Bihar-Nepal',name:'Kosi Multi-purpose Project',
+   rows:[['River & location','Built across the transboundary Kosi river (Saptakoshi) at Bhimnagar on the Indo-Nepal border.'],
+     ['Purpose','Constructed under a joint Indo-Nepal agreement primarily to control devastating annual avulsion floods (the river shifted westwards by >120 km over 250 years, earning the name "Sorrow of Bihar"); features the 1,150 m long Kosi Barrage and extensive flood embankments.']]},
   {id:'tungabhadra',tag:'Tungabhadra · Karnataka-Andhra Pradesh',name:'Tungabhadra Project',
    rows:[['River & location','Built across the Tungabhadra river, a Krishna tributary, on the Karnataka–Andhra Pradesh border.'],
      ['Purposes','Joint-state irrigation and hydroelectric project, an early example of inter-state river cooperation in Peninsular India.']]},
@@ -1184,7 +1850,7 @@ const bioData = [
      ['Current relevance','Tiger reserve expansion, corridor connectivity, and periodic tiger census results remain an active current-affairs theme — verify the latest count from the National Tiger Conservation Authority before an exam.']]},
   {id:'ramsar',tag:'International',name:'Ramsar Wetlands',blurb:'India has one of the largest national lists of internationally recognised wetlands in the world.',
    rows:[['What it means','A Ramsar designation recognises a wetland\'s international importance for conservation, particularly for migratory waterbirds, under the 1971 Ramsar Convention (India signed on 1 February 1982).'],
-     ['Current count','101 Ramsar sites as of August 2026 (up from just 26 before 2014) — Tamil Nadu leads with 20 sites, followed by Uttar Pradesh. India ranks 3rd globally in Ramsar site count, after the UK and Mexico, and 1st in Asia. Sundarban Wetland (West Bengal) is the largest at over 4,230 km²; several of the smallest are under 1 km². This count changes every few months, so verify the latest figure from MoEFCC before an exam.'],
+     ['Current count','85 Ramsar sites as of 2024 (covering over 13.58 lakh hectares) — Tamil Nadu leads with 18 sites, followed by Uttar Pradesh with 10 sites. Recent additions include Magadi Kere, Ankasamudra, Aghanashini (Karnataka), Karaivetti and Longwood Shola (Tamil Nadu), followed by Uttar Pradesh. India ranks 3rd globally in Ramsar site count, after the UK and Mexico, and 1st in Asia. Sundarban Wetland (West Bengal) is the largest at over 4,230 km²; several of the smallest are under 1 km². This count changes every few months, so verify the latest figure from MoEFCC before an exam.'],
      ['Why it matters for UPSC','New Ramsar site additions are announced frequently and are a recurring current-affairs → static-geography Prelims link — recent additions have given Chhattisgarh, Sikkim and Jharkhand their first-ever Ramsar sites.']]},
   {id:'coral',tag:'Marine',name:'Coral Reefs',blurb:'Concentrated in four main zones around India\'s coastline and islands.',
    rows:[['Where','Gulf of Mannar and Gulf of Kutch (mainland coastal reefs), Lakshadweep (coral atolls), and reefs around the Andaman & Nicobar Islands.'],
@@ -1265,7 +1931,7 @@ const pyqData = [
   {exam:'UPSC',stage:'Mains',year:2023,paper:'Geography Optional Paper I',url:'https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GEOGRAPHY-PAPER-I-29092023.pdf'},
   {exam:'UPSC',stage:'Mains',year:2023,paper:'Geography Optional Paper II',url:'https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GEOGRAPHY-PAPER-II-29092023.pdf'},
   // UPPSC — official archive doesn't expose stable direct-year PDF links the way upsc.gov.in does;
-  // point straight to the commission's own paper archive rather than guess at a URL.
+  // point straight to the commission\'s own paper archive rather than guess at a URL.
   {exam:'UPPSC',stage:'Prelims',year:null,paper:'Official UPPSC question paper archive (all years)',url:'https://uppsc.up.nic.in/'},
   {exam:'UPPSC',stage:'Mains',year:null,paper:'Official UPPSC question paper archive (all years)',url:'https://uppsc.up.nic.in/'},
 ];
@@ -2061,6 +2727,311 @@ const modeRow = document.getElementById('mapModeRow');
     b.classList.add('on');
     if(m==='test') nextTestTarget();
     renderMapPractice();
+
+
+/* ===================== THEME TOGGLE (NIGHT ATLAS) ===================== */
+function initTheme() {
+  const btn = document.getElementById('geoThemeBtn');
+  const icon = document.getElementById('geoThemeIcon');
+  const saved = localStorage.getItem('bharat_atlas_theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  if (saved === 'dark' || (!saved && prefersDark)) {
+    document.body.classList.add('dark-theme');
+    if (icon) icon.textContent = '☀️';
+  }
+
+  if (btn) {
+    btn.addEventListener('click', () => {
+      const isDark = document.body.classList.toggle('dark-theme');
+      if (icon) icon.textContent = isDark ? '☀️' : '🌙';
+      try { localStorage.setItem('bharat_atlas_theme', isDark ? 'dark' : 'light'); } catch(e){}
+    });
+  }
+}
+initTheme();
+
+/* ===================== MOBILE DRAWER & BOTTOM NAV ===================== */
+function initMobileNav() {
+  const menuBtn = document.getElementById('mobileMenuBtn');
+  const mbnMenuBtn = document.getElementById('mbnMenuBtn');
+  const drawer = document.getElementById('mobileDrawer');
+  const backdrop = document.getElementById('drawerBackdrop');
+  const closeBtn = document.getElementById('drawerCloseBtn');
+
+  function openDrawer() {
+    drawer.classList.add('open');
+    backdrop.classList.add('open');
+  }
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    backdrop.classList.remove('open');
+  }
+
+  if (menuBtn) menuBtn.addEventListener('click', openDrawer);
+  if (mbnMenuBtn) mbnMenuBtn.addEventListener('click', openDrawer);
+  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+  if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+  drawer?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
+}
+initMobileNav();
+
+/* ===================== SEARCH SPOTLIGHT (Ctrl+K) ===================== */
+function initSearch() {
+  const modal = document.getElementById('searchModal');
+  const input = document.getElementById('searchInput');
+  const resultsBox = document.getElementById('searchResults');
+  const triggerBtn = document.getElementById('searchTriggerBtn');
+  const drawerSearchBtn = document.getElementById('drawerSearchBtn');
+  const mbnSearchBtn = document.getElementById('mbnSearchBtn');
+
+  // Build unified search index
+  const searchIndex = [];
+  window.searchIndex = searchIndex;
+
+  // 1. Flow stations
+  flowData.forEach(n => {
+    searchIndex.push({
+      title: n.t, tag: 'Master Flow', sub: n.def,
+      targetId: 'flow', clickFn: () => showFlowNode(n.id)
+    });
+  });
+
+  // 2. Passes & Peaks
+  passData.forEach(p => {
+    searchIndex.push({
+      title: p.name, tag: p.tag, sub: p.rows.map(r=>r[1]).join(' · ').slice(0, 90),
+      targetId: 'passes', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="pp-${p.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 3. Rivers
+  riverData.forEach(r => {
+    searchIndex.push({
+      title: `${r.name} River`, tag: `${r.type} River System`, sub: `Tributaries: ${r.tributaries} · ${r.detail.slice(0, 80)}`,
+      targetId: 'rivers', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="riv-${r.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 4. Soils
+  soilData.forEach(s => {
+    searchIndex.push({
+      title: s.name, tag: 'Soil Group', sub: `${s.cov} · ${s.props.slice(0, 80)}`,
+      targetId: 'soils', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="soil-${s.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 5. Multi-purpose projects
+  mppData.forEach(m => {
+    searchIndex.push({
+      title: m.name, tag: 'Dam / Multi-Purpose Project', sub: m.rows.map(r=>r[1]).join(' · ').slice(0, 85),
+      targetId: 'resources', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="mpp-${m.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 6. Minerals & Energy
+  resData.forEach(r => {
+    searchIndex.push({
+      title: r.name, tag: r.tag, sub: r.blurb,
+      targetId: 'resources', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="res-${r.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 7. Disasters
+  disasterData.forEach(d => {
+    searchIndex.push({
+      title: d.name, tag: d.tag || 'Disaster Zone', sub: d.blurb || '',
+      targetId: 'disasters', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="dis-${d.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 8. Biodiversity
+  bioData.forEach(b => {
+    searchIndex.push({
+      title: b.name, tag: b.tag || 'Biodiversity', sub: b.blurb || '',
+      targetId: 'biodiversity', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="bio-${b.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 9. UPSC PYQ Papers
+  pyqData.forEach((p, idx) => {
+    searchIndex.push({
+      title: `${p.exam} ${p.stage} ${p.year} · ${p.paper}`, tag: 'Official Question Paper', sub: 'Direct link to official commission question paper archive PDF',
+      targetId: 'pyq', clickFn: () => {
+        const pyqSection = document.getElementById('pyq');
+        if (pyqSection) pyqSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  // 10. Quiz Questions
+  if (typeof quizData !== 'undefined') {
+    quizData.forEach((q, idx) => {
+      searchIndex.push({
+        title: `Quiz Q${idx+1}: ${(q.q || '').slice(0, 50)}...`, tag: 'Atlas Quiz Question', sub: q.why ? q.why.slice(0, 90) : (q.q || ''),
+        targetId: 'quiz', clickFn: () => {
+          const quizSection = document.getElementById('quiz');
+          if (quizSection) quizSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  }
+
+  function openSearch() {
+    modal.classList.add('open');
+    input.value = '';
+    renderSearchResults('');
+    setTimeout(() => input.focus(), 50);
+  }
+
+  function closeSearch() {
+    modal.classList.remove('open');
+  }
+
+  function renderSearchResults(query) {
+    const q = query.trim().toLowerCase();
+    if (!q) {
+      resultsBox.innerHTML = `<div style="padding:16px;text-align:center;color:var(--ink-soft);font-size:13px;">Type to search 150+ passes, rivers, dams, soils, minerals, and PYQs...</div>`;
+      return;
+    }
+
+    const matches = searchIndex.filter(item =>
+      ((item.title || '').toLowerCase().includes(q)) ||
+      ((item.tag || '').toLowerCase().includes(q)) ||
+      ((item.sub || '').toLowerCase().includes(q))
+    ).slice(0, 12);
+
+    if (matches.length === 0) {
+      resultsBox.innerHTML = `<div style="padding:16px;text-align:center;color:var(--ink-soft);font-size:13px;">No results matching "<strong>${query}</strong>"</div>`;
+      return;
+    }
+
+    resultsBox.innerHTML = matches.map((m, i) => `
+      <div class="search-item ${i===0?'selected':''}" data-idx="${i}">
+        <div class="search-item-top">
+          <span class="search-item-title">${m.title}</span>
+          <span class="search-item-tag mono">${m.tag}</span>
+        </div>
+        <div class="search-item-sub">${m.sub}</div>
+      </div>
+    `).join('');
+
+    resultsBox.querySelectorAll('.search-item').forEach((el, idx) => {
+      el.addEventListener('click', () => {
+        const match = matches[idx];
+        closeSearch();
+        const targetEl = document.getElementById(match.targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        if (match.clickFn) {
+          setTimeout(match.clickFn, 300);
+        }
+      });
+    });
+  }
+
+  input.addEventListener('input', (e) => renderSearchResults(e.target.value));
+
+  triggerBtn?.addEventListener('click', openSearch);
+  drawerSearchBtn?.addEventListener('click', () => {
+    document.getElementById('mobileDrawer').classList.remove('open');
+    document.getElementById('drawerBackdrop').classList.remove('open');
+    openSearch();
+  });
+  mbnSearchBtn?.addEventListener('click', openSearch);
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeSearch();
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      if (modal.classList.contains('open')) closeSearch();
+      else openSearch();
+    } else if (e.key === 'Escape' && modal.classList.contains('open')) {
+      closeSearch();
+    }
+  });
+}
+initSearch();
+
+/* ===================== INTERACTIVE SVG MAP LAB ===================== */
+function initInteractiveMap() {
+  const tooltip = document.getElementById('mapSvgTooltip');
+  const layerBtns = document.querySelectorAll('#svgMapLayers .layer-btn');
+  
+  layerBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('on');
+      const layer = btn.getAttribute('data-layer');
+      const layerGroup = document.getElementById('layer' + layer.charAt(0).toUpperCase() + layer.slice(1));
+      if (layerGroup) {
+        layerGroup.style.display = btn.classList.contains('on') ? 'block' : 'none';
+      }
+    });
+  });
+
+  document.querySelectorAll('.map-feature').forEach(el => {
+    el.addEventListener('mouseenter', (e) => {
+      const title = el.getAttribute('data-title');
+      const desc = el.getAttribute('data-desc');
+      if (!title || !tooltip) return;
+      tooltip.innerHTML = `<strong>${title}</strong><div style="margin-top:3px;color:var(--ink-soft);">${desc}</div>`;
+      tooltip.style.opacity = '1';
+    });
+
+    el.addEventListener('mousemove', (e) => {
+      if (!tooltip) return;
+      const rect = tooltip.parentElement.getBoundingClientRect();
+      const x = e.clientX - rect.left + 15;
+      const y = e.clientY - rect.top + 15;
+      tooltip.style.left = `${Math.min(x, rect.width - 250)}px`;
+      tooltip.style.top = `${y}px`;
+    });
+
+    el.addEventListener('mouseleave', () => {
+      if (tooltip) tooltip.style.opacity = '0';
+    });
+
+    el.addEventListener('click', () => {
+      const title = el.getAttribute('data-title').toLowerCase();
+      // Auto-scroll to rivers if river, passes if pass
+      if (title.includes('river')) {
+        document.getElementById('rivers')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (title.includes('pass') || title.includes('peak')) {
+        document.getElementById('passes')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (title.includes('biosphere') || title.includes('reserve')) {
+        document.getElementById('biodiversity')?.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+}
+initInteractiveMap();
+
   });
   modeRow.appendChild(b);
 });
@@ -2138,12 +3109,622 @@ function renderMapPractice(){
           if(correctEl) correctEl.setAttribute('fill','var(--forest)');
         }
         document.getElementById('mapScoreBox').textContent = `Score: ${mapScore} / ${mapAnswered}`;
-        setTimeout(()=>{ nextTestTarget(); renderMapPractice(); }, 900);
+        setTimeout(()=>{ nextTestTarget(); renderMapPractice();
+
+
+/* ===================== THEME TOGGLE (NIGHT ATLAS) ===================== */
+function initTheme() {
+  const btn = document.getElementById('geoThemeBtn');
+  const icon = document.getElementById('geoThemeIcon');
+  const saved = localStorage.getItem('bharat_atlas_theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  if (saved === 'dark' || (!saved && prefersDark)) {
+    document.body.classList.add('dark-theme');
+    if (icon) icon.textContent = '☀️';
+  }
+
+  if (btn) {
+    btn.addEventListener('click', () => {
+      const isDark = document.body.classList.toggle('dark-theme');
+      if (icon) icon.textContent = isDark ? '☀️' : '🌙';
+      try { localStorage.setItem('bharat_atlas_theme', isDark ? 'dark' : 'light'); } catch(e){}
+    });
+  }
+}
+initTheme();
+
+/* ===================== MOBILE DRAWER & BOTTOM NAV ===================== */
+function initMobileNav() {
+  const menuBtn = document.getElementById('mobileMenuBtn');
+  const mbnMenuBtn = document.getElementById('mbnMenuBtn');
+  const drawer = document.getElementById('mobileDrawer');
+  const backdrop = document.getElementById('drawerBackdrop');
+  const closeBtn = document.getElementById('drawerCloseBtn');
+
+  function openDrawer() {
+    drawer.classList.add('open');
+    backdrop.classList.add('open');
+  }
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    backdrop.classList.remove('open');
+  }
+
+  if (menuBtn) menuBtn.addEventListener('click', openDrawer);
+  if (mbnMenuBtn) mbnMenuBtn.addEventListener('click', openDrawer);
+  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+  if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+  drawer?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
+}
+initMobileNav();
+
+/* ===================== SEARCH SPOTLIGHT (Ctrl+K) ===================== */
+function initSearch() {
+  const modal = document.getElementById('searchModal');
+  const input = document.getElementById('searchInput');
+  const resultsBox = document.getElementById('searchResults');
+  const triggerBtn = document.getElementById('searchTriggerBtn');
+  const drawerSearchBtn = document.getElementById('drawerSearchBtn');
+  const mbnSearchBtn = document.getElementById('mbnSearchBtn');
+
+  // Build unified search index
+  const searchIndex = [];
+  window.searchIndex = searchIndex;
+
+  // 1. Flow stations
+  flowData.forEach(n => {
+    searchIndex.push({
+      title: n.t, tag: 'Master Flow', sub: n.def,
+      targetId: 'flow', clickFn: () => showFlowNode(n.id)
+    });
+  });
+
+  // 2. Passes & Peaks
+  passData.forEach(p => {
+    searchIndex.push({
+      title: p.name, tag: p.tag, sub: p.rows.map(r=>r[1]).join(' · ').slice(0, 90),
+      targetId: 'passes', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="pp-${p.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 3. Rivers
+  riverData.forEach(r => {
+    searchIndex.push({
+      title: `${r.name} River`, tag: `${r.type} River System`, sub: `Tributaries: ${r.tributaries} · ${r.detail.slice(0, 80)}`,
+      targetId: 'rivers', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="riv-${r.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 4. Soils
+  soilData.forEach(s => {
+    searchIndex.push({
+      title: s.name, tag: 'Soil Group', sub: `${s.cov} · ${s.props.slice(0, 80)}`,
+      targetId: 'soils', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="soil-${s.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 5. Multi-purpose projects
+  mppData.forEach(m => {
+    searchIndex.push({
+      title: m.name, tag: 'Dam / Multi-Purpose Project', sub: m.rows.map(r=>r[1]).join(' · ').slice(0, 85),
+      targetId: 'resources', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="mpp-${m.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 6. Minerals & Energy
+  resData.forEach(r => {
+    searchIndex.push({
+      title: r.name, tag: r.tag, sub: r.blurb,
+      targetId: 'resources', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="res-${r.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 7. Disasters
+  disasterData.forEach(d => {
+    searchIndex.push({
+      title: d.name, tag: d.tag || 'Disaster Zone', sub: d.blurb || '',
+      targetId: 'disasters', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="dis-${d.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 8. Biodiversity
+  bioData.forEach(b => {
+    searchIndex.push({
+      title: b.name, tag: b.tag || 'Biodiversity', sub: b.blurb || '',
+      targetId: 'biodiversity', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="bio-${b.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 9. UPSC PYQ Papers
+  pyqData.forEach((p, idx) => {
+    searchIndex.push({
+      title: `${p.exam} ${p.stage} ${p.year} · ${p.paper}`, tag: 'Official Question Paper', sub: 'Direct link to official commission question paper archive PDF',
+      targetId: 'pyq', clickFn: () => {
+        const pyqSection = document.getElementById('pyq');
+        if (pyqSection) pyqSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  // 10. Quiz Questions
+  if (typeof quizData !== 'undefined') {
+    quizData.forEach((q, idx) => {
+      searchIndex.push({
+        title: `Quiz Q${idx+1}: ${(q.q || '').slice(0, 50)}...`, tag: 'Atlas Quiz Question', sub: q.why ? q.why.slice(0, 90) : (q.q || ''),
+        targetId: 'quiz', clickFn: () => {
+          const quizSection = document.getElementById('quiz');
+          if (quizSection) quizSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  }
+
+  function openSearch() {
+    modal.classList.add('open');
+    input.value = '';
+    renderSearchResults('');
+    setTimeout(() => input.focus(), 50);
+  }
+
+  function closeSearch() {
+    modal.classList.remove('open');
+  }
+
+  function renderSearchResults(query) {
+    const q = query.trim().toLowerCase();
+    if (!q) {
+      resultsBox.innerHTML = `<div style="padding:16px;text-align:center;color:var(--ink-soft);font-size:13px;">Type to search 150+ passes, rivers, dams, soils, minerals, and PYQs...</div>`;
+      return;
+    }
+
+    const matches = searchIndex.filter(item =>
+      ((item.title || '').toLowerCase().includes(q)) ||
+      ((item.tag || '').toLowerCase().includes(q)) ||
+      ((item.sub || '').toLowerCase().includes(q))
+    ).slice(0, 12);
+
+    if (matches.length === 0) {
+      resultsBox.innerHTML = `<div style="padding:16px;text-align:center;color:var(--ink-soft);font-size:13px;">No results matching "<strong>${query}</strong>"</div>`;
+      return;
+    }
+
+    resultsBox.innerHTML = matches.map((m, i) => `
+      <div class="search-item ${i===0?'selected':''}" data-idx="${i}">
+        <div class="search-item-top">
+          <span class="search-item-title">${m.title}</span>
+          <span class="search-item-tag mono">${m.tag}</span>
+        </div>
+        <div class="search-item-sub">${m.sub}</div>
+      </div>
+    `).join('');
+
+    resultsBox.querySelectorAll('.search-item').forEach((el, idx) => {
+      el.addEventListener('click', () => {
+        const match = matches[idx];
+        closeSearch();
+        const targetEl = document.getElementById(match.targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        if (match.clickFn) {
+          setTimeout(match.clickFn, 300);
+        }
+      });
+    });
+  }
+
+  input.addEventListener('input', (e) => renderSearchResults(e.target.value));
+
+  triggerBtn?.addEventListener('click', openSearch);
+  drawerSearchBtn?.addEventListener('click', () => {
+    document.getElementById('mobileDrawer').classList.remove('open');
+    document.getElementById('drawerBackdrop').classList.remove('open');
+    openSearch();
+  });
+  mbnSearchBtn?.addEventListener('click', openSearch);
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeSearch();
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      if (modal.classList.contains('open')) closeSearch();
+      else openSearch();
+    } else if (e.key === 'Escape' && modal.classList.contains('open')) {
+      closeSearch();
+    }
+  });
+}
+initSearch();
+
+/* ===================== INTERACTIVE SVG MAP LAB ===================== */
+function initInteractiveMap() {
+  const tooltip = document.getElementById('mapSvgTooltip');
+  const layerBtns = document.querySelectorAll('#svgMapLayers .layer-btn');
+  
+  layerBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('on');
+      const layer = btn.getAttribute('data-layer');
+      const layerGroup = document.getElementById('layer' + layer.charAt(0).toUpperCase() + layer.slice(1));
+      if (layerGroup) {
+        layerGroup.style.display = btn.classList.contains('on') ? 'block' : 'none';
+      }
+    });
+  });
+
+  document.querySelectorAll('.map-feature').forEach(el => {
+    el.addEventListener('mouseenter', (e) => {
+      const title = el.getAttribute('data-title');
+      const desc = el.getAttribute('data-desc');
+      if (!title || !tooltip) return;
+      tooltip.innerHTML = `<strong>${title}</strong><div style="margin-top:3px;color:var(--ink-soft);">${desc}</div>`;
+      tooltip.style.opacity = '1';
+    });
+
+    el.addEventListener('mousemove', (e) => {
+      if (!tooltip) return;
+      const rect = tooltip.parentElement.getBoundingClientRect();
+      const x = e.clientX - rect.left + 15;
+      const y = e.clientY - rect.top + 15;
+      tooltip.style.left = `${Math.min(x, rect.width - 250)}px`;
+      tooltip.style.top = `${y}px`;
+    });
+
+    el.addEventListener('mouseleave', () => {
+      if (tooltip) tooltip.style.opacity = '0';
+    });
+
+    el.addEventListener('click', () => {
+      const title = el.getAttribute('data-title').toLowerCase();
+      // Auto-scroll to rivers if river, passes if pass
+      if (title.includes('river')) {
+        document.getElementById('rivers')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (title.includes('pass') || title.includes('peak')) {
+        document.getElementById('passes')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (title.includes('biosphere') || title.includes('reserve')) {
+        document.getElementById('biodiversity')?.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+}
+initInteractiveMap();
+ }, 900);
       });
     });
   }
 }
 renderMapPractice();
+
+
+/* ===================== THEME TOGGLE (NIGHT ATLAS) ===================== */
+function initTheme() {
+  const btn = document.getElementById('geoThemeBtn');
+  const icon = document.getElementById('geoThemeIcon');
+  const saved = localStorage.getItem('bharat_atlas_theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  if (saved === 'dark' || (!saved && prefersDark)) {
+    document.body.classList.add('dark-theme');
+    if (icon) icon.textContent = '☀️';
+  }
+
+  if (btn) {
+    btn.addEventListener('click', () => {
+      const isDark = document.body.classList.toggle('dark-theme');
+      if (icon) icon.textContent = isDark ? '☀️' : '🌙';
+      try { localStorage.setItem('bharat_atlas_theme', isDark ? 'dark' : 'light'); } catch(e){}
+    });
+  }
+}
+initTheme();
+
+/* ===================== MOBILE DRAWER & BOTTOM NAV ===================== */
+function initMobileNav() {
+  const menuBtn = document.getElementById('mobileMenuBtn');
+  const mbnMenuBtn = document.getElementById('mbnMenuBtn');
+  const drawer = document.getElementById('mobileDrawer');
+  const backdrop = document.getElementById('drawerBackdrop');
+  const closeBtn = document.getElementById('drawerCloseBtn');
+
+  function openDrawer() {
+    drawer.classList.add('open');
+    backdrop.classList.add('open');
+  }
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    backdrop.classList.remove('open');
+  }
+
+  if (menuBtn) menuBtn.addEventListener('click', openDrawer);
+  if (mbnMenuBtn) mbnMenuBtn.addEventListener('click', openDrawer);
+  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+  if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+  drawer?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
+}
+initMobileNav();
+
+/* ===================== SEARCH SPOTLIGHT (Ctrl+K) ===================== */
+function initSearch() {
+  const modal = document.getElementById('searchModal');
+  const input = document.getElementById('searchInput');
+  const resultsBox = document.getElementById('searchResults');
+  const triggerBtn = document.getElementById('searchTriggerBtn');
+  const drawerSearchBtn = document.getElementById('drawerSearchBtn');
+  const mbnSearchBtn = document.getElementById('mbnSearchBtn');
+
+  // Build unified search index
+  const searchIndex = [];
+  window.searchIndex = searchIndex;
+
+  // 1. Flow stations
+  flowData.forEach(n => {
+    searchIndex.push({
+      title: n.t, tag: 'Master Flow', sub: n.def,
+      targetId: 'flow', clickFn: () => showFlowNode(n.id)
+    });
+  });
+
+  // 2. Passes & Peaks
+  passData.forEach(p => {
+    searchIndex.push({
+      title: p.name, tag: p.tag, sub: p.rows.map(r=>r[1]).join(' · ').slice(0, 90),
+      targetId: 'passes', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="pp-${p.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 3. Rivers
+  riverData.forEach(r => {
+    searchIndex.push({
+      title: `${r.name} River`, tag: `${r.type} River System`, sub: `Tributaries: ${r.tributaries} · ${r.detail.slice(0, 80)}`,
+      targetId: 'rivers', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="riv-${r.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 4. Soils
+  soilData.forEach(s => {
+    searchIndex.push({
+      title: s.name, tag: 'Soil Group', sub: `${s.cov} · ${s.props.slice(0, 80)}`,
+      targetId: 'soils', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="soil-${s.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 5. Multi-purpose projects
+  mppData.forEach(m => {
+    searchIndex.push({
+      title: m.name, tag: 'Dam / Multi-Purpose Project', sub: m.rows.map(r=>r[1]).join(' · ').slice(0, 85),
+      targetId: 'resources', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="mpp-${m.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 6. Minerals & Energy
+  resData.forEach(r => {
+    searchIndex.push({
+      title: r.name, tag: r.tag, sub: r.blurb,
+      targetId: 'resources', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="res-${r.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 7. Disasters
+  disasterData.forEach(d => {
+    searchIndex.push({
+      title: d.name, tag: d.tag || 'Disaster Zone', sub: d.blurb || '',
+      targetId: 'disasters', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="dis-${d.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 8. Biodiversity
+  bioData.forEach(b => {
+    searchIndex.push({
+      title: b.name, tag: b.tag || 'Biodiversity', sub: b.blurb || '',
+      targetId: 'biodiversity', clickFn: () => {
+        const card = document.querySelector(`.geo-card[data-id="bio-${b.id}"]`);
+        if (card) card.click();
+      }
+    });
+  });
+
+  // 9. UPSC PYQ Papers
+  pyqData.forEach((p, idx) => {
+    searchIndex.push({
+      title: `${p.exam} ${p.stage} ${p.year} · ${p.paper}`, tag: 'Official Question Paper', sub: 'Direct link to official commission question paper archive PDF',
+      targetId: 'pyq', clickFn: () => {
+        const pyqSection = document.getElementById('pyq');
+        if (pyqSection) pyqSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  // 10. Quiz Questions
+  if (typeof quizData !== 'undefined') {
+    quizData.forEach((q, idx) => {
+      searchIndex.push({
+        title: `Quiz Q${idx+1}: ${(q.q || '').slice(0, 50)}...`, tag: 'Atlas Quiz Question', sub: q.why ? q.why.slice(0, 90) : (q.q || ''),
+        targetId: 'quiz', clickFn: () => {
+          const quizSection = document.getElementById('quiz');
+          if (quizSection) quizSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  }
+
+  function openSearch() {
+    modal.classList.add('open');
+    input.value = '';
+    renderSearchResults('');
+    setTimeout(() => input.focus(), 50);
+  }
+
+  function closeSearch() {
+    modal.classList.remove('open');
+  }
+
+  function renderSearchResults(query) {
+    const q = query.trim().toLowerCase();
+    if (!q) {
+      resultsBox.innerHTML = `<div style="padding:16px;text-align:center;color:var(--ink-soft);font-size:13px;">Type to search 150+ passes, rivers, dams, soils, minerals, and PYQs...</div>`;
+      return;
+    }
+
+    const matches = searchIndex.filter(item =>
+      ((item.title || '').toLowerCase().includes(q)) ||
+      ((item.tag || '').toLowerCase().includes(q)) ||
+      ((item.sub || '').toLowerCase().includes(q))
+    ).slice(0, 12);
+
+    if (matches.length === 0) {
+      resultsBox.innerHTML = `<div style="padding:16px;text-align:center;color:var(--ink-soft);font-size:13px;">No results matching "<strong>${query}</strong>"</div>`;
+      return;
+    }
+
+    resultsBox.innerHTML = matches.map((m, i) => `
+      <div class="search-item ${i===0?'selected':''}" data-idx="${i}">
+        <div class="search-item-top">
+          <span class="search-item-title">${m.title}</span>
+          <span class="search-item-tag mono">${m.tag}</span>
+        </div>
+        <div class="search-item-sub">${m.sub}</div>
+      </div>
+    `).join('');
+
+    resultsBox.querySelectorAll('.search-item').forEach((el, idx) => {
+      el.addEventListener('click', () => {
+        const match = matches[idx];
+        closeSearch();
+        const targetEl = document.getElementById(match.targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        if (match.clickFn) {
+          setTimeout(match.clickFn, 300);
+        }
+      });
+    });
+  }
+
+  input.addEventListener('input', (e) => renderSearchResults(e.target.value));
+
+  triggerBtn?.addEventListener('click', openSearch);
+  drawerSearchBtn?.addEventListener('click', () => {
+    document.getElementById('mobileDrawer').classList.remove('open');
+    document.getElementById('drawerBackdrop').classList.remove('open');
+    openSearch();
+  });
+  mbnSearchBtn?.addEventListener('click', openSearch);
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeSearch();
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      if (modal.classList.contains('open')) closeSearch();
+      else openSearch();
+    } else if (e.key === 'Escape' && modal.classList.contains('open')) {
+      closeSearch();
+    }
+  });
+}
+initSearch();
+
+/* ===================== INTERACTIVE SVG MAP LAB ===================== */
+function initInteractiveMap() {
+  const tooltip = document.getElementById('mapSvgTooltip');
+  const layerBtns = document.querySelectorAll('#svgMapLayers .layer-btn');
+  
+  layerBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('on');
+      const layer = btn.getAttribute('data-layer');
+      const layerGroup = document.getElementById('layer' + layer.charAt(0).toUpperCase() + layer.slice(1));
+      if (layerGroup) {
+        layerGroup.style.display = btn.classList.contains('on') ? 'block' : 'none';
+      }
+    });
+  });
+
+  document.querySelectorAll('.map-feature').forEach(el => {
+    el.addEventListener('mouseenter', (e) => {
+      const title = el.getAttribute('data-title');
+      const desc = el.getAttribute('data-desc');
+      if (!title || !tooltip) return;
+      tooltip.innerHTML = `<strong>${title}</strong><div style="margin-top:3px;color:var(--ink-soft);">${desc}</div>`;
+      tooltip.style.opacity = '1';
+    });
+
+    el.addEventListener('mousemove', (e) => {
+      if (!tooltip) return;
+      const rect = tooltip.parentElement.getBoundingClientRect();
+      const x = e.clientX - rect.left + 15;
+      const y = e.clientY - rect.top + 15;
+      tooltip.style.left = `${Math.min(x, rect.width - 250)}px`;
+      tooltip.style.top = `${y}px`;
+    });
+
+    el.addEventListener('mouseleave', () => {
+      if (tooltip) tooltip.style.opacity = '0';
+    });
+
+    el.addEventListener('click', () => {
+      const title = el.getAttribute('data-title').toLowerCase();
+      // Auto-scroll to rivers if river, passes if pass
+      if (title.includes('river')) {
+        document.getElementById('rivers')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (title.includes('pass') || title.includes('peak')) {
+        document.getElementById('passes')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (title.includes('biosphere') || title.includes('reserve')) {
+        document.getElementById('biodiversity')?.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+}
+initInteractiveMap();
+
 
 /* ===================== SOURCES ===================== */
 document.getElementById('sourceGrid').innerHTML = sourceData.map(s=>`
