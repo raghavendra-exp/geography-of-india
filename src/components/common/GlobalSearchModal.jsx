@@ -1,0 +1,278 @@
+import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { 
+  Search, 
+  X, 
+  MapPin, 
+  Waves, 
+  Mountain, 
+  Compass, 
+  HelpCircle, 
+  Layers, 
+  Flame,
+  ArrowRight
+} from 'lucide-react';
+
+export default function GlobalSearchModal({ 
+  isOpen, 
+  onClose, 
+  onNavigateItem,
+  datasets = {} 
+}) {
+  const [query, setQuery] = useState('');
+  const [filter, setFilter] = useState('all');
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    if (isOpen) {
+      setTimeout(() => inputRef.current?.focus(), 50);
+    } else {
+      setQuery('');
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        if (isOpen) onClose();
+        else onNavigateItem?.({ type: 'open_search' });
+      }
+      if (e.key === 'Escape' && isOpen) {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose, onNavigateItem]);
+
+  // Unified searchable index
+  const searchResults = useMemo(() => {
+    if (!query.trim()) return [];
+    const q = query.toLowerCase().trim();
+
+    const results = [];
+
+    // 1. Passes & Peaks
+    if (filter === 'all' || filter === 'locations') {
+      const passes = datasets.passesPeaks || [];
+      passes.forEach(p => {
+        if (
+          p.name.toLowerCase().includes(q) ||
+          (p.hindi && p.hindi.includes(q)) ||
+          p.range?.toLowerCase().includes(q) ||
+          p.state?.toLowerCase().includes(q) ||
+          p.connects?.toLowerCase().includes(q)
+        ) {
+          results.push({
+            id: p.id,
+            category: p.type === 'pass' ? 'Mountain Pass' : 'Mountain Peak',
+            title: p.name,
+            subtitle: `${p.range} • ${p.state} • ${p.elevationM}m`,
+            detail: p.connects || p.importance,
+            type: 'map_item',
+            targetTab: 'maplab',
+            raw: p
+          });
+        }
+      });
+    }
+
+    // 2. Rivers
+    if (filter === 'all' || filter === 'rivers') {
+      const rivers = datasets.rivers || [];
+      rivers.forEach(r => {
+        const matchLeft = (r.leftBankTributaries || []).some(t => t.toLowerCase().includes(q));
+        const matchRight = (r.rightBankTributaries || []).some(t => t.toLowerCase().includes(q));
+        if (
+          r.name.toLowerCase().includes(q) ||
+          (r.hindi && r.hindi.includes(q)) ||
+          r.system?.toLowerCase().includes(q) ||
+          matchLeft ||
+          matchRight
+        ) {
+          results.push({
+            id: r.id,
+            category: 'River System',
+            title: `${r.name} (${r.system} System)`,
+            subtitle: `${r.flowDirection} • Length: ${r.lengthKm} km • Basin: ${r.basinAreaSqKm?.toLocaleString()} km²`,
+            detail: `Left: ${(r.leftBankTributaries || []).slice(0, 3).join(', ')} | Right: ${(r.rightBankTributaries || []).slice(0, 3).join(', ')}`,
+            type: 'river_item',
+            targetTab: 'rivers',
+            raw: r
+          });
+        }
+      });
+    }
+
+    // 3. Dams & Projects
+    if (filter === 'all' || filter === 'dams') {
+      const dams = datasets.projects || [];
+      dams.forEach(d => {
+        if (
+          d.name.toLowerCase().includes(q) ||
+          d.river?.toLowerCase().includes(q) ||
+          d.state?.toLowerCase().includes(q)
+        ) {
+          results.push({
+            id: d.id,
+            category: 'Multi-Purpose Dam',
+            title: d.name,
+            subtitle: `River: ${d.river} • State: ${d.state}`,
+            detail: d.purpose || d.significance,
+            type: 'project_item',
+            targetTab: 'rivers',
+            raw: d
+          });
+        }
+      });
+    }
+
+    // 4. Questions
+    if (filter === 'all' || filter === 'questions') {
+      const qs = datasets.questions || [];
+      let qMatches = 0;
+      for (const item of qs) {
+        if (qMatches > 15) break; // cap question matches
+        if (
+          item.question.toLowerCase().includes(q) ||
+          item.topic?.toLowerCase().includes(q) ||
+          item.explanation?.toLowerCase().includes(q)
+        ) {
+          results.push({
+            id: item.id,
+            category: 'Practice Question',
+            title: item.question.slice(0, 100) + '...',
+            subtitle: `${item.topic} • ${item.difficulty} • ${item.examType}`,
+            detail: item.explanation?.slice(0, 120) + '...',
+            type: 'question_item',
+            targetTab: 'practice',
+            raw: item
+          });
+          qMatches++;
+        }
+      }
+    }
+
+    return results.slice(0, 30);
+  }, [query, filter, datasets]);
+
+  if (!isOpen) return null;
+
+  return (
+    <div 
+      className="fixed inset-0 z-50 flex items-start justify-center pt-16 px-4 bg-black/70 backdrop-blur-sm animate-fade-in"
+      onClick={onClose}
+    >
+      <div 
+        className="w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden border transition-all
+          bg-[#efe9d8] text-sepia-900 border-sepia-400
+          dark:bg-[#0c1017] dark:text-slate-100 dark:border-slate-700"
+        onClick={e => e.stopPropagation()}
+      >
+        {/* Top Input Bar */}
+        <div className="flex items-center px-4 py-3 border-b border-sepia-300 dark:border-slate-800">
+          <Search className="w-5 h-5 text-sepia-500 dark:text-slate-400 mr-3 shrink-0" />
+          <input
+            ref={inputRef}
+            type="text"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            placeholder="Search passes, peaks, rivers, soils, dams, minerals, questions..."
+            className="w-full bg-transparent text-sm sm:text-base font-sans outline-none placeholder:text-sepia-400 dark:placeholder:text-slate-500"
+          />
+          {query && (
+            <button 
+              onClick={() => setQuery('')}
+              className="p-1 rounded text-sepia-500 hover:text-sepia-800 dark:text-slate-400 dark:hover:text-white mr-2"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          )}
+          <kbd className="px-2 py-0.5 text-[10px] font-mono bg-sepia-200 dark:bg-slate-800 rounded border border-sepia-300 dark:border-slate-700 text-sepia-700 dark:text-slate-300">
+            ESC
+          </kbd>
+        </div>
+
+        {/* Filter Pills */}
+        <div className="flex items-center space-x-2 px-4 py-2 border-b border-sepia-300/60 dark:border-slate-800/80 overflow-x-auto text-xs">
+          {[
+            { id: 'all', label: 'All Items' },
+            { id: 'locations', label: 'Passes & Peaks' },
+            { id: 'rivers', label: 'Rivers' },
+            { id: 'dams', label: 'Dams & Projects' },
+            { id: 'questions', label: 'MCQs' }
+          ].map(f => (
+            <button
+              key={f.id}
+              onClick={() => setFilter(f.id)}
+              className={`px-2.5 py-1 rounded-full whitespace-nowrap font-medium transition-colors ${
+                filter === f.id
+                  ? 'bg-saffron-600 text-white shadow-xs'
+                  : 'bg-sepia-200/70 text-sepia-800 dark:bg-slate-800 dark:text-slate-300 hover:bg-sepia-300 dark:hover:bg-slate-700'
+              }`}
+            >
+              {f.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Results List */}
+        <div className="max-h-[60vh] overflow-y-auto p-2 space-y-1">
+          {query.trim() === '' ? (
+            <div className="py-12 text-center text-xs sm:text-sm text-sepia-600 dark:text-slate-400">
+              <Compass className="w-8 h-8 mx-auto mb-2 text-saffron-600 opacity-60" />
+              <p className="font-semibold">Search across all geographic layers of India</p>
+              <p className="text-[11px] mt-1 text-sepia-500 dark:text-slate-500">
+                Try typing: <span className="underline cursor-pointer" onClick={() => setQuery('Zoji La')}>"Zoji La"</span>, <span className="underline cursor-pointer" onClick={() => setQuery('Godavari')}>"Godavari"</span>, <span className="underline cursor-pointer" onClick={() => setQuery('Bhakra')}>"Bhakra"</span>, or <span className="underline cursor-pointer" onClick={() => setQuery('Monsoon')}>"Monsoon"</span>
+              </p>
+            </div>
+          ) : searchResults.length === 0 ? (
+            <div className="py-12 text-center text-sepia-600 dark:text-slate-400">
+              <p className="text-sm font-semibold">No geographic entities found for "{query}"</p>
+              <p className="text-xs mt-1">Try relaxing filters or searching by alternate spelling / river name.</p>
+            </div>
+          ) : (
+            searchResults.map(item => (
+              <div
+                key={`${item.category}-${item.id}`}
+                onClick={() => {
+                  onNavigateItem?.(item);
+                  onClose();
+                }}
+                className="p-3 rounded-xl cursor-pointer transition-colors border border-transparent
+                  hover:bg-white/80 hover:border-sepia-300/80
+                  dark:hover:bg-slate-900/90 dark:hover:border-slate-700 flex items-start justify-between group"
+              >
+                <div className="space-y-1 pr-2">
+                  <div className="flex items-center space-x-2">
+                    <span className="px-1.5 py-0.5 text-[9px] font-mono font-bold uppercase rounded bg-sepia-200 dark:bg-slate-800 text-sepia-800 dark:text-amber-300">
+                      {item.category}
+                    </span>
+                    <h4 className="text-sm font-bold text-sepia-900 dark:text-slate-100 group-hover:text-saffron-700 dark:group-hover:text-amber-300 transition-colors">
+                      {item.title}
+                    </h4>
+                  </div>
+                  <p className="text-xs text-sepia-700 dark:text-slate-400 font-medium">
+                    {item.subtitle}
+                  </p>
+                  {item.detail && (
+                    <p className="text-[11px] text-sepia-600/90 dark:text-slate-500 line-clamp-1">
+                      {item.detail}
+                    </p>
+                  )}
+                </div>
+                <ArrowRight className="w-4 h-4 text-sepia-400 dark:text-slate-600 group-hover:text-saffron-600 dark:group-hover:text-amber-300 group-hover:translate-x-0.5 transition-all shrink-0 mt-1" />
+              </div>
+            ))
+          )}
+        </div>
+
+        {/* Footer info */}
+        <div className="px-4 py-2 bg-sepia-200/50 dark:bg-slate-950/60 border-t border-sepia-300/60 dark:border-slate-800 text-[11px] text-sepia-600 dark:text-slate-500 flex items-center justify-between">
+          <span>Tip: Use ↑ ↓ arrows and Enter to jump directly</span>
+          <span>500 Questions + 100+ Geo-Entities Indexed</span>
+        </div>
+      </div>
+    </div>
+  );
+}

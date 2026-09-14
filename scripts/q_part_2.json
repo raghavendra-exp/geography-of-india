@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "geo_q_131",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Monsoon Mechanism",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Which of the following atmospheric jet streams is primarily responsible for steering winter temperate cyclones (Western Disturbances) into northwestern India?",
+    "questionHindi": "निम्नलिखित में से कौन सी वायुमंडलीय जेट स्ट्रीम उत्तर-पश्चिमी भारत में शीतकालीन शीतोष्ण चक्रवातों (पश्चिमी विक्षोभ) को लाने के लिए मुख्य रूप से जिम्मेदार है?",
+    "options": [
+      "Tropical Easterly Jet Stream",
+      "Subtropical Westerly Jet Stream",
+      "Somali Low-Level Jet",
+      "Polar Night Jet Stream"
+    ],
+    "optionsHindi": [
+      "उष्णकटिबंधीय पूर्वी जेट स्ट्रीम",
+      "उपोष्णकटिबंधीय पश्चिमी जेट स्ट्रीम",
+      "सोमाली निम्न-स्तरीय जेट",
+      "ध्रुवीय रात्रि जेट स्ट्रीम"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: It blows from west to east in the upper troposphere (~9–12 km altitude) south of the Himalayas in winter.",
+      "Hint 2: It steers depressions originating over the Mediterranean Sea across Iraq, Iran, and Pakistan.",
+      "Hint 3: In summer, it withdraws north of the Himalayas, allowing the monsoon to burst."
+    ],
+    "trapAlert": "Tropical Easterly Jet is a summer phenomenon associated with Tibetan heating; Subtropical Westerly Jet brings winter rains.",
+    "explanation": "The Subtropical Westerly Jet Stream bifurcates around the Tibetan plateau in winter; its southern branch flows along the southern edge of the Himalayas, steering Western Disturbances into northwest India.",
+    "explanationHindi": "उपोष्णकटिबंधीय पश्चिमी जेट स्ट्रीम (Subtropical Westerly Jet) भूमध्य सागर से आने वाले पश्चिमी विक्षोभों को शीतकाल में उत्तर-पश्चिम भारत में लाती है।"
+  },
+  {
+    "id": "geo_q_132",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Local Winds",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "In Bengal and Assam, the violent evening thunderstorms accompanied by torrential rains that occur in the pre-monsoon summer season are known as:",
+    "questionHindi": "बंगाल और असम में पूर्व-मानसून ग्रीष्म ऋतु में मूसलाधार बारिश के साथ आने वाले तीव्र सायंकालीन तूफानों को क्या कहा जाता है?",
+    "options": [
+      "Loo",
+      "Kalbaishakhi (Nor'westers)",
+      "Mango Showers",
+      "Cherry Blossom Showers"
+    ],
+    "optionsHindi": [
+      "लू",
+      "कालवैशाखी (नॉर्वेस्टर)",
+      "आम्र वर्षा (मैंगो शावर)",
+      "चेरी ब्लॉसम वर्षा"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: The name literally means 'Calamity of the month of Baisakh'.",
+      "Hint 2: Loo is a hot, dry, dusty wind in the northern plains.",
+      "Hint 3: In Assam, these storms are called 'Bardoli Chheerha'."
+    ],
+    "trapAlert": "Loo is hot and dry without rain; Kalbaishakhi brings sudden heavy rain beneficial to tea and jute.",
+    "explanation": "Kalbaishakhi (Nor'westers) are severe local convective storms in Bengal and Assam during April-May, highly beneficial for tea, jute, and early paddy crops.",
+    "explanationHindi": "बंगाल और असम में ग्रीष्म ऋतु के इन तीव्र तूफानों को कालवैशाखी (नॉर्वेस्टर) कहा जाता है, जो चाय और जूट के लिए लाभकारी होते हैं।"
+  },
+  {
+    "id": "geo_q_133",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Retreating Monsoon",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "The Coromandel Coast of Tamil Nadu receives the bulk of its annual rainfall during which of the following periods?",
+    "questionHindi": "तमिलनाडु के कोरोमंडल तट पर वार्षिक वर्षा का अधिकांश भाग निम्नलिखित में से किस अवधि में प्राप्त होता है?",
+    "options": [
+      "June to September (Southwest Monsoon)",
+      "October to December (Northeast / Retreating Monsoon)",
+      "January to February (Winter Western Disturbances)",
+      "March to May (Pre-monsoon Showers)"
+    ],
+    "optionsHindi": [
+      "जून से सितंबर (दक्षिण-पश्चिम मानसून)",
+      "अक्टूबर से दिसंबर (उत्तर-पूर्वी / लौटता मानसून)",
+      "जनवरी से फरवरी (शीतकालीन पश्चिमी विक्षोभ)",
+      "मार्च से मई (पूर्व-मानसून वर्षा)"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: Tamil Nadu lies in the rain-shadow of the Western Ghats during the Southwest Monsoon.",
+      "Hint 2: Winds reversing direction blow from northeast to southwest.",
+      "Hint 3: As these dry continental winds cross the Bay of Bengal, they pick up moisture and hit the Tamil Nadu coast."
+    ],
+    "trapAlert": "Unlike most of India which gets rain in June-Sept, Tamil Nadu's primary rainy season is Oct-Dec.",
+    "explanation": "Tamil Nadu remains largely dry in summer due to Western Ghats rain-shadow, but receives 50-60% of its annual rainfall from October to December via the Northeast (Retreating) Monsoon picking moisture over the Bay of Bengal.",
+    "explanationHindi": "कोरोमंडल तट अक्टूबर से दिसंबर के दौरान उत्तर-पूर्वी (लौटते हुए) मानसून से बंगाल की खाड़ी से नमी ग्रहण करके अपनी अधिकांश वर्षा प्राप्त करता है।"
+  },
+  {
+    "id": "geo_q_134",
+    "topic": "Climate & Monsoon",
+    "subtopic": "ENSO & IOD",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Hard",
+    "question": "With reference to the Indian Ocean Dipole (IOD), consider the following statements: 1. A positive IOD is characterized by warmer sea surface temperatures in the western Indian Ocean compared to the eastern Indian Ocean. 2. A positive IOD generally suppresses the Indian Southwest Monsoon. Which statement is correct?",
+    "questionHindi": "हिंद महासागर द्विध्रुव (IOD) के संदर्भ में निम्नलिखित कथनों पर विचार करें: 1. सकारात्मक IOD की विशेषता पूर्वी हिंद महासागर की तुलना में पश्चिमी हिंद महासागर में समुद्र की सतह का अधिक गर्म तापमान होना है। 2. एक सकारात्मक IOD आम तौर पर भारतीय दक्षिण-पश्चिम मानसून को कमजोर करता है। कौन सा कथन सही है?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "optionsHindi": [
+      "केवल 1",
+      "केवल 2",
+      "1 और 2 दोनों",
+      "न तो 1, न ही 2"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Statement 1 correctly describes the sea surface temperature gradient.",
+      "Hint 2: Warmer western Indian Ocean enhances evaporation and moisture supply to India.",
+      "Hint 3: Therefore, a positive IOD enhances the Southwest Monsoon, often neutralizing an El Niño event."
+    ],
+    "trapAlert": "Remember: Positive IOD = Good for Indian Monsoon; El Niño = Bad for Indian Monsoon.",
+    "explanation": "Statement 1 is correct. Statement 2 is incorrect because a Positive IOD enhances monsoon rainfall over India by increasing convection over the Arabian Sea and strengthening the monsoon flow.",
+    "explanationHindi": "कथन 1 सही है। सकारात्मक IOD भारतीय मानसून को मजबूत करता है (कमजोर नहीं), इसलिए कथन 2 गलत है।"
+  },
+  {
+    "id": "geo_q_135",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Somali Jet (Findlater Jet) in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में सोमाली जेट की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "Low-level cross-equatorial atmospheric jet that transports massive moisture from East Africa to the west coast of India.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "Low-level cross-equatorial atmospheric jet that transports massive moisture from East Africa to the west coast of India.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Somali Jet (Findlater Jet).",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: Low-level cross-equatorial atmospheric jet that tr..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Somali Jet (Findlater Jet): Low-level cross-equatorial atmospheric jet that transports massive moisture from East Africa to the west coast of India.",
+    "explanationHindi": "सोमाली जेट: Low-level cross-equatorial atmospheric jet that transports massive moisture from East Africa to the west coast of India."
+  },
+  {
+    "id": "geo_q_136",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Tibetan Heat Low in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में तिब्बती तापीय निम्न दाब की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "The high-altitude heating of the Tibetan Plateau in summer creates an elevated thermal anticyclone, driving the Tropical Easterly Jet.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "The high-altitude heating of the Tibetan Plateau in summer creates an elevated thermal anticyclone, driving the Tropical Easterly Jet.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Tibetan Heat Low.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: The high-altitude heating of the Tibetan Plateau i..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Tibetan Heat Low: The high-altitude heating of the Tibetan Plateau in summer creates an elevated thermal anticyclone, driving the Tropical Easterly Jet.",
+    "explanationHindi": "तिब्बती तापीय निम्न दाब: The high-altitude heating of the Tibetan Plateau in summer creates an elevated thermal anticyclone, driving the Tropical Easterly Jet."
+  },
+  {
+    "id": "geo_q_137",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Mawsynram Precipitation in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में मौसिनराम वर्षा की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "Funnel-shaped orientation of the Khasi, Garo, and Jaintia hills forces the Bay of Bengal branch into intense orographic uplift.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "Funnel-shaped orientation of the Khasi, Garo, and Jaintia hills forces the Bay of Bengal branch into intense orographic uplift.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Mawsynram Precipitation.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: Funnel-shaped orientation of the Khasi, Garo, and ..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Mawsynram Precipitation: Funnel-shaped orientation of the Khasi, Garo, and Jaintia hills forces the Bay of Bengal branch into intense orographic uplift.",
+    "explanationHindi": "मौसिनराम वर्षा: Funnel-shaped orientation of the Khasi, Garo, and Jaintia hills forces the Bay of Bengal branch into intense orographic uplift."
+  },
+  {
+    "id": "geo_q_138",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Monsoon Break in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में मानसून विच्छेद की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "Dry spells lasting 1–2 weeks when the monsoon trough shifts north close to the Himalayan foothills, causing floods in hills and drought in plains.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "Dry spells lasting 1–2 weeks when the monsoon trough shifts north close to the Himalayan foothills, causing floods in hills and drought in plains.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Monsoon Break.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: Dry spells lasting 1–2 weeks when the monsoon trou..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Monsoon Break: Dry spells lasting 1–2 weeks when the monsoon trough shifts north close to the Himalayan foothills, causing floods in hills and drought in plains.",
+    "explanationHindi": "मानसून विच्छेद: Dry spells lasting 1–2 weeks when the monsoon trough shifts north close to the Himalayan foothills, causing floods in hills and drought in plains."
+  },
+  {
+    "id": "geo_q_139",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of October Heat in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में अक्टूबर की गर्मी की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "High temperature and high humidity conditions under clear skies immediately following the withdrawal of the Southwest monsoon.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "High temperature and high humidity conditions under clear skies immediately following the withdrawal of the Southwest monsoon.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of October Heat.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: High temperature and high humidity conditions unde..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "October Heat: High temperature and high humidity conditions under clear skies immediately following the withdrawal of the Southwest monsoon.",
+    "explanationHindi": "अक्टूबर की गर्मी: High temperature and high humidity conditions under clear skies immediately following the withdrawal of the Southwest monsoon."
+  },
+  {
+    "id": "geo_q_140",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Mango Showers in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में आम्र वर्षा की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "Pre-monsoon showers in Kerala and coastal Karnataka that prevent early mango fruit drops and facilitate ripening.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "Pre-monsoon showers in Kerala and coastal Karnataka that prevent early mango fruit drops and facilitate ripening.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Mango Showers.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: Pre-monsoon showers in Kerala and coastal Karnatak..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Mango Showers: Pre-monsoon showers in Kerala and coastal Karnataka that prevent early mango fruit drops and facilitate ripening.",
+    "explanationHindi": "आम्र वर्षा: Pre-monsoon showers in Kerala and coastal Karnataka that prevent early mango fruit drops and facilitate ripening."
+  },
+  {
+    "id": "geo_q_141",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Cherry Blossom Showers in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में चेरी ब्लॉसम वर्षा की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "Pre-monsoon showers in Karnataka that stimulate early blooming of coffee flowers in Kodagu and Chikmagalur.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "Pre-monsoon showers in Karnataka that stimulate early blooming of coffee flowers in Kodagu and Chikmagalur.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Cherry Blossom Showers.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: Pre-monsoon showers in Karnataka that stimulate ea..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Cherry Blossom Showers: Pre-monsoon showers in Karnataka that stimulate early blooming of coffee flowers in Kodagu and Chikmagalur.",
+    "explanationHindi": "चेरी ब्लॉसम वर्षा: Pre-monsoon showers in Karnataka that stimulate early blooming of coffee flowers in Kodagu and Chikmagalur."
+  },
+  {
+    "id": "geo_q_142",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Köppen Cwg Climate in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में कोपेन Cwg जलवायु की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "Monsoon with dry winter and hot summer, characteristic of the Indo-Gangetic northern plains.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "Monsoon with dry winter and hot summer, characteristic of the Indo-Gangetic northern plains.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Köppen Cwg Climate.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: Monsoon with dry winter and hot summer, characteri..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Köppen Cwg Climate: Monsoon with dry winter and hot summer, characteristic of the Indo-Gangetic northern plains.",
+    "explanationHindi": "कोपेन Cwg जलवायु: Monsoon with dry winter and hot summer, characteristic of the Indo-Gangetic northern plains."
+  },
+  {
+    "id": "geo_q_143",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Köppen Amw Climate in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में कोपेन Amw जलवायु की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "Tropical monsoon climate with a short dry season, typical of the Malabar and Konkan coastal plains.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "Tropical monsoon climate with a short dry season, typical of the Malabar and Konkan coastal plains.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Köppen Amw Climate.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: Tropical monsoon climate with a short dry season, ..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Köppen Amw Climate: Tropical monsoon climate with a short dry season, typical of the Malabar and Konkan coastal plains.",
+    "explanationHindi": "कोपेन Amw जलवायु: Tropical monsoon climate with a short dry season, typical of the Malabar and Konkan coastal plains."
+  },
+  {
+    "id": "geo_q_144",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Atmospheric Dynamics",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following best describes the role of Mascarene High in Indian climatology?",
+    "questionHindi": "भारतीय जलवायु विज्ञान में मैस्करेन उच्च दाब की भूमिका का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा करता है?",
+    "options": [
+      "Semi-permanent subtropical high-pressure cell near Madagascar that acts as the Southern Hemisphere moisture pump for the Indian monsoon.",
+      "It causes severe frost during winter months across the Deccan.",
+      "It prevents cyclonic storms in the Bay of Bengal.",
+      "It is a localized sea breeze restricted strictly to Lakshadweep."
+    ],
+    "optionsHindi": [
+      "Semi-permanent subtropical high-pressure cell near Madagascar that acts as the Southern Hemisphere moisture pump for the Indian monsoon.",
+      "यह दक्कन में सर्दियों के महीनों के दौरान गंभीर पाले का कारण बनता है।",
+      "यह बंगाल की खाड़ी में चक्रवाती तूफानों को रोकता है।",
+      "यह पूरी तरह से लक्षद्वीप तक सीमित एक स्थानीय समुद्री हवा है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the key features of Mascarene High.",
+      "Hint 2: Think of monsoon circulation or regional weather.",
+      "Hint 3: Semi-permanent subtropical high-pressure cell near..."
+    ],
+    "trapAlert": "Identify the scientifically accurate atmospheric mechanism.",
+    "explanation": "Mascarene High: Semi-permanent subtropical high-pressure cell near Madagascar that acts as the Southern Hemisphere moisture pump for the Indian monsoon.",
+    "explanationHindi": "मैस्करेन उच्च दाब: Semi-permanent subtropical high-pressure cell near Madagascar that acts as the Southern Hemisphere moisture pump for the Indian monsoon."
+  },
+  {
+    "id": "geo_q_145",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 145: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 145: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_146",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 146: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 146: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_147",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 147: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 147: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_148",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 148: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 148: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_149",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 149: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 149: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_150",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 150: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 150: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_151",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 151: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 151: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_152",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 152: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 152: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_153",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 153: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 153: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_154",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 154: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 154: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_155",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 155: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 155: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_156",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 156: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 156: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_157",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 157: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 157: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_158",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 158: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 158: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_159",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 159: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 159: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_160",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 160: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 160: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_161",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 161: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 161: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_162",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 162: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 162: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_163",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 163: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 163: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_164",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 164: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 164: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_165",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 165: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 165: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_166",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 166: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 166: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_167",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 167: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 167: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_168",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 168: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 168: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_169",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 169: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 169: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_170",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 170: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 170: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_171",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 171: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 171: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_172",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 172: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 172: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_173",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 173: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 173: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_174",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 174: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 174: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_175",
+    "topic": "Climate & Monsoon",
+    "subtopic": "Rainfall Distribution",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 175: As one moves from Kolkata to Patna, Prayagraj, and Delhi along the Northern Plains, how does the average monsoon rainfall vary?",
+    "questionHindi": "प्रश्न 175: उत्तरी मैदानों में कोलकाता से पटना, प्रयागराज और दिल्ली की ओर जाने पर औसत मानसूनी वर्षा किस प्रकार परिवर्तित होती है?",
+    "options": [
+      "It steadily decreases from East to West",
+      "It steadily increases from East to West",
+      "It remains completely uniform throughout",
+      "It peaks at Delhi and is lowest at Kolkata"
+    ],
+    "optionsHindi": [
+      "यह पूर्व से पश्चिम की ओर लगातार घटती है",
+      "यह पूर्व से पश्चिम की ओर लगातार बढ़ती है",
+      "यह पूरे क्षेत्र में पूरी तरह से एक समान रहती है",
+      "यह दिल्ली में चरम पर होती है और कोलकाता में सबसे कम होती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: The Bay of Bengal branch enters from the east and moves westward.",
+      "Hint 2: Moisture content progressively depletes as the winds travel inland.",
+      "Hint 3: Kolkata receives ~150 cm, Patna ~100 cm, Prayagraj ~90 cm, Delhi ~60 cm."
+    ],
+    "trapAlert": "Monsoon rainfall in the Indo-Gangetic plain decreases from East to West and South to North.",
+    "explanation": "Rainfall decreases westward: Kolkata (~150 cm) -> Patna (~100 cm) -> Prayagraj (~90 cm) -> Delhi (~60 cm) as moisture sheds along the track.",
+    "explanationHindi": "बंगाल की खाड़ी की शाखा पूर्व से पश्चिम की ओर बढ़ते हुए नमी खोती जाती है, जिससे वर्षा पूर्व से पश्चिम की ओर घटती है।"
+  },
+  {
+    "id": "geo_q_176",
+    "topic": "Soils & Agriculture",
+    "subtopic": "ICAR Soil Classification",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Easy",
+    "question": "Which of the following soil orders/classes covers the largest percentage of India's total geographical area (~40%)?",
+    "questionHindi": "निम्नलिखित में से कौन सा मृदा वर्ग भारत के कुल भौगोलिक क्षेत्रफल के सबसे बड़े प्रतिशत (~40%) को आच्छादित करता है?",
+    "options": [
+      "Black Soil (Vertisols)",
+      "Alluvial Soil (Inceptisols/Entisols)",
+      "Red and Yellow Soil (Alfisols)",
+      "Laterite Soil (Oxisols)"
+    ],
+    "optionsHindi": [
+      "काली मृदा (वर्टिसोल्स)",
+      "जलोढ़ मृदा (इनसेप्टिसोल्स/एंटीसोल्स)",
+      "लाल और पीली मृदा (अल्फीसोल्स)",
+      "लैटेराइट मृदा (ऑक्सीसोल्स)"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: It is deposited by the major river systems of India.",
+      "Hint 2: It forms the vast Indo-Gangetic and Brahmaputra plains.",
+      "Hint 3: Red soil covers ~18.5%, Black soil ~15%, while this soil covers ~40%."
+    ],
+    "trapAlert": "Alluvial is 40%; Red is 18.5%; Black is 15%; Laterite is 4.3%.",
+    "explanation": "Alluvial soil covers approximately 40% (1.5 million sq km) of India's total land area, primarily in the Northern Plains and coastal deltas.",
+    "explanationHindi": "जलोढ़ मृदा भारत के कुल क्षेत्रफल के लगभग 40% भाग पर विस्तृत देश की सबसे प्रमुख मृदा है।"
+  },
+  {
+    "id": "geo_q_177",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Black Cotton Soil",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Black (Regur) soils of the Deccan Trap are known for their unique 'self-ploughing' characteristic primarily because:",
+    "questionHindi": "दक्कन ट्रैप की काली (रेगुर) मिट्टी अपने अनोखे 'स्व-जुताई' (Self-ploughing) के गुण के लिए जानी जाती है, मुख्य रूप से क्योंकि:",
+    "options": [
+      "They contain high proportions of sand enabling deep drainage",
+      "They develop wide, deep cracks upon drying due to high montmorillonite clay content",
+      "Earthworms constantly churn the upper soil horizons",
+      "They are deposited annually by river floodwaters"
+    ],
+    "optionsHindi": [
+      "उनमें बालू का उच्च अनुपात होता है जिससे जल निकासी आसान होती है",
+      "मोंटमोरिलोनाइट क्ले की उच्च मात्रा के कारण सूखने पर इनमें चौड़ी, गहरी दरारें विकसित हो जाती हैं",
+      "केंचुए ऊपरी मृदा परतों को लगातार उलटते रहते हैं",
+      "वे नदी की बाढ़ द्वारा प्रतिवर्ष जमा की जाती हैं"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: Regur soil swells enormously when wet and contracts when dry.",
+      "Hint 2: The cracks allow surface soil to fall into deep crevices, facilitating aeration.",
+      "Hint 3: It is formed from basaltic lava weathering."
+    ],
+    "trapAlert": "Self-ploughing is a physical shrinkage-swelling process, not biological earthworm action.",
+    "explanation": "Black soil has high montmorillonite clay content. When dry, it contracts severely, forming deep cracks. Loose topsoil falls into these cracks, naturally turning and aerating the soil ('self-ploughing').",
+    "explanationHindi": "काली मिट्टी में क्ले की अधिकता के कारण सूखने पर गहरी दरारें पड़ जाती हैं जिससे मृदा का स्वतः वायु-संचार होता है, जिसे 'स्व-जुताई' कहते हैं।"
+  },
+  {
+    "id": "geo_q_178",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Laterite Soil",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Hard",
+    "question": "Laterite soil, despite being formed in regions of heavy tropical rainfall, is generally infertile for food grain cultivation because:",
+    "questionHindi": "लैटेराइट मिट्टी भारी उष्णकटिबंधीय वर्षा वाले क्षेत्रों में बनने के बावजूद खाद्यान्न की खेती के लिए आम तौर पर अनुपजाऊ होती है, क्योंकि:",
+    "options": [
+      "Intense leaching washes away silica and soluble bases, leaving only insoluble iron and aluminium oxides",
+      "It is contaminated with excess volcanic sulfur",
+      "It lacks any parent mineral material",
+      "It remains perpetually frozen under alpine permafrost"
+    ],
+    "optionsHindi": [
+      "तीव्र निक्षालन (Leaching) सिलिका और घुलनशील लवणों को बहा ले जाता है, केवल अघुलनशील लौह और एल्युमिनियम ऑक्साइड शेष बचते हैं",
+      "यह अत्यधिक ज्वालामुखीय सल्फर से दूषित है",
+      "इसमें किसी मूल खनिज पदार्थ का अभाव होता है",
+      "यह अल्पाइन पर्माफ्रॉस्ट के तहत हमेशा जमी रहती है"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: High rainfall and high temperatures cause intense chemical weathering.",
+      "Hint 2: The process of desilication removes nutrients like lime, potash, and nitrogen.",
+      "Hint 3: It forms a hard brick-like crust (used as building stones) upon drying."
+    ],
+    "trapAlert": "High rainfall causes nutrient leaching (loss), not enrichment.",
+    "explanation": "Laterite soil forms under heavy seasonal rainfall where intense leaching (desilication) removes soluble silica, nitrogen, potash, and lime, leaving nutrient-poor iron and aluminium sesquioxides.",
+    "explanationHindi": "अत्यधिक वर्षा के कारण तीव्र निक्षालन (Leaching) से सिलिका और पोषक तत्व बह जाते हैं, जिससे लैटेराइट मिट्टी कृषि के लिए कम उपजाऊ रह जाती है।"
+  },
+  {
+    "id": "geo_q_179",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Red and Yellow Soil?",
+    "questionHindi": "लाल एवं पीली मृदा के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Formed from Archaean crystalline granites; red color is due to ferric iron diffusion; turns yellow when hydrated.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Formed from Archaean crystalline granites; red color is due to ferric iron diffusion; turns yellow when hydrated.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Red and Yellow Soil.",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Formed from Archaean crystalline granites; red col..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Red and Yellow Soil: Formed from Archaean crystalline granites; red color is due to ferric iron diffusion; turns yellow when hydrated.",
+    "explanationHindi": "लाल एवं पीली मृदा: Formed from Archaean crystalline granites; red color is due to ferric iron diffusion; turns yellow when hydrated."
+  },
+  {
+    "id": "geo_q_180",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Arid / Desert Soil?",
+    "questionHindi": "शुष्क / मरुस्थलीय मृदा के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Sandy texture, alkaline pH, high soluble salts and phosphate, severely deficient in nitrogen and humus.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Sandy texture, alkaline pH, high soluble salts and phosphate, severely deficient in nitrogen and humus.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Arid / Desert Soil.",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Sandy texture, alkaline pH, high soluble salts and..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Arid / Desert Soil: Sandy texture, alkaline pH, high soluble salts and phosphate, severely deficient in nitrogen and humus.",
+    "explanationHindi": "शुष्क / मरुस्थलीय मृदा: Sandy texture, alkaline pH, high soluble salts and phosphate, severely deficient in nitrogen and humus."
+  },
+  {
+    "id": "geo_q_181",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Saline and Alkaline Soil?",
+    "questionHindi": "लवणीय एवं क्षारीय मृदा के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Known locally as Reh, Kallar, Usar, Chopan; develops white crust due to capillary rise of salts under over-irrigation.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Known locally as Reh, Kallar, Usar, Chopan; develops white crust due to capillary rise of salts under over-irrigation.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Saline and Alkaline Soil.",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Known locally as Reh, Kallar, Usar, Chopan; develo..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Saline and Alkaline Soil: Known locally as Reh, Kallar, Usar, Chopan; develops white crust due to capillary rise of salts under over-irrigation.",
+    "explanationHindi": "लवणीय एवं क्षारीय मृदा: Known locally as Reh, Kallar, Usar, Chopan; develops white crust due to capillary rise of salts under over-irrigation."
+  },
+  {
+    "id": "geo_q_182",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Peaty Soil (Kari)?",
+    "questionHindi": "पीट एवं दलदली मृदा के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Found in Alappuzha/Kottayam (Kerala) and Sundarbans; contains up to 40-50% organic matter, highly acidic and waterlogged.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Found in Alappuzha/Kottayam (Kerala) and Sundarbans; contains up to 40-50% organic matter, highly acidic and waterlogged.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Peaty Soil (Kari).",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Found in Alappuzha/Kottayam (Kerala) and Sundarban..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Peaty Soil (Kari): Found in Alappuzha/Kottayam (Kerala) and Sundarbans; contains up to 40-50% organic matter, highly acidic and waterlogged.",
+    "explanationHindi": "पीट एवं दलदली मृदा: Found in Alappuzha/Kottayam (Kerala) and Sundarbans; contains up to 40-50% organic matter, highly acidic and waterlogged."
+  },
+  {
+    "id": "geo_q_183",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Kankar Formations?",
+    "questionHindi": "कंकड़ संरचनाएं के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Calcareous lime nodules found in older Bhangar alluvial soils, indicating secondary calcium carbonate accumulation.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Calcareous lime nodules found in older Bhangar alluvial soils, indicating secondary calcium carbonate accumulation.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Kankar Formations.",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Calcareous lime nodules found in older Bhangar all..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Kankar Formations: Calcareous lime nodules found in older Bhangar alluvial soils, indicating secondary calcium carbonate accumulation.",
+    "explanationHindi": "कंकड़ संरचनाएं: Calcareous lime nodules found in older Bhangar alluvial soils, indicating secondary calcium carbonate accumulation."
+  },
+  {
+    "id": "geo_q_184",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Soil Health Card Scheme?",
+    "questionHindi": "मृदा स्वास्थ्य कार्ड योजना के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Launched 2015 to test 12 parameters (N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, OC) to optimize fertilizer usage.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Launched 2015 to test 12 parameters (N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, OC) to optimize fertilizer usage.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Soil Health Card Scheme.",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Launched 2015 to test 12 parameters (N, P, K, S, Z..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Soil Health Card Scheme: Launched 2015 to test 12 parameters (N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, OC) to optimize fertilizer usage.",
+    "explanationHindi": "मृदा स्वास्थ्य कार्ड योजना: Launched 2015 to test 12 parameters (N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, OC) to optimize fertilizer usage."
+  },
+  {
+    "id": "geo_q_185",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Chambal Ravines (Badlands)?",
+    "questionHindi": "चंबल के बीहड़ के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Severe gully erosion caused by deforestation and loose alluvium in Chambal basin, forming deep ravines (Khad).",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Severe gully erosion caused by deforestation and loose alluvium in Chambal basin, forming deep ravines (Khad).",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Chambal Ravines (Badlands).",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Severe gully erosion caused by deforestation and l..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Chambal Ravines (Badlands): Severe gully erosion caused by deforestation and loose alluvium in Chambal basin, forming deep ravines (Khad).",
+    "explanationHindi": "चंबल के बीहड़: Severe gully erosion caused by deforestation and loose alluvium in Chambal basin, forming deep ravines (Khad)."
+  },
+  {
+    "id": "geo_q_186",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Green Revolution?",
+    "questionHindi": "हरित क्रांति के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Initiated in mid-1960s focusing on semi-dwarf HYV wheat (Lerma Rojo, Kalyan Sona) in irrigated Punjab, Haryana, Western UP.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Initiated in mid-1960s focusing on semi-dwarf HYV wheat (Lerma Rojo, Kalyan Sona) in irrigated Punjab, Haryana, Western UP.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Green Revolution.",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Initiated in mid-1960s focusing on semi-dwarf HYV ..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Green Revolution: Initiated in mid-1960s focusing on semi-dwarf HYV wheat (Lerma Rojo, Kalyan Sona) in irrigated Punjab, Haryana, Western UP.",
+    "explanationHindi": "हरित क्रांति: Initiated in mid-1960s focusing on semi-dwarf HYV wheat (Lerma Rojo, Kalyan Sona) in irrigated Punjab, Haryana, Western UP."
+  },
+  {
+    "id": "geo_q_187",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Millets (Shree Anna)?",
+    "questionHindi": "श्री अन्न (कदन्न) के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Nutri-cereals (Jowar, Bajra, Ragi) requiring low water, resilient to climate change, celebrated under UN IYM 2023.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Nutri-cereals (Jowar, Bajra, Ragi) requiring low water, resilient to climate change, celebrated under UN IYM 2023.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Millets (Shree Anna).",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Nutri-cereals (Jowar, Bajra, Ragi) requiring low w..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Millets (Shree Anna): Nutri-cereals (Jowar, Bajra, Ragi) requiring low water, resilient to climate change, celebrated under UN IYM 2023.",
+    "explanationHindi": "श्री अन्न (कदन्न): Nutri-cereals (Jowar, Bajra, Ragi) requiring low water, resilient to climate change, celebrated under UN IYM 2023."
+  },
+  {
+    "id": "geo_q_188",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Soil & Crop Agronomy",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is ACCURATE regarding Sugarcane Shift to South?",
+    "questionHindi": "गन्ना उद्योग का दक्षिण की ओर स्थानांतरण के संबंध में निम्नलिखित में से कौन सा कथन सटीक है?",
+    "options": [
+      "Sugarcane cultivation expanded in Maharashtra/Tamil Nadu due to maritime climate, longer crushing season, and higher sucrose content.",
+      "It is found exclusively in high-altitude permafrost zones of Ladakh.",
+      "It has the highest nitrogen content among all Indian soils naturally.",
+      "It is exclusively formed by coral reef decomposition."
+    ],
+    "optionsHindi": [
+      "Sugarcane cultivation expanded in Maharashtra/Tamil Nadu due to maritime climate, longer crushing season, and higher sucrose content.",
+      "यह विशेष रूप से लद्दाख के उच्च ऊंचाई वाले पर्माफ्रॉस्ट क्षेत्रों में पाई जाती है।",
+      "प्राकृतिक रूप से सभी भारतीय मिट्टियों में इसमें नाइट्रोजन की मात्रा सबसे अधिक होती है।",
+      "यह विशेष रूप से प्रवाल भित्ति के अपघटन द्वारा निर्मित होती है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the genesis and characteristics of Sugarcane Shift to South.",
+      "Hint 2: Review soil fertility, chemistry, or agricultural dynamics.",
+      "Hint 3: Sugarcane cultivation expanded in Maharashtra/Tami..."
+    ],
+    "trapAlert": "Review standard ICAR soil descriptions.",
+    "explanation": "Sugarcane Shift to South: Sugarcane cultivation expanded in Maharashtra/Tamil Nadu due to maritime climate, longer crushing season, and higher sucrose content.",
+    "explanationHindi": "गन्ना उद्योग का दक्षिण की ओर स्थानांतरण: Sugarcane cultivation expanded in Maharashtra/Tamil Nadu due to maritime climate, longer crushing season, and higher sucrose content."
+  },
+  {
+    "id": "geo_q_189",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 189: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 189: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_190",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 190: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 190: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_191",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 191: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 191: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_192",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 192: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 192: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_193",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 193: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 193: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_194",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 194: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 194: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_195",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 195: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 195: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_196",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 196: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 196: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_197",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 197: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 197: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_198",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 198: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 198: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_199",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 199: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 199: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_200",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 200: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 200: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_201",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 201: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 201: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_202",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 202: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 202: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_203",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 203: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 203: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_204",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 204: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 204: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_205",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 205: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 205: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_206",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 206: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 206: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_207",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 207: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 207: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_208",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 208: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 208: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_209",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 209: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 209: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_210",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 210: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 210: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_211",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 211: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 211: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_212",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 212: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 212: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_213",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 213: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 213: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_214",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 214: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 214: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_215",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 215: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 215: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_216",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 216: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 216: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_217",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 217: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 217: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_218",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 218: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 218: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_219",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 219: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 219: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_220",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 220: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 220: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_221",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 221: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 221: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_222",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 222: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 222: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_223",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 223: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 223: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_224",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 224: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 224: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_225",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 225: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 225: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_226",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 226: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 226: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_227",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 227: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 227: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_228",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 228: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 228: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_229",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 229: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 229: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_230",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 230: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 230: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_231",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 231: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 231: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_232",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 232: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 232: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_233",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 233: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 233: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_234",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 234: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 234: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_235",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 235: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 235: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_236",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 236: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 236: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_237",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 237: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 237: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_238",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 238: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 238: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_239",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 239: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 239: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_240",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 240: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 240: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_241",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 241: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 241: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_242",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 242: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 242: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_243",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 243: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 243: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_244",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 244: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 244: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_245",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 245: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 245: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_246",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 246: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 246: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_247",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 247: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 247: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_248",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 248: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 248: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_249",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 249: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 249: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  },
+  {
+    "id": "geo_q_250",
+    "topic": "Soils & Agriculture",
+    "subtopic": "Cropping Seasons & Crops",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 250: Which of the following is an authentic KHARIF crop sown with the onset of the Southwest Monsoon in India?",
+    "questionHindi": "प्रश्न 250: निम्नलिखित में से कौन सी भारत में दक्षिण-पश्चिम मानसून की शुरुआत के साथ बोई जाने वाली प्रामाणिक खरीफ फसल है?",
+    "options": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Mustard",
+      "Gram (Chickpea)"
+    ],
+    "optionsHindi": [
+      "चावल (धान)",
+      "गेहूं",
+      "सरसों",
+      "चना"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kharif crops are monsoon-sown crops (June-July) harvested in Autumn (Sept-Oct).",
+      "Hint 2: Wheat, mustard, and gram are winter Rabi crops.",
+      "Hint 3: Rice is the premier Kharif food grain."
+    ],
+    "trapAlert": "Wheat, Gram, Mustard are Rabi; Rice, Maize, Cotton, Jowar, Bajra are Kharif.",
+    "explanation": "Rice (paddy) is the primary Kharif crop requiring high temperatures (>25°C) and heavy monsoon rainfall (>100 cm).",
+    "explanationHindi": "चावल (धान) भारत की प्रमुख खरीफ फसल है जो मानसून के आगमन पर बोई जाती है।"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "industrialRegions": [
+    {
+      "region": "Mumbai-Pune Industrial Region",
+      "states": "Maharashtra",
+      "drivers": "Cotton textile origin, cheap hydel power from Western Ghats (Tata Hydro), Bombay High oil & petrochemicals, financial capital access, engineering, IT (Pune), and automobile hub."
+    },
+    {
+      "region": "Hugli Industrial Region",
+      "states": "West Bengal",
+      "drivers": "Jute textile belt along Hooghly river, early British capital, proximity to Raniganj coal and Damodar mineral hinterland, cheap labour from Bihar/Odisha, Kolkata port."
+    },
+    {
+      "region": "Bengaluru-Tamil Nadu Industrial Region",
+      "states": "Karnataka & Tamil Nadu",
+      "drivers": "Heavy public sector investment (HAL, BHEL, ISRO), Pykara & Mettur hydel power, cotton textiles (Coimbatore Manchester of South India), IT & electronics (Bengaluru), automobile and hardware cluster (Chennai)."
+    },
+    {
+      "region": "Gujarat Industrial Region",
+      "states": "Gujarat (Ahmedabad, Vadodara, Bharuch, Surat, Ankleshwar)",
+      "drivers": "Black soil cotton belt, petrochemicals and refineries (Kandla, Jamnagar, Dahej), chemical and pharmaceutical corridors, diamond cutting (Surat), port-led industrial growth."
+    },
+    {
+      "region": "Chota Nagpur Industrial Region",
+      "states": "Jharkhand, Odisha, West Bengal",
+      "drivers": "The Ruhr of India — co-location of Gondwana coal (Jharia, Bokaro), high-grade hematite iron ore (Singhbhum, Kendujhar), manganese, limestone, and water from DVC; heavy engineering and steel plants."
+    }
+  ],
+  "demographics2011": {
+    "totalPopulation": "1,210,854,977 (1.21 billion in 2011; surpassed 1.43 billion in 2023)",
+    "growthRateDecadal": "17.7% (2001–2011)",
+    "populationDensity": "382 persons per sq km (Bihar highest at 1,106; Arunachal lowest at 17)",
+    "overallSexRatio": "943 females per 1,000 males (Kerala highest at 1,084; Haryana lowest at 879)",
+    "childSexRatio06": "919 females per 1,000 males (declined from 927 in 2001, prompting Beti Bachao Beti Padhao)",
+    "literacyRate": "73.0% (Males: 80.9%, Females: 64.6%; Kerala highest at 94.0%, Bihar lowest at 61.8%)",
+    "urbanRuralSplit": "Rural: 68.84%, Urban: 31.16%"
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "earthquake",
+    "hazard": "Earthquakes & Seismic Zonation",
+    "hindi": "भूकंप एवं भूकंपीय क्षेत्रीकरण",
+    "vulnerabilityShare": "58.6% of India's landmass",
+    "physicalCause": "Ongoing continental collision between the Indian Plate and Eurasian Plate (~4–5 cm/yr), accumulating high strain energy along the Main Central Thrust (MCT), Main Boundary Thrust (MBT), and Himalayan Frontal Thrust (HFT).",
+    "seismicZones": [
+      {
+        "zone": "Zone V (Very Severe / Zone Factor 0.36)",
+        "regions": "Entire Northeast India, parts of Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Rann of Kutch (Gujarat), North Bihar (Darbhanga), Andaman & Nicobar Islands."
+      },
+      {
+        "zone": "Zone IV (Severe / Zone Factor 0.24)",
+        "regions": "Delhi-NCR, remaining Himalayan foothills, northern Punjab, Haryana, UP, parts of Gujarat, Sikkim, Maharashtra (Koyna region)."
+      },
+      {
+        "zone": "Zone III (Moderate / Zone Factor 0.16)",
+        "regions": "Most of the Gangetic plain, Western Ghats, Chennai, Kolkata, Mumbai, Lakshadweep."
+      },
+      {
+        "zone": "Zone II (Low / Zone Factor 0.10)",
+        "regions": "Stable Peninsular shield (parts of Rajasthan, MP, Karnataka, Odisha)."
+      }
+    ],
+    "landmarkEvents": "1950 Assam (M8.6), 1993 Latur (M6.2 — intraplate shield quake), 2001 Bhuj (M7.7), 2004 Indian Ocean / Sumatra-Andaman (M9.1), 2005 Kashmir (M7.6).",
+    "mitigation": "Strict enforcement of Bureau of Indian Standards seismic codes (IS 1893:2016); National Building Code; retrofitting lifelines; NDMA guidelines on seismic risk reduction."
+  },
+  {
+    "id": "riverflood",
+    "hazard": "Riverine Flooding",
+    "hindi": "नदीय बाढ़",
+    "vulnerabilityShare": "~40 million hectares (12% of total geographical area)",
+    "physicalCause": "High-intensity monsoon rainfall concentrated over 3–4 months; heavy siltation reducing riverbed discharge capacity; drainage congestion in flat plains; river meandering and avulsion.",
+    "hotspots": [
+      "Brahmaputra and Barak Basins (Assam Valley: annual flooding inundating up to 40% of Kaziranga NP)",
+      "North Bihar Plains (Kosi, Gandak, Bagmati, Kamla-Balan, Burhi Gandak)",
+      "Ganga Basin (Eastern UP, Bihar, Murshidabad & Malda in West Bengal)",
+      "Mahanadi, Brahmani, and Baitarani Delta in coastal Odisha",
+      "Tapi and Narmada lower reaches in Gujarat (Surat floods)"
+    ],
+    "landmarkEvents": "1978 & 1998 Ganga basin floods; 2008 Kosi embankment breach; 2018 Kerala mega flood; August 2025 Punjab Sutlej-Beas inundation.",
+    "mitigation": "Central Water Commission (CWC) telemetry flood forecasting network (over 330 stations); construction of multi-purpose reservoirs (Hirakud, DVC); wetland restoration and afforestation in upper catchments."
+  },
+  {
+    "id": "urbanflood",
+    "hazard": "Urban Flooding",
+    "hindi": "शहरी बाढ़",
+    "vulnerabilityShare": "All major Indian urban agglomerations",
+    "physicalCause": "High-intensity localized cloudburst rainfall exceeding municipal stormwater drainage capacity (often engineered for only 12–20 mm/hr); loss of natural lakes, tanks, and flood retention basins due to real estate encroachment; paved impermeable surfaces preventing infiltration.",
+    "hotspots": [
+      "Mumbai (Mithi River encroachment, July 2005 944 mm in 24h)",
+      "Chennai (Adyar & Cooum rivers, Chembarambakkam reservoir release, 2015 & 2023 Cyclone Michaung)",
+      "Bengaluru (loss of interconnected tank cascades / Kere systems, 2022)",
+      "Hyderabad (Musi river floodplain constriction)",
+      "Delhi (Yamuna floodplain encroachment, July 2023 highest recorded water level 208.66 m)"
+    ],
+    "mitigation": "National Urban Flooding Guidelines (NDMA); implementation of Sponge City concepts; reclaiming natural stormwater channels (Rajakaluves in Bengaluru); porous pavements; strict enforcement of National Green Tribunal (NGT) buffer zones around water bodies."
+  },
+  {
+    "id": "cyclone",
+    "hazard": "Tropical Cyclones & Storm Surges",
+    "hindi": "उष्णकटिबंधीय चक्रवात एवं तूफानी महोर्मि",
+    "vulnerabilityShare": "7,516 km coastline (especially east coast: 8% of geographical area)",
+    "physicalCause": "Warm sea surface temperatures (>26.5°C), low vertical wind shear, and Coriolis force over the Bay of Bengal and Arabian Sea during pre-monsoon (April-May) and post-monsoon (October-December) seasons.",
+    "basinComparison": "Bay of Bengal generates 4 times more cyclones than the Arabian Sea due to higher sea temperatures, enclosed basin geometry, and lower salinity. However, Arabian Sea cyclone frequency and intensity have shown a rising trend in recent decades due to rapid warming.",
+    "hotspots": [
+      "Coastal Odisha (Kendrapada, Jagatsinghpur, Balasore)",
+      "Andhra Pradesh (Nellore, Krishna, Visakhapatnam)",
+      "West Bengal (Sundarbans / South 24 Parganas)",
+      "Tamil Nadu (Nagapattinam, Cuddalore)",
+      "Gujarat (Kutch, Saurashtra on west coast)"
+    ],
+    "landmarkEvents": "1999 Odisha Super Cyclone (05B, 260 km/h winds, ~10,000 casualties); 2013 Phailin; 2014 Hudhud; 2019 Fani; 2020 Amphan; 2021 Tauktae; 2023 Biparjoy.",
+    "mitigation": "National Cyclone Risk Mitigation Project (NCRMP) with multi-purpose cyclone shelters; IMD Doppler Weather Radar (DWR) coastal network; coastal mangrove bio-shields; early warning dissemination via Common Alerting Protocol (CAP) and Sachet app."
+  },
+  {
+    "id": "landslide",
+    "hazard": "Landslides & Slope Failure",
+    "hindi": "भूस्खलन एवं ढलान विफलता",
+    "vulnerabilityShare": "12.6% of Indian landmass (~0.42 million sq km)",
+    "physicalCause": "Steep topographic gradients, geologically young and seismically shattered rock strata in the Himalayas; heavy monsoon rainfall saturating slope debris, increasing pore water pressure and inducing shear failure.",
+    "anthropogenicTriggers": "Unplanned hill road excavation, toe cutting, slope deforestation, blasting for hydropower tunnels, and overloading slopes with multi-storey concrete hotels.",
+    "hotspots": [
+      "Himalayan states: Uttarakhand (Rudraprayag, Chamoli, Pithoragarh), Himachal Pradesh (Shimla, Kinnaur, Kullu), Darjeeling-Sikkim, Arunachal Pradesh",
+      "Western Ghats: Wayanad and Idukki (Kerala, July 2024 Wayanad disaster ~400+ casualties), Nilgiris (Tamil Nadu), Mahabaleshwar (Maharashtra)"
+    ],
+    "mitigation": "Geological Survey of India (GSI) National Landslide Susceptibility Mapping (NLSM); slope bio-engineering using deep-rooted vetiver grass; wire-mesh netting and retaining walls; early warning rainfall-threshold monitoring."
+  },
+  {
+    "id": "glof",
+    "hazard": "Glacial Lake Outburst Floods (GLOFs)",
+    "hindi": "हिमनद झील प्रस्फोट बाढ़ (GLOF)",
+    "vulnerabilityShare": "High-altitude glaciated Himalayan valleys (>3,500 m)",
+    "physicalCause": "Accelerated retreat of Himalayan glaciers due to climate warming leaves behind massive terminal and lateral moraine-dammed glacial lakes. Loose moraines can breach suddenly due to ice/rock avalanches, seismic tremors, or intense precipitation, releasing millions of cubic meters of water downstream in minutes.",
+    "hotspots": [
+      "Sikkim: South Lhonak Lake (breached 4 October 2023, destroying Chungthang / Teesta-III dam)",
+      "Uttarakhand: Chorabari Lake (Kedarnath disaster 2013), Rishiganga / Chamoli disaster (February 2021)",
+      "Himachal Pradesh & Ladakh glaciated valleys"
+    ],
+    "mitigation": "ISRO/NRSC satellite monitoring of over 28,000 glacial lakes across the Himalayas; automated early warning sirens; controlled siphoning and lowering of lake water levels; restricting downstream hydroelectric dam construction in high-risk zones."
+  },
+  {
+    "id": "drought",
+    "hazard": "Meteorological, Hydrological & Agricultural Drought",
+    "hindi": "सूखा (मौसम, जल एवं कृषि सूखा)",
+    "vulnerabilityShare": "68% of cultivable area prone to drought in varying degrees",
+    "physicalCause": "Prolonged deficit or failure of the Southwest Monsoon, exacerbated by El Niño events, high evapotranspiration, and absence of perennial river flows.",
+    "hotspots": [
+      "Marathwada and Vidarbha (Maharashtra)",
+      "Rayalaseema (Andhra Pradesh)",
+      "North Interior Karnataka",
+      "Bundelkhand (UP and MP)",
+      "Western Rajasthan (Thar Desert)",
+      "Kalahandi-Balangir-Koraput (KBK belt in Odisha)"
+    ],
+    "mitigation": "Integrated watershed management (PMKSY); micro-irrigation (drip and sprinkler); promotion of drought-tolerant millets (Shree Anna); farm ponds (Amrit Sarovars); Mahatma Gandhi NREGA water conservation assets."
+  },
+  {
+    "id": "heatwave",
+    "hazard": "Extreme Heatwaves & Thermal Stress",
+    "hindi": "लू एवं अत्यधिक ग्रीष्म लहर",
+    "vulnerabilityShare": "Northern Plains, Central India, Coastal Andhra & Odisha",
+    "physicalCause": "Absence of pre-monsoon cloud cover, dry anticyclonic subsidence, and advection of hot dry air from the Thar Desert and Balochistan between April and June.",
+    "thresholds": "IMD declares Heat Wave when maximum temperature reaches >=40°C in plains, >=37°C in coastal areas, and >=30°C in hills; or departure from normal is >=4.5°C.",
+    "mitigation": "Heat Action Plans (HAPs) pioneered by Ahmedabad (2013) and scaled nationwide by NDMA; cool roofs program; adjustment of outdoor work timings for MGNREGA and construction workers; public drinking water kiosks."
+  }
+]

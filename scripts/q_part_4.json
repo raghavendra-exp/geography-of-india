@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "geo_q_371",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Biosphere Reserves",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Which was the FIRST Biosphere Reserve established in India (in 1986), spanning across the states of Tamil Nadu, Kerala, and Karnataka?",
+    "questionHindi": "1986 में स्थापित भारत का पहला जैवमंडल आरक्षित क्षेत्र (बायोस्फीयर रिजर्व) कौन सा था, जो तमिलनाडु, केरल और कर्नाटक राज्यों में विस्तृत है?",
+    "options": [
+      "Nanda Devi Biosphere Reserve",
+      "Nilgiri Biosphere Reserve",
+      "Sundarbans Biosphere Reserve",
+      "Gulf of Mannar Biosphere Reserve"
+    ],
+    "optionsHindi": [
+      "नंदा देवी बायोस्फीयर रिजर्व",
+      "नीलगिरि बायोस्फीयर रिजर्व",
+      "सुंदरबन बायोस्फीयर रिजर्व",
+      "मन्नार की खाड़ी बायोस्फीयर रिजर्व"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: It encompasses Wayanad, Nagarhole, Bandipur, Mudumalai, and Silent Valley.",
+      "Hint 2: It is home to the largest wild population of the endangered Lion-tailed Macaque and Nilgiri Tahr.",
+      "Hint 3: It is situated at the junction of the Western Ghats and Eastern Ghats."
+    ],
+    "trapAlert": "Nanda Devi was in 1988; Nilgiri was the first in 1986.",
+    "explanation": "Nilgiri Biosphere Reserve was the first in India, established in September 1986, covering 5,520 sq km across TN, Kerala, and Karnataka.",
+    "explanationHindi": "नीलगिरि बायोस्फीयर रिजर्व (1986) भारत का पहला बायोस्फीयर रिजर्व था।"
+  },
+  {
+    "id": "geo_q_372",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Ramsar Sites",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Hard",
+    "question": "Which of the following Indian wetlands is currently listed under the 'Montreux Record' (a register of Ramsar sites where changes in ecological character have occurred, are occurring, or are likely to occur)?",
+    "questionHindi": "निम्नलिखित में से कौन सा भारतीय आर्द्रभूमि स्थल वर्तमान में 'मॉन्ट्रो रिकॉर्ड' (ऐसे रामसर स्थलों का रजिस्टर जहां पारिस्थितिक स्वरूप में परिवर्तन हुए हैं या होने की संभावना है) के तहत सूचीबद्ध है?",
+    "options": [
+      "Chilika Lake (Odisha)",
+      "Keoladeo National Park (Rajasthan) and Loktak Lake (Manipur)",
+      "Sundarban Wetland (West Bengal)",
+      "Vembanad-Kol Wetland (Kerala)"
+    ],
+    "optionsHindi": [
+      "चिल्का झील (ओडिशा)",
+      "केवलादेव राष्ट्रीय उद्यान (राजस्थान) एवं लोकटक झील (मणिपुर)",
+      "सुंदरबन वेटलैंड (पश्चिम बंगाल)",
+      "वेम्बनाड-कोल वेटलैंड (केरल)"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: Chilika Lake was removed from the Montreux Record in 2002 after successful ecological restoration.",
+      "Hint 2: Loktak Lake suffers from deforestation in catchment and Phumdi proliferation.",
+      "Hint 3: Keoladeo suffers from water shortages and invasive weeds (Paspalum)."
+    ],
+    "trapAlert": "Chilika was previously on Montreux Record but successfully removed; Loktak and Keoladeo remain.",
+    "explanation": "Presently, two Indian wetlands are on the Montreux Record: Keoladeo National Park (Rajasthan) and Loktak Lake (Manipur). Chilika Lake was successfully removed from the record in 2002.",
+    "explanationHindi": "वर्तमान में भारत के दो स्थल 'मॉन्ट्रो रिकॉर्ड' में हैं: केवलादेव राष्ट्रीय उद्यान और लोकटक झील। (चिल्का को 2002 में हटा दिया गया था)।"
+  },
+  {
+    "id": "geo_q_373",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Keibul Lamjao National Park, the world's only FLOATING national park famous for the endangered Sangai (brow-antlered deer), is located on which lake?",
+    "questionHindi": "विश्व का एकमात्र तैरता हुआ राष्ट्रीय उद्यान 'केइबुल लामजाओ', जो लुप्तप्राय संगाई हिरण के लिए प्रसिद्ध है, किस झील पर स्थित है?",
+    "options": [
+      "Dal Lake (J&K)",
+      "Loktak Lake (Manipur)",
+      "Wular Lake (J&K)",
+      "Kolleru Lake (Andhra Pradesh)"
+    ],
+    "optionsHindi": [
+      "डल झील (जम्मू एवं कश्मीर)",
+      "लोकटक झील (मणिपुर)",
+      "वुलर झील (जम्मू एवं कश्मीर)",
+      "कोलेरू झील (आंध्र प्रदेश)"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: It is located in the Bishnupur district of Manipur.",
+      "Hint 2: The park is composed of floating heterogeneous masses of vegetation and soil called 'Phumdis'.",
+      "Hint 3: Sangai is the state animal of Manipur."
+    ],
+    "trapAlert": "Phumdis are unique to Loktak Lake in Manipur.",
+    "explanation": "Keibul Lamjao National Park is situated on Loktak Lake in Manipur. It is famous for floating biomass islands (Phumdis) and the dancing deer (Sangai).",
+    "explanationHindi": "केइबुल लामजाओ मणिपुर की लोकटक झील पर स्थित विश्व का एकमात्र तैरता हुआ राष्ट्रीय उद्यान है।"
+  },
+  {
+    "id": "geo_q_374",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Conservation Networks",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is FACTUALLY CORRECT regarding Great Rann of Kutch Biosphere Reserve?",
+    "questionHindi": "कच्छ का रण बायोस्फीयर रिजर्व के संबंध में निम्नलिखित में से कौन सा कथन तथ्यात्मक रूप से सही है?",
+    "options": [
+      "Largest Biosphere Reserve in India by geographical area (12,454 sq km), protecting the Indian Wild Ass (Khur).",
+      "It is an exclusive marine sanctuary located in the Yamuna river.",
+      "It has been officially de-notified due to complete lack of wildlife.",
+      "It was established in 1850 during the Mughal period."
+    ],
+    "optionsHindi": [
+      "Largest Biosphere Reserve in India by geographical area (12,454 sq km), protecting the Indian Wild Ass (Khur).",
+      "यह यमुना नदी में स्थित एक विशेष समुद्री अभयारण्य है।",
+      "वन्यजीवों के पूर्ण अभाव के कारण इसे आधिकारिक तौर पर रद्द कर दिया गया है।",
+      "इसकी स्थापना 1850 में मुगल काल के दौरान की गई थी।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the conservation credentials and location of Great Rann of Kutch Biosphere Reserve.",
+      "Hint 2: Review Biosphere Reserve, Ramsar, or Protected Area facts.",
+      "Hint 3: Largest Biosphere Reserve in India by geographical..."
+    ],
+    "trapAlert": "Check verified MoEFCC and Wildlife Institute of India (WII) data.",
+    "explanation": "Great Rann of Kutch Biosphere Reserve: Largest Biosphere Reserve in India by geographical area (12,454 sq km), protecting the Indian Wild Ass (Khur).",
+    "explanationHindi": "कच्छ का रण बायोस्फीयर रिजर्व: Largest Biosphere Reserve in India by geographical area (12,454 sq km), protecting the Indian Wild Ass (Khur)."
+  },
+  {
+    "id": "geo_q_375",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Conservation Networks",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is FACTUALLY CORRECT regarding Dibru-Saikhowa Biosphere Reserve?",
+    "questionHindi": "डिब्रू-सैखोवा बायोस्फीयर रिजर्व के संबंध में निम्नलिखित में से कौन सा कथन तथ्यात्मक रूप से सही है?",
+    "options": [
+      "Smallest Biosphere Reserve in India (765 sq km) in Assam, famous for feral horses and white-winged wood duck.",
+      "It is an exclusive marine sanctuary located in the Yamuna river.",
+      "It has been officially de-notified due to complete lack of wildlife.",
+      "It was established in 1850 during the Mughal period."
+    ],
+    "optionsHindi": [
+      "Smallest Biosphere Reserve in India (765 sq km) in Assam, famous for feral horses and white-winged wood duck.",
+      "यह यमुना नदी में स्थित एक विशेष समुद्री अभयारण्य है।",
+      "वन्यजीवों के पूर्ण अभाव के कारण इसे आधिकारिक तौर पर रद्द कर दिया गया है।",
+      "इसकी स्थापना 1850 में मुगल काल के दौरान की गई थी।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the conservation credentials and location of Dibru-Saikhowa Biosphere Reserve.",
+      "Hint 2: Review Biosphere Reserve, Ramsar, or Protected Area facts.",
+      "Hint 3: Smallest Biosphere Reserve in India (765 sq km) in..."
+    ],
+    "trapAlert": "Check verified MoEFCC and Wildlife Institute of India (WII) data.",
+    "explanation": "Dibru-Saikhowa Biosphere Reserve: Smallest Biosphere Reserve in India (765 sq km) in Assam, famous for feral horses and white-winged wood duck.",
+    "explanationHindi": "डिब्रू-सैखोवा बायोस्फीयर रिजर्व: Smallest Biosphere Reserve in India (765 sq km) in Assam, famous for feral horses and white-winged wood duck."
+  },
+  {
+    "id": "geo_q_376",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Conservation Networks",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is FACTUALLY CORRECT regarding Ramsar Site Leader: Tamil Nadu?",
+    "questionHindi": "तमिलनाडु रामसर स्थल नेतृत्व के संबंध में निम्नलिखित में से कौन सा कथन तथ्यात्मक रूप से सही है?",
+    "options": [
+      "Tamil Nadu holds the highest number of Ramsar sites (18) in India, followed by Uttar Pradesh (10).",
+      "It is an exclusive marine sanctuary located in the Yamuna river.",
+      "It has been officially de-notified due to complete lack of wildlife.",
+      "It was established in 1850 during the Mughal period."
+    ],
+    "optionsHindi": [
+      "Tamil Nadu holds the highest number of Ramsar sites (18) in India, followed by Uttar Pradesh (10).",
+      "यह यमुना नदी में स्थित एक विशेष समुद्री अभयारण्य है।",
+      "वन्यजीवों के पूर्ण अभाव के कारण इसे आधिकारिक तौर पर रद्द कर दिया गया है।",
+      "इसकी स्थापना 1850 में मुगल काल के दौरान की गई थी।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the conservation credentials and location of Ramsar Site Leader: Tamil Nadu.",
+      "Hint 2: Review Biosphere Reserve, Ramsar, or Protected Area facts.",
+      "Hint 3: Tamil Nadu holds the highest number of Ramsar site..."
+    ],
+    "trapAlert": "Check verified MoEFCC and Wildlife Institute of India (WII) data.",
+    "explanation": "Ramsar Site Leader: Tamil Nadu: Tamil Nadu holds the highest number of Ramsar sites (18) in India, followed by Uttar Pradesh (10).",
+    "explanationHindi": "तमिलनाडु रामसर स्थल नेतृत्व: Tamil Nadu holds the highest number of Ramsar sites (18) in India, followed by Uttar Pradesh (10)."
+  },
+  {
+    "id": "geo_q_377",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Conservation Networks",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is FACTUALLY CORRECT regarding First Ramsar Sites of India (1981)?",
+    "questionHindi": "भारत के पहले रामसर स्थल के संबंध में निम्नलिखित में से कौन सा कथन तथ्यात्मक रूप से सही है?",
+    "options": [
+      "Chilika Lake (Odisha) and Keoladeo National Park (Rajasthan) were the first two wetlands designated in 1981.",
+      "It is an exclusive marine sanctuary located in the Yamuna river.",
+      "It has been officially de-notified due to complete lack of wildlife.",
+      "It was established in 1850 during the Mughal period."
+    ],
+    "optionsHindi": [
+      "Chilika Lake (Odisha) and Keoladeo National Park (Rajasthan) were the first two wetlands designated in 1981.",
+      "यह यमुना नदी में स्थित एक विशेष समुद्री अभयारण्य है।",
+      "वन्यजीवों के पूर्ण अभाव के कारण इसे आधिकारिक तौर पर रद्द कर दिया गया है।",
+      "इसकी स्थापना 1850 में मुगल काल के दौरान की गई थी।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the conservation credentials and location of First Ramsar Sites of India (1981).",
+      "Hint 2: Review Biosphere Reserve, Ramsar, or Protected Area facts.",
+      "Hint 3: Chilika Lake (Odisha) and Keoladeo National Park (..."
+    ],
+    "trapAlert": "Check verified MoEFCC and Wildlife Institute of India (WII) data.",
+    "explanation": "First Ramsar Sites of India (1981): Chilika Lake (Odisha) and Keoladeo National Park (Rajasthan) were the first two wetlands designated in 1981.",
+    "explanationHindi": "भारत के पहले रामसर स्थल: Chilika Lake (Odisha) and Keoladeo National Park (Rajasthan) were the first two wetlands designated in 1981."
+  },
+  {
+    "id": "geo_q_378",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Conservation Networks",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is FACTUALLY CORRECT regarding Project Tiger (1973)?",
+    "questionHindi": "प्रोजेक्ट टाइगर के संबंध में निम्नलिखित में से कौन सा कथन तथ्यात्मक रूप से सही है?",
+    "options": [
+      "Launched at Jim Corbett National Park; uses the tiger as an umbrella species to conserve entire apex ecosystems.",
+      "It is an exclusive marine sanctuary located in the Yamuna river.",
+      "It has been officially de-notified due to complete lack of wildlife.",
+      "It was established in 1850 during the Mughal period."
+    ],
+    "optionsHindi": [
+      "Launched at Jim Corbett National Park; uses the tiger as an umbrella species to conserve entire apex ecosystems.",
+      "यह यमुना नदी में स्थित एक विशेष समुद्री अभयारण्य है।",
+      "वन्यजीवों के पूर्ण अभाव के कारण इसे आधिकारिक तौर पर रद्द कर दिया गया है।",
+      "इसकी स्थापना 1850 में मुगल काल के दौरान की गई थी।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the conservation credentials and location of Project Tiger (1973).",
+      "Hint 2: Review Biosphere Reserve, Ramsar, or Protected Area facts.",
+      "Hint 3: Launched at Jim Corbett National Park; uses the ti..."
+    ],
+    "trapAlert": "Check verified MoEFCC and Wildlife Institute of India (WII) data.",
+    "explanation": "Project Tiger (1973): Launched at Jim Corbett National Park; uses the tiger as an umbrella species to conserve entire apex ecosystems.",
+    "explanationHindi": "प्रोजेक्ट टाइगर: Launched at Jim Corbett National Park; uses the tiger as an umbrella species to conserve entire apex ecosystems."
+  },
+  {
+    "id": "geo_q_379",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Conservation Networks",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is FACTUALLY CORRECT regarding Elephant Corridors (Right of Passage)?",
+    "questionHindi": "हाथी गलियारे के संबंध में निम्नलिखित में से कौन सा कथन तथ्यात्मक रूप से सही है?",
+    "options": [
+      "Linear forest strips connecting fragmented elephant reserves to prevent human-elephant conflict and genetic isolation.",
+      "It is an exclusive marine sanctuary located in the Yamuna river.",
+      "It has been officially de-notified due to complete lack of wildlife.",
+      "It was established in 1850 during the Mughal period."
+    ],
+    "optionsHindi": [
+      "Linear forest strips connecting fragmented elephant reserves to prevent human-elephant conflict and genetic isolation.",
+      "यह यमुना नदी में स्थित एक विशेष समुद्री अभयारण्य है।",
+      "वन्यजीवों के पूर्ण अभाव के कारण इसे आधिकारिक तौर पर रद्द कर दिया गया है।",
+      "इसकी स्थापना 1850 में मुगल काल के दौरान की गई थी।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the conservation credentials and location of Elephant Corridors (Right of Passage).",
+      "Hint 2: Review Biosphere Reserve, Ramsar, or Protected Area facts.",
+      "Hint 3: Linear forest strips connecting fragmented elephan..."
+    ],
+    "trapAlert": "Check verified MoEFCC and Wildlife Institute of India (WII) data.",
+    "explanation": "Elephant Corridors (Right of Passage): Linear forest strips connecting fragmented elephant reserves to prevent human-elephant conflict and genetic isolation.",
+    "explanationHindi": "हाथी गलियारे: Linear forest strips connecting fragmented elephant reserves to prevent human-elephant conflict and genetic isolation."
+  },
+  {
+    "id": "geo_q_380",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Conservation Networks",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is FACTUALLY CORRECT regarding Coral Reef Zones of India?",
+    "questionHindi": "प्रवाल भित्ति क्षेत्र के संबंध में निम्नलिखित में से कौन सा कथन तथ्यात्मक रूप से सही है?",
+    "options": [
+      "Four primary regions: Gulf of Mannar, Gulf of Kutch, Andaman & Nicobar Islands, and Lakshadweep atolls.",
+      "It is an exclusive marine sanctuary located in the Yamuna river.",
+      "It has been officially de-notified due to complete lack of wildlife.",
+      "It was established in 1850 during the Mughal period."
+    ],
+    "optionsHindi": [
+      "Four primary regions: Gulf of Mannar, Gulf of Kutch, Andaman & Nicobar Islands, and Lakshadweep atolls.",
+      "यह यमुना नदी में स्थित एक विशेष समुद्री अभयारण्य है।",
+      "वन्यजीवों के पूर्ण अभाव के कारण इसे आधिकारिक तौर पर रद्द कर दिया गया है।",
+      "इसकी स्थापना 1850 में मुगल काल के दौरान की गई थी।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the conservation credentials and location of Coral Reef Zones of India.",
+      "Hint 2: Review Biosphere Reserve, Ramsar, or Protected Area facts.",
+      "Hint 3: Four primary regions: Gulf of Mannar, Gulf of Kutc..."
+    ],
+    "trapAlert": "Check verified MoEFCC and Wildlife Institute of India (WII) data.",
+    "explanation": "Coral Reef Zones of India: Four primary regions: Gulf of Mannar, Gulf of Kutch, Andaman & Nicobar Islands, and Lakshadweep atolls.",
+    "explanationHindi": "प्रवाल भित्ति क्षेत्र: Four primary regions: Gulf of Mannar, Gulf of Kutch, Andaman & Nicobar Islands, and Lakshadweep atolls."
+  },
+  {
+    "id": "geo_q_381",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Conservation Networks",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following statements is FACTUALLY CORRECT regarding UNESCO Mixed World Heritage Site?",
+    "questionHindi": "यूनेस्को मिश्रित विश्व धरोहर स्थल के संबंध में निम्नलिखित में से कौन सा कथन तथ्यात्मक रूप से सही है?",
+    "options": [
+      "Khangchendzonga National Park (Sikkim) is India's only mixed heritage site (natural biodiversity + cultural value).",
+      "It is an exclusive marine sanctuary located in the Yamuna river.",
+      "It has been officially de-notified due to complete lack of wildlife.",
+      "It was established in 1850 during the Mughal period."
+    ],
+    "optionsHindi": [
+      "Khangchendzonga National Park (Sikkim) is India's only mixed heritage site (natural biodiversity + cultural value).",
+      "यह यमुना नदी में स्थित एक विशेष समुद्री अभयारण्य है।",
+      "वन्यजीवों के पूर्ण अभाव के कारण इसे आधिकारिक तौर पर रद्द कर दिया गया है।",
+      "इसकी स्थापना 1850 में मुगल काल के दौरान की गई थी।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the conservation credentials and location of UNESCO Mixed World Heritage Site.",
+      "Hint 2: Review Biosphere Reserve, Ramsar, or Protected Area facts.",
+      "Hint 3: Khangchendzonga National Park (Sikkim) is India's ..."
+    ],
+    "trapAlert": "Check verified MoEFCC and Wildlife Institute of India (WII) data.",
+    "explanation": "UNESCO Mixed World Heritage Site: Khangchendzonga National Park (Sikkim) is India's only mixed heritage site (natural biodiversity + cultural value).",
+    "explanationHindi": "यूनेस्को मिश्रित विश्व धरोहर स्थल: Khangchendzonga National Park (Sikkim) is India's only mixed heritage site (natural biodiversity + cultural value)."
+  },
+  {
+    "id": "geo_q_382",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 382: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 382: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_383",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 383: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 383: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_384",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 384: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 384: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_385",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 385: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 385: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_386",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 386: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 386: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_387",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 387: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 387: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_388",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 388: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 388: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_389",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 389: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 389: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_390",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 390: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 390: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_391",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 391: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 391: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_392",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 392: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 392: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_393",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 393: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 393: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_394",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 394: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 394: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_395",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 395: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 395: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_396",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 396: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 396: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_397",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 397: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 397: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_398",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 398: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 398: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_399",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 399: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 399: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_400",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 400: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 400: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_401",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 401: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 401: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_402",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 402: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 402: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_403",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 403: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 403: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_404",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 404: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 404: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_405",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 405: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 405: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_406",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 406: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 406: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_407",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 407: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 407: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_408",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 408: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 408: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_409",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 409: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 409: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_410",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 410: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 410: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_411",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 411: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 411: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_412",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 412: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 412: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_413",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 413: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 413: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_414",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 414: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 414: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_415",
+    "topic": "Biodiversity & Ecology",
+    "subtopic": "Tiger Reserves & Protected Areas",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 415: Which state in India has the HIGHEST number of wild tigers per the National Tiger Conservation Authority (NTCA) 2022 census?",
+    "questionHindi": "प्रश्न 415: राष्ट्रीय बाघ संरक्षण प्राधिकरण (NTCA) 2022 की जनगणना के अनुसार भारत के किस राज्य में सर्वाधिक जंगली बाघ हैं?",
+    "options": [
+      "Madhya Pradesh (785 tigers)",
+      "Karnataka (563 tigers)",
+      "Uttarakhand (560 tigers)",
+      "Maharashtra (444 tigers)"
+    ],
+    "optionsHindi": [
+      "मध्य प्रदेश (785 बाघ)",
+      "कर्नाटक (563 बाघ)",
+      "उत्तराखंड (560 बाघ)",
+      "महाराष्ट्र (444 बाघ)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Often known as the 'Tiger State of India'.",
+      "Hint 2: Followed closely by Karnataka and Uttarakhand.",
+      "Hint 3: Madhya Pradesh has 785 tigers across 7 tiger reserves."
+    ],
+    "trapAlert": "Madhya Pradesh leads with 785 tigers; Karnataka is second with 563.",
+    "explanation": "Madhya Pradesh has 785 tigers (2022 Census), retaining its title as the 'Tiger State of India', followed by Karnataka (563) and Uttarakhand (560).",
+    "explanationHindi": "2022 की बाघ गणना के अनुसार मध्य प्रदेश 785 बाघों के साथ देश में पहले स्थान पर है।"
+  },
+  {
+    "id": "geo_q_416",
+    "topic": "Economic & Transport",
+    "subtopic": "Highways & Expressways",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "The North-South Corridor (Srinagar to Kanyakumari) and the East-West Corridor (Silchar to Porbandar) under the Golden Quadrilateral project intersect at which city?",
+    "questionHindi": "स्वर्णिम चतुर्भुज परियोजना के तहत उत्तर-दक्षिण गलियारा (श्रीनगर से कन्याकुमारी) और पूर्व-पश्चिम गलियारा (सिलचर से पोरबंदर) किस शहर में एक दूसरे को काटते हैं?",
+    "options": [
+      "Nagpur (Maharashtra)",
+      "Jhansi (Uttar Pradesh)",
+      "Gwalior (Madhya Pradesh)",
+      "Bhopal (Madhya Pradesh)"
+    ],
+    "optionsHindi": [
+      "नागपुर (महाराष्ट्र)",
+      "झांसी (उत्तर प्रदेश)",
+      "ग्वालियर (मध्य प्रदेश)",
+      "भोपाल (मध्य प्रदेश)"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: It is a historic fortress city in Bundelkhand.",
+      "Hint 2: Nagpur is the Zero Mile Stone of India, but not the intersection of NS-EW corridors.",
+      "Hint 3: NH-44 (North-South) and NH-27 (East-West) intersect at Jhansi."
+    ],
+    "trapAlert": "Zero Mile is at Nagpur; NS-EW corridor junction is at Jhansi.",
+    "explanation": "The North-South Corridor (NH-44) and East-West Corridor (NH-27) intersect at Jhansi in Uttar Pradesh.",
+    "explanationHindi": "उत्तर-दक्षिण और पूर्व-पश्चिम गलियारे उत्तर प्रदेश के झांसी में एक-दूसरे को काटते हैं।"
+  },
+  {
+    "id": "geo_q_417",
+    "topic": "Economic & Transport",
+    "subtopic": "Dedicated Freight Corridors",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Hard",
+    "question": "Which of the following ports serves as the western terminal of the Western Dedicated Freight Corridor (WDFC)?",
+    "questionHindi": "निम्नलिखित में से कौन सा बंदरगाह पश्चिमी समर्पित माल ढुलाई गलियारे (WDFC) के पश्चिमी टर्मिनल के रूप में कार्य करता है?",
+    "options": [
+      "Kandla / Deendayal Port (Gujarat)",
+      "Mundra Port (Gujarat)",
+      "Jawaharlal Nehru Port Trust / JNPT (Navi Mumbai)",
+      "Mormugao Port (Goa)"
+    ],
+    "optionsHindi": [
+      "कांडला / दीनदयाल बंदरगाह (गुजरात)",
+      "मुंद्रा बंदरगाह (गुजरात)",
+      "जवाहरलाल नेहरू पोर्ट ट्रस्ट / JNPT (नवी मुंबई)",
+      "मोरमुगाओ बंदरगाह (गोवा)"
+    ],
+    "correct": 2,
+    "hints": [
+      "Hint 1: The WDFC runs 1,506 km from Dadri in Uttar Pradesh.",
+      "Hint 2: It is designed for heavy-haul double-stack container trains.",
+      "Hint 3: It terminates at India's largest container port in Navi Mumbai."
+    ],
+    "trapAlert": "Eastern DFC terminates at Dankuni; Western DFC terminates at JNPT.",
+    "explanation": "The Western Dedicated Freight Corridor (WDFC) runs from Dadri (UP) to JNPT (Nhava Sheva, Navi Mumbai) over 1,506 km.",
+    "explanationHindi": "पश्चिमी डीएफसी (WDFC) दादरी (यूपी) से जेएनपीटी (नवी मुंबई) तक 1,506 किमी विस्तृत है।"
+  },
+  {
+    "id": "geo_q_418",
+    "topic": "Economic & Transport",
+    "subtopic": "Major Ports",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Which of the following is the ONLY riverine major port in India, situated approximately 203 km inland from the sea on the Hooghly River?",
+    "questionHindi": "भारत का एकमात्र नदीय प्रमुख बंदरगाह कौन सा है, जो समुद्र से लगभग 203 किमी अंतर्देशीय हुगली नदी पर स्थित है?",
+    "options": [
+      "Paradip Port",
+      "Syama Prasad Mookerjee Port (Kolkata)",
+      "Visakhapatnam Port",
+      "Kamarajar Port (Ennore)"
+    ],
+    "optionsHindi": [
+      "पारादीप बंदरगाह",
+      "श्यामा प्रसाद मुखर्जी बंदरगाह (कोलकाता)",
+      "विशाखापत्तनम बंदरगाह",
+      "कामरजार बंदरगाह (एन्नोर)"
+    ],
+    "correct": 1,
+    "hints": [
+      "Hint 1: It is India's oldest operating port, constructed by the British East India Company.",
+      "Hint 2: It has twin dock systems: Kolkata Docks and deep-water Haldia Dock Complex.",
+      "Hint 3: Siltation requires continuous dredging and water flushing from Farakka Barrage."
+    ],
+    "trapAlert": "All other major ports are sea-facing; Kolkata is a tidal riverine port.",
+    "explanation": "Syama Prasad Mookerjee Port (Kolkata) is the only riverine major port in India, located on the freshwater reaches of the Hooghly River.",
+    "explanationHindi": "श्यामा प्रसाद मुखर्जी बंदरगाह (कोलकाता) भारत का एकमात्र प्रमुख नदीय बंदरगाह है।"
+  },
+  {
+    "id": "geo_q_419",
+    "topic": "Economic & Transport",
+    "subtopic": "Infrastructure & Demography",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following is the defining feature of National Waterway-1 (NW-1)?",
+    "questionHindi": "राष्ट्रीय जलमार्ग-1 की परिभाषित विशेषता निम्नलिखित में से कौन सी है?",
+    "options": [
+      "Stretches 1,620 km along the Ganga-Bhagirathi-Hooghly from Prayagraj to Haldia, developed with World Bank JMVP aid.",
+      "It is exclusively a military runway in the Siachen glacier.",
+      "It was constructed in the 12th century under the Chola Empire.",
+      "It has been completely closed down due to lack of traffic."
+    ],
+    "optionsHindi": [
+      "Stretches 1,620 km along the Ganga-Bhagirathi-Hooghly from Prayagraj to Haldia, developed with World Bank JMVP aid.",
+      "यह सियाचिन ग्लेशियर में विशेष रूप से एक सैन्य हवाई पट्टी है।",
+      "इसका निर्माण 12वीं शताब्दी में चोल साम्राज्य के तहत किया गया था।",
+      "यातायात की कमी के कारण इसे पूरी तरह से बंद कर दिया गया है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the connectivity, logistics, or demographic milestone for National Waterway-1 (NW-1).",
+      "Hint 2: Review transport networks or Census 2011 facts.",
+      "Hint 3: Stretches 1,620 km along the Ganga-Bhagirathi-Hoog..."
+    ],
+    "trapAlert": "Match the infrastructure or demographic asset with official figures.",
+    "explanation": "National Waterway-1 (NW-1): Stretches 1,620 km along the Ganga-Bhagirathi-Hooghly from Prayagraj to Haldia, developed with World Bank JMVP aid.",
+    "explanationHindi": "राष्ट्रीय जलमार्ग-1: Stretches 1,620 km along the Ganga-Bhagirathi-Hooghly from Prayagraj to Haldia, developed with World Bank JMVP aid."
+  },
+  {
+    "id": "geo_q_420",
+    "topic": "Economic & Transport",
+    "subtopic": "Infrastructure & Demography",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following is the defining feature of National Waterway-2 (NW-2)?",
+    "questionHindi": "राष्ट्रीय जलमार्ग-2 की परिभाषित विशेषता निम्नलिखित में से कौन सी है?",
+    "options": [
+      "Runs 891 km on the Brahmaputra River from Sadiya to Dhubri in Assam.",
+      "It is exclusively a military runway in the Siachen glacier.",
+      "It was constructed in the 12th century under the Chola Empire.",
+      "It has been completely closed down due to lack of traffic."
+    ],
+    "optionsHindi": [
+      "Runs 891 km on the Brahmaputra River from Sadiya to Dhubri in Assam.",
+      "यह सियाचिन ग्लेशियर में विशेष रूप से एक सैन्य हवाई पट्टी है।",
+      "इसका निर्माण 12वीं शताब्दी में चोल साम्राज्य के तहत किया गया था।",
+      "यातायात की कमी के कारण इसे पूरी तरह से बंद कर दिया गया है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the connectivity, logistics, or demographic milestone for National Waterway-2 (NW-2).",
+      "Hint 2: Review transport networks or Census 2011 facts.",
+      "Hint 3: Runs 891 km on the Brahmaputra River from Sadiya t..."
+    ],
+    "trapAlert": "Match the infrastructure or demographic asset with official figures.",
+    "explanation": "National Waterway-2 (NW-2): Runs 891 km on the Brahmaputra River from Sadiya to Dhubri in Assam.",
+    "explanationHindi": "राष्ट्रीय जलमार्ग-2: Runs 891 km on the Brahmaputra River from Sadiya to Dhubri in Assam."
+  },
+  {
+    "id": "geo_q_421",
+    "topic": "Economic & Transport",
+    "subtopic": "Infrastructure & Demography",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following is the defining feature of Deendayal Port (Kandla)?",
+    "questionHindi": "दीनदयाल बंदरगाह (कांडला) की परिभाषित विशेषता निम्नलिखित में से कौन सी है?",
+    "options": [
+      "Major tidal port in Gujarat constructed in the 1950s to replace Karachi Port after Partition; hosts a premier SEZ.",
+      "It is exclusively a military runway in the Siachen glacier.",
+      "It was constructed in the 12th century under the Chola Empire.",
+      "It has been completely closed down due to lack of traffic."
+    ],
+    "optionsHindi": [
+      "Major tidal port in Gujarat constructed in the 1950s to replace Karachi Port after Partition; hosts a premier SEZ.",
+      "यह सियाचिन ग्लेशियर में विशेष रूप से एक सैन्य हवाई पट्टी है।",
+      "इसका निर्माण 12वीं शताब्दी में चोल साम्राज्य के तहत किया गया था।",
+      "यातायात की कमी के कारण इसे पूरी तरह से बंद कर दिया गया है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the connectivity, logistics, or demographic milestone for Deendayal Port (Kandla).",
+      "Hint 2: Review transport networks or Census 2011 facts.",
+      "Hint 3: Major tidal port in Gujarat constructed in the 195..."
+    ],
+    "trapAlert": "Match the infrastructure or demographic asset with official figures.",
+    "explanation": "Deendayal Port (Kandla): Major tidal port in Gujarat constructed in the 1950s to replace Karachi Port after Partition; hosts a premier SEZ.",
+    "explanationHindi": "दीनदयाल बंदरगाह (कांडला): Major tidal port in Gujarat constructed in the 1950s to replace Karachi Port after Partition; hosts a premier SEZ."
+  },
+  {
+    "id": "geo_q_422",
+    "topic": "Economic & Transport",
+    "subtopic": "Infrastructure & Demography",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following is the defining feature of Visakhapatnam Natural Harbour?",
+    "questionHindi": "विशाखापत्तनम प्राकृतिक बंदरगाह की परिभाषित विशेषता निम्नलिखित में से कौन सी है?",
+    "options": [
+      "Landlocked natural harbour protected by the Dolphin's Nose promontory; premier outlet for Bailadila iron ore.",
+      "It is exclusively a military runway in the Siachen glacier.",
+      "It was constructed in the 12th century under the Chola Empire.",
+      "It has been completely closed down due to lack of traffic."
+    ],
+    "optionsHindi": [
+      "Landlocked natural harbour protected by the Dolphin's Nose promontory; premier outlet for Bailadila iron ore.",
+      "यह सियाचिन ग्लेशियर में विशेष रूप से एक सैन्य हवाई पट्टी है।",
+      "इसका निर्माण 12वीं शताब्दी में चोल साम्राज्य के तहत किया गया था।",
+      "यातायात की कमी के कारण इसे पूरी तरह से बंद कर दिया गया है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the connectivity, logistics, or demographic milestone for Visakhapatnam Natural Harbour.",
+      "Hint 2: Review transport networks or Census 2011 facts.",
+      "Hint 3: Landlocked natural harbour protected by the Dolphi..."
+    ],
+    "trapAlert": "Match the infrastructure or demographic asset with official figures.",
+    "explanation": "Visakhapatnam Natural Harbour: Landlocked natural harbour protected by the Dolphin's Nose promontory; premier outlet for Bailadila iron ore.",
+    "explanationHindi": "विशाखापत्तनम प्राकृतिक बंदरगाह: Landlocked natural harbour protected by the Dolphin's Nose promontory; premier outlet for Bailadila iron ore."
+  },
+  {
+    "id": "geo_q_423",
+    "topic": "Economic & Transport",
+    "subtopic": "Infrastructure & Demography",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following is the defining feature of Golden Quadrilateral (5,846 km)?",
+    "questionHindi": "स्वर्णिम चतुर्भुज की परिभाषित विशेषता निम्नलिखित में से कौन सी है?",
+    "options": [
+      "Connects Delhi, Mumbai, Chennai, and Kolkata; initiated under Prime Minister Atal Bihari Vajpayee.",
+      "It is exclusively a military runway in the Siachen glacier.",
+      "It was constructed in the 12th century under the Chola Empire.",
+      "It has been completely closed down due to lack of traffic."
+    ],
+    "optionsHindi": [
+      "Connects Delhi, Mumbai, Chennai, and Kolkata; initiated under Prime Minister Atal Bihari Vajpayee.",
+      "यह सियाचिन ग्लेशियर में विशेष रूप से एक सैन्य हवाई पट्टी है।",
+      "इसका निर्माण 12वीं शताब्दी में चोल साम्राज्य के तहत किया गया था।",
+      "यातायात की कमी के कारण इसे पूरी तरह से बंद कर दिया गया है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the connectivity, logistics, or demographic milestone for Golden Quadrilateral (5,846 km).",
+      "Hint 2: Review transport networks or Census 2011 facts.",
+      "Hint 3: Connects Delhi, Mumbai, Chennai, and Kolkata; init..."
+    ],
+    "trapAlert": "Match the infrastructure or demographic asset with official figures.",
+    "explanation": "Golden Quadrilateral (5,846 km): Connects Delhi, Mumbai, Chennai, and Kolkata; initiated under Prime Minister Atal Bihari Vajpayee.",
+    "explanationHindi": "स्वर्णिम चतुर्भुज: Connects Delhi, Mumbai, Chennai, and Kolkata; initiated under Prime Minister Atal Bihari Vajpayee."
+  },
+  {
+    "id": "geo_q_424",
+    "topic": "Economic & Transport",
+    "subtopic": "Infrastructure & Demography",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following is the defining feature of Demographic Transition Stage 3?",
+    "questionHindi": "जनसांख्यिकी संक्रमण चरण 3 की परिभाषित विशेषता निम्नलिखित में से कौन सी है?",
+    "options": [
+      "India is in Stage 3 characterized by rapidly declining mortality and declining fertility (national TFR = 2.0).",
+      "It is exclusively a military runway in the Siachen glacier.",
+      "It was constructed in the 12th century under the Chola Empire.",
+      "It has been completely closed down due to lack of traffic."
+    ],
+    "optionsHindi": [
+      "India is in Stage 3 characterized by rapidly declining mortality and declining fertility (national TFR = 2.0).",
+      "यह सियाचिन ग्लेशियर में विशेष रूप से एक सैन्य हवाई पट्टी है।",
+      "इसका निर्माण 12वीं शताब्दी में चोल साम्राज्य के तहत किया गया था।",
+      "यातायात की कमी के कारण इसे पूरी तरह से बंद कर दिया गया है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the connectivity, logistics, or demographic milestone for Demographic Transition Stage 3.",
+      "Hint 2: Review transport networks or Census 2011 facts.",
+      "Hint 3: India is in Stage 3 characterized by rapidly decli..."
+    ],
+    "trapAlert": "Match the infrastructure or demographic asset with official figures.",
+    "explanation": "Demographic Transition Stage 3: India is in Stage 3 characterized by rapidly declining mortality and declining fertility (national TFR = 2.0).",
+    "explanationHindi": "जनसांख्यिकी संक्रमण चरण 3: India is in Stage 3 characterized by rapidly declining mortality and declining fertility (national TFR = 2.0)."
+  },
+  {
+    "id": "geo_q_425",
+    "topic": "Economic & Transport",
+    "subtopic": "Infrastructure & Demography",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following is the defining feature of Census 2011 Density Extremes?",
+    "questionHindi": "जनसंख्या घनत्व चरम की परिभाषित विशेषता निम्नलिखित में से कौन सी है?",
+    "options": [
+      "Bihar has the highest population density (1,106 persons/sq km); Arunachal Pradesh has the lowest (17 persons/sq km).",
+      "It is exclusively a military runway in the Siachen glacier.",
+      "It was constructed in the 12th century under the Chola Empire.",
+      "It has been completely closed down due to lack of traffic."
+    ],
+    "optionsHindi": [
+      "Bihar has the highest population density (1,106 persons/sq km); Arunachal Pradesh has the lowest (17 persons/sq km).",
+      "यह सियाचिन ग्लेशियर में विशेष रूप से एक सैन्य हवाई पट्टी है।",
+      "इसका निर्माण 12वीं शताब्दी में चोल साम्राज्य के तहत किया गया था।",
+      "यातायात की कमी के कारण इसे पूरी तरह से बंद कर दिया गया है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the connectivity, logistics, or demographic milestone for Census 2011 Density Extremes.",
+      "Hint 2: Review transport networks or Census 2011 facts.",
+      "Hint 3: Bihar has the highest population density (1,106 pe..."
+    ],
+    "trapAlert": "Match the infrastructure or demographic asset with official figures.",
+    "explanation": "Census 2011 Density Extremes: Bihar has the highest population density (1,106 persons/sq km); Arunachal Pradesh has the lowest (17 persons/sq km).",
+    "explanationHindi": "जनसंख्या घनत्व चरम: Bihar has the highest population density (1,106 persons/sq km); Arunachal Pradesh has the lowest (17 persons/sq km)."
+  },
+  {
+    "id": "geo_q_426",
+    "topic": "Economic & Transport",
+    "subtopic": "Infrastructure & Demography",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Medium",
+    "question": "Which of the following is the defining feature of Sex Ratio Divergence?",
+    "questionHindi": "लिंगानुपात विचलन की परिभाषित विशेषता निम्नलिखित में से कौन सी है?",
+    "options": [
+      "Kerala recorded the highest sex ratio (1,084 females/1,000 males), while Haryana recorded the lowest (879) in Census 2011.",
+      "It is exclusively a military runway in the Siachen glacier.",
+      "It was constructed in the 12th century under the Chola Empire.",
+      "It has been completely closed down due to lack of traffic."
+    ],
+    "optionsHindi": [
+      "Kerala recorded the highest sex ratio (1,084 females/1,000 males), while Haryana recorded the lowest (879) in Census 2011.",
+      "यह सियाचिन ग्लेशियर में विशेष रूप से एक सैन्य हवाई पट्टी है।",
+      "इसका निर्माण 12वीं शताब्दी में चोल साम्राज्य के तहत किया गया था।",
+      "यातायात की कमी के कारण इसे पूरी तरह से बंद कर दिया गया है।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the connectivity, logistics, or demographic milestone for Sex Ratio Divergence.",
+      "Hint 2: Review transport networks or Census 2011 facts.",
+      "Hint 3: Kerala recorded the highest sex ratio (1,084 femal..."
+    ],
+    "trapAlert": "Match the infrastructure or demographic asset with official figures.",
+    "explanation": "Sex Ratio Divergence: Kerala recorded the highest sex ratio (1,084 females/1,000 males), while Haryana recorded the lowest (879) in Census 2011.",
+    "explanationHindi": "लिंगानुपात विचलन: Kerala recorded the highest sex ratio (1,084 females/1,000 males), while Haryana recorded the lowest (879) in Census 2011."
+  },
+  {
+    "id": "geo_q_427",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 427: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 427: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_428",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 428: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 428: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_429",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 429: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 429: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_430",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 430: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 430: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_431",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 431: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 431: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_432",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 432: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 432: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_433",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 433: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 433: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_434",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 434: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 434: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_435",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 435: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 435: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_436",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 436: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 436: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_437",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 437: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 437: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_438",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 438: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 438: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_439",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 439: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 439: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_440",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 440: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 440: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_441",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 441: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 441: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_442",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 442: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 442: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_443",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 443: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 443: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_444",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 444: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 444: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_445",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 445: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 445: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_446",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 446: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 446: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_447",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 447: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 447: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_448",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 448: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 448: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_449",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 449: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 449: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_450",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 450: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 450: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_451",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 451: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 451: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_452",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 452: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 452: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_453",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 453: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 453: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_454",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 454: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 454: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_455",
+    "topic": "Economic & Transport",
+    "subtopic": "Census & Urbanization",
+    "examType": "State PSC PYQ",
+    "difficulty": "Easy",
+    "question": "Question 455: What proportion of India's population was classified as URBAN as per the 2011 Census?",
+    "questionHindi": "प्रश्न 455: 2011 की जनगणना के अनुसार भारत की कितनी प्रतिशत जनसंख्या को 'शहरी' के रूप में वर्गीकृत किया गया था?",
+    "options": [
+      "31.16% (approximately 377 million)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "optionsHindi": [
+      "31.16% (लगभग 37.7 करोड़)",
+      "21.54%",
+      "45.80%",
+      "52.10%"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Rural population accounted for 68.84%.",
+      "Hint 2: Urban population was slightly under one-third of the total.",
+      "Hint 3: 31.16% was the official urban proportion in 2011."
+    ],
+    "trapAlert": "Rural: 68.84%; Urban: 31.16%.",
+    "explanation": "In Census 2011, India's urban population was 31.16% (377.1 million) and rural was 68.84% (833.5 million).",
+    "explanationHindi": "2011 की जनगणना में भारत की 31.16% जनसंख्या शहरी तथा 68.84% ग्रामीण थी।"
+  },
+  {
+    "id": "geo_q_456",
+    "topic": "Map-Based Identification",
+    "subtopic": "North to South Sequence",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Hard",
+    "question": "Arrange the following Himalayan passes in order from NORTH to SOUTH: 1. Zoji La, 2. Rohtang Pass, 3. Shipki La, 4. Lipu Lekh.",
+    "questionHindi": "निम्नलिखित हिमालयी दर्रों को उत्तर से दक्षिण के क्रम में व्यवस्थित करें: 1. ज़ोजी ला, 2. रोहतांग दर्रा, 3. शिपकी ला, 4. लिपुलेख।",
+    "options": [
+      "1 -> 2 -> 3 -> 4",
+      "1 -> 3 -> 2 -> 4",
+      "2 -> 1 -> 3 -> 4",
+      "4 -> 3 -> 2 -> 1"
+    ],
+    "optionsHindi": [
+      "1 -> 2 -> 3 -> 4",
+      "1 -> 3 -> 2 -> 4",
+      "2 -> 1 -> 3 -> 4",
+      "4 -> 3 -> 2 -> 1"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Zoji La is in Ladakh/Kashmir (~34.3°N).",
+      "Hint 2: Rohtang is in Himachal Pradesh (~32.4°N).",
+      "Hint 3: Shipki La is in Kinnaur HP (~31.8°N); Lipu Lekh is in southern Uttarakhand (~30.2°N)."
+    ],
+    "trapAlert": "Latitude check: Zoji La (34.3°N) -> Rohtang (32.4°N) -> Shipki La (31.8°N) -> Lipu Lekh (30.2°N).",
+    "explanation": "The north-to-south latitudinal sequence is: Zoji La (34.28°N) -> Rohtang Pass (32.37°N) -> Shipki La (31.81°N) -> Lipu Lekh (30.23°N).",
+    "explanationHindi": "उत्तर से दक्षिण सही क्रम है: ज़ोजी ला (34.3°N) -> रोहतांग (32.4°N) -> शिपकी ला (31.8°N) -> लिपुलेख (30.2°N)।"
+  },
+  {
+    "id": "geo_q_457",
+    "topic": "Map-Based Identification",
+    "subtopic": "West to East Rivers",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Hard",
+    "question": "Arrange the following east-flowing Peninsular rivers from NORTH to SOUTH along the East Coast: 1. Mahanadi, 2. Godavari, 3. Krishna, 4. Kaveri.",
+    "questionHindi": "पूर्वी तट के समानांतर निम्नलिखित पूर्व-प्रवाही प्रायद्वीपीय नदियों को उत्तर से दक्षिण के क्रम में व्यवस्थित करें: 1. महानदी, 2. गोदावरी, 3. कृष्णा, 4. कावेरी।",
+    "options": [
+      "1 -> 2 -> 3 -> 4",
+      "2 -> 1 -> 3 -> 4",
+      "1 -> 3 -> 2 -> 4",
+      "4 -> 3 -> 2 -> 1"
+    ],
+    "optionsHindi": [
+      "1 -> 2 -> 3 -> 4",
+      "2 -> 1 -> 3 -> 4",
+      "1 -> 3 -> 2 -> 4",
+      "4 -> 3 -> 2 -> 1"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Mahanadi enters the Bay of Bengal in Odisha.",
+      "Hint 2: Godavari enters in northern Andhra Pradesh (Rajahmundry).",
+      "Hint 3: Krishna enters in central Andhra Pradesh (Vijayawada); Kaveri enters in Tamil Nadu."
+    ],
+    "trapAlert": "Sequence from North to South along the Bay of Bengal: Subarnarekha -> Mahanadi -> Godavari -> Krishna -> Pennar -> Kaveri -> Vaigai.",
+    "explanation": "The north-to-south sequence is: Mahanadi (Odisha) -> Godavari (AP) -> Krishna (AP) -> Kaveri (Tamil Nadu).",
+    "explanationHindi": "उत्तर से दक्षिण सही क्रम है: महानदी (ओडिशा) -> गोदावरी (आंध्र) -> कृष्णा (आंध्र) -> कावेरी (तमिलनाडु)।"
+  },
+  {
+    "id": "geo_q_458",
+    "topic": "Map-Based Identification",
+    "subtopic": "Ports North to South",
+    "examType": "State PSC PYQ",
+    "difficulty": "Medium",
+    "question": "Arrange the following major ports along the WEST COAST of India from NORTH to SOUTH: 1. Deendayal (Kandla), 2. Mumbai Port, 3. Mormugao, 4. Cochin.",
+    "questionHindi": "भारत के पश्चिमी तट के निम्नलिखित प्रमुख बंदरगाहों को उत्तर से दक्षिण के क्रम में व्यवस्थित करें: 1. दीनदयाल (कांडला), 2. मुंबई बंदरगाह, 3. मोरमुगाओ, 4. कोचीन।",
+    "options": [
+      "1 -> 2 -> 3 -> 4",
+      "2 -> 1 -> 3 -> 4",
+      "1 -> 3 -> 2 -> 4",
+      "3 -> 1 -> 2 -> 4"
+    ],
+    "optionsHindi": [
+      "1 -> 2 -> 3 -> 4",
+      "2 -> 1 -> 3 -> 4",
+      "1 -> 3 -> 2 -> 4",
+      "3 -> 1 -> 2 -> 4"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Kandla is in Gujarat (Gulf of Kutch, northernmost).",
+      "Hint 2: Mumbai is in Maharashtra; Mormugao is in Goa.",
+      "Hint 3: Cochin is in Kerala (southernmost)."
+    ],
+    "trapAlert": "Kandla (Gujarat) -> Mumbai (Maharashtra) -> Mormugao (Goa) -> Mangalore (Karnataka) -> Cochin (Kerala).",
+    "explanation": "The north-to-south sequence along the west coast is: Kandla (Gujarat) -> Mumbai -> Mormugao (Goa) -> Cochin (Kerala).",
+    "explanationHindi": "पश्चिमी तट पर उत्तर से दक्षिण क्रम: कांडला (गुजरात) -> मुंबई -> मोरमुगाओ (गोवा) -> कोचीन (केरल)।"
+  },
+  {
+    "id": "geo_q_459",
+    "topic": "Map-Based Identification",
+    "subtopic": "Spatial Sequencing",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Hard",
+    "question": "Which of the following represents the correct geographical alignment/sequence for: Himalayan Confluences (Panch Prayag) Sequence?",
+    "questionHindi": "निम्नलिखित में से कौन पंच प्रयाग क्रम के लिए सही भौगोलिक संरेखण/क्रम का प्रतिनिधित्व करता है?",
+    "options": [
+      "Vishnuprayag (Dhauliganga) -> Nandaprayag (Nandakini) -> Karnaprayag (Pindar) -> Rudraprayag (Mandakini) -> Devprayag (Bhagirathi).",
+      "The sequence is reversed from South to North.",
+      "All items share identical geographical coordinates.",
+      "These locations lie outside the Republic of India."
+    ],
+    "optionsHindi": [
+      "Vishnuprayag (Dhauliganga) -> Nandaprayag (Nandakini) -> Karnaprayag (Pindar) -> Rudraprayag (Mandakini) -> Devprayag (Bhagirathi).",
+      "यह क्रम दक्षिण से उत्तर की ओर उल्टा है।",
+      "सभी मदें समान भौगोलिक निर्देशांक साझा करती हैं।",
+      "ये स्थान भारत गणराज्य के बाहर स्थित हैं।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the verified spatial order of Himalayan Confluences (Panch Prayag) Sequence.",
+      "Hint 2: Verify latitudes, longitudes, or elevations.",
+      "Hint 3: Vishnuprayag (Dhauliganga) -> Nandaprayag (Nandaki..."
+    ],
+    "trapAlert": "Spatial arrangement questions are standard UPSC Prelims elimination tools.",
+    "explanation": "Himalayan Confluences (Panch Prayag) Sequence: Vishnuprayag (Dhauliganga) -> Nandaprayag (Nandakini) -> Karnaprayag (Pindar) -> Rudraprayag (Mandakini) -> Devprayag (Bhagirathi).",
+    "explanationHindi": "पंच प्रयाग क्रम: Vishnuprayag (Dhauliganga) -> Nandaprayag (Nandakini) -> Karnaprayag (Pindar) -> Rudraprayag (Mandakini) -> Devprayag (Bhagirathi)."
+  },
+  {
+    "id": "geo_q_460",
+    "topic": "Map-Based Identification",
+    "subtopic": "Spatial Sequencing",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Hard",
+    "question": "Which of the following represents the correct geographical alignment/sequence for: Aravalli to Nilgiri Peak Elevations?",
+    "questionHindi": "निम्नलिखित में से कौन शिखर ऊंचाई तुलना के लिए सही भौगोलिक संरेखण/क्रम का प्रतिनिधित्व करता है?",
+    "options": [
+      "Guru Shikhar (1,722 m) < Doddabetta (2,637 m) < Anamudi (2,695 m).",
+      "The sequence is reversed from South to North.",
+      "All items share identical geographical coordinates.",
+      "These locations lie outside the Republic of India."
+    ],
+    "optionsHindi": [
+      "Guru Shikhar (1,722 m) < Doddabetta (2,637 m) < Anamudi (2,695 m).",
+      "यह क्रम दक्षिण से उत्तर की ओर उल्टा है।",
+      "सभी मदें समान भौगोलिक निर्देशांक साझा करती हैं।",
+      "ये स्थान भारत गणराज्य के बाहर स्थित हैं।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the verified spatial order of Aravalli to Nilgiri Peak Elevations.",
+      "Hint 2: Verify latitudes, longitudes, or elevations.",
+      "Hint 3: Guru Shikhar (1,722 m) < Doddabetta (2,637 m) < An..."
+    ],
+    "trapAlert": "Spatial arrangement questions are standard UPSC Prelims elimination tools.",
+    "explanation": "Aravalli to Nilgiri Peak Elevations: Guru Shikhar (1,722 m) < Doddabetta (2,637 m) < Anamudi (2,695 m).",
+    "explanationHindi": "शिखर ऊंचाई तुलना: Guru Shikhar (1,722 m) < Doddabetta (2,637 m) < Anamudi (2,695 m)."
+  },
+  {
+    "id": "geo_q_461",
+    "topic": "Map-Based Identification",
+    "subtopic": "Spatial Sequencing",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Hard",
+    "question": "Which of the following represents the correct geographical alignment/sequence for: Major River Basin Areas?",
+    "questionHindi": "निम्नलिखित में से कौन नदी बेसिन क्षेत्रफल क्रम के लिए सही भौगोलिक संरेखण/क्रम का प्रतिनिधित्व करता है?",
+    "options": [
+      "Ganga Basin (>8.6 lakh sq km) > Godavari (>3.1 lakh sq km) > Krishna (>2.5 lakh sq km) > Mahanadi (>1.4 lakh sq km).",
+      "The sequence is reversed from South to North.",
+      "All items share identical geographical coordinates.",
+      "These locations lie outside the Republic of India."
+    ],
+    "optionsHindi": [
+      "Ganga Basin (>8.6 lakh sq km) > Godavari (>3.1 lakh sq km) > Krishna (>2.5 lakh sq km) > Mahanadi (>1.4 lakh sq km).",
+      "यह क्रम दक्षिण से उत्तर की ओर उल्टा है।",
+      "सभी मदें समान भौगोलिक निर्देशांक साझा करती हैं।",
+      "ये स्थान भारत गणराज्य के बाहर स्थित हैं।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the verified spatial order of Major River Basin Areas.",
+      "Hint 2: Verify latitudes, longitudes, or elevations.",
+      "Hint 3: Ganga Basin (>8.6 lakh sq km) > Godavari (>3.1 lak..."
+    ],
+    "trapAlert": "Spatial arrangement questions are standard UPSC Prelims elimination tools.",
+    "explanation": "Major River Basin Areas: Ganga Basin (>8.6 lakh sq km) > Godavari (>3.1 lakh sq km) > Krishna (>2.5 lakh sq km) > Mahanadi (>1.4 lakh sq km).",
+    "explanationHindi": "नदी बेसिन क्षेत्रफल क्रम: Ganga Basin (>8.6 lakh sq km) > Godavari (>3.1 lakh sq km) > Krishna (>2.5 lakh sq km) > Mahanadi (>1.4 lakh sq km)."
+  },
+  {
+    "id": "geo_q_462",
+    "topic": "Map-Based Identification",
+    "subtopic": "Spatial Sequencing",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Hard",
+    "question": "Which of the following represents the correct geographical alignment/sequence for: Biosphere Reserves North to South?",
+    "questionHindi": "निम्नलिखित में से कौन बायोस्फीयर रिजर्व उत्तर से दक्षिण के लिए सही भौगोलिक संरेखण/क्रम का प्रतिनिधित्व करता है?",
+    "options": [
+      "Cold Desert (HP) -> Nanda Devi (Uttarakhand) -> Panna (MP) -> Nilgiri (TN/Kerala/Karnataka) -> Gulf of Mannar (TN).",
+      "The sequence is reversed from South to North.",
+      "All items share identical geographical coordinates.",
+      "These locations lie outside the Republic of India."
+    ],
+    "optionsHindi": [
+      "Cold Desert (HP) -> Nanda Devi (Uttarakhand) -> Panna (MP) -> Nilgiri (TN/Kerala/Karnataka) -> Gulf of Mannar (TN).",
+      "यह क्रम दक्षिण से उत्तर की ओर उल्टा है।",
+      "सभी मदें समान भौगोलिक निर्देशांक साझा करती हैं।",
+      "ये स्थान भारत गणराज्य के बाहर स्थित हैं।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the verified spatial order of Biosphere Reserves North to South.",
+      "Hint 2: Verify latitudes, longitudes, or elevations.",
+      "Hint 3: Cold Desert (HP) -> Nanda Devi (Uttarakhand) -> Pa..."
+    ],
+    "trapAlert": "Spatial arrangement questions are standard UPSC Prelims elimination tools.",
+    "explanation": "Biosphere Reserves North to South: Cold Desert (HP) -> Nanda Devi (Uttarakhand) -> Panna (MP) -> Nilgiri (TN/Kerala/Karnataka) -> Gulf of Mannar (TN).",
+    "explanationHindi": "बायोस्फीयर रिजर्व उत्तर से दक्षिण: Cold Desert (HP) -> Nanda Devi (Uttarakhand) -> Panna (MP) -> Nilgiri (TN/Kerala/Karnataka) -> Gulf of Mannar (TN)."
+  },
+  {
+    "id": "geo_q_463",
+    "topic": "Map-Based Identification",
+    "subtopic": "Spatial Sequencing",
+    "examType": "Conceptual Mastery",
+    "difficulty": "Hard",
+    "question": "Which of the following represents the correct geographical alignment/sequence for: Tropic of Cancer States West to East?",
+    "questionHindi": "निम्नलिखित में से कौन कर्क रेखा राज्य क्रम के लिए सही भौगोलिक संरेखण/क्रम का प्रतिनिधित्व करता है?",
+    "options": [
+      "Gujarat -> Rajasthan -> Madhya Pradesh -> Chhattisgarh -> Jharkhand -> West Bengal -> Tripura -> Mizoram.",
+      "The sequence is reversed from South to North.",
+      "All items share identical geographical coordinates.",
+      "These locations lie outside the Republic of India."
+    ],
+    "optionsHindi": [
+      "Gujarat -> Rajasthan -> Madhya Pradesh -> Chhattisgarh -> Jharkhand -> West Bengal -> Tripura -> Mizoram.",
+      "यह क्रम दक्षिण से उत्तर की ओर उल्टा है।",
+      "सभी मदें समान भौगोलिक निर्देशांक साझा करती हैं।",
+      "ये स्थान भारत गणराज्य के बाहर स्थित हैं।"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Recall the verified spatial order of Tropic of Cancer States West to East.",
+      "Hint 2: Verify latitudes, longitudes, or elevations.",
+      "Hint 3: Gujarat -> Rajasthan -> Madhya Pradesh -> Chhattis..."
+    ],
+    "trapAlert": "Spatial arrangement questions are standard UPSC Prelims elimination tools.",
+    "explanation": "Tropic of Cancer States West to East: Gujarat -> Rajasthan -> Madhya Pradesh -> Chhattisgarh -> Jharkhand -> West Bengal -> Tripura -> Mizoram.",
+    "explanationHindi": "कर्क रेखा राज्य क्रम: Gujarat -> Rajasthan -> Madhya Pradesh -> Chhattisgarh -> Jharkhand -> West Bengal -> Tripura -> Mizoram."
+  },
+  {
+    "id": "geo_q_464",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 464: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 464: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_465",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 465: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 465: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_466",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 466: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 466: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_467",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 467: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 467: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_468",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 468: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 468: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_469",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 469: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 469: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_470",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 470: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 470: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_471",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 471: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 471: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_472",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 472: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 472: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_473",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 473: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 473: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_474",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 474: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 474: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_475",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 475: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 475: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_476",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 476: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 476: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_477",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 477: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 477: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_478",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 478: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 478: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_479",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 479: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 479: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_480",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 480: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 480: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_481",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 481: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 481: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_482",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 482: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 482: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_483",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 483: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 483: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_484",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 484: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 484: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_485",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 485: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 485: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_486",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 486: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 486: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_487",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 487: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 487: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_488",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 488: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 488: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_489",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 489: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 489: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_490",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 490: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 490: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_491",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 491: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 491: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_492",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 492: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 492: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_493",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 493: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 493: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_494",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 494: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 494: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_495",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 495: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 495: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_496",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 496: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 496: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_497",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 497: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 497: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_498",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 498: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 498: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_499",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 499: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 499: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  },
+  {
+    "id": "geo_q_500",
+    "topic": "Map-Based Identification",
+    "subtopic": "Cartographic Milestones",
+    "examType": "UPSC Prelims PYQ",
+    "difficulty": "Medium",
+    "question": "Question 500: Which of the following state capitals lies NEAREST to the Tropic of Cancer (23°30'N latitude)?",
+    "questionHindi": "प्रश्न 500: निम्नलिखित में से कौन सी राज्य की राजधानी कर्क रेखा (23°30' उत्तर अक्षांश) के निकटतम स्थित है?",
+    "options": [
+      "Ranchi (Jharkhand, ~23°21'N)",
+      "Patna (Bihar)",
+      "Lucknow (Uttar Pradesh)",
+      "Bhubaneswar (Odisha)"
+    ],
+    "optionsHindi": [
+      "रांची (झारखंड, ~23°21'N)",
+      "पटना (बिहार)",
+      "लखनऊ (उत्तर प्रदेश)",
+      "भुवनेश्वर (ओडिशा)"
+    ],
+    "correct": 0,
+    "hints": [
+      "Hint 1: Tropic of Cancer cuts through Jharkhand just north of this city.",
+      "Hint 2: Patna and Lucknow lie well north of the Tropic of Cancer.",
+      "Hint 3: Ranchi is the state capital closest to 23°30'N."
+    ],
+    "trapAlert": "Ranchi (23°21'N) lies virtually on the Tropic of Cancer.",
+    "explanation": "Ranchi, the capital of Jharkhand, lies at ~23°21'N, making it the Indian state capital closest to the Tropic of Cancer.",
+    "explanationHindi": "झारखंड की राजधानी रांची (23°21'N) कर्क रेखा के सबसे निकट स्थित राज्य की राजधानी है।"
+  }
+]
