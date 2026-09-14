@@ -11,7 +11,9 @@ import {
   AlertOctagon, 
   FileText, 
   Database,
-  Layers
+  Layers,
+  ShieldAlert,
+  Landmark
 } from 'lucide-react';
 
 export const NAV_ITEMS = [
@@ -20,7 +22,9 @@ export const NAV_ITEMS = [
   { id: 'maplab', label: 'Map Lab', hindi: 'मानचित्र प्रयोगशाला', icon: Map },
   { id: 'simulators', label: 'Simulators', hindi: 'सिम्युलेटर', icon: Activity },
   { id: 'rivers', label: 'River Basins', hindi: 'नदी द्रोणी', icon: Waves },
-  { id: 'practice', label: 'Practice Arena', hindi: 'अभ्यास अखाड़ा', icon: CheckSquare, badge: '500 Qs' },
+  { id: 'disaster', label: 'Disasters & DRR', hindi: 'आपदा प्रबंधन', icon: ShieldAlert, badge: 'GS-III' },
+  { id: 'uppsc', label: 'UPPSC Special', hindi: 'यूपी विशेष', icon: Landmark, badge: 'Paper 5/6' },
+  { id: 'practice', label: 'Practice Arena', hindi: 'अभ्यास अखाड़ा', icon: CheckSquare, badge: '525 Qs' },
   { id: 'mock', label: 'Prelims Mock', hindi: 'मॉक टेस्ट', icon: Award, badge: 'UPSC' },
   { id: 'flashcards', label: 'Flashcards', hindi: 'स्मृति कार्ड', icon: BookMarked },
   { id: 'mistakes', label: 'Error Book', hindi: 'त्रुटि पंजिका', icon: AlertOctagon },
@@ -49,7 +53,7 @@ export default function Navigation({
                 <button
                   key={item.id}
                   onClick={() => setActiveTab(item.id)}
-                  className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-150 relative ${
+                  className={`flex items-center space-x-2 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-150 relative ${
                     isActive
                       ? 'bg-saffron-600 text-white shadow-sm shadow-saffron-700/30 ring-1 ring-saffron-500'
                       : 'text-sepia-800 dark:text-slate-300 hover:bg-sepia-200/60 dark:hover:bg-slate-800/80 hover:text-sepia-950 dark:hover:text-white'

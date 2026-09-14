@@ -1,14 +1,14 @@
 # BHARAT ATLAS MASTER (Geography of India)
 
 <p align="center">
-  <strong>Master Geography of India for UPSC Civil Services (Prelims GS-I & Mains GS-I/III) • State PSCs (UPPSC, BPSC, MPPSC, RAS, TNPSC) • Academic Excellence</strong>
+  <strong>Master Geography of India for UPSC Civil Services (Prelims GS-I & Mains GS-I/III) • UPPSC PCS (Mains Papers 5 & 6 + Prelims) • State PSCs • Academic Excellence</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18.3.1-blue.svg" alt="React 18" />
   <img src="https://img.shields.io/badge/Vite-6.2.0-646CFF.svg" alt="Vite 6" />
   <img src="https://img.shields.io/badge/TailwindCSS-3.4.17-38B2AC.svg" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Questions-500%20Verified%20MCQs-emerald.svg" alt="500 Verified MCQs" />
+  <img src="https://img.shields.io/badge/Questions-525%2B%20Verified%20MCQs-emerald.svg" alt="525+ Verified MCQs" />
   <img src="https://img.shields.io/badge/Architecture-100%25%20Offline--First-orange.svg" alt="100% Offline First" />
   <img src="https://img.shields.io/badge/Deployment-GitHub%20Pages-success.svg" alt="GitHub Pages" />
 </p>
@@ -19,7 +19,7 @@
 
 **BHARAT ATLAS MASTER** is a comprehensive, pedagogical, offline-first web application designed to transform Indian Geography preparation from fragmented rote memorization into an integrated **causal-scientific learning experience**.
 
-Built with modern React 18, Vite 6, and Tailwind CSS, it features dual cartographic aesthetic themes (**Parchment Atlas** and **Night Atlas**), georeferenced vector SVG interactive maps, atmospheric physics simulators, a hydrological drainage basin analyzer, and **500 verified bilingual MCQs** with 3-level progressive hints, official UPSC trap alerts, and confidence tracking.
+Built with modern React 18, Vite 6, and Tailwind CSS, it features dual cartographic aesthetic themes (**Parchment Atlas** and **Night Atlas**), georeferenced vector SVG interactive maps, atmospheric physics simulators, a hydrological drainage basin analyzer, a dedicated **Disaster Management & DRR Lab**, a specialized **UPPSC PCS Geography & Disaster Hub (Papers 5 & 6)**, and **525+ verified bilingual MCQs** with 3-level progressive hints, official UPSC trap alerts, and confidence tracking.
 
 ---
 
@@ -57,41 +57,37 @@ $$\text{Geology} \longrightarrow \text{Relief} \longrightarrow \text{Drainage \&
 * **Left-Bank vs Right-Bank Tributaries:** Structured strictly according to downstream flow direction (crucial for UPSC Prelims elimination).
 * Source-to-mouth flow chains, major multi-purpose dams/barrages, and active inter-state river water disputes (Cauvery, Krishna, Mahadayi, SYL Canal).
 
-### 5. 🎯 500-Question Practice Arena
-* **500 High-Yield MCQs:** Covering all 10 official modules with bilingual English & Hindi support.
+### 5. 🛡️ Disaster Management & DRR Lab (UPSC GS-I & GS-III + UPPSC)
+* **Institutional Governance:** **Disaster Management Act 2005** (3-tier structure: NDMA chaired by PM, SDMA chaired by CM, DDMA chaired by DM/Collector), NDRF (16 battalions), SDRF, and NDMF/SDMF financing (15th FC 80:20 response/mitigation split).
+* **International Frameworks:** **Sendai Framework (2015–2030)** 4 Priorities for Action and 7 Global Targets; **Prime Minister's 10-Point Agenda on DRR** (AMCDRR 2016).
+* **BIS Seismic Zonation (IS 1893:2016):** Zone V ($0.36$), Zone IV ($0.24$), Zone III ($0.16$), and Zone II ($0.10$) with active fault lines (MCT, MBT, HFT, Delhi-Haridwar ridge). Note on the abolition and merger of Zone I into Zone II.
+* **Hazard Profiles & Physical Mechanics:** Tropical Cyclones (Bay of Bengal vs Arabian Sea oceanography, IMD 4-stage color alerts, NCRMP), Urban Flooding (sponge cities, loss of blue-green infrastructure), Landslides (Himalayas vs Western Ghats geomorphology, NLSM zonation), GLOFs (South Lhonak 2023, Chamoli 2021), Droughts (Manual for Drought Management 2016), Forest Fires (Chir pine needles, FSI Van Agni portal), and Heatwaves (IMD criteria & Ahmedabad Heat Action Plan model).
+
+### 6. 🏛️ UPPSC PCS Special Geography & Disaster Hub (Mains Papers 5 & 6)
+* **Physiographic Divisions of UP:** Bhabar belt, Terai belt, Upper/Middle/Eastern Gangetic Plains, and Southern Bundelkhand/Vindhyan Plateau.
+* **Drainage & Water Resources of UP:** Ganga, Yamuna, Gomti (intra-state river originating at Fulhar Jheel / Gomat Taal, Pilibhit), Ghaghara/Sarayu, Sharda Canal network, and the **Ken-Betwa River Interlinking Project** (Daudhan Dam).
+* **Soil Classification & Usar Reclamation:** Khadar, Bhangar, alkaline Usar/Reh reclamation using Gypsum, and Bundelkhand local soils (**Mar, Kabar, Parwa, Rakar**).
+* **Disaster Profile of UP:** Terai flooding districts (Gorakhpur, Bahraich, Shravasti), Bundelkhand chronic drought & hard-rock groundwater stress, and Western UP Seismic Zone IV (Meerut, Noida, Ghaziabad).
+* **Ecology & Protected Areas:** 4 Tiger Reserves (Dudhwa, Pilibhit, Amangarh, Ranipur 4th TR) and all **10 Ramsar Wetland Sites** in Uttar Pradesh (Sarsai Nawar, Saman, Samaspur, Sandi, Bakhira, Haiderpur, Sur Sarovar, Parvati Arga, Nawabganj, Upper Ganga).
+* **Minerals & Energy of UP:** Sonbhadra limestone & Singrauli coal, Prayagraj Shankargarh silica sand, Banda bauxite, Narora Atomic Power Station (NAPS), and Rihand Dam (Govind Ballabh Pant Sagar).
+
+### 7. 🎯 525+ Question Practice Arena
+* **525+ High-Yield MCQs:** Covering all 10 core modules + Disaster Management + UPPSC Special with bilingual English & Hindi support.
 * **Progressive 3-Level Scaffolding Hints:** Broad clue $\rightarrow$ Conceptual elimination $\rightarrow$ Direct mechanism.
-* **Official UPSC Trap Warnings:** Highlights deceptive statements, direction reversals, and typical misinterpretations.
-* **Confidence Rating:** Tag your confidence as *Guess (25%)*, *Unsure (50%)*, *Sure (75%)*, or *Very Sure (100%)* to calibrate intuition.
-* **Personal Notes:** Add custom study notes to any question.
+* **Official UPSC & UPPSC Trap Warnings:** Highlights deceptive statements, direction reversals, and typical misinterpretations.
+* **Confidence Rating:** Tag your confidence as *Guess (25%)*, *Unsure (50%)*, *Sure (75%)*, or *Very Sure (100%)*.
 
-### 6. ⏱️ UPSC Prelims Exam Simulator
-* **Presets:**
-  * **100-Question UPSC GS-I Mock:** 120 minutes, 200 marks, strict $-0.66$ negative marking.
-  * **50-Question Sectional Drill:** 60 minutes, 100 marks, $-0.66$ negative marking.
-  * **30-Question Rapid Drill:** 35 minutes, 60 marks, speed and accuracy training.
-* **TCS iON Examination Interface:** Standard Question Palette (Answered, Unanswered, Marked for Review, Answered & Marked for Review).
-* **Comprehensive Scorecard:** Net score, accuracy percentage, time allocation, and syllabus performance matrix.
+### 8. ⏱️ UPSC Prelims Exam Simulator
+* **Presets:** 100-Question UPSC GS-I Mock (120 mins, 200 marks, $-0.66$ negative marking), 50-Question Sectional Drill, and 30-Question Rapid Drill.
+* **TCS iON Examination Interface:** Question Palette (Answered, Unanswered, Marked for Review).
 
-### 7. 🗂️ Flashcard Deck (Leitner 5-Box System)
-* Spaced repetition cards for high-frequency factual targets (Panch Prayags, pass elevations, rock system chronology, ISFR forest statistics).
-* Advancing cards to Box 5 guarantees long-term retention.
-
-### 8. 📓 Mistakes Notebook ("My Error Book")
-* Automatically records every incorrect attempt.
-* Classify errors by root cause:
-  * *Conceptual Misunderstanding*
-  * *Factual Lapse*
-  * *Misread Question / Statement Trap*
-  * *Careless Elimination*
-* 1-click re-attempt and resolution workflow.
-
-### 9. 📑 Official PYQs & Syllabus Mapping
-* Official UPSC CSE Prelims papers (2015–2026) and State PSC exam repositories.
-* Direct mapping to UPSC CSE Prelims GS-I and Mains GS-I/GS-III syllabus micro-topics.
+### 9. 🗂️ Flashcard Deck & 📓 Mistakes Notebook
+* Leitner 5-box spaced repetition system for high-yield facts.
+* Automated Error Book categorizing lapses by root cause (Conceptual, Factual, Misread question, Careless elimination).
 
 ### 10. 💾 100% Offline-First & JSON Backup
 * Zero backend server required; runs entirely in the browser.
-* 1-click JSON export and import for transferring progress, bookmarks, notes, and error logs across devices.
+* 1-click JSON export and import for transferring progress across devices.
 
 ---
 
@@ -139,7 +135,7 @@ The repository is configured for automated zero-configuration deployment via Git
 3. Push changes to the `main` branch:
    ```bash
    git add .
-   git commit -m "feat: complete Bharat Atlas Master v2.0"
+   git commit -m "feat: add Disaster Management and UPPSC PCS special modules"
    git push origin main
    ```
 4. GitHub Actions will automatically compile the project and publish it to `https://raghavendra-exp.github.io/geography-of-india/`.

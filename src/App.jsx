@@ -11,6 +11,8 @@ import MonsoonSimulator from './components/simulators/MonsoonSimulator';
 import CrossSectionLab from './components/atlas/CrossSectionLab';
 import CropLocationGame from './components/simulators/CropLocationGame';
 import RiverBasinExplorer from './components/atlas/RiverBasinExplorer';
+import DisasterManagementLab from './components/disaster/DisasterManagementLab';
+import UppscGeoSpecial from './components/uppsc/UppscGeoSpecial';
 
 import PracticeArena from './components/practice/PracticeArena';
 import FlashcardDeck from './components/practice/FlashcardDeck';
@@ -55,6 +57,7 @@ export default function App() {
     disasters: {},
     biodiversity: {},
     transport: {},
+    uppsc: {},
     pyq: [],
     questions: [],
     loaded: false
@@ -95,6 +98,7 @@ export default function App() {
           projects,
           disasters,
           biodiversity,
+          uppsc,
           pyq,
           questions
         ] = await Promise.all([
@@ -108,6 +112,7 @@ export default function App() {
           fetch('./data/multi-purpose-projects.json').then(r => r.json()),
           fetch('./data/disaster-geography.json').then(r => r.json()),
           fetch('./data/biodiversity-protected.json').then(r => r.json()),
+          fetch('./data/uppsc-special-geography.json').then(r => r.json()),
           fetch('./data/prelims-pyqs.json').then(r => r.json()),
           fetch('./data/questions.json').then(r => r.json())
         ]);
@@ -123,6 +128,7 @@ export default function App() {
           projects,
           disasters,
           biodiversity,
+          uppsc,
           pyq,
           questions,
           loaded: true
@@ -327,7 +333,31 @@ export default function App() {
               />
             )}
 
-            {/* 6. Practice Arena (500 Questions) */}
+            {/* 6. Disasters & Disaster Risk Reduction Lab (UPSC GS-I & GS-III) */}
+            {activeTab === 'disaster' && (
+              <DisasterManagementLab
+                disasterData={datasets.disasters}
+                onStartDisasterPractice={(topic) => {
+                  setPracticeInitialTopic('Natural Hazards & Disasters');
+                  setActiveTab('practice');
+                }}
+                lang={lang}
+              />
+            )}
+
+            {/* 7. UPPSC PCS Special Geography & Disaster Hub (Mains Papers 5 & 6) */}
+            {activeTab === 'uppsc' && (
+              <UppscGeoSpecial
+                uppscData={datasets.uppsc}
+                onStartUppscPractice={(topic) => {
+                  setPracticeInitialTopic('All');
+                  setActiveTab('practice');
+                }}
+                lang={lang}
+              />
+            )}
+
+            {/* 8. Practice Arena (525 Questions) */}
             {activeTab === 'practice' && (
               <PracticeArena
                 questions={datasets.questions}
@@ -337,7 +367,7 @@ export default function App() {
               />
             )}
 
-            {/* 7. Prelims Exam Simulator */}
+            {/* 9. Prelims Exam Simulator */}
             {activeTab === 'mock' && (
               <ExamSimulator
                 questions={datasets.questions}
@@ -345,12 +375,12 @@ export default function App() {
               />
             )}
 
-            {/* 8. Spaced Repetition Flashcards */}
+            {/* 10. Spaced Repetition Flashcards */}
             {activeTab === 'flashcards' && (
               <FlashcardDeck />
             )}
 
-            {/* 9. Mistakes Notebook */}
+            {/* 11. Mistakes Notebook */}
             {activeTab === 'mistakes' && (
               <MistakesNotebook
                 questions={datasets.questions}
@@ -360,7 +390,7 @@ export default function App() {
               />
             )}
 
-            {/* 10. PYQ & Syllabus */}
+            {/* 12. PYQ & Syllabus */}
             {activeTab === 'pyq' && (
               <PyqExplorer
                 pyqData={datasets.pyq}
@@ -371,7 +401,7 @@ export default function App() {
               />
             )}
 
-            {/* 11. Backup & Notes */}
+            {/* 13. Backup & Notes */}
             {activeTab === 'tools' && (
               <BackupSync
                 onDataResetOrImport={refreshUserStats}
@@ -390,13 +420,15 @@ export default function App() {
               BHARAT ATLAS MASTER (Geography of India) • v2.0
             </p>
             <p className="text-[11px] text-sepia-600 dark:text-slate-500">
-              UPSC Civil Services Prelims GS-I & Mains GS-I/III • State PSCs • 100% Offline-First
+              UPSC Civil Services (GS-I & GS-III) • UPPSC PCS (Papers 5 & 6) • 100% Offline-First
             </p>
           </div>
           <div className="flex items-center space-x-4 text-xs font-medium">
+            <button onClick={() => setActiveTab('disaster')} className="hover:underline">Disasters & DRR</button>
+            <button onClick={() => setActiveTab('uppsc')} className="hover:underline">UPPSC Special</button>
             <button onClick={() => setActiveTab('masterflow')} className="hover:underline">Causal Flow</button>
             <button onClick={() => setActiveTab('maplab')} className="hover:underline">Vector Atlas</button>
-            <button onClick={() => setActiveTab('practice')} className="hover:underline">500 MCQs</button>
+            <button onClick={() => setActiveTab('practice')} className="hover:underline">525 MCQs</button>
             <button onClick={() => setActiveTab('tools')} className="hover:underline">JSON Backup</button>
           </div>
         </div>

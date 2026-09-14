@@ -9,7 +9,9 @@ import {
   HelpCircle, 
   Layers, 
   Flame,
-  ArrowRight
+  ArrowRight,
+  ShieldAlert,
+  Landmark
 } from 'lucide-react';
 
 export default function GlobalSearchModal({ 
@@ -104,35 +106,71 @@ export default function GlobalSearchModal({
       });
     }
 
-    // 3. Dams & Projects
-    if (filter === 'all' || filter === 'dams') {
-      const dams = datasets.projects || [];
-      dams.forEach(d => {
+    // 3. Disasters & Hazards
+    if (filter === 'all' || filter === 'disasters') {
+      const hazardList = datasets.disasters?.hazards || [];
+      hazardList.forEach(h => {
         if (
-          d.name.toLowerCase().includes(q) ||
-          d.river?.toLowerCase().includes(q) ||
-          d.state?.toLowerCase().includes(q)
+          h.hazard.toLowerCase().includes(q) ||
+          (h.hindi && h.hindi.includes(q)) ||
+          h.physicalCause.toLowerCase().includes(q) ||
+          (h.mitigation && h.mitigation.toLowerCase().includes(q))
         ) {
           results.push({
-            id: d.id,
-            category: 'Multi-Purpose Dam',
-            title: d.name,
-            subtitle: `River: ${d.river} • State: ${d.state}`,
-            detail: d.purpose || d.significance,
-            type: 'project_item',
-            targetTab: 'rivers',
-            raw: d
+            id: h.id,
+            category: 'Disaster Hazard',
+            title: h.hazard,
+            subtitle: `Vulnerability: ${h.vulnerabilityShare}`,
+            detail: h.physicalCause.slice(0, 120) + '...',
+            type: 'disaster_item',
+            targetTab: 'disaster',
+            raw: h
           });
         }
       });
     }
 
-    // 4. Questions
+    // 4. UPPSC Geography Entities
+    if (filter === 'all' || filter === 'uppsc') {
+      const uppsc = datasets.uppsc || {};
+      // Ramsar sites
+      (uppsc.protectedAreasAndRamsar?.ramsarSites || []).forEach(ram => {
+        if (ram.name.toLowerCase().includes(q) || ram.district.toLowerCase().includes(q)) {
+          results.push({
+            id: `up_ram_${ram.name}`,
+            category: 'UP Ramsar Site',
+            title: `${ram.name} (${ram.district})`,
+            subtitle: `Notified ${ram.year} • Species: ${ram.species}`,
+            detail: 'Wetland designated under Ramsar Convention in Uttar Pradesh',
+            type: 'uppsc_item',
+            targetTab: 'uppsc',
+            raw: ram
+          });
+        }
+      });
+      // Soils
+      (uppsc.soilsOfUP || []).forEach(soil => {
+        if (soil.name.toLowerCase().includes(q) || soil.characteristics.toLowerCase().includes(q)) {
+          results.push({
+            id: `up_soil_${soil.name}`,
+            category: 'UP Soil Classification',
+            title: soil.name,
+            subtitle: soil.hindi || 'Soil order',
+            detail: soil.characteristics.slice(0, 120) + '...',
+            type: 'uppsc_item',
+            targetTab: 'uppsc',
+            raw: soil
+          });
+        }
+      });
+    }
+
+    // 5. Questions
     if (filter === 'all' || filter === 'questions') {
       const qs = datasets.questions || [];
       let qMatches = 0;
       for (const item of qs) {
-        if (qMatches > 15) break; // cap question matches
+        if (qMatches > 15) break;
         if (
           item.question.toLowerCase().includes(q) ||
           item.topic?.toLowerCase().includes(q) ||
@@ -177,7 +215,7 @@ export default function GlobalSearchModal({
             type="text"
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="Search passes, peaks, rivers, soils, dams, minerals, questions..."
+            placeholder="Search passes, peaks, rivers, soils, hazards, UPPSC, questions..."
             className="w-full bg-transparent text-sm sm:text-base font-sans outline-none placeholder:text-sepia-400 dark:placeholder:text-slate-500"
           />
           {query && (
@@ -199,7 +237,8 @@ export default function GlobalSearchModal({
             { id: 'all', label: 'All Items' },
             { id: 'locations', label: 'Passes & Peaks' },
             { id: 'rivers', label: 'Rivers' },
-            { id: 'dams', label: 'Dams & Projects' },
+            { id: 'disasters', label: 'Disasters & DRR' },
+            { id: 'uppsc', label: 'UPPSC Special' },
             { id: 'questions', label: 'MCQs' }
           ].map(f => (
             <button
@@ -221,15 +260,15 @@ export default function GlobalSearchModal({
           {query.trim() === '' ? (
             <div className="py-12 text-center text-xs sm:text-sm text-sepia-600 dark:text-slate-400">
               <Compass className="w-8 h-8 mx-auto mb-2 text-saffron-600 opacity-60" />
-              <p className="font-semibold">Search across all geographic layers of India</p>
+              <p className="font-semibold">Search across all geographic & disaster layers of India</p>
               <p className="text-[11px] mt-1 text-sepia-500 dark:text-slate-500">
-                Try typing: <span className="underline cursor-pointer" onClick={() => setQuery('Zoji La')}>"Zoji La"</span>, <span className="underline cursor-pointer" onClick={() => setQuery('Godavari')}>"Godavari"</span>, <span className="underline cursor-pointer" onClick={() => setQuery('Bhakra')}>"Bhakra"</span>, or <span className="underline cursor-pointer" onClick={() => setQuery('Monsoon')}>"Monsoon"</span>
+                Try typing: <span className="underline cursor-pointer" onClick={() => setQuery('Seismic Zone')}>"Seismic Zone"</span>, <span className="underline cursor-pointer" onClick={() => setQuery('Gomti')}>"Gomti"</span>, <span className="underline cursor-pointer" onClick={() => setQuery('Ken-Betwa')}>"Ken-Betwa"</span>, or <span className="underline cursor-pointer" onClick={() => setQuery('Sendai')}>"Sendai"</span>
               </p>
             </div>
           ) : searchResults.length === 0 ? (
             <div className="py-12 text-center text-sepia-600 dark:text-slate-400">
               <p className="text-sm font-semibold">No geographic entities found for "{query}"</p>
-              <p className="text-xs mt-1">Try relaxing filters or searching by alternate spelling / river name.</p>
+              <p className="text-xs mt-1">Try searching by hazard, river, or state name.</p>
             </div>
           ) : (
             searchResults.map(item => (
@@ -269,8 +308,8 @@ export default function GlobalSearchModal({
 
         {/* Footer info */}
         <div className="px-4 py-2 bg-sepia-200/50 dark:bg-slate-950/60 border-t border-sepia-300/60 dark:border-slate-800 text-[11px] text-sepia-600 dark:text-slate-500 flex items-center justify-between">
-          <span>Tip: Use ↑ ↓ arrows and Enter to jump directly</span>
-          <span>500 Questions + 100+ Geo-Entities Indexed</span>
+          <span>Tip: Click any item to jump directly to that module</span>
+          <span>525 Questions + Hazards + UPPSC Special</span>
         </div>
       </div>
     </div>

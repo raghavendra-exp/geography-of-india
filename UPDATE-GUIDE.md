@@ -1,25 +1,10 @@
 # BHARAT ATLAS MASTER — UPDATE & ARCHITECTURE GUIDE
 
-This guide explains the architectural transformation of `geography-of-india` from its legacy prototype to **Bharat Atlas Master v2.0**, and how to maintain, extend, and update its datasets and components.
+This guide explains the architectural features of **Bharat Atlas Master v2.0**, how datasets are organized, and how to maintain, extend, and update its Disaster Management and UPPSC PCS Special modules.
 
 ---
 
-## 🏛️ Architectural Transformation Summary
-
-| Feature | Legacy Prototype (`legacy_index.html`) | Bharat Atlas Master v2.0 (`src/`) |
-| :--- | :--- | :--- |
-| **Code Structure** | Monolithic 3,736-line single HTML file | Modular React 18 + Vite 6 component architecture |
-| **Styling** | Static inline CSS classes | Tailwind CSS with dynamic Parchment & Night Atlas design tokens |
-| **Data Storage** | Hardcoded inside JavaScript script tags | 16 decoupled JSON datasets in `public/data/` |
-| **Questions** | Minimal sample questions | **500 verified bilingual questions** with 3-level hints & UPSC traps |
-| **Maps** | Basic static SVG layout | Georeferenced vector map with 6 toggleable layers & blind map drill |
-| **Physics** | Static text descriptions | Interactive 8-stage monsoon engine & topographic cross-sections |
-| **Exams** | None | Full 100Q UPSC Prelims exam simulator with TCS iON palette & -0.66 marks |
-| **State Persistence** | Transient session state | Offline-first `localStorage` with JSON export/import and daily streak |
-
----
-
-## 📁 Directory Structure
+## 📁 Directory Structure & Datasets
 
 ```
 geography-of-india/
@@ -29,7 +14,7 @@ geography-of-india/
 ├── public/
 │   ├── .nojekyll                  # Prevents Jekyll processing on GitHub Pages
 │   ├── icon.svg                   # High-res vector compass emblem
-│   └── data/                      # 16 Decoupled JSON Datasets
+│   └── data/                      # 17 Decoupled JSON Datasets
 │       ├── master-flow.json       # 16 causal stations
 │       ├── physiography.json      # 6 divisions + subsections
 │       ├── rivers.json            # 14 major river systems & tributaries
@@ -39,13 +24,14 @@ geography-of-india/
 │       ├── vegetation-forests.json# 6 ISFR forest classifications
 │       ├── minerals-energy.json   # Cratons, Gondwana coal & NCMM critical minerals
 │       ├── multi-purpose-projects.json # 12 landmark dams & barrages
-│       ├── disaster-geography.json# BIS Seismic zones, cyclones, GLOFs
+│       ├── disaster-geography.json# NDMA 2005, Sendai, BIS Seismic Zones II-V, Cyclones, GLOFs
+│       ├── uppsc-special-geography.json # UPPSC Papers 5 & 6: UP Relief, Drainage, Soils, Ramsar, Disasters
 │       ├── biodiversity-protected.json # Biosphere reserves & Ramsar sites
 │       ├── transport-infrastructure.json # DFCs, Golden Quadrilateral, Ports
 │       ├── economic-human-geo.json# 2011 Census metrics & industrial clusters
 │       ├── prelims-pyqs.json      # Official 2015-2026 UPSC/PSC question papers
 │       ├── mock-presets.json      # Exam configurations
-│       └── questions.json         # 500 Verified MCQs with hints & explanations
+│       └── questions.json         # 525+ Verified MCQs with hints & explanations
 ├── src/
 │   ├── components/
 │   │   ├── common/                # Header, Navigation, GlobalSearchModal
@@ -53,6 +39,8 @@ geography-of-india/
 │   │   ├── atlas/                 # MasterFlowExplorer, CrossSectionLab, RiverBasinExplorer
 │   │   ├── maplab/                # InteractiveMapLab, MapPointingDrill
 │   │   ├── simulators/            # MonsoonSimulator, CropLocationGame
+│   │   ├── disaster/              # DisasterManagementLab (Hazards, Seismic, Sendai, Case Studies)
+│   │   ├── uppsc/                 # UppscGeoSpecial (UP Physiography, Ken-Betwa, Soils, Ramsar, Disasters)
 │   │   ├── practice/              # PracticeArena, FlashcardDeck, MistakesNotebook
 │   │   ├── mock/                  # ExamSimulator
 │   │   └── tools/                 # PyqExplorer, BackupSync
@@ -66,69 +54,27 @@ geography-of-india/
 ├── index.html                     # HTML root template with fonts
 ├── package.json                   # Project dependencies & scripts
 ├── tailwind.config.js             # Cartographic design tokens
-├── vite.config.js                 # Vite configuration with base: './'
-└── legacy_index.html              # Full backup of the original single-page file
+└── vite.config.js                 # Vite configuration with base: './'
 ```
 
 ---
 
-## 🔧 How to Update & Extend
+## 🔧 Managing & Extending Study Material
 
-### 1. Adding or Editing Questions
-All practice and exam questions live in `public/data/questions.json`. Each question follows this schema:
-```json
-{
-  "id": "geo_q_501",
-  "topic": "Drainage & River Systems",
-  "subtopic": "Peninsular Drainage",
-  "examType": "UPSC Prelims PYQ",
-  "difficulty": "Medium",
-  "question": "Which of the following is a west-flowing river of the peninsular plateau?",
-  "questionHindi": "निम्नलिखित में से कौन सी प्रायद्वीपीय पठार की पश्चिम की ओर बहने वाली नदी है?",
-  "options": ["Narmada", "Mahanadi", "Godavari", "Krishna"],
-  "optionsHindi": ["नर्मदा", "महानदी", "गोदावरी", "कृष्णा"],
-  "correct": 0,
-  "hints": [
-    "Hint 1: Flows through a fault/rift valley between Vindhyas and Satpuras.",
-    "Hint 2: Empties into the Gulf of Khambhat (Arabian Sea).",
-    "Hint 3: Famous for the Dhuandhar Falls at Jabalpur."
-  ],
-  "trapAlert": "Do not confuse east-flowing Mahanadi with west-flowing Narmada.",
-  "explanation": "Narmada and Tapi flow westwards through tectonic rift valleys into the Arabian Sea.",
-  "explanationHindi": "नर्मदा और तापी विवर्तनिक भ्रंश घाटी से होकर पश्चिम की ओर अरब सागर में गिरती हैं।"
-}
-```
+### 1. Disaster Management Module (`public/data/disaster-geography.json`)
+The disaster dataset contains three primary structures:
+- `frameworks`: Contains statutory details for the Disaster Management Act 2005 (3-tier governance), the Sendai Framework for Disaster Risk Reduction 2015-2030 (4 Priorities & 7 Targets), and the PM's 10-Point Agenda on DRR.
+- `hazards`: Detailed geomorphic etiology, BIS seismic zones, IMD color alert stages, hotspots, and structural/non-structural mitigation strategies.
+- `caseStudies`: Real-world disaster forensic analyses (South Lhonak GLOF 2023, Chamoli Avalanche 2021, Cyclone Fani 2019).
 
-### 2. Adding a Mountain Pass or Peak Pin
-Add a new object to `public/data/passes-peaks.json` with geographical latitude and longitude:
-```json
-{
-  "id": "new_pass",
-  "type": "pass",
-  "name": "Pass Name",
-  "hindi": "दर्रे का नाम",
-  "range": "Mountain Range",
-  "state": "State or UT",
-  "elevationM": 4500,
-  "connects": "Region A with Region B",
-  "route": "NH-X",
-  "importance": "Strategic and exam significance...",
-  "lat": 32.5,
-  "lon": 77.2
-}
-```
-The `mapProjections.js` utility will automatically calculate its exact SVG canvas position.
-
-### 3. Modifying Syllabus Weightages
-Open `src/utils/readinessCalculator.js` and adjust `TOPIC_WEIGHTS`:
-```javascript
-export const TOPIC_WEIGHTS = {
-  'Physiography & Relief': 0.15,
-  'Drainage & River Systems': 0.15,
-  'Climate & Monsoon': 0.15,
-  ...
-};
-```
+### 2. UPPSC PCS Geography Special (`public/data/uppsc-special-geography.json`)
+Tailored directly for the revised UPPSC PCS pattern (Mains Papers 5 & 6):
+- `physiography`: Bhabar and Terai belts, Gangetic Plain, and Bundelkhand plateau.
+- `drainage`: Ganga, Yamuna, Gomti (intra-state origin at Fulhar Jheel / Gomat Taal), Sharda Canal, and Ken-Betwa Link.
+- `soilsOfUP`: Alluvial (Khadar/Bhangar), Usar/Reh reclamation, and Bundelkhand soils (*Mar, Kabar, Parwa, Rakar*).
+- `disastersInUP`: Terai flood districts, Bundelkhand chronic drought, and Western UP Seismic Zone IV.
+- `protectedAreasAndRamsar`: 4 Tiger Reserves (Dudhwa, Pilibhit, Amangarh, Ranipur) and all 10 Ramsar wetland sites in UP.
+- `mineralsAndEnergy`: Sonbhadra limestone/coal, Prayagraj silica sand, Banda bauxite, Narora Atomic Power Station, and Rihand Dam.
 
 ---
 
