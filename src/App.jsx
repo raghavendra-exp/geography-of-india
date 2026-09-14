@@ -59,6 +59,7 @@ export default function App() {
     transport: {},
     uppsc: {},
     pyq: [],
+    pyqMaster: [],
     questions: [],
     loaded: false
   });
@@ -100,6 +101,7 @@ export default function App() {
           biodiversity,
           uppsc,
           pyq,
+          pyqMaster,
           questions
         ] = await Promise.all([
           fetch('./data/master-flow.json').then(r => r.json()),
@@ -114,6 +116,7 @@ export default function App() {
           fetch('./data/biodiversity-protected.json').then(r => r.json()),
           fetch('./data/uppsc-special-geography.json').then(r => r.json()),
           fetch('./data/prelims-pyqs.json').then(r => r.json()),
+          fetch('./data/pyq-master-bank.json').then(r => r.json()).catch(() => []),
           fetch('./data/questions.json').then(r => r.json())
         ]);
 
@@ -130,6 +133,7 @@ export default function App() {
           biodiversity,
           uppsc,
           pyq,
+          pyqMaster,
           questions,
           loaded: true
         });
@@ -394,6 +398,7 @@ export default function App() {
             {activeTab === 'pyq' && (
               <PyqExplorer
                 pyqData={datasets.pyq}
+                pyqMasterData={datasets.pyqMaster}
                 onStartPyqPractice={(year) => {
                   setPracticeInitialTopic('All');
                   setActiveTab('practice');

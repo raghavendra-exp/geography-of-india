@@ -1,313 +1,335 @@
 import React, { useState } from 'react';
-import { Layers, Mountain, Waves, Info, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Layers, Mountain, Waves, Info, CheckCircle2, ArrowRight, Droplets, Sparkles, AlertCircle } from 'lucide-react';
+
+const PLAINS_TRANSECT = [
+  {
+    id: 'greater_himalayas',
+    name: 'Greater Himalayas (Himadri)',
+    hindi: 'वृहद हिमालय (हिमाद्रि)',
+    elevation: '>6,000 meters',
+    gradient: 'Extreme Slopes & Permafrost',
+    color: '#0284c7',
+    tag: 'Alpine Glaciers',
+    desc: 'Perpetual snows and glaciers (Gangotri, Yamunotri). Source of perennial Himalayan rivers. Consists of Archaean crystallines (granites and gneisses).'
+  },
+  {
+    id: 'lesser_himalayas',
+    name: 'Lesser Himalayas (Himachal)',
+    hindi: 'लघु हिमालय (हिमाचल)',
+    elevation: '3,700 – 4,500 meters',
+    gradient: 'Steep Valleys & Ridges',
+    color: '#0d9488',
+    tag: 'Hill Stations & Duns',
+    desc: 'Famous ranges like Pir Panjal and Dhauladhar. Location of prominent hill stations (Shimla, Mussoorie, Nainital). Dense temperate oak and conifer forests.'
+  },
+  {
+    id: 'shiwalik',
+    name: 'Shiwalik Foothills (Outer)',
+    hindi: 'शिवालिक पहाड़ियाँ',
+    elevation: '900 – 1,200 meters',
+    gradient: 'Slope Break Foothills',
+    color: '#64748b',
+    tag: 'Landslide Prone',
+    desc: 'Youngest mountain fold formed by Tertiary unconsolidated river sediments, pebbles, and sandstone. Prone to severe landslides and soil erosion. Longitudinal valleys called "Duns" (e.g. Dehradun).'
+  },
+  {
+    id: 'bhabar',
+    name: 'Bhabar Pebble Belt',
+    hindi: 'भाबर पट्टी (कंकड़-पत्थर)',
+    elevation: '200 – 300 meters',
+    gradient: '8 – 10 km Parallel Strip',
+    color: '#d97706',
+    tag: 'RIVERS VANISH UNDERGROUND!',
+    desc: 'Coarse boulders, unassorted gravels, and pebbles dumped at the sudden Himalayan slope break. POROSITY IS SO IMMENSE that river torrents completely sink underground and disappear from the surface! Unfit for farming; deep-rooted forest trees thrive.'
+  },
+  {
+    id: 'terai',
+    name: 'Terai Marshy Zone',
+    hindi: 'तराई क्षेत्र (दलदली भूमि)',
+    elevation: '100 – 200 meters',
+    gradient: '10 – 20 km Wide Belt',
+    color: '#059669',
+    tag: 'STREAMS RE-EMERGE AS SWAMPS',
+    desc: 'The underground streams of the Bhabar belt re-emerge at the surface without any defined channel, creating ill-drained marshy, swampy waterlogged tracts. Once dense malarial jungles, now reclaimed for intensive sugarcane, paddy, wheat, and jute cultivation.'
+  },
+  {
+    id: 'bhangar',
+    name: 'Bhangar Terrace (Old Alluvium)',
+    hindi: 'बांगर (पुरातन जलोढ़)',
+    elevation: '60 – 100 meters',
+    gradient: 'Elevated River Terraces',
+    color: '#b45309',
+    tag: 'Calcareous Kankar Nodules',
+    desc: 'Older Middle-Pleistocene alluvium forming upland terraces well above the reach of modern annual floods. Dark clayey loam containing calcareous calcium carbonate concretions called "Kankar". Reliable, flood-safe wheat, pulse, and mustard agricultural land.'
+  },
+  {
+    id: 'khadar',
+    name: 'Khadar Floodplain (New Alluvium)',
+    hindi: 'खादर (नवीन जलोढ़)',
+    elevation: '30 – 60 meters',
+    gradient: 'Active Riparian River Plain',
+    color: '#10b981',
+    tag: 'Annually Renewed Fertile Silt',
+    desc: 'Fresh fertile silt, clay, and sand deposited annually by monsoon floodwaters along active river channels. Known as "Bet" in Punjab. Requires little chemical fertilizer due to annual natural nutrient replenishment; intensive paddy and vegetable cropping.'
+  }
+];
+
+const GHATS_TRANSECT = [
+  {
+    id: 'arabian_sea',
+    name: 'Arabian Sea Continental Shelf',
+    desc: 'Submergent western coast with rich fisheries, petroleum deposits (Bombay High), and natural deep-water ports (JNPT, Mormugao, Kochi).'
+  },
+  {
+    id: 'west_plain',
+    name: 'Narrow Western Coastal Plain (50-80 km)',
+    desc: 'Narrow, steep coastal strip. Fast-flowing non-deltaic rivers form estuaries, backwaters, and lagoons/kayals (Vembanad, Ashtamudi).'
+  },
+  {
+    id: 'western_ghats',
+    name: 'Western Ghats Escarpment (Sahyadri, 900-1600m)',
+    desc: 'Continuous fault-scarp wall directly blocking South-West monsoon winds. Heavy orographic rain (250-400 cm); tropical evergreen rainforests; global biodiversity hotspot.'
+  },
+  {
+    id: 'rain_shadow',
+    name: 'Deccan Rain-Shadow Plateau',
+    desc: 'Semi-arid interior (50-70 cm rain). Descending dry air creates rain-deficit conditions across Maharashtra, Northern Karnataka, and Rayalaseema. Black cotton soil (Regur).'
+  },
+  {
+    id: 'eastern_ghats',
+    name: 'Eastern Ghats Relict Hills (~600m)',
+    desc: 'Ancient, heavily eroded, discontinuous hill fragments widely dissected by east-flowing peninsular rivers (Mahanadi, Godavari, Krishna, Cauvery).'
+  },
+  {
+    id: 'east_plain',
+    name: 'Broad Eastern Coastal Plain (100-150 km)',
+    desc: 'Broad emergent coastline featuring vast fertile river deltas (Ganga-Brahmaputra, Mahanadi, Godavari, Krishna, Cauvery) known as the rice bowls of India.'
+  }
+];
 
 export default function CrossSectionLab() {
-  const [activeProfile, setActiveProfile] = useState('plains');
-  const [hoveredZone, setHoveredZone] = useState(null);
+  const [activeProfile, setActiveProfile] = useState('plains'); // 'plains' | 'ghats'
+  const [selectedZoneId, setSelectedZoneId] = useState('bhabar');
 
-  const PLAINS_ZONES = [
-    {
-      id: 'shiwalik',
-      name: 'Shiwalik Foothills',
-      hindi: 'शिवालिक की पहाड़ियाँ',
-      width: '18%',
-      color: '#94a3b8',
-      height: '90px',
-      geology: 'Tertiary sandstone, conglomerate and unconsolidated sediments.',
-      drainage: 'High gradient mountain torrents carrying massive boulder loads.',
-      crops: 'Timber, temperate fruits (apple, peach), terrace farming.'
-    },
-    {
-      id: 'bhabar',
-      name: 'Bhabar Belt',
-      hindi: 'भाबर पट्टी',
-      width: '20%',
-      color: '#d97706',
-      height: '60px',
-      geology: 'Coarse gravels, pebbles and unassorted boulders deposited at slope break.',
-      drainage: 'Immense porosity — streams completely sink underground and disappear!',
-      crops: 'Not suited for agriculture due to unretentive coarse stones; deep-rooted trees.'
-    },
-    {
-      id: 'terai',
-      name: 'Terai Zone',
-      hindi: 'तराई क्षेत्र',
-      width: '20%',
-      color: '#059669',
-      height: '50px',
-      geology: 'Fine silts and sand; ill-drained marshy waterlogged tract.',
-      drainage: 'Underground Bhabar streams re-emerge at the surface creating swamps.',
-      crops: 'Reclaimed for intensive cultivation of Sugarcane, Rice, Wheat, and Jute.'
-    },
-    {
-      id: 'bhangar',
-      name: 'Bhangar Terrace',
-      hindi: 'बांगर (पुरातन जलोढ़)',
-      width: '22%',
-      color: '#b45309',
-      height: '55px',
-      geology: 'Older Quaternary alluvium situated above current flood levels.',
-      drainage: 'Contains calcareous concretions called "Kankar"; well-drained upland.',
-      crops: 'Wheat, Mustard, Pulses; stable year-round farming without annual flood threat.'
-    },
-    {
-      id: 'khadar',
-      name: 'Khadar Floodplain',
-      hindi: 'खादर (नवीन जलोढ़)',
-      width: '20%',
-      color: '#10b981',
-      height: '40px',
-      geology: 'Younger fresh alluvium deposited by active river channel floods annually.',
-      drainage: 'Low-lying riparian zone along river banks; subject to seasonal inundation.',
-      crops: 'Extremely fertile without fertilizers; Intensive Paddy, Maize, Vegetables, Sugarcane.'
-    }
-  ];
-
-  const GHATS_ZONES = [
-    {
-      id: 'arabian_sea',
-      name: 'Arabian Sea Shelf',
-      width: '14%',
-      color: '#0284c7',
-      desc: 'Submergent western continental shelf with rich fisheries and petroleum (Bombay High).'
-    },
-    {
-      id: 'west_coast',
-      name: 'Western Coastal Plain',
-      width: '16%',
-      color: '#14b8a6',
-      desc: 'Narrow (50–80 km), fast-flowing non-deltaic rivers forming estuaries, lagoons/kayals (Vembanad).'
-    },
-    {
-      id: 'western_ghats',
-      name: 'Western Ghats (Sahyadri)',
-      width: '20%',
-      color: '#7c3aed',
-      desc: 'Continuous steep fault escarpment, 900–1600m. Heavy orographic rain (>250 cm). High biodiversity hotspot.'
-    },
-    {
-      id: 'deccan_interior',
-      name: 'Deccan Rain Shadow',
-      width: '22%',
-      color: '#eab308',
-      desc: 'Semi-arid interior (50–70 cm rain). Black cotton soil (Regur), drought-prone rainshadow of Western Ghats.'
-    },
-    {
-      id: 'eastern_ghats',
-      name: 'Eastern Ghats',
-      width: '14%',
-      color: '#a855f7',
-      desc: 'Discontinuous, highly eroded ancient relict hills (~600m), heavily breached by Godavari, Krishna, Mahanadi.'
-    },
-    {
-      id: 'east_coast',
-      name: 'Coromandel / Deltaic Coast',
-      width: '14%',
-      color: '#10b981',
-      desc: 'Broad (100–150 km) emergent coastal plain with vast fertile deltas and coastal lagoons (Chilika, Pulicat).'
-    }
-  ];
-
-  const currentPlainsItem = PLAINS_ZONES.find(z => z.id === hoveredZone) || PLAINS_ZONES[1];
-  const currentGhatsItem = GHATS_ZONES.find(z => z.id === hoveredZone) || GHATS_ZONES[2];
+  const curZone = PLAINS_TRANSECT.find(z => z.id === selectedZoneId) || PLAINS_TRANSECT[3];
 
   return (
-    <div className="space-y-6">
-      {/* Profile Toggle */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 rounded-2xl bg-white/70 dark:bg-slate-900/70 border border-sepia-300 dark:border-slate-800">
-        <div>
-          <h4 className="text-sm font-bold font-display text-sepia-900 dark:text-slate-100">
-            Select Topographic Cross-Section Profile:
-          </h4>
-          <p className="text-xs text-sepia-600 dark:text-slate-400">
-            Understand morphological slopes, groundwater dynamics, and vegetative transitions.
-          </p>
-        </div>
+    <div className="space-y-6 animate-fade-in">
+      
+      {/* Top Controls Banner */}
+      <div className="p-6 rounded-3xl border shadow-sm bg-white/80 border-sepia-300 text-sepia-900 dark:bg-slate-900/80 dark:border-slate-800 dark:text-slate-100">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <div className="flex items-center space-x-2">
+              <span className="px-2.5 py-0.5 rounded-md text-xs font-mono font-bold bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300 border border-amber-300 dark:border-amber-800">
+                TOPOGRAPHIC CROSS-SECTION LAB
+              </span>
+              <span className="text-xs text-sepia-600 dark:text-slate-400 font-mono">
+                NCERT Class 11 Physiography
+              </span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold font-display text-sepia-900 dark:text-slate-100 mt-1">
+              Relief Slopes, Groundwater & Soil Morpho-Units
+            </h2>
+            <p className="text-xs sm:text-sm text-sepia-600 dark:text-slate-400 mt-0.5">
+              Visualize the dramatic North-to-South Himalayan-to-Plains transect and Peninsular Ghats asymmetry.
+            </p>
+          </div>
 
-        <div className="flex items-center space-x-2">
-          <button
-            onClick={() => {
-              setActiveProfile('plains');
-              setHoveredZone('bhabar');
-            }}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
-              activeProfile === 'plains'
-                ? 'bg-saffron-600 text-white border-saffron-600 shadow'
-                : 'bg-sepia-100 text-sepia-800 dark:bg-slate-800 dark:text-slate-300 border-transparent hover:bg-sepia-200'
-            }`}
-          >
-            Northern Plains Morpho-Zones
-          </button>
-          <button
-            onClick={() => {
-              setActiveProfile('ghats');
-              setHoveredZone('western_ghats');
-            }}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
-              activeProfile === 'ghats'
-                ? 'bg-saffron-600 text-white border-saffron-600 shadow'
-                : 'bg-sepia-100 text-sepia-800 dark:bg-slate-800 dark:text-slate-300 border-transparent hover:bg-sepia-200'
-            }`}
-          >
-            Peninsular Ghats & Coastal Asymmetry
-          </button>
+          <div className="flex rounded-xl bg-sepia-100 dark:bg-slate-800 p-1 border border-sepia-200 dark:border-slate-700 text-xs font-bold w-fit">
+            <button
+              onClick={() => {
+                setActiveProfile('plains');
+                setSelectedZoneId('bhabar');
+              }}
+              className={`px-3.5 py-1.5 rounded-lg transition-all ${
+                activeProfile === 'plains'
+                  ? 'bg-saffron-600 text-white shadow-xs'
+                  : 'text-sepia-700 dark:text-slate-300 hover:text-sepia-900'
+              }`}
+            >
+              Himalayas → Northern Plains
+            </button>
+            <button
+              onClick={() => setActiveProfile('ghats')}
+              className={`px-3.5 py-1.5 rounded-lg transition-all ${
+                activeProfile === 'ghats'
+                  ? 'bg-saffron-600 text-white shadow-xs'
+                  : 'text-sepia-700 dark:text-slate-300 hover:text-sepia-900'
+              }`}
+            >
+              Western Ghats → Eastern Ghats
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Profile 1: Northern Plains Morpho-Units */}
       {activeProfile === 'plains' && (
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
-          <div className="lg:col-span-8 p-6 rounded-3xl border shadow-md bg-[#faf7ee] border-sepia-300 dark:bg-[#090e17] dark:border-slate-800 space-y-4">
+        <div className="space-y-6">
+          
+          {/* Visual Step-Ladder Diagram */}
+          <div className="p-6 rounded-3xl border shadow-lg bg-[#faf7ee] border-sepia-300 text-sepia-900 dark:bg-[#090e17] dark:border-slate-800 dark:text-slate-100 space-y-4">
             <div className="flex items-center justify-between border-b border-sepia-200 dark:border-slate-800 pb-2">
-              <span className="text-xs font-mono font-bold text-sepia-600 dark:text-slate-400">
-                NORTH-TO-SOUTH TRANSECT: HIMALAYAN FOOTHILLS TO GANGETIC FLOODPLAINS
+              <span className="text-xs font-mono font-bold text-sepia-600 dark:text-slate-400 uppercase tracking-wider">
+                NORTH-TO-SOUTH TRANSECT: HIMALAYAS → FOOTHILLS → PLAINS → GANGA
               </span>
-              <span className="text-xs font-semibold text-saffron-600">Click a zone to inspect</span>
+              <span className="text-xs font-bold text-saffron-600 dark:text-amber-400">Click any zone below</span>
             </div>
 
-            {/* Visual Cross Section Strip */}
-            <div className="pt-8 pb-4">
-              <div className="flex items-end h-44 w-full gap-1 p-2 rounded-2xl bg-white/70 dark:bg-slate-900/60 border border-sepia-200 dark:border-slate-800">
-                {PLAINS_ZONES.map(zone => (
-                  <div
+            {/* Step-by-step Interactive Elevation Cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-2 pt-2">
+              {PLAINS_TRANSECT.map((zone, idx) => {
+                const isSelected = selectedZoneId === zone.id;
+                return (
+                  <button
                     key={zone.id}
-                    style={{ width: zone.width, height: zone.height, backgroundColor: zone.color }}
-                    onClick={() => setHoveredZone(zone.id)}
-                    className={`rounded-t-xl cursor-pointer transition-all hover:opacity-90 flex flex-col items-center justify-end pb-2 text-white shadow-md relative ${
-                      hoveredZone === zone.id ? 'ring-4 ring-saffron-500 scale-[1.02]' : ''
+                    onClick={() => setSelectedZoneId(zone.id)}
+                    className={`p-3 rounded-2xl border text-left transition-all flex flex-col justify-between ${
+                      isSelected
+                        ? 'bg-saffron-600 text-white border-saffron-600 shadow-lg scale-[1.03] ring-2 ring-saffron-400'
+                        : 'bg-white/80 dark:bg-slate-900/80 border-sepia-200 dark:border-slate-800 text-sepia-800 dark:text-slate-300 hover:bg-sepia-100'
                     }`}
                   >
-                    <span className="text-[10px] font-mono font-bold uppercase text-center px-1 truncate">
-                      {zone.name.split(' ')[0]}
-                    </span>
-                  </div>
-                ))}
-              </div>
+                    <div>
+                      <span className="text-[10px] font-mono font-bold opacity-80 block uppercase">
+                        ZONE {idx + 1}
+                      </span>
+                      <h4 className="text-xs font-bold mt-0.5 line-clamp-1">{zone.name.split(' ')[0]}</h4>
+                      <span className="text-[10px] font-mono block opacity-75 mt-0.5">{zone.elevation}</span>
+                    </div>
 
-              {/* Underlying Labels */}
-              <div className="flex justify-between text-[11px] font-mono font-semibold text-sepia-600 dark:text-slate-400 px-2 mt-2">
-                <span>North (Himalayas)</span>
-                <span>South (Ganga River)</span>
-              </div>
+                    <div className="mt-2 pt-1.5 border-t border-sepia-200/50 dark:border-slate-800/50">
+                      <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-black/10 dark:bg-white/10 block text-center truncate">
+                        {zone.tag}
+                      </span>
+                    </div>
+                  </button>
+                );
+              })}
             </div>
 
-            {/* High-Yield UPSC Comparison Table */}
-            <div className="overflow-x-auto text-xs">
+            {/* Active Morpho-Unit Deep-Dive Inspector */}
+            <div className="mt-4 p-5 rounded-2xl bg-white/90 dark:bg-slate-800/80 border border-sepia-200 dark:border-slate-700 space-y-3">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-sepia-200 dark:border-slate-700 pb-2">
+                <div>
+                  <span className="text-[10px] font-mono font-bold text-saffron-700 dark:text-amber-300 uppercase">
+                    ACTIVE ZONE DETAIL
+                  </span>
+                  <h3 className="text-lg font-bold font-display text-sepia-900 dark:text-slate-100">
+                    {curZone.name}
+                  </h3>
+                  {curZone.hindi && (
+                    <p className="text-xs font-hindi text-sepia-600 dark:text-slate-400 font-medium">
+                      {curZone.hindi}
+                    </p>
+                  )}
+                </div>
+
+                <div className="flex items-center space-x-2 text-xs font-mono">
+                  <span className="px-2.5 py-1 rounded-lg bg-sepia-100 dark:bg-slate-700 text-sepia-800 dark:text-slate-200 font-bold">
+                    Elevation: {curZone.elevation}
+                  </span>
+                  <span className="px-2.5 py-1 rounded-lg bg-saffron-100 dark:bg-amber-950 text-saffron-800 dark:text-amber-300 font-bold">
+                    {curZone.gradient}
+                  </span>
+                </div>
+              </div>
+
+              <p className="text-xs sm:text-sm text-sepia-800 dark:text-slate-200 leading-relaxed font-sans">
+                {curZone.desc}
+              </p>
+            </div>
+
+            {/* The Famous Bhabar vs Terai vs Bhangar vs Khadar UPSC Table */}
+            <div className="mt-4 overflow-x-auto text-xs">
               <table className="w-full border-collapse">
                 <thead>
-                  <tr className="border-b border-sepia-200 dark:border-slate-800 text-left text-sepia-500 dark:text-slate-400">
-                    <th className="py-2 pr-2">Feature</th>
-                    <th className="py-2 px-2">Bhabar</th>
-                    <th className="py-2 px-2">Terai</th>
-                    <th className="py-2 px-2">Bhangar</th>
-                    <th className="py-2 pl-2">Khadar</th>
+                  <tr className="border-b border-sepia-300 dark:border-slate-700 text-left text-sepia-600 dark:text-slate-400 font-mono">
+                    <th className="py-2.5 pr-3 font-bold uppercase">Feature</th>
+                    <th className="py-2.5 px-3 font-bold uppercase text-amber-600 dark:text-amber-400">1. Bhabar</th>
+                    <th className="py-2.5 px-3 font-bold uppercase text-emerald-600 dark:text-emerald-400">2. Terai</th>
+                    <th className="py-2.5 px-3 font-bold uppercase text-amber-700 dark:text-amber-500">3. Bhangar</th>
+                    <th className="py-2.5 pl-3 font-bold uppercase text-teal-600 dark:text-teal-400">4. Khadar</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-sepia-200 dark:divide-slate-800/60 text-sepia-800 dark:text-slate-300">
+                <tbody className="divide-y divide-sepia-200 dark:divide-slate-800 font-sans text-sepia-800 dark:text-slate-200">
                   <tr>
-                    <td className="py-2 pr-2 font-bold text-sepia-900 dark:text-slate-100">Sediment Size</td>
-                    <td className="py-2 px-2">Boulders & Coarse gravel</td>
-                    <td className="py-2 px-2">Fine silt & sand</td>
-                    <td className="py-2 px-2">Old clay & Kankar</td>
-                    <td className="py-2 pl-2">Fresh fine silt/loam</td>
+                    <td className="py-2 pr-3 font-bold text-sepia-900 dark:text-slate-100">Sediment Type</td>
+                    <td className="py-2 px-3">Pebbles & coarse boulders</td>
+                    <td className="py-2 px-3">Fine silt & sand</td>
+                    <td className="py-2 px-3">Older clay & Kankar nodules</td>
+                    <td className="py-2 pl-3 font-semibold text-emerald-600">Fresh silt deposited annually</td>
                   </tr>
                   <tr>
-                    <td className="py-2 pr-2 font-bold text-sepia-900 dark:text-slate-100">Stream Status</td>
-                    <td className="py-2 px-2 text-rose-600 dark:text-rose-400 font-semibold">Disappear underground</td>
-                    <td className="py-2 px-2 text-emerald-600 dark:text-emerald-400 font-semibold">Re-emerge as swamps</td>
-                    <td className="py-2 px-2">Above flood reach</td>
-                    <td className="py-2 pl-2">Annual flood deposition</td>
+                    <td className="py-2 pr-3 font-bold text-sepia-900 dark:text-slate-100">Stream Status</td>
+                    <td className="py-2 px-3 font-bold text-rose-600">STREAMS DISAPPEAR UNDERGROUND</td>
+                    <td className="py-2 px-3 font-bold text-emerald-600">STREAMS RE-EMERGE AS SWAMPS</td>
+                    <td className="py-2 px-3">Well above flood reach</td>
+                    <td className="py-2 pl-3">Submerged during annual floods</td>
                   </tr>
                   <tr>
-                    <td className="py-2 pr-2 font-bold text-sepia-900 dark:text-slate-100">Cultivation</td>
-                    <td className="py-2 px-2">Unsuitable for crops</td>
-                    <td className="py-2 px-2">Sugarcane, Rice</td>
-                    <td className="py-2 px-2">Wheat, Pulses</td>
-                    <td className="py-2 pl-2">Intensive Paddy/Veggies</td>
+                    <td className="py-2 pr-3 font-bold text-sepia-900 dark:text-slate-100">Agriculture</td>
+                    <td className="py-2 px-3 text-rose-600 font-medium">Unfit for farming</td>
+                    <td className="py-2 px-3 font-medium">Sugarcane, Paddy, Wheat, Jute</td>
+                    <td className="py-2 px-3 font-medium">Wheat, Mustard, Pulses</td>
+                    <td className="py-2 pl-3 font-medium">Intensive Vegetables & Rice</td>
                   </tr>
                 </tbody>
               </table>
             </div>
+
           </div>
 
-          {/* Right 4 Cols: Active Plains Zone Inspector */}
-          <div className="lg:col-span-4 p-6 rounded-3xl border shadow-sm bg-white/90 border-sepia-300 text-sepia-900 dark:bg-slate-900/90 dark:border-slate-800 dark:text-slate-100 space-y-4">
-            <div>
-              <span className="text-[10px] font-mono font-bold uppercase text-saffron-700 dark:text-amber-400">
-                ZONE INSPECTION
-              </span>
-              <h4 className="text-xl font-bold font-display text-sepia-900 dark:text-slate-100 mt-0.5">
-                {currentPlainsItem.name}
-              </h4>
-              {currentPlainsItem.hindi && (
-                <p className="text-xs font-hindi text-sepia-600 dark:text-amber-300">
-                  {currentPlainsItem.hindi}
-                </p>
-              )}
-            </div>
-
-            <div className="space-y-3 text-xs">
-              <div>
-                <span className="font-bold text-sepia-600 dark:text-slate-400 block mb-0.5">Lithology & Geology:</span>
-                <p className="text-sepia-800 dark:text-slate-300 leading-relaxed">{currentPlainsItem.geology}</p>
-              </div>
-
-              <div>
-                <span className="font-bold text-sepia-600 dark:text-slate-400 block mb-0.5">Hydrology & Streams:</span>
-                <p className="text-sepia-800 dark:text-slate-300 leading-relaxed">{currentPlainsItem.drainage}</p>
-              </div>
-
-              <div>
-                <span className="font-bold text-sepia-600 dark:text-slate-400 block mb-0.5">Agricultural Suitability:</span>
-                <p className="text-sepia-800 dark:text-slate-300 leading-relaxed">{currentPlainsItem.crops}</p>
-              </div>
-            </div>
-          </div>
         </div>
       )}
 
-      {/* Profile 2: Peninsular Ghats & Coastal Asymmetry */}
+      {/* Profile 2: Peninsular Ghats Asymmetry */}
       {activeProfile === 'ghats' && (
-        <div className="p-6 rounded-3xl border shadow-md bg-[#faf7ee] border-sepia-300 dark:bg-[#090e17] dark:border-slate-800 space-y-6">
-          <div className="flex items-center justify-between border-b border-sepia-200 dark:border-slate-800 pb-2">
-            <span className="text-xs font-mono font-bold text-sepia-600 dark:text-slate-400">
-              WEST-TO-EAST TRANSECT: ARABIAN SEA TO BAY OF BENGAL
-            </span>
-          </div>
+        <div className="space-y-6">
+          <div className="p-6 rounded-3xl border shadow-lg bg-[#faf7ee] border-sepia-300 text-sepia-900 dark:bg-[#090e17] dark:border-slate-800 dark:text-slate-100 space-y-6">
+            <div>
+              <span className="text-xs font-mono font-bold text-saffron-700 dark:text-amber-300 uppercase">
+                WEST-TO-EAST PENINSULAR TRANSECT
+              </span>
+              <h3 className="text-xl sm:text-2xl font-bold font-display text-sepia-900 dark:text-slate-100 mt-1">
+                Why are the Western Ghats so Different from the Eastern Ghats?
+              </h3>
+              <p className="text-xs sm:text-sm text-sepia-600 dark:text-slate-400 mt-0.5">
+                The Peninsular Plateau is tilted from West to East, dictating drainage, rainfall gradients, and coastal geometry.
+              </p>
+            </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-            {GHATS_ZONES.map(z => (
-              <div
-                key={z.id}
-                onClick={() => setHoveredZone(z.id)}
-                className={`p-4 rounded-2xl border transition-all cursor-pointer ${
-                  hoveredZone === z.id
-                    ? 'bg-white dark:bg-slate-800 border-saffron-500 shadow-md ring-2 ring-saffron-500'
-                    : 'bg-white/60 dark:bg-slate-900/60 border-sepia-200 dark:border-slate-800 hover:bg-white'
-                }`}
-              >
-                <div className="w-3 h-3 rounded-full mb-2" style={{ backgroundColor: z.color }} />
-                <h5 className="text-xs font-bold text-sepia-900 dark:text-slate-100">
-                  {z.name}
-                </h5>
-                <p className="text-[11px] text-sepia-600 dark:text-slate-400 mt-1 leading-relaxed">
-                  {z.desc}
-                </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {GHATS_TRANSECT.map((item, idx) => (
+                <div key={item.id} className="p-4 rounded-2xl bg-white/90 dark:bg-slate-800/80 border border-sepia-200 dark:border-slate-700 space-y-1.5">
+                  <div className="flex items-center space-x-1.5">
+                    <span className="w-5 h-5 rounded-full bg-saffron-600 text-white text-[10px] font-mono font-bold flex items-center justify-center shrink-0">
+                      {idx + 1}
+                    </span>
+                    <h4 className="text-xs sm:text-sm font-bold text-sepia-900 dark:text-slate-100">
+                      {item.name}
+                    </h4>
+                  </div>
+                  <p className="text-xs text-sepia-700 dark:text-slate-300 leading-relaxed pt-1">
+                    {item.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <div className="p-4 rounded-2xl bg-sky-50 dark:bg-sky-950/40 border border-sky-200 dark:border-sky-800 text-xs text-sky-900 dark:text-sky-200 flex items-start space-x-2">
+              <Sparkles className="w-4 h-4 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5" />
+              <div>
+                <span className="font-bold">UPSC Core Architectural Concept: </span>
+                <span>The Peninsular block experienced Cretaceous faulting on its western margin when Madagascar separated, creating the steep Western Ghats fault-scarp. Because the entire block tilts eastwards, all major peninsular rivers (Godavari, Krishna, Cauvery, Mahanadi) flow eastwards into the Bay of Bengal and deposit massive deltas!</span>
               </div>
-            ))}
-          </div>
+            </div>
 
-          {/* Key UPSC Takeaways */}
-          <div className="p-4 rounded-2xl bg-amber-50 dark:bg-slate-800/80 border border-amber-200 dark:border-slate-700 text-xs text-sepia-800 dark:text-slate-300">
-            <h5 className="font-bold text-amber-900 dark:text-amber-300 mb-1">
-              Key UPSC Asymmetry Rule:
-            </h5>
-            <p className="leading-relaxed">
-              The Western Ghats are a steep fault scarp formed during the breakup of Gondwanaland; they are higher, continuous (crossed only by Thal Ghat, Bhor Ghat, Palghat), and block monsoon clouds to dump &gt;250 cm rain. The Eastern Ghats are ancient, discontinuous, heavily breached by rivers, and experience significant rainfall primarily during retreating/Northeast monsoons.
-            </p>
           </div>
         </div>
       )}
+
     </div>
   );
 }
