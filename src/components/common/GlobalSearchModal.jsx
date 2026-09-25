@@ -106,7 +106,107 @@ export default function GlobalSearchModal({
       });
     }
 
-    // 3. Disasters & Hazards
+    // 3. World Physical Geography
+    if (filter === 'all' || filter === 'worldgeo') {
+      const worldGeo = datasets.worldGeo || {};
+      ['geomorphology', 'oceanography', 'climatology', 'soilGeography'].forEach(branch => {
+        const subList = worldGeo[branch]?.subtopics || [];
+        subList.forEach(s => {
+          if (
+            s.title.toLowerCase().includes(q) ||
+            (s.upscTrap && s.upscTrap.toLowerCase().includes(q)) ||
+            (s.keyConcepts || []).some(c => c.heading.toLowerCase().includes(q) || c.detail.toLowerCase().includes(q))
+          ) {
+            results.push({
+              id: `world_${s.id}`,
+              category: `World Physical: ${branch.toUpperCase()}`,
+              title: s.title,
+              subtitle: s.keyConcepts?.[0]?.heading || 'Scientific Concept',
+              detail: s.upscTrap ? `Trap: ${s.upscTrap.slice(0, 100)}...` : (s.keyConcepts?.[0]?.detail.slice(0, 100) + '...'),
+              type: 'worldgeo_item',
+              targetTab: 'worldgeo',
+              raw: s
+            });
+          }
+        });
+      });
+    }
+
+    // 4. Resources & Industrial Location
+    if (filter === 'all' || filter === 'resources') {
+      const resInd = datasets.resourcesIndustries || {};
+      const allSub = [
+        ...(resInd.naturalResources?.subtopics || []),
+        ...(resInd.industrialLocation?.subtopics || [])
+      ];
+      allSub.forEach(s => {
+        if (
+          s.title.toLowerCase().includes(q) ||
+          (s.upscTrap && s.upscTrap.toLowerCase().includes(q)) ||
+          (s.keyConcepts || []).some(c => c.heading.toLowerCase().includes(q) || c.detail.toLowerCase().includes(q))
+        ) {
+          results.push({
+            id: `res_${s.id}`,
+            category: 'Resources & Industries',
+            title: s.title,
+            subtitle: s.keyConcepts?.[0]?.heading || 'Economic Determinant',
+            detail: s.keyConcepts?.[0]?.detail.slice(0, 100) + '...',
+            type: 'resources_item',
+            targetTab: 'resources',
+            raw: s
+          });
+        }
+      });
+    }
+
+    // 5. Geophysical Phenomena
+    if (filter === 'all' || filter === 'geophysical') {
+      const geoPhen = datasets.geophysical?.geophysicalPhenomena?.subtopics || [];
+      geoPhen.forEach(s => {
+        if (
+          s.title.toLowerCase().includes(q) ||
+          (s.upscTrap && s.upscTrap.toLowerCase().includes(q)) ||
+          (s.keyConcepts || []).some(c => c.heading.toLowerCase().includes(q) || c.detail.toLowerCase().includes(q))
+        ) {
+          results.push({
+            id: `phen_${s.id}`,
+            category: 'Geophysical Phenomena',
+            title: s.title,
+            subtitle: s.keyConcepts?.[0]?.heading || 'Hazard Mechanism',
+            detail: s.keyConcepts?.[0]?.detail.slice(0, 100) + '...',
+            type: 'geophysical_item',
+            targetTab: 'geophysical',
+            raw: s
+          });
+        }
+      });
+    }
+
+    // 6. Standard Reference Books
+    if (filter === 'all' || filter === 'books') {
+      const booksList = datasets.referenceBooks?.curriculumOverview?.coreBooks || [];
+      booksList.forEach(b => {
+        const matchChapters = (b.keyChapters || []).filter(c => c.name.toLowerCase().includes(q) || c.topics.toLowerCase().includes(q));
+        if (
+          b.title.toLowerCase().includes(q) ||
+          b.author.toLowerCase().includes(q) ||
+          matchChapters.length > 0
+        ) {
+          results.push({
+            id: `book_${b.id}`,
+            category: 'Standard Book Reference',
+            title: `${b.title} (${b.author})`,
+            subtitle: `${b.category} • ${b.publisher}`,
+            detail: matchChapters.length > 0 ? `Matched: ${matchChapters[0].name} - ${matchChapters[0].topics.slice(0, 60)}...` : b.relevance.slice(0, 100) + '...',
+            type: 'book_item',
+            targetTab: 'books',
+            raw: b
+          });
+        }
+      });
+    }
+
+    // 7. Disasters & Hazards
     if (filter === 'all' || filter === 'disasters') {
       const hazardList = datasets.disasters?.hazards || [];
       hazardList.forEach(h => {
@@ -130,7 +230,7 @@ export default function GlobalSearchModal({
       });
     }
 
-    // 4. UPPSC Geography Entities
+    // 8. UPPSC Geography Entities
     if (filter === 'all' || filter === 'uppsc') {
       const uppsc = datasets.uppsc || {};
       // Ramsar sites
@@ -232,13 +332,17 @@ export default function GlobalSearchModal({
         </div>
 
         {/* Filter Pills */}
-        <div className="flex items-center space-x-2 px-4 py-2 border-b border-sepia-300/60 dark:border-slate-800/80 overflow-x-auto text-xs">
+        <div className="flex items-center space-x-2 px-4 py-2 border-b border-sepia-300/60 dark:border-slate-800/80 overflow-x-auto text-xs no-scrollbar">
           {[
             { id: 'all', label: 'All Items' },
-            { id: 'locations', label: 'Passes & Peaks' },
+            { id: 'worldgeo', label: 'World Physical' },
+            { id: 'resources', label: 'Resources & Industry' },
+            { id: 'geophysical', label: 'Geophysical' },
+            { id: 'books', label: 'Reference Books' },
             { id: 'rivers', label: 'Rivers' },
+            { id: 'locations', label: 'Passes & Peaks' },
             { id: 'disasters', label: 'Disasters & DRR' },
-            { id: 'uppsc', label: 'UPPSC Special' },
+            { id: 'uppsc', label: 'UPPSC' },
             { id: 'questions', label: 'MCQs' }
           ].map(f => (
             <button

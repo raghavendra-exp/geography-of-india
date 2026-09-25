@@ -13,22 +13,29 @@ import {
   Database,
   Layers,
   ShieldAlert,
-  Landmark
+  Landmark,
+  Globe2,
+  Factory,
+  BookOpen
 } from 'lucide-react';
 
 export const NAV_ITEMS = [
   { id: 'dashboard', label: 'Cockpit', hindi: 'कॉकपिट', icon: Compass },
+  { id: 'worldgeo', label: 'World Physical', hindi: 'विश्व भौतिक', icon: Globe2, badge: 'GS-I' },
+  { id: 'resources', label: 'Resources & Industry', hindi: 'संसाधन व उद्योग', icon: Factory, badge: 'World+India' },
+  { id: 'geophysical', label: 'Geophysical Lab', hindi: 'भूभौतिक परिघटनाएं', icon: Activity, badge: 'Hazards' },
   { id: 'masterflow', label: 'Master Causal Flow', hindi: 'कारण-कार्य प्रवाह', icon: GitMerge },
   { id: 'maplab', label: 'Map Lab', hindi: 'मानचित्र प्रयोगशाला', icon: Map },
   { id: 'simulators', label: 'Simulators', hindi: 'सिम्युलेटर', icon: Activity },
   { id: 'rivers', label: 'River Basins', hindi: 'नदी द्रोणी', icon: Waves },
   { id: 'disaster', label: 'Disasters & DRR', hindi: 'आपदा प्रबंधन', icon: ShieldAlert, badge: 'GS-III' },
   { id: 'uppsc', label: 'UPPSC Special', hindi: 'यूपी विशेष', icon: Landmark, badge: 'Paper 5/6' },
-  { id: 'practice', label: 'Practice Arena', hindi: 'अभ्यास अखाड़ा', icon: CheckSquare, badge: '525 Qs' },
+  { id: 'books', label: 'Books & Syllabus', hindi: 'मानक पुस्तकें', icon: BookOpen, badge: 'Husain/NCERT' },
+  { id: 'practice', label: 'Practice Arena', hindi: 'अभ्यास अखाड़ा', icon: CheckSquare, badge: '540 Qs' },
   { id: 'mock', label: 'Prelims Mock', hindi: 'मॉक टेस्ट', icon: Award, badge: 'UPSC' },
   { id: 'flashcards', label: 'Flashcards', hindi: 'स्मृति कार्ड', icon: BookMarked },
   { id: 'mistakes', label: 'Error Book', hindi: 'त्रुटि पंजिका', icon: AlertOctagon },
-  { id: 'pyq', label: 'PYQ & Syllabus', hindi: 'पीवाईक्यू', icon: FileText },
+  { id: 'pyq', label: 'PYQ Master', hindi: 'पीवाईक्यू', icon: FileText },
   { id: 'tools', label: 'Backup & Notes', hindi: 'बैकअप / नोट्स', icon: Database }
 ];
 

@@ -13,6 +13,10 @@ import CropLocationGame from './components/simulators/CropLocationGame';
 import RiverBasinExplorer from './components/atlas/RiverBasinExplorer';
 import DisasterManagementLab from './components/disaster/DisasterManagementLab';
 import UppscGeoSpecial from './components/uppsc/UppscGeoSpecial';
+import WorldPhysicalGeoLab from './components/world/WorldPhysicalGeoLab';
+import ResourcesIndustriesLab from './components/resources/ResourcesIndustriesLab';
+import GeophysicalPhenomenaLab from './components/geophysical/GeophysicalPhenomenaLab';
+import ReferenceBooksLibrary from './components/books/ReferenceBooksLibrary';
 
 import PracticeArena from './components/practice/PracticeArena';
 import FlashcardDeck from './components/practice/FlashcardDeck';
@@ -58,6 +62,11 @@ export default function App() {
     biodiversity: {},
     transport: {},
     uppsc: {},
+    worldGeo: {},
+    resourcesIndustries: {},
+    geophysical: {},
+    referenceBooks: {},
+    economicHuman: {},
     pyq: [],
     pyqMaster: [],
     questions: [],
@@ -100,6 +109,11 @@ export default function App() {
           disasters,
           biodiversity,
           uppsc,
+          worldGeo,
+          resourcesIndustries,
+          geophysical,
+          referenceBooks,
+          economicHuman,
           pyq,
           pyqMaster,
           questions
@@ -115,6 +129,11 @@ export default function App() {
           fetch('./data/disaster-geography.json').then(r => r.json()),
           fetch('./data/biodiversity-protected.json').then(r => r.json()),
           fetch('./data/uppsc-special-geography.json').then(r => r.json()),
+          fetch('./data/world-physical-geography.json').then(r => r.json()).catch(() => ({})),
+          fetch('./data/global-resources-industries.json').then(r => r.json()).catch(() => ({})),
+          fetch('./data/geophysical-phenomena.json').then(r => r.json()).catch(() => ({})),
+          fetch('./data/reference-books-curriculum.json').then(r => r.json()).catch(() => ({})),
+          fetch('./data/economic-human-geo.json').then(r => r.json()).catch(() => ({})),
           fetch('./data/prelims-pyqs.json').then(r => r.json()),
           fetch('./data/pyq-master-bank.json').then(r => r.json()).catch(() => []),
           fetch('./data/questions.json').then(r => r.json())
@@ -132,6 +151,11 @@ export default function App() {
           disasters,
           biodiversity,
           uppsc,
+          worldGeo,
+          resourcesIndustries,
+          geophysical,
+          referenceBooks,
+          economicHuman,
           pyq,
           pyqMaster,
           questions,
@@ -248,6 +272,54 @@ export default function App() {
                 setActiveTab={setActiveTab}
                 unresolvedMistakesCount={unresolvedMistakesCount}
                 bookmarksCount={Object.keys(bookmarks).length}
+                lang={lang}
+              />
+            )}
+
+            {/* World Physical Geography Lab */}
+            {activeTab === 'worldgeo' && (
+              <WorldPhysicalGeoLab
+                worldData={datasets.worldGeo}
+                onStartPracticeTopic={(title) => {
+                  setPracticeInitialTopic(title);
+                  setActiveTab('practice');
+                }}
+                lang={lang}
+              />
+            )}
+
+            {/* Resources & Industrial Geography Lab */}
+            {activeTab === 'resources' && (
+              <ResourcesIndustriesLab
+                resourcesData={datasets.resourcesIndustries}
+                onStartPracticeTopic={(title) => {
+                  setPracticeInitialTopic(title);
+                  setActiveTab('practice');
+                }}
+                lang={lang}
+              />
+            )}
+
+            {/* Geophysical Phenomena & Environmental Shifts Lab */}
+            {activeTab === 'geophysical' && (
+              <GeophysicalPhenomenaLab
+                geophysicalData={datasets.geophysical}
+                onStartPracticeTopic={(title) => {
+                  setPracticeInitialTopic(title);
+                  setActiveTab('practice');
+                }}
+                lang={lang}
+              />
+            )}
+
+            {/* Reference Books & Standard Syllabus Library */}
+            {activeTab === 'books' && (
+              <ReferenceBooksLibrary
+                booksData={datasets.referenceBooks}
+                onStartTopicPractice={(title) => {
+                  setPracticeInitialTopic(title);
+                  setActiveTab('practice');
+                }}
                 lang={lang}
               />
             )}
@@ -428,12 +500,15 @@ export default function App() {
               UPSC Civil Services (GS-I & GS-III) • UPPSC PCS (Papers 5 & 6) • 100% Offline-First
             </p>
           </div>
-          <div className="flex items-center space-x-4 text-xs font-medium">
+          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-x-4 gap-y-1 text-xs font-medium">
+            <button onClick={() => setActiveTab('worldgeo')} className="hover:underline">World Physical</button>
+            <button onClick={() => setActiveTab('resources')} className="hover:underline">Resources & Industry</button>
+            <button onClick={() => setActiveTab('geophysical')} className="hover:underline">Geophysical Lab</button>
+            <button onClick={() => setActiveTab('books')} className="hover:underline">Standard Books</button>
             <button onClick={() => setActiveTab('disaster')} className="hover:underline">Disasters & DRR</button>
             <button onClick={() => setActiveTab('uppsc')} className="hover:underline">UPPSC Special</button>
             <button onClick={() => setActiveTab('masterflow')} className="hover:underline">Causal Flow</button>
-            <button onClick={() => setActiveTab('maplab')} className="hover:underline">Vector Atlas</button>
-            <button onClick={() => setActiveTab('practice')} className="hover:underline">525 MCQs</button>
+            <button onClick={() => setActiveTab('practice')} className="hover:underline">540 MCQs</button>
             <button onClick={() => setActiveTab('tools')} className="hover:underline">JSON Backup</button>
           </div>
         </div>

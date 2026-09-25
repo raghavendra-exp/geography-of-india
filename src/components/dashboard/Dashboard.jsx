@@ -13,7 +13,10 @@ import {
   BookOpen, 
   Waves, 
   Layers,
-  Sparkles
+  Sparkles,
+  Globe2,
+  Factory,
+  ShieldAlert
 } from 'lucide-react';
 import { TOPIC_WEIGHTS } from '../../utils/readinessCalculator';
 
@@ -287,6 +290,125 @@ export default function Dashboard({
 
         </div>
 
+      </div>
+
+      {/* Core UPSC Syllabus Hubs & Standard References */}
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <div>
+            <div className="flex items-center space-x-2">
+              <span className="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded bg-saffron-100 text-saffron-800 dark:bg-amber-900/40 dark:text-amber-300">
+                Expanded UPSC CSE GS-I Curriculum
+              </span>
+            </div>
+            <h3 className="text-lg font-bold font-display text-sepia-900 dark:text-slate-100 mt-1">
+              Core World & Indian Geography Labs
+            </h3>
+            <p className="text-xs text-sepia-600 dark:text-slate-400">
+              Master every syllabus pillar with dedicated interactive analyzers and authoritative book mappings.
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          
+          {/* Card 1: World Physical Geo */}
+          <div 
+            onClick={() => setActiveTab('worldgeo')}
+            className="p-5 rounded-3xl border transition-all cursor-pointer hover:shadow-md hover:scale-[1.01] flex flex-col justify-between
+              bg-white/80 border-sepia-300 text-sepia-900
+              dark:bg-slate-900/80 dark:border-slate-800 dark:text-slate-100 group"
+          >
+            <div>
+              <div className="w-9 h-9 rounded-xl bg-blue-100 dark:bg-blue-950/60 text-blue-700 dark:text-blue-400 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <Globe2 className="w-4 h-4" />
+              </div>
+              <h4 className="text-sm font-bold font-display group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                World Physical Geography
+              </h4>
+              <p className="text-xs text-sepia-600 dark:text-slate-400 mt-1 leading-relaxed">
+                Geomorphology, Oceanography, Climatology, and Soil Geography mapped to NCERT & Savindra Singh.
+              </p>
+            </div>
+            <div className="mt-3 flex items-center justify-between text-xs font-semibold text-blue-700 dark:text-blue-400 pt-2 border-t border-sepia-200 dark:border-slate-800">
+              <span>Enter 4 Spheres</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </div>
+
+          {/* Card 2: Resources & Industrial Location */}
+          <div 
+            onClick={() => setActiveTab('resources')}
+            className="p-5 rounded-3xl border transition-all cursor-pointer hover:shadow-md hover:scale-[1.01] flex flex-col justify-between
+              bg-white/80 border-sepia-300 text-sepia-900
+              dark:bg-slate-900/80 dark:border-slate-800 dark:text-slate-100 group"
+          >
+            <div>
+              <div className="w-9 h-9 rounded-xl bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-400 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <Factory className="w-4 h-4" />
+              </div>
+              <h4 className="text-sm font-bold font-display group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
+                Natural Resources & Industry
+              </h4>
+              <p className="text-xs text-sepia-600 dark:text-slate-400 mt-1 leading-relaxed">
+                Global minerals, water, agriculture, and Weberian industrial location models (Steel, IT, Textiles).
+              </p>
+            </div>
+            <div className="mt-3 flex items-center justify-between text-xs font-semibold text-amber-700 dark:text-amber-400 pt-2 border-t border-sepia-200 dark:border-slate-800">
+              <span>Inspect Belts & Models</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </div>
+
+          {/* Card 3: Geophysical Phenomena */}
+          <div 
+            onClick={() => setActiveTab('geophysical')}
+            className="p-5 rounded-3xl border transition-all cursor-pointer hover:shadow-md hover:scale-[1.01] flex flex-col justify-between
+              bg-white/80 border-sepia-300 text-sepia-900
+              dark:bg-slate-900/80 dark:border-slate-800 dark:text-slate-100 group"
+          >
+            <div>
+              <div className="w-9 h-9 rounded-xl bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-400 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <ShieldAlert className="w-4 h-4" />
+              </div>
+              <h4 className="text-sm font-bold font-display group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors">
+                Geophysical Phenomena
+              </h4>
+              <p className="text-xs text-sepia-600 dark:text-slate-400 mt-1 leading-relaxed">
+                Earthquakes, Tsunamis, Volcanoes, Cyclones, and Changing Critical Geographical Features.
+              </p>
+            </div>
+            <div className="mt-3 flex items-center justify-between text-xs font-semibold text-red-700 dark:text-red-400 pt-2 border-t border-sepia-200 dark:border-slate-800">
+              <span>Explore Hazards</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </div>
+
+          {/* Card 4: Standard Reference Books */}
+          <div 
+            onClick={() => setActiveTab('books')}
+            className="p-5 rounded-3xl border transition-all cursor-pointer hover:shadow-md hover:scale-[1.01] flex flex-col justify-between
+              bg-white/80 border-sepia-300 text-sepia-900
+              dark:bg-slate-900/80 dark:border-slate-800 dark:text-slate-100 group"
+          >
+            <div>
+              <div className="w-9 h-9 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <BookOpen className="w-4 h-4" />
+              </div>
+              <h4 className="text-sm font-bold font-display group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                Reference Books Library
+              </h4>
+              <p className="text-xs text-sepia-600 dark:text-slate-400 mt-1 leading-relaxed">
+                Prof. Majid Husain, NCERTs, G.C. Leong & D.R. Khullar mapped chapter-by-chapter.
+              </p>
+            </div>
+            <div className="mt-3 flex items-center justify-between text-xs font-semibold text-emerald-700 dark:text-emerald-400 pt-2 border-t border-sepia-200 dark:border-slate-800">
+              <span>View Book Catalog</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </div>
+
+        </div>
       </div>
 
       {/* Smart Study Recommender: Time-based Sessions */}
