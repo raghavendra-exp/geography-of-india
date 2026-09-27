@@ -15,8 +15,26 @@ import {
   Layers, 
   Sparkles,
   Truck,
-  Zap
+  Zap,
+  FileText,
+  ExternalLink
 } from 'lucide-react';
+
+const SUBTOPIC_PDF_MAP = {
+  // Resources
+  'types-of-resources': { title: 'NCERT Class 12 Human Ch 4 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy104.pdf' },
+  'land-resources': { title: 'NCERT Class 12 India Ch 3 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy203.pdf' },
+  'forest-resources': { title: 'ISFR 2021 Forest Report PDF', url: 'https://fsi.nic.in/forest-report-2021' },
+  'water-resources': { title: 'NCERT Class 12 India Ch 4 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy204.pdf' },
+  'agricultural-resources': { title: 'NCERT Class 12 India Ch 3 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy203.pdf' },
+  'minerals-energy-resources': { title: 'NCERT Class 12 India Ch 5 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy205.pdf' },
+  
+  // Industries
+  'classification-industries': { title: 'NCERT Class 12 Human Ch 5 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy105.pdf' },
+  'location-factors-weber': { title: 'NCERT Class 12 Human Ch 5 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy105.pdf' },
+  'major-industries-distribution': { title: 'NCERT Class 12 India Ch 6 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy206.pdf' },
+  'agglomeration-footloose': { title: 'NCERT Class 12 Human Ch 5 PDF', url: 'https://ncert.nic.in/textbook/pdf/legy105.pdf' }
+};
 
 export default function ResourcesIndustriesLab({ 
   resourcesData = {}, 
@@ -170,13 +188,28 @@ export default function ResourcesIndustriesLab({
                     {activeSection === 'resources' ? 'Resource Geography' : 'Industrial Economics'}
                   </span>
                   
-                  <button
-                    onClick={() => onStartPracticeTopic?.(currentSubtopic.title)}
-                    className="px-3 py-1.5 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-all flex items-center space-x-1.5 shadow-sm shadow-amber-600/30"
-                  >
-                    <span>Practice Topic MCQs</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </button>
+                  <div className="flex items-center space-x-2">
+                    {currentSubtopic && SUBTOPIC_PDF_MAP[currentSubtopic.id] && (
+                      <a
+                        href={SUBTOPIC_PDF_MAP[currentSubtopic.id].url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-3 py-1.5 rounded-xl border border-sepia-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-sepia-800 dark:text-slate-200 hover:border-amber-500 text-xs font-semibold transition-all flex items-center space-x-1.5 shadow-xs"
+                      >
+                        <FileText className="w-3.5 h-3.5 text-amber-600" />
+                        <span>{SUBTOPIC_PDF_MAP[currentSubtopic.id].title}</span>
+                        <ExternalLink className="w-3 h-3 text-sepia-400" />
+                      </a>
+                    )}
+
+                    <button
+                      onClick={() => onStartPracticeTopic?.(currentSubtopic.title)}
+                      className="px-3 py-1.5 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-all flex items-center space-x-1.5 shadow-sm shadow-amber-600/30"
+                    >
+                      <span>Practice Topic MCQs</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
                 </div>
 
                 <h2 className="text-xl sm:text-2xl font-display font-black text-sepia-900 dark:text-slate-100">

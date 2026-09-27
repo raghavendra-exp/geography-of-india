@@ -30,7 +30,7 @@ export const NAV_ITEMS = [
   { id: 'rivers', label: 'River Basins', hindi: 'नदी द्रोणी', icon: Waves },
   { id: 'disaster', label: 'Disasters & DRR', hindi: 'आपदा प्रबंधन', icon: ShieldAlert, badge: 'GS-III' },
   { id: 'uppsc', label: 'UPPSC Special', hindi: 'यूपी विशेष', icon: Landmark, badge: 'Paper 5/6' },
-  { id: 'books', label: 'Books & Syllabus', hindi: 'मानक पुस्तकें', icon: BookOpen, badge: 'Husain/NCERT' },
+  { id: 'books', label: 'PDFs & Books', hindi: 'पीडीएफ व पुस्तकें', icon: BookOpen, badge: 'NCERT' },
   { id: 'practice', label: 'Practice Arena', hindi: 'अभ्यास अखाड़ा', icon: CheckSquare, badge: '540 Qs' },
   { id: 'mock', label: 'Prelims Mock', hindi: 'मॉक टेस्ट', icon: Award, badge: 'UPSC' },
   { id: 'flashcards', label: 'Flashcards', hindi: 'स्मृति कार्ड', icon: BookMarked },

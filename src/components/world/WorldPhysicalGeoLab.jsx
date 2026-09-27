@@ -16,8 +16,43 @@ import {
   Activity, 
   Flame, 
   Wind,
-  Maximize2
+  Maximize2,
+  FileText,
+  ExternalLink
 } from 'lucide-react';
+
+const SUBTOPIC_PDF_MAP = {
+  // Geomorphology (NCERT Class 11 Fundamentals of Physical Geography - kegy2)
+  'origin-evolution': { title: 'NCERT Ch 2 PDF (Origin & Evolution)', url: 'https://ncert.nic.in/textbook/pdf/kegy202.pdf' },
+  'earth-interior': { title: 'NCERT Ch 3 PDF (Interior of Earth)', url: 'https://ncert.nic.in/textbook/pdf/kegy203.pdf' },
+  'continents-oceans': { title: 'NCERT Ch 4 PDF (Oceans & Continents)', url: 'https://ncert.nic.in/textbook/pdf/kegy204.pdf' },
+  'plate-tectonics': { title: 'NCERT Ch 4 PDF (Plate Tectonics)', url: 'https://ncert.nic.in/textbook/pdf/kegy204.pdf' },
+  'earthquakes-volcanoes-dist': { title: 'NCERT Ch 3 PDF (Seismic Waves)', url: 'https://ncert.nic.in/textbook/pdf/kegy203.pdf' },
+  'rocks-rock-cycle': { title: 'NCERT Ch 5 PDF (Minerals & Rocks)', url: 'https://ncert.nic.in/textbook/pdf/kegy205.pdf' },
+  'geomorphic-processes': { title: 'NCERT Ch 6 PDF (Geomorphic Processes)', url: 'https://ncert.nic.in/textbook/pdf/kegy206.pdf' },
+  'landforms-evolution': { title: 'NCERT Ch 7 PDF (Landforms)', url: 'https://ncert.nic.in/textbook/pdf/kegy207.pdf' },
+  'geological-time-scale': { title: 'NCERT Ch 2 PDF (Geological Time)', url: 'https://ncert.nic.in/textbook/pdf/kegy202.pdf' },
+
+  // Oceanography
+  'hydrological-cycle': { title: 'NCERT Ch 13 PDF (Water & Oceans)', url: 'https://ncert.nic.in/textbook/pdf/kegy213.pdf' },
+  'seafloor-spreading': { title: 'NCERT Ch 4 PDF (Seafloor Spreading)', url: 'https://ncert.nic.in/textbook/pdf/kegy204.pdf' },
+  'ocean-floor-config': { title: 'NCERT Ch 13 PDF (Ocean Relief)', url: 'https://ncert.nic.in/textbook/pdf/kegy213.pdf' },
+  'temp-salinity-oceans': { title: 'NCERT Ch 13 PDF (Salinity & Temp)', url: 'https://ncert.nic.in/textbook/pdf/kegy213.pdf' },
+  'ocean-movements': { title: 'NCERT Ch 14 PDF (Waves, Tides & Currents)', url: 'https://ncert.nic.in/textbook/pdf/kegy214.pdf' },
+
+  // Climatology
+  'atmosphere-composition-structure': { title: 'NCERT Ch 8 PDF (Atmosphere)', url: 'https://ncert.nic.in/textbook/pdf/kegy208.pdf' },
+  'insolation-heat-budget': { title: 'NCERT Ch 9 PDF (Heat Budget)', url: 'https://ncert.nic.in/textbook/pdf/kegy209.pdf' },
+  'circulation-weather-systems': { title: 'NCERT Ch 10 PDF (Atmospheric Circulation)', url: 'https://ncert.nic.in/textbook/pdf/kegy210.pdf' },
+  'world-climate-types': { title: 'NCERT Ch 12 PDF (World Climate)', url: 'https://ncert.nic.in/textbook/pdf/kegy212.pdf' },
+
+  // Soil Geography
+  'soil-contents-profile': { title: 'NCERT Class 11 India Ch 6 PDF (Soils)', url: 'https://ncert.nic.in/textbook/pdf/kegy106.pdf' },
+  'pedogenesis-processes': { title: 'NCERT Class 11 Ch 6 PDF (Pedogenesis)', url: 'https://ncert.nic.in/textbook/pdf/kegy206.pdf' },
+  'soil-forming-factors': { title: 'NCERT Class 11 Ch 6 PDF (Soil Factors)', url: 'https://ncert.nic.in/textbook/pdf/kegy206.pdf' },
+  'types-soils-global': { title: 'NCERT Class 11 India Ch 6 PDF (Soil Types)', url: 'https://ncert.nic.in/textbook/pdf/kegy106.pdf' },
+  'soil-erosion-conservation': { title: 'NCERT Class 11 India Ch 6 PDF (Soil Conservation)', url: 'https://ncert.nic.in/textbook/pdf/kegy106.pdf' }
+};
 
 export default function WorldPhysicalGeoLab({ 
   worldData = {}, 
@@ -197,13 +232,28 @@ export default function WorldPhysicalGeoLab({
                     {activeBranch.toUpperCase()}
                   </span>
                   
-                  <button
-                    onClick={() => onStartPracticeTopic?.(currentSubtopic.title)}
-                    className="px-3 py-1.5 rounded-xl bg-saffron-600 text-white text-xs font-bold hover:bg-saffron-700 transition-all flex items-center space-x-1.5 shadow-sm shadow-saffron-600/30"
-                  >
-                    <span>Practice Topic MCQs</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </button>
+                  <div className="flex items-center space-x-2">
+                    {currentSubtopic && SUBTOPIC_PDF_MAP[currentSubtopic.id] && (
+                      <a
+                        href={SUBTOPIC_PDF_MAP[currentSubtopic.id].url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-3 py-1.5 rounded-xl border border-sepia-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-sepia-800 dark:text-slate-200 hover:border-saffron-500 text-xs font-semibold transition-all flex items-center space-x-1.5 shadow-xs"
+                      >
+                        <FileText className="w-3.5 h-3.5 text-saffron-600" />
+                        <span>{SUBTOPIC_PDF_MAP[currentSubtopic.id].title}</span>
+                        <ExternalLink className="w-3 h-3 text-sepia-400" />
+                      </a>
+                    )}
+                    
+                    <button
+                      onClick={() => onStartPracticeTopic?.(currentSubtopic.title)}
+                      className="px-3 py-1.5 rounded-xl bg-saffron-600 text-white text-xs font-bold hover:bg-saffron-700 transition-all flex items-center space-x-1.5 shadow-sm shadow-saffron-600/30"
+                    >
+                      <span>Practice Topic MCQs</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
                 </div>
 
                 <h2 className="text-xl sm:text-2xl font-display font-black text-sepia-900 dark:text-slate-100">

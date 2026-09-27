@@ -461,6 +461,38 @@ export default function Dashboard({
         </div>
       </div>
 
+      {/* Reference Books & Free NCERT PDF Vault Card */}
+      <div className="rounded-3xl border border-sepia-300 dark:border-slate-800 bg-gradient-to-r from-amber-500/10 via-saffron-500/10 to-emerald-500/10 p-6 backdrop-blur-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
+        <div className="space-y-1.5 max-w-2xl">
+          <div className="flex items-center space-x-2">
+            <span className="px-2.5 py-0.5 text-[10px] font-mono font-bold uppercase rounded-md bg-saffron-600 text-white">
+              Curriculum & Free PDFs
+            </span>
+            <span className="text-xs font-semibold text-emerald-700 dark:text-emerald-400 flex items-center space-x-1">
+              <CheckCircle2 className="w-3.5 h-3.5" />
+              <span>Classes 11 & 12 Complete Books • NDMA • Sendai • ISFR</span>
+            </span>
+          </div>
+          <h3 className="text-lg font-bold font-display text-sepia-900 dark:text-slate-100">
+            Standard Reference Books & Official NCERT PDF Vault
+          </h3>
+          <p className="text-xs text-sepia-700 dark:text-slate-300 leading-relaxed">
+            Read online or download official chapter-wise PDFs for Class 11 (Physical & India), Class 12 (Human & Economy) in English and Hindi, plus Prof. Majid Husain, G.C. Leong, and Government reports mapped directly to the syllabus.
+          </p>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2.5 shrink-0 w-full md:w-auto">
+          <button
+            onClick={() => setActiveTab('books')}
+            className="px-4 py-2.5 rounded-xl bg-saffron-600 text-white text-xs font-bold hover:bg-saffron-700 transition-all flex items-center space-x-2 shadow-sm shadow-saffron-600/30"
+          >
+            <BookOpen className="w-4 h-4" />
+            <span>Open PDF & Books Library</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </button>
+        </div>
+      </div>
+
       {/* Module Mastery Matrix */}
       <div className="space-y-4">
         <div className="flex items-center justify-between">

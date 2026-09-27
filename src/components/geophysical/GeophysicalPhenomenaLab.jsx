@@ -13,8 +13,18 @@ import {
   ShieldAlert, 
   Compass,
   Radio,
-  Eye
+  Eye,
+  FileText,
+  ExternalLink
 } from 'lucide-react';
+
+const SUBTOPIC_PDF_MAP = {
+  'earthquakes': { title: 'NCERT Ch 3 PDF (Seismic Waves)', url: 'https://ncert.nic.in/textbook/pdf/kegy203.pdf' },
+  'tsunami': { title: 'NDMA Act 2005 PDF', url: 'https://www.ndma.gov.in/sites/default/files/PDF/DM_act2005.pdf' },
+  'volcanoes': { title: 'NCERT Ch 3 PDF (Volcanism)', url: 'https://ncert.nic.in/textbook/pdf/kegy203.pdf' },
+  'cyclones': { title: 'NCERT Ch 10 PDF (Cyclones & Weather)', url: 'https://ncert.nic.in/textbook/pdf/kegy210.pdf' },
+  'changing-geographical-features': { title: 'IPCC AR6 WG1 Report', url: 'https://www.ipcc.ch/report/ar6/wg1/' }
+};
 
 export default function GeophysicalPhenomenaLab({ 
   geophysicalData = {}, 
@@ -183,13 +193,28 @@ export default function GeophysicalPhenomenaLab({
                     Geophysical Hazard
                   </span>
                   
-                  <button
-                    onClick={() => onStartPracticeTopic?.(currentSubtopic.title)}
-                    className="px-3 py-1.5 rounded-xl bg-red-600 text-white text-xs font-bold hover:bg-red-700 transition-all flex items-center space-x-1.5 shadow-sm shadow-red-600/30"
-                  >
-                    <span>Practice Topic MCQs</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </button>
+                  <div className="flex items-center space-x-2">
+                    {currentSubtopic && SUBTOPIC_PDF_MAP[currentSubtopic.id] && (
+                      <a
+                        href={SUBTOPIC_PDF_MAP[currentSubtopic.id].url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-3 py-1.5 rounded-xl border border-sepia-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-sepia-800 dark:text-slate-200 hover:border-red-500 text-xs font-semibold transition-all flex items-center space-x-1.5 shadow-xs"
+                      >
+                        <FileText className="w-3.5 h-3.5 text-red-600" />
+                        <span>{SUBTOPIC_PDF_MAP[currentSubtopic.id].title}</span>
+                        <ExternalLink className="w-3 h-3 text-sepia-400" />
+                      </a>
+                    )}
+
+                    <button
+                      onClick={() => onStartPracticeTopic?.(currentSubtopic.title)}
+                      className="px-3 py-1.5 rounded-xl bg-red-600 text-white text-xs font-bold hover:bg-red-700 transition-all flex items-center space-x-1.5 shadow-sm shadow-red-600/30"
+                    >
+                      <span>Practice Topic MCQs</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
                 </div>
 
                 <h2 className="text-xl sm:text-2xl font-display font-black text-sepia-900 dark:text-slate-100">

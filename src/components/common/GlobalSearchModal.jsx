@@ -204,6 +204,30 @@ export default function GlobalSearchModal({
           });
         }
       });
+
+      // 6b. Official PDF Repositories
+      const pdfRepos = datasets.referenceBooks?.curriculumOverview?.officialPdfRepositories || [];
+      pdfRepos.forEach(repo => {
+        (repo.items || []).forEach(item => {
+          if (
+            item.title.toLowerCase().includes(q) ||
+            (item.hindiTitle && item.hindiTitle.toLowerCase().includes(q)) ||
+            item.topicsCovered.toLowerCase().includes(q) ||
+            item.publisher.toLowerCase().includes(q)
+          ) {
+            results.push({
+              id: `pdf_${item.title}`,
+              category: `Free PDF Book (${repo.badge})`,
+              title: item.title,
+              subtitle: `${item.publisher} • Format: ${item.format}`,
+              detail: `Topics: ${item.topicsCovered}`,
+              type: 'book_item',
+              targetTab: 'books',
+              raw: item
+            });
+          }
+        });
+      });
     }
 
     // 7. Disasters & Hazards

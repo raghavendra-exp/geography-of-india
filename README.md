@@ -31,9 +31,11 @@ Grounding every topic in the canonical standard literature:
 
 ## 🌟 Core Modules & Syllabus Coverage
 
-### 1. 📚 Reference Books & Standard Curriculum Library (`books`)
+### 1. 📚 Reference Books, Free NCERT PDFs & Government Reports Library (`books`)
 * **Authoritative Book Catalog:** Deep-dive into each canonical reference book with editions, publishers, syllabus relevance, and chapter breakdowns.
-* **Interactive Syllabus Mapper:** Instantaneous cross-referencing between every UPSC CSE GS-I syllabus topic and the exact book chapters, page ranges, and toppers' study tips.
+* **Direct Official NCERT PDF Downloads:** Complete book ZIP downloads and chapter-wise direct PDF links for Class 11 (*Fundamentals of Physical Geography* & *India: Physical Environment*) and Class 12 (*Fundamentals of Human Geography* & *India: People and Economy*) in both English and Hindi.
+* **Free PDF Vault & Public Repositories:** Direct links to official Government and UN PDFs including Disaster Management Act 2005, UN Sendai Framework for DRR 2015-2030, NDMA Hazard Guidelines, India State of Forest Report (ISFR 2021), Indian Minerals Yearbook (IMYB), IPCC AR6 Physical Science Basis, and Census 2011.
+* **Interactive Syllabus Mapper with Direct PDF Chips:** Instantaneous cross-referencing between every UPSC CSE GS-I syllabus topic and the exact book chapters with clickable PDF chips.
 * **3-Tier Book Pyramid:** Structured reading strategy balancing foundational NCERTs with conceptual G.C. Leong and advanced Majid Husain / Khullar treatises.
 
 ### 2. 🌍 Salient Features of World's Physical Geography (`worldgeo`)
