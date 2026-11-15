@@ -100,7 +100,16 @@
             "detail": "• Three Pillars: Food Availability (domestic production + buffer stocks), Food Accessibility (physical and financial purchasing power), Food Absorption (nutritional quality, safe drinking water, sanitation).\n• National Food Security Act (NFSA) 2013: Legally entitles up to 75% of rural and 50% of urban population (approx. two-thirds of India's population / 813 million people) to subsidized foodgrains (5 kg per person per month at ₹3/kg rice, ₹2/kg wheat, ₹1/kg coarse grains; transformed into free foodgrains under PMGKAY).\n• Minimum Support Price (MSP): Announced by CACP for 22 mandated crops + Fair & Remunerative Price (FRP) for Sugarcane, acting as an agricultural price floor.\n• Millets Revolution ('Shree Anna'): Promoting climate-resilient, water-efficient, nutrient-dense C4 crops (Ragi, Jowar, Bajra, Kodo, Kutki) to combat hidden hunger and drought vulnerability."
           }
         ],
-        "upscTrap": "MSP is recommended by the Commission for Agricultural Costs and Prices (CACP), but the final decision and announcement is made by the Cabinet Committee on Economic Affairs (CCEA) chaired by the Prime Minister."
+        "upscTrap": "MSP is recommended by the Commission for Agricultural Costs and Prices (CACP), but the final decision and announcement is made by the Cabinet Committee on Economic Affairs (CCEA) chaired by the Prime Minister.",
+        "agroClimaticBoundaries": {
+          "title": "Topper's Agrarian Synthesis: Isohyets & Climate Change Impacts",
+          "points": [
+            "100 cm Isohyet Agricultural Boundary: The 100 cm annual rainfall isohyet separates India's Rice-dominant agro-ecosystem in the East and South from the Wheat/Millets-dominant agro-ecosystem in the West and North.",
+            "Cotton Agro-Climatic Divergence: Requires 210 frost-free days and deep moisture-retentive black soil. In Punjab, it is sown in April-May with canal irrigation; in Maharashtra/Gujarat, it is sown in June-July with the onset of the monsoon.",
+            "Climate Change & Food Security Paradox: Higher atmospheric CO2 accelerates plant growth (CO2 fertilization), but experiments reveal a 'nutrient dilution' effect—crops produce higher biomass but with diminished protein, zinc, and iron content.",
+            "Urban & Peri-Urban Agriculture (UPA): Cultivation of vegetables and dairy in municipal peripheries reduces the urban heat island effect, cuts food transport emissions, and recycles treated urban wastewater."
+          ]
+        }
       },
       {
         "id": "minerals-energy-resources",
@@ -123,7 +132,17 @@
             "detail": "• India's Panchamrit Climate Pledges (COP26 Glasgow): 500 GW non-fossil capacity by 2030; 50% energy requirement from renewables by 2030; 1 billion tonne carbon emission reduction; 45% carbon intensity reduction; Net Zero greenhouse gas emissions by 2070.\n• Solar Energy: Ultra-Mega Solar Parks (Bhadla Solar Park, Rajasthan ~2.2 GW; Pavagada Solar Park, Karnataka ~2.0 GW); PM Surya Ghar: Muft Bijli Yojana (rooftop solar for 1 crore households); International Solar Alliance (ISA) HQ in Gurugram, India.\n• Wind Energy: Concentrated along coastal wind corridors of Tamil Nadu (Muppandal wind farm ~1.5 GW), Gujarat (Kutch), Maharashtra, Karnataka.\n• National Green Hydrogen Mission: Aiming for 5 MMT annual production by 2030, establishing Strategic Interventions for Green Hydrogen Transition (SIGHT)."
           }
         ],
-        "upscTrap": "Over 98% of India's coal reserves belong to the ancient Permian GONDWANA formations (concentrated in river valleys of Damodar, Son, Mahanadi, and Godavari). Tertiary coal (Eocene/Oligocene) accounts for less than 2% of Indian reserves, found in Meghalaya, Assam, Arunachal Pradesh, and J&K, and is notoriously high in sulfur."
+        "upscTrap": "Over 98% of India's coal reserves belong to the ancient Permian GONDWANA formations (concentrated in river valleys of Damodar, Son, Mahanadi, and Godavari). Tertiary coal (Eocene/Oligocene) accounts for less than 2% of Indian reserves, found in Meghalaya, Assam, Arunachal Pradesh, and J&K, and is notoriously high in sulfur.",
+        "strategicGeopolitics": {
+          "title": "Topper's Strategic Resource Geopolitics: India's Global Resource Diplomacy (Sunep Jamir Treatises)",
+          "points": [
+            "South China Sea: Vital trade corridor (>55% of India's maritime trade) and untapped hydrocarbon reserves. India's ONGC Videsh holds exploration stakes in Vietnam's offshore blocks 127 and 128 to assert freedom of navigation and secure equity oil.",
+            "Mongolia & Central Asian Republics (CARs): Tavan Tolgoi coking coal and Oyu Tolgoi copper-gold in Mongolia; Kazakhstan provides over 80% of India's imported Uranium; Turkmenistan holds the Galkynysh gas field (TAPI pipeline).",
+            "Latin America (Lithium Triangle & Pre-salt): Argentina, Bolivia, and Chile hold >55% of world Lithium reserves (vital for India's National Electric Mobility Mission); Venezuela's Orinoco heavy oil belt and Brazil's offshore Santos pre-salt fields provide crude diversification.",
+            "Canada & Australia: World's leading suppliers of nuclear uranium fuel (Athabasca basin in Saskatchewan) and potash fertilizers.",
+            "Arctic Northern Sea Route: USGS estimates the Arctic holds 13% of undiscovered oil and 30% of gas. India's Arctic Policy (2022) targets polar scientific linkages to the Indian monsoon and long-term energy equity in Russian LNG (Yamal/Vankor)."
+          ]
+        }
       }
     ]
   },
@@ -163,7 +182,15 @@
             "detail": "1. Raw Materials: Perishable (milk, fruit canning) or weight-losing raw materials anchor plants to source.\n2. Energy / Power Supply: Continuous, heavy power requirements anchor electro-metallurgical plants near hydro/thermal power stations (e.g. Aluminium smelters at Renukoot/Angul; Copper smelters).\n3. Market Proximity: Vital for perishable products, high-end consumer durables, fashion goods, and weight-gaining assembly lines.\n4. Labour Supply: Labor-intensive light manufacturing gravitates to regions with disciplined, low-cost, or specialized technical workforces (e.g. Garments in Bangladesh, Tirupur; Diamond polishing in Surat).\n5. Transport Infrastructure: Efficient multimodal rail, road, and deep-draft sea port connectivity (e.g. Coastal steel plants like Visakhapatnam, Posco in Pohang).\n6. Water Resources: Heavy industrial consumers require millions of gallons daily for processing, cooling, and steam generation (Integrated steel mills, thermal power, pulp/paper, textile dyeing).\n7. Land Availability: Flat, low-cost topography with room for expansion, waste disposal, and worker townships.\n8. Capital & Financial Institutions: Easy access to commercial banks, venture capital, equity markets (London, New York, Mumbai, Tokyo).\n9. Government Policies & Incentives: Special Economic Zones (SEZs), industrial corridors (DMIC, CBIC), tax holidays, capital subsidies for backward regions.\n10. Communication Infrastructure: High-bandwidth optical fiber lines, 5G, satellite connectivity (paramount for IT, finance, BPO/KPO, knowledge industries)."
           }
         ],
-        "upscTrap": "Weber's Material Index (MI) states that when MI > 1, the industry is raw-material oriented; when MI < 1, it is market-oriented. Pure raw materials (MI = 1) give location flexibility."
+        "upscTrap": "Weber's Material Index (MI) states that when MI > 1, the industry is raw-material oriented; when MI < 1, it is market-oriented. Pure raw materials (MI = 1) give location flexibility.",
+        "weberCaseStudies": {
+          "title": "Topper's Industrial Location Case Studies (Weber's Theory in Action)",
+          "points": [
+            "Sugar Industry Spatial Shift: Historically located in Uttar Pradesh and Bihar (near subtropical cane tracts). Over recent decades, it has shifted dramatically to Maharashtra and Tamil Nadu because tropical southern climate provides higher sucrose content, longer crushing season (180+ days vs 120 days in North), and better cooperative management.",
+            "Aluminium Smelting (Power-Oriented Location): Smelting bauxite into alumina requires ore proximity, but smelting alumina into aluminium requires enormous continuous electric power (~14,000 kWh per tonne of aluminium). Plants locate near cheap hydropower or pithead thermal plants (e.g. NALCO at Angul, Odisha; HINDALCO at Renukoot, UP near Rihand Dam).",
+            "Coastal Port-Based Steel Smelters: Why steel plants locate away from coal/iron mines: Modern blast furnaces consume far less coke (down from 4t to 0.6t per tonne of steel), while exhaustion of high-grade domestic ores makes importing Australian coking coal and Brazilian iron ore cheaper at coastal ports (e.g. Visakhapatnam RINL, JSW Dolvi, POSCO South Korea)."
+          ]
+        }
       },
       {
         "id": "major-industries-distribution",

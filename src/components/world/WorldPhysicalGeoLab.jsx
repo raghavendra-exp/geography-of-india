@@ -304,6 +304,39 @@ export default function WorldPhysicalGeoLab({
                 </div>
               </div>
 
+              {/* Topper Value-Addition / Advanced Notes Synthesis */}
+              {currentSubtopic.topperSynthesis && (
+                <div className="p-5 rounded-2xl bg-gradient-to-br from-indigo-50/70 via-purple-50/50 to-blue-50/50 dark:from-indigo-950/40 dark:via-purple-950/30 dark:to-slate-900 border border-indigo-200 dark:border-indigo-900/60 space-y-3">
+                  <div className="flex items-center space-x-2 text-indigo-700 dark:text-indigo-300">
+                    <Sparkles className="w-5 h-5 shrink-0 text-indigo-600 dark:text-amber-400" />
+                    <span className="font-bold text-xs font-mono uppercase tracking-wider">
+                      {currentSubtopic.topperSynthesis.title || "Topper Synthesis & Advanced Conceptual Frameworks"}
+                    </span>
+                  </div>
+                  <div className="space-y-2.5 pl-1">
+                    {currentSubtopic.topperSynthesis.points?.map((pt, pIdx) => {
+                      const parts = pt.split(':');
+                      const hasColon = parts.length > 1;
+                      return (
+                        <div key={pIdx} className="flex items-start space-x-2.5 text-xs sm:text-sm text-sepia-900 dark:text-slate-200">
+                          <span className="w-2 h-2 rounded-full bg-indigo-500 mt-1.5 shrink-0" />
+                          <p className="leading-relaxed">
+                            {hasColon ? (
+                              <>
+                                <strong className="text-indigo-950 dark:text-indigo-300 font-semibold">{parts[0]}:</strong>
+                                <span>{pt.substring(parts[0].length + 1)}</span>
+                              </>
+                            ) : (
+                              <span>{pt}</span>
+                            )}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
               {/* Bottom Quick Action Footer */}
               <div className="pt-4 border-t border-sepia-200 dark:border-slate-800 flex items-center justify-between flex-wrap gap-3">
                 <div className="flex items-center space-x-2 text-xs text-sepia-600 dark:text-slate-400">

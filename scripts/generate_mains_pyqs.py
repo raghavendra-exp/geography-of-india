@@ -1,0 +1,431 @@
+import json, os
+
+mains_pyqs = [
+  {
+    "id": "mains_2023_q01",
+    "year": 2023,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Climatology & Monsoon",
+    "syllabusModule": "World & Indian Physical Geography",
+    "question": "Why is the South-West Monsoon called 'Purvaiya' (easterly) in Bhojpur region? How has this directional seasonal wind influenced the cultural ethos of the region?",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 4: Climate, pp. 38-44",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 4: Climate of India (Monsoon Mechanism)",
+      "topperNotes": "Sunep Jamir Mains Geography & Rajtanil Lecture 12 (Indian Seasons)"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "The term 'Purvaiya' refers to the prevailing easterly winds blowing into the Middle Ganga Plain (Bhojpur region comprising Western Bihar & Eastern UP) during the South-West Monsoon season.",
+      "geographicalCause": [
+        "Deflection by Himalayan Orography: The Bay of Bengal branch of the SW monsoon strikes the Arakan Yoma in Myanmar and the Meghalaya Plateau, getting deflected westward up the Ganga Plain.",
+        "Thermal Low Pressure Trough: The Monsoon Trough extends from the Thar Desert towards the head of the Bay of Bengal. As moisture-laden winds circulate around this trough in a counter-clockwise (cyclonic) direction, they enter the Bhojpur region from the East/South-East, hence termed 'Purvaiya' (winds originating from the Purv/East)."
+      ],
+      "culturalEthosImpact": [
+        "Agrarian Rhythms: Marks the critical onset of Paddy (Rabi/Kharif transition) sowing and transplanting, ending scorching summer heat (Loo).",
+        "Folk Music & Literature: Celebrated in Bhojpuri folk poetry, Kajari and Chaiti genres, symbolizing romantic longing, reunion, and prosperity.",
+        "Festivals: Inspires regional monsoon festivities such as Teej, Raksha Bandhan, and Nag Panchami, celebrating the rejuvenating fertility of the soil.",
+        "Vernacular Architecture: Traditional courtyard houses (Angan) are architecturally aligned to catch the cool eastern breeze while blocking dry western dust."
+      ],
+      "diagramRecommendation": "Map of North India showing the Bay of Bengal branch striking Meghalaya/Arakan Yoma and deflecting westward along the Ganga valley towards the Bhojpur region as an easterly flow.",
+      "conclusion": "Thus, 'Purvaiya' is not merely a meteorological wind system, but a vital socio-ecological lifeline shaping the folk consciousness and agrarian civilization of the Bhojpur plain."
+    }
+  },
+  {
+    "id": "mains_2023_q02",
+    "year": 2023,
+    "paper": "GS Paper 1",
+    "marks": 15,
+    "wordLimit": 250,
+    "topic": "Marine Resources & Disaster Management",
+    "syllabusModule": "Natural Resources & Geophysical Hazards",
+    "question": "Comment on the resource potential of the long coastline of India and highlight the status of coastal disaster preparedness.",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Ch 1 & 7; Class 12 'India: People and Economy', Ch 6",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 6: Marine Resources & Blue Economy",
+      "topperNotes": "Fisheries.docx & Sunep Jamir MRG1 P2 (Resources Distribution)"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "India possesses a mainland and island coastline of 7,516.6 km with an Exclusive Economic Zone (EEZ) of 2.37 million sq km, supporting over 250 million coastal inhabitants across 9 maritime states and 4 UTs.",
+      "resourcePotential": [
+        "Living Marine Resources (Blue Economy): Marine fish production potential of ~5.3 million tonnes (pelagic, demersal, deep-sea tuna); mariculture and sea-weed farming along Tamil Nadu and Gujarat coasts.",
+        "Non-Living Mineral Resources: Heavy mineral beach placer sands (Illmenite, Rutile, Zircon, Monazite for Thorium in Kerala and Odisha coasts); offshore hydrocarbon reserves (Mumbai High, KG Basin, Cambay Basin); poly-metallic nodules in deep seabed (Samudrayaan Mission).",
+        "Renewable Energy Potential: Offshore wind energy potential (>70 GW off Gujarat & Tamil Nadu); tidal energy (Gulf of Kutch, Gulf of Khambhat); Ocean Thermal Energy Conversion (OTEC).",
+        "Maritime Trade & Logistics: Gateways for 95% of trade by volume through 12 Major and 200+ non-major ports (Sagarmala initiative)."
+      ],
+      "disasterPreparednessStatus": [
+        "Institutional Architecture: National Cyclone Risk Mitigation Project (NCRMP), coastal shelters, early warning dissemination systems (EWDS).",
+        "INCOIS Early Warning Systems: Indian Tsunami Early Warning Centre (ITEWC) provides real-time alerts within 10 minutes of undersea earthquakes in Indian Ocean.",
+        "Structural Measures: Mangrove conservation (MISHTI scheme), bio-shields, geo-synthetic sea walls along eroding coastal stretches.",
+        "Gaps & Bottlenecks: Unplanned coastal urbanization (CRZ violations), groundwater salinization, slow rehabilitation post-cyclone, limited insurance penetration among fishing communities."
+      ],
+      "diagramRecommendation": "Coastline map of India marking Major Ports, Monazite sand tracts (Chavara/Manavalakurichi), Offshore wind sites (Gulf of Khambhat/Mannar), and INCOIS early warning zones.",
+      "conclusion": "Harmonizing coastal resource exploitation with the Sendai Framework for Disaster Risk Reduction and Coastal Regulation Zone (CRZ) norms is imperative for climate-resilient Blue Growth."
+    }
+  },
+  {
+    "id": "mains_2022_q01",
+    "year": 2022,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Geomorphology & Rocks",
+    "syllabusModule": "World Physical Geography",
+    "question": "Describe the characteristics and types of primary rocks.",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 5: Minerals and Rocks, pp. 41-45",
+      "gcLeong": "G.C. Leong 'Certificate Physical and Human Geography', Chapter 2: The Earth's Crust",
+      "topperNotes": "Rajtanil Lecture 1 & Sunep Jamir MRG1 P1 (Magma Geochemistry)"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "Primary rocks, scientifically classified as Igneous Rocks (derived from Latin 'ignis' meaning fire), are formed by the cooling, solidification, and crystallization of molten magma beneath the crust or lava upon the surface. They are termed 'primary' because all other rocks (sedimentary and metamorphic) are derived from them via the rock cycle.",
+      "salientCharacteristics": [
+        "Non-Fossiliferous: Crystalline origin directly from molten state precludes any presence of organic remains or fossils.",
+        "Hard & Compact: Crystalline interlocking mineral matrix with negligible pore space, making them resistant to erosion.",
+        "Massive & Non-Stratified: Do not possess distinct depositional bedding layers, though jointing and columnar fractures (e.g. Giant's Causeway, St. Mary's Islands) are common.",
+        "Rich in Metallic Minerals: Source of precious ores including Gold, Platinum, Iron, Chromite, Nickel, and Copper."
+      ],
+      "typesOfPrimaryRocks": [
+        "On Basis of Place of Solidification: (a) Intrusive/Plutonic: Slow cooling deep inside crust produces coarse-grained large crystals (e.g. Granite, Gabbro, Diorite); forms batholiths and laccoliths. (b) Extrusive/Volcanic: Rapid cooling on earth's surface produces fine-grained or glassy textures (e.g. Basalt, Obsidian, Pumice, Rhyolite).",
+        "On Basis of Chemical Composition: (a) Acidic Rocks: High silica content (>65%), lighter in color and density, highly viscous (e.g. Granite). (b) Basic/Mafic Rocks: Low silica (<50%), rich in iron and magnesium, dark and dense, fluid during flow (e.g. Basalt, Gabbro)."
+      ],
+      "diagramRecommendation": "Cross-sectional block diagram showing plutonic magma chamber (granite) cooling slowly at depth vs extrusive lava fissure forming basalt plateau.",
+      "conclusion": "Primary rocks constitute over 90-95% of the earth's crust by volume and form the geological foundation for global plate tectonics and soil genesis (e.g. Black Vertisols derived from basalt)."
+    }
+  },
+  {
+    "id": "mains_2022_q02",
+    "year": 2022,
+    "paper": "GS Paper 1",
+    "marks": 15,
+    "wordLimit": 250,
+    "topic": "Natural Resources & Regional Geography",
+    "syllabusModule": "Indian Geography — Natural Resources",
+    "question": "Discuss the natural resource potentials of 'Deccan Trap'.",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 2 & 6; Class 12 'India: People and Economy', Ch 5 & 7",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 1: Structure and Relief & Chapter 5: Soils",
+      "topperNotes": "Sunep Jamir MRG1 P3 (Deccan Basaltic Traps) & Rajtanil Lecture 8"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "The Deccan Trap is an extensive flood basalt province covering ~500,000 sq km across Maharashtra, Gujarat, MP, and northern Karnataka, formed during the Late Cretaceous (~66 Ma) as the Indian plate passed over the Réunion hotspot.",
+      "naturalResourcePotentials": [
+        "Soil & Agricultural Wealth (Regur / Black Soils): Weathering of basalt produces clayey, moisture-retentive Vertisol soils rich in lime, iron, magnesium, and alumina; renowned as the 'Cotton Belt of India' and highly productive for sugarcane, soybean, jowar, pulses, and citrus fruits (Nagpur oranges).",
+        "Building Stones & Construction Aggregates: Basalt is an exceptionally durable, tough, road-metal aggregate and architectural building stone used in historic monuments (Ellora caves, Gateway of India) and modern railway ballast.",
+        "Mineral Resource Potential: Weathered high-level plateaus form enriched Bauxite deposits (Kolhapur, Ratnagiri) due to intensive tropical leaching; secondary cavity minerals yield decorative semi-precious zeolites, agates, and quartz.",
+        "Hydrological & Groundwater Dynamics: Fractured and vesicular flow tops act as local aquifers, though low primary permeability necessitates artificial watershed recharging (Pani Foundation, Jalyukt Shivar).",
+        "Renewable Energy Hubs: High elevation plateau rims in Western Ghats escarpment (Satara, Sangli) provide prime locations for Wind Power installations and pumped storage hydroelectric projects (Koyna, Tata Power hydro complexes)."
+      ],
+      "challenges": [
+        "Groundwater depletion due to low storage porosity in massive basalt layers.",
+        "Rain-shadow aridity across Marathwada and Vidarbha, making agriculture vulnerable to drought.",
+        "Soil alkalinity and salinity in canal-irrigated command areas."
+      ],
+      "diagramRecommendation": "Map of Peninsular India highlighting the Deccan Trap outline, black soil distribution, Koyna hydro complex, and Bauxite belts.",
+      "conclusion": "Sustainable development of the Deccan Trap demands micro-watershed management, shift toward drought-resilient crops (millets/pulses), and value-addition in agro-processing and renewable energy."
+    }
+  },
+  {
+    "id": "mains_2021_q01",
+    "year": 2021,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Geophysical Hazards & Disasters",
+    "syllabusModule": "Geophysical Phenomena",
+    "question": "Differentiate the causes of landslides in the Himalayan region and Western Ghats.",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 7: Natural Hazards and Disasters, pp. 84-88",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 13: Natural Hazards",
+      "topperNotes": "Sunep Jamir MRG2 P3 (Landslides) & Neha Bhosle Vision Notes"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "Landslides, defined as the downslope movement of rock, debris, or earth under the direct influence of gravity, exhibit sharply divergent causal mechanisms in the Himalayas versus the Western Ghats due to differences in geological age, lithology, and geomorphic evolution.",
+      "comparativeMatrix": [
+        "Tectonic Setting: Himalayas are young, active fold mountains subjected to ongoing compressive plate collision (Indo-Eurasian convergence ~5 cm/year), causing severe rock shattering and faulting (MCT, MBT, HFT). Western Ghats are an ancient, stable Peninsular horst/escarpment with minimal neotectonic activity.",
+        "Lithological Characteristics: Himalayas comprise un-consolidated, soft sedimentary rocks (shales, phyllites, Siwalik gravels) prone to shear failure. Western Ghats consist of hard crystalline Archaean gneisses, granites, and massive Deccan basalts.",
+        "Triggering Mechanisms: In Himalayas, landslides are triggered by both tectonic shocks (earthquakes) and intense rainfall/cloudbursts, as well as glacial lake bursts (GLOF). In Western Ghats, triggers are almost exclusively torrential monsoon downpours (>2500 mm in short periods) causing pore-water pressure spikes in the thick overburden/laterite mantle.",
+        "Anthropogenic Pressures: Himalayas suffer from massive engineering interventions: road widening (Char Dham), blasting for hydroelectric tunnels, and slope toe-cutting. Western Ghats suffer from deforestation, extensive rubber and tea plantation terraces, unscientific quarrying, and slope loading."
+      ],
+      "diagramRecommendation": "Side-by-side cross-sectional comparison: (Left) Himalayan fractured thrust planes & toe-cutting vs (Right) Western Ghats saturated laterite mantle slipping over crystalline basement.",
+      "conclusion": "While the Himalayas require regional seismic-resistant engineering and eco-sensitive zonation, Western Ghats require strict enforcement of Gadgil/Kasturirangan Committee recommendations on ecologically sensitive zones (ESZ)."
+    }
+  },
+  {
+    "id": "mains_2021_q02",
+    "year": 2021,
+    "paper": "GS Paper 1",
+    "marks": 15,
+    "wordLimit": 250,
+    "topic": "Cryosphere & Climate Change",
+    "syllabusModule": "World Physical Geography & Environmental Shifts",
+    "question": "How do the melting of the Arctic ice and glaciers of the Antarctic differently affect the weather patterns and human activities on the Earth?",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 12 & 14",
+      "gcLeong": "G.C. Leong 'Certificate Physical and Human Geography', Polar Climates",
+      "topperNotes": "Sunep Jamir MRG2 P2 (Climate Change Impact) & MRG1 P1 (Polar Dynamics)"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "The Arctic is a semi-enclosed ocean covered by perennial sea ice surrounded by land, whereas Antarctica is a massive, elevated continent covered by an ice sheet (up to 4 km thick) surrounded by the Southern Ocean. Their melting processes produce distinctly different atmospheric, oceanic, and anthropogenic consequences.",
+      "effectsOfArcticIceMelting": [
+        "Weather Patterns: (a) Arctic Amplification & Albedo Loss: Replacement of reflective white ice with dark ocean water accelerates regional warming. (b) Jet Stream Meandering: Weakening of polar-equatorial temperature gradient destabilizes the Polar Jet Stream, causing intense Rossby wave undulations, leading to extreme polar vortex outbreaks in North America and prolonged summer heatwaves in Europe. (c) Slowdown of AMOC: Inflow of low-density freshwater from melting Greenland ice disrupts the sinking branch of the North Atlantic thermohaline conveyor.",
+        "Human Activities: (a) Opening of Maritime Shipping Routes: Northern Sea Route (NSR) along Russia and Northwest Passage reduce Europe-Asia shipping distances by 35-40%. (b) Geopolitical Resource Scramble: Access to ~30% of undiscovered global gas and 13% of oil reserves under the Arctic seabed. (c) Indigenous Livelihoods: Devastation of Inuit traditional hunting and subsistence cultures; infrastructure collapse due to permafrost thaw (methane release)."
+      ],
+      "effectsOfAntarcticIceMelting": [
+        "Weather Patterns: (a) Global Sea Level Rise: Antarctica holds ~90% of world's ice (representing ~58 meters of potential sea level rise). Unlike Arctic sea ice which does not add volume, melting grounded Antarctic ice sheets (West Antarctic Ice Sheet, Thwaites 'Doomsday' Glacier) directly drives catastrophic steric and eustatic sea level rise. (b) Southern Ocean Wind Belt Shifts: Freshening of Antarctic Bottom Water (AABW) alters deep ocean overturning and drives poleward migration of the Southern Westerlies.",
+        "Human Activities: (a) Inundation of Low-Lying Coastal Megacities: Directly threatens >600 million people living in Low Elevation Coastal Zones (Mumbai, Dhaka, New York, Tokyo). (b) Disruption of Marine Trophic Chains: Diminished ice shelves disrupt krill reproduction, triggering collapse in baleen whales, seals, and commercial fisheries in the Southern Ocean. (c) Tourism & Scientific Expeditions: Escalating ice-shelf fracturing threatens polar scientific research stations."
+      ],
+      "diagramRecommendation": "Polar map sketches showing (1) Jet stream waviness caused by Arctic sea ice loss, and (2) Antarctic ice shelf grounding line retreat and contribution to global sea level rise.",
+      "conclusion": "The contrasting dynamics reinforce that the Cryosphere is Earth's primary climatic thermostat; unchecked melting necessitates rapid global decarbonization under the Paris Agreement and Antarctic Treaty governance."
+    }
+  },
+  {
+    "id": "mains_2020_q01",
+    "year": 2020,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Geomorphology & Seismology",
+    "syllabusModule": "World Physical Geography",
+    "question": "Discuss the geophysical characteristics of Circum-Pacific Zone.",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 4: Distribution of Oceans and Continents",
+      "gcLeong": "G.C. Leong 'Certificate Physical and Human Geography', Chapter 3: Vulcanism and Earthquakes",
+      "topperNotes": "Sunep Jamir MRG1 P1 (Pacific Ring of Fire) & Rajtanil Lecture 2"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "The Circum-Pacific Zone, popularly known as the 'Pacific Ring of Fire', is a horseshoe-shaped seismic and volcanic belt spanning ~40,000 km bordering the Pacific Ocean basin, representing the most geophysically energetic zone on Earth.",
+      "geophysicalCharacteristics": [
+        "Subduction & Convergent Margins: Dominated by oceanic-continental and oceanic-oceanic convergent plate boundaries where the Pacific, Nazca, Cocos, and Philippine plates subduct beneath the Eurasian, North American, South American, and Indo-Australian plates.",
+        "High Concentration of Volcanoes: Hosts ~75% of the world's active and dormant subaerial volcanoes (over 450 volcanoes, including Mt. Fuji, Mt. St. Helens, Mt. Pinatubo, Krakatoa, Cotopaxi). Volcanism is typically explosive and andesitic due to high silica and water-rich slab melting.",
+        "Epicenter of Global Seismicity: Generates ~90% of the world's earthquakes and ~81% of the world's largest earthquakes (megathrust events along the Wadati-Benioff zone e.g. Chile 1960 Mw 9.5, Tohoku 2011 Mw 9.1).",
+        "Deep Ocean Trenches & Island Arcs: Characterized by the deepest oceanic trenches (Mariana Trench 11,034 m, Tonga, Kuril, Peru-Chile) formed by downward bending of subducting slabs, coupled with curvilinear volcanic island arcs (Japan, Aleutians, Philippines).",
+        "High Tsunami Vulnerability: Submarine thrust faulting creates abrupt ocean floor displacement, triggering trans-oceanic tsunamis."
+      ],
+      "diagramRecommendation": "Horseshoe diagram of the Pacific Rim marking the subducting oceanic plates, the Mariana Trench, Andes and Cascades mountain chains, and island arcs.",
+      "conclusion": "The Circum-Pacific Zone demonstrates the active recycling of oceanic lithosphere into the asthenosphere, demanding robust trans-national early warning networks like the Pacific Tsunami Warning System."
+    }
+  },
+  {
+    "id": "mains_2020_q02",
+    "year": 2020,
+    "paper": "GS Paper 1",
+    "marks": 15,
+    "wordLimit": 250,
+    "topic": "Industrial Location Economics",
+    "syllabusModule": "Industrial Geography",
+    "question": "Account for the present location of iron and steel industries away from the source of raw material, by giving examples.",
+    "bookReferences": {
+      "ncert": "NCERT Class 12 'Fundamentals of Human Geography', Chapter 6; 'India: People and Economy', Chapter 8",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 9: Manufacturing Industries",
+      "topperNotes": "Sunep Jamir MRG1 P3 (Weber Industrial Location Theory)"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "Traditionally, the iron and steel industry was strongly tied to raw material sources (coking coal, iron ore, limestone) because both iron ore and coal are heavy, bulky, 'weight-losing' materials (Weber's Material Index > 1). However, during the late 20th and 21st centuries, a profound spatial shift has relocated modern steel plants away from raw material belts toward coastal, port-based, and market-oriented locations.",
+      "reasonsForSpatialShift": [
+        "Technological Evolution in Smelting: (a) Decreased Coke Consumption: Technological efficiency has slashed the amount of coking coal needed per tonne of crude steel from 4 tonnes (in 19th century) to under 0.6 tonnes today. (b) Electric Arc Furnaces (EAF) & Mini Steel Plants: Use steel scrap and sponge iron as inputs and electric power rather than blast furnace coal, enabling plants to locate directly within major consumer urban markets.",
+        "Port-Based & Coastal Locations (Global Raw Material Sourcing): Exhaustion of domestic high-grade ores in traditional inland regions (e.g. Ruhr in Germany, Pittsburgh in USA) led countries to import superior, cheaper iron ore (from Australia and Brazil) and coking coal. Coastal locations eliminate expensive inland rail freight. Examples: (1) Japan (Yawata, Kawasaki, Tokyo Bay), (2) South Korea (Pohang Steel - POSCO at Gwangyang), (3) India (Visakhapatnam Steel Plant - RINL, Essar Steel at Hazira, JSW at Dolvi).",
+        "Market Orientation & Finished Product Logistics: Transporting specialized, high-value, diverse finished steel products (automotive sheets, pipes, rods) to end-users is more expensive and prone to transit damage than moving bulk raw materials. Locating near automotive and engineering manufacturing hubs (e.g. Detroit, Tokyo-Yokohama, NCR, Chennai) minimizes distribution costs.",
+        "Agglomeration Economies & Coastal Infrastructure: Coastal sites offer deep-water berths, abundant cooling water, and seamless integration with global maritime export markets."
+      ],
+      "diagramRecommendation": "Weberian Locational Triangle transitioning to coastal/port node: Triangle vertices (Iron Ore, Coal, Market) shifting to coastal Port/Market axis.",
+      "conclusion": "The evolution of the iron and steel industry highlights the transition from 19th-century resource-determinism to 21st-century logistical efficiency, coastal globalization, and circular scrap recycling."
+    }
+  },
+  {
+    "id": "mains_2019_q01",
+    "year": 2019,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Marine Ecology & Environmental Shifts",
+    "syllabusModule": "World Physical & Soil/Biomes Geography",
+    "question": "Assess the impact of global warming on the coral life system with examples.",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 15 & 16",
+      "gcLeong": "G.C. Leong 'Certificate Physical and Human Geography', Chapter 9: Islands and Coral Reefs",
+      "topperNotes": "Sunep Jamir MRG2 P2 (Ocean Warming & Acidification)"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "Coral reefs, frequently termed the 'rainforests of the ocean', occupy less than 0.1% of the ocean floor but support over 25% of all marine species through a mutualistic symbiosis between coral polyps and photosynthetic zooxanthellae algae.",
+      "impactOfGlobalWarming": [
+        "Mass Coral Bleaching (Thermal Stress): Corals thrive in narrow temperature ranges (23°C–29°C). Elevated Sea Surface Temperatures (SSTs) cause thermal stress, prompting polyps to expel the zooxanthellae algae. Deprived of their primary energy source, corals turn white and starve. Example: Great Barrier Reef (Australia) has suffered unprecedented consecutive mass bleaching events (2016, 2017, 2020, 2022).",
+        "Ocean Acidification: The absorption of anthropogenic CO2 lowers ocean pH, reducing the saturation state of carbonate ions (CO3 2-), impairing the ability of corals to calcify and build their aragonite calcium carbonate skeletons.",
+        "Increased Severity of Tropical Cyclones: Warmer ocean waters spawn more intense cyclones that physically shatter and decimate fragile branching coral structures (e.g. staghorn corals in Lakshadweep and Andaman reefs).",
+        "Sea Level Rise & Drowning: Rapid sea level rise can outpace the vertical accretion rate of coral reefs, pushing them below the photic zone where sunlight is insufficient for photosynthesis."
+      ],
+      "diagramRecommendation": "Step-by-step cartoon: Healthy Coral (symbiosis with zooxanthellae) -> Thermal Stress (algal expulsion) -> Bleached Coral -> Ocean Acidification skeleton dissolution.",
+      "conclusion": "Protecting coral ecosystems requires global climate mitigation to limit warming to 1.5°C, coupled with local conservation strategies like establishing Marine Protected Areas (MPAs) and Biorock artificial reef mineral accretion."
+    }
+  },
+  {
+    "id": "mains_2018_q01",
+    "year": 2018,
+    "paper": "GS Paper 1",
+    "marks": 15,
+    "wordLimit": 250,
+    "topic": "Strategic Resources & Geopolitics",
+    "syllabusModule": "Distribution of Key Natural Resources Across World",
+    "question": "Why is India taking keen interest in the resources of the Arctic region?",
+    "bookReferences": {
+      "ncert": "NCERT Class 12 'Fundamentals of Human Geography', Chapter 7 & 8",
+      "topperNotes": "Sunep Jamir MRG1 P2 (India's Interest in Arctic Region & Resources)"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "India's engagement with the Arctic region dates back to the Svalbard Treaty (1920) and has accelerated with the establishment of its permanent Arctic research station 'Himadri' (2008) and admission as an Observer to the Arctic Council in 2013, driven by a strategic blend of scientific, economic, and geopolitical imperatives.",
+      "reasonsForIndiasKeenInterest": [
+        "Scientific & Climatic Linkages ('Third Pole' Connection): (a) Teleconnections to Indian Monsoon: Emerging atmospheric studies establish a direct causal link between Arctic sea ice melting and unpredictable anomalies in the Indian monsoon through jet stream shifts. (b) Glaciological Comparisons: Comparative study of Arctic ice and Himalayan glaciers ('The Third Pole') enhances climate modeling.",
+        "Hydrocarbon & Energy Security: According to the US Geological Survey (USGS), the Arctic holds an estimated 90 billion barrels of undiscovered oil, 1,669 trillion cubic feet of natural gas, and 44 billion barrels of natural gas liquids (~13% of world oil and 30% of gas). India, which imports over 85% of its crude oil, seeks equity partnerships in Russian Arctic hydrocarbon fields (e.g. Vankor, Yamal LNG).",
+        "Critical Minerals & Strategic Rare Earths: The Arctic seabed and Canadian/Greenland shields harbor massive unexploited deposits of rare earth elements (REEs), copper, nickel, iron ore, and uranium, vital for India's clean energy transition and electronics manufacturing.",
+        "New Maritime Navigation Arteries (Northern Sea Route - NSR): Climate-induced sea ice melting is opening the Northern Sea Route across Russia's northern coast. The NSR shortens the transit distance between East Asia and Europe by ~40% compared to the traditional Suez Canal route, bypassing strategic choke points like the Strait of Malacca.",
+        "Geopolitical Balance: Ensuring a rules-based international maritime regime in the Arctic to counterbalance growing Sino-Russian polar alignment ('Polar Silk Road')."
+      ],
+      "diagramRecommendation": "Circumpolar Arctic map marking the Northern Sea Route, Svalbard (Himadri station), and major Russian Arctic gas/oil basins (Yamal/Shtokman).",
+      "conclusion": "India's official 'Arctic Policy (2022)' encapsulates this holistic approach—harmonizing scientific climate monitoring with responsible resource exploration and international polar governance."
+    }
+  },
+  {
+    "id": "mains_2016_q01",
+    "year": 2016,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Climatology & Planetary Winds",
+    "syllabusModule": "World Physical Geography",
+    "question": "Major hot deserts in northern hemisphere are located between 20-30 degree north and on western side of continents. Why?",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 10 & 12",
+      "gcLeong": "G.C. Leong 'Certificate Physical and Human Geography', Chapter 16: The Hot Desert and Mid-Latitude Desert Climates",
+      "topperNotes": "Sunep Jamir MRG1 P1 (Hot Desert Genesis & Coriolis Blocking) & Rajtanil Lecture 7"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "The major tropical hot deserts of the Northern Hemisphere (Sahara, Arabian, Thar, Mojave/Sonoran) are spatially clustered along the subtropical latitudes (20°–30° N) and exclusively along the western coasts of continents due to a combination of atmospheric dynamics and oceanic currents.",
+      "keyCausalFactors": [
+        "Subtropical High-Pressure Belts (Hadley Cell Subsidence): Heated equatorial air rises at the ITCZ and descends in the 20°–30° N belts. Subsidence causes adiabatic warming and drying of the air mass, preventing convection, cloud formation, and precipitation.",
+        "Offshore Trade Winds: These latitudes are under the influence of North-East Trade Winds blowing from east to west. By the time these trade winds traverse the continental interiors and reach the western coasts, they have shed all moisture on the eastern margins, becoming completely dry and desiccating.",
+        "Cold Ocean Currents Along Western Margins: Western margins of continents are bathed by cold ocean currents (Canary Current along Sahara, California Current along Mojave/Sonoran). Cold sea surfaces cool the overlying air, creating strong atmospheric temperature inversions (cold air beneath warm air). This inversion suppresses vertical updrafts and convection, inhibiting rain even though moisture/fog may be present.",
+        "Coriolis Blocking Effect: Coriolis force deflects surface winds away from the western coastlines, causing coastal upwelling of deep, cold, nutrient-rich but desiccating waters."
+      ],
+      "diagramRecommendation": "Schematic of a generic continent between 20-30° N showing: East coast moisture dump from trade winds -> Dry offshore trade winds moving west -> Coastal cold current -> Desert zone on west coast.",
+      "conclusion": "The interplay of atmospheric subsidence (Hadley Cell), offshore trade winds, and cold marine currents creates an unbroken arid regime across continental western margins."
+    }
+  },
+  {
+    "id": "mains_2014_q01",
+    "year": 2014,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Climatology & Ocean-Atmosphere Interactions",
+    "syllabusModule": "World Physical Geography",
+    "question": "Most of the unusual climatic happenings are explained as an outcome of the El-Nino effect. Do you agree?",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 10; 'India: Physical Environment', Chapter 4",
+      "gcLeong": "G.C. Leong 'Certificate Physical and Human Geography', Climatic Dynamics",
+      "topperNotes": "Sunep Jamir MRG1 P1 (El-Nino Teleconnections) & Rajtanil Lecture 12"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "El Niño, referring to the anomalous periodic warming of equatorial Central and Eastern Pacific sea surface temperatures (coupled with the Southern Oscillation atmospheric pressure see-saw in ENSO), is one of the most potent drivers of global climate variability, though not the sole cause of all unusual weather extremes.",
+      "roleOfElNinoInGlobalClimaticAnomalies": [
+        "Pacific Walker Circulation Reversal: Warm water displaces the cold Peru/Humboldt current, shifting atmospheric convection eastward toward central Pacific and Peru/Ecuador (causing catastrophic torrential rains and floods in arid coastal Peru).",
+        "Droughts in Australia & Maritime Southeast Asia: Subsidence over the Western Pacific suppresses rainfall, triggering severe bushfires in Australia and severe forest fires in Indonesia.",
+        "Suppression of Indian South-West Monsoon: El Niño weakens the Walker circulation and alters the tropical easterly jet, historically correlating with ~60% of major Indian drought years (though mitigated when positive Indian Ocean Dipole - IOD coincides).",
+        "Disruption of Global Jet Streams: El Niño energizes the subtropical jet stream, steering winter storms into the southern United States while causing milder winters in northern North America."
+      ],
+      "whyElNinoIsNOTTheSoleCause": [
+        "Other Coupled Ocean-Atmosphere Oscillations: Indian Ocean Dipole (IOD), Madden-Julian Oscillation (MJO), North Atlantic Oscillation (NAO), and Arctic Oscillation (AO) independently modulate regional weather.",
+        "Anthropogenic Global Warming: Human-induced greenhouse warming amplifies the frequency and baseline intensity of heatwaves, cloudbursts, and tropical cyclones regardless of ENSO phase.",
+        "Chaotic Land-Atmosphere Feedbacks: Soil moisture deficits and deforestation independently induce regional heat domes."
+      ],
+      "diagramRecommendation": "Comparative sketch of Normal Pacific Walker Cell (upwelling off Peru, rain over Indonesia) versus El Niño State (warm pool shifts east, convection over Central Pacific, drought over Indo-Australian basin).",
+      "conclusion": "While El Niño exerts massive trans-oceanic teleconnections across the globe, extreme weather events represent the compounded interplay of ENSO with regional oscillations and anthropogenic climate change."
+    }
+  },
+  {
+    "id": "mains_2014_q02",
+    "year": 2014,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Plate Tectonics & Orogeny",
+    "syllabusModule": "World Physical Geography",
+    "question": "Why are the world's fold mountain systems located along the margins of continents? Bring out the association between the global distribution of Fold Mountains and the earthquakes and volcanoes.",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 4: Distribution of Oceans and Continents",
+      "gcLeong": "G.C. Leong 'Certificate Physical and Human Geography', Chapter 2 & 3",
+      "topperNotes": "Sunep Jamir MRG1 P1 (Fold Mountains, Seismicity & Volcanism) & Rajtanil Lecture 2"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "According to Plate Tectonics Theory, major fold mountain systems (Andes, Rockies, Himalayas, Alps, Atlas) are orogenic belts created by horizontal compressive forces at convergent plate boundaries, which predominantly occur along continental margins.",
+      "reasonsForLocationAlongContinentalMargins": [
+        "Oceanic-Continental Convergence: When a dense oceanic plate collides with a lighter continental plate (e.g. Nazca plate subducting under South American plate; Pacific plate subducting under North American plate), the oceanic slab plunges into the asthenosphere. The compressed continental margin rocks, marine sediments, and accretionary wedges crumple, fold, and uplift into coastal cordilleras (Andes, Cascades).",
+        "Geosynclinal Deposition & Continental Collision: Ancient continental margins accumulated thick sediment prisms in marginal troughs (e.g. Tethys geosyncline). Continental-continental collision (Indian plate into Eurasian plate) compressed these marginal marine sediments into colossal intracontinental fold mountains (Himalayas)."
+      ],
+      "associationWithEarthquakesAndVolcanoes": [
+        "Earthquakes: All fold mountain belts are active tectonic collision zones characterized by deep, intermediate, and shallow focus earthquakes along thrust faults (e.g. Wadati-Benioff zones along Andes/Rockies; Main Himalayan Thrust).",
+        "Volcanoes: (a) Present in O-C Convergence: In the Andes, Cascades, and Central American fold mountains, the subducting oceanic slab undergoes dewatering and partial melting in the mantle at 100-200 km depth. Rising andesitic magma feeds explosive volcanic arcs along the fold mountains (e.g. Cotopaxi, Chimborazo). (b) Absent in C-C Convergence: In the Himalayas, both continental slabs (India and Eurasia) are buoyant and do not subduct deep enough to melt into magma chambers; hence, the Himalayas experience severe earthquakes but lack active volcanoes!"
+      ],
+      "diagramRecommendation": "Cross-sectional comparison: (1) O-C subduction showing Andes with deep trench, folding, earthquakes and volcanic arc vs (2) C-C collision showing Himalayas with intense crustal shortening, earthquakes, but NO volcanism.",
+      "conclusion": "The spatial concurrence of fold mountains, earthquakes, and volcanism along continental margins reflects the dynamic convergence of lithospheric plates and the fundamental mechanisms of planetary heat dissipation."
+    }
+  },
+  {
+    "id": "mains_2013_q01",
+    "year": 2013,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 100,
+    "topic": "Geomorphology & Continental Drift",
+    "syllabusModule": "World Physical Geography",
+    "question": "What do you understand by the theory of 'continental drift'? Discuss the prominent evidences in its support.",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 4: Distribution of Oceans and Continents, pp. 31-35",
+      "gcLeong": "G.C. Leong 'Certificate Physical and Human Geography', Chapter 2",
+      "topperNotes": "Sunep Jamir MRG1 P1 (Continental Drift Evidences) & Rajtanil Lecture 2"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "Propounded by German meteorologist Alfred Wegener in 1912, the Continental Drift Theory posited that all present continents once formed a single supercontinental landmass called 'Pangaea', surrounded by a global mega-ocean 'Panthalassa', which began breaking apart during the Carboniferous/Mesozoic era.",
+      "prominentEvidences": [
+        "Jigsaw Fit of Opposite Coastlines: The remarkable morphological complementary fit between the Atlantic coastlines of South America and Africa (first noted by Bullard using 1,000-fathom continental shelf contours).",
+        "Fossil Distribution (Paleontological Evidence): Identical non-marine fossils found across isolated oceans, e.g., Mesosaurus (small freshwater reptile) found only in Southern Brazil and South Africa; Glossopteris flora found continuously across India, Australia, Antarctica, Africa, and South America.",
+        "Tillite & Paleoclimatic Evidence: Thick glacio-fluvial sedimentary deposits (Tillite) of Carboniferous age found simultaneously across Gondwana fragments (Talchir boulder beds in India, South Africa, Falkland, Australia), testifying to a shared polar past.",
+        "Placer Gold Deposits: Rich gold placer deposits occur along the Ghana coast of West Africa without any local mother lode, whereas the parent gold quartz veins occur across the Atlantic in Brazil.",
+        "Geological Rock Belts: Ancient rock belts (~2,000 million years old) along the coast of Brazil correlate directly with those along the coast of West Africa."
+      ],
+      "diagramRecommendation": "Reconstructed Pangaea map sketch showing the jigsaw alignment of South America-Africa and distribution of Glossopteris fossil belt across southern continents.",
+      "conclusion": "Although Wegener's driving mechanisms (tidal and pole-fleeing forces) were inadequate, his morphological and geological evidences laid the foundation for Harry Hess's Seafloor Spreading and modern Plate Tectonics Theory."
+    }
+  },
+  {
+    "id": "mains_2013_q02",
+    "year": 2013,
+    "paper": "GS Paper 1",
+    "marks": 10,
+    "wordLimit": 150,
+    "topic": "Tropical Cyclones & Meteorology",
+    "syllabusModule": "World Physical & Indian Climatology",
+    "question": "The recent cyclone on east coast of India was called 'Phailin'. How are the tropical cyclones named across the world?",
+    "bookReferences": {
+      "ncert": "NCERT Class 11 'Fundamentals of Physical Geography', Chapter 10 & 11",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 13: Cyclones of India",
+      "topperNotes": "Sunep Jamir MRG1 P1 (Cyclone Naming Protocols) & Rajtanil Lecture 4"
+    },
+    "modelAnswerBlueprint": {
+      "introduction": "Tropical cyclones are named systematically to facilitate swift disaster communication, prevent confusion when multiple storms coexist in the same basin, and heighten community preparedness. The naming follows international protocols established by the World Meteorological Organization (WMO).",
+      "globalNamingMechanism": [
+        "Regional Specialized Meteorological Centres (RSMCs): The WMO designates 6 RSMCs and 5 Tropical Cyclone Warning Centres (TCWCs) globally, each responsible for monitoring and naming cyclones within its respective ocean basin.",
+        "Pre-Determined Alphabetical Lists: Each regional body compiles a pre-determined sequential list of culturally representative names contributed equitably by all member countries in that maritime basin.",
+        "Indian Ocean / Bay of Bengal & Arabian Sea System: Managed by RSMC New Delhi (India Meteorological Department - IMD) under the WMO/ESCAP Panel on Tropical Cyclones (PTC). In 2004, 8 countries (Bangladesh, India, Maldives, Myanmar, Oman, Pakistan, Sri Lanka, Thailand) contributed 8 names each (64 names). In 2020, the panel expanded to 13 countries (adding Iran, Qatar, Saudi Arabia, UAE, Yemen) providing 169 names. 'Phailin' (meaning sapphire in Thai) was contributed by Thailand.",
+        "Rules for Naming: Names must be short, easy to pronounce, culturally neutral, non-inflammatory, and maximum 8 letters long. Names of exceptionally destructive storms (e.g. Katrina, Haiyan) are permanently 'retired' by the WMO."
+      ],
+      "diagramRecommendation": "World ocean basins sketch showing RSMC zones: Miami (Atlantic Hurricanes), Tokyo (Pacific Typhoons), New Delhi (North Indian Ocean Cyclones).",
+      "conclusion": "Standardized cyclone naming transforms technical meteorological forecasts into actionable, life-saving public alerts, forming the bedrock of modern disaster risk governance."
+    }
+  }
+]
+
+out_path = r"C:\Users\ragha\.gemini\antigravity\scratch\geography-of-india\public\data\mains-pyqs-bank.json"
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(mains_pyqs, f, indent=2, ensure_ascii=False)
+
+print(f"Successfully generated {len(mains_pyqs)} high-yield UPSC Mains Geography PYQs in public/data/mains-pyqs-bank.json")

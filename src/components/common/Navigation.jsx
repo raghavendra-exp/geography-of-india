@@ -35,7 +35,7 @@ export const NAV_ITEMS = [
   { id: 'mock', label: 'Prelims Mock', hindi: 'मॉक टेस्ट', icon: Award, badge: 'UPSC' },
   { id: 'flashcards', label: 'Flashcards', hindi: 'स्मृति कार्ड', icon: BookMarked },
   { id: 'mistakes', label: 'Error Book', hindi: 'त्रुटि पंजिका', icon: AlertOctagon },
-  { id: 'pyq', label: 'PYQ Master', hindi: 'पीवाईक्यू', icon: FileText },
+  { id: 'pyq', label: 'PYQ Master', hindi: 'पीवाईक्यू', icon: FileText, badge: 'Mains+Pre' },
   { id: 'tools', label: 'Backup & Notes', hindi: 'बैकअप / नोट्स', icon: Database }
 ];
 

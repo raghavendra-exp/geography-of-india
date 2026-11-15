@@ -409,6 +409,43 @@ export default function Dashboard({
           </div>
 
         </div>
+
+        {/* UPSC Mains GS-I & GS-III Solved PYQ Master Hub (2013-2024) Banner */}
+        <div 
+          onClick={() => setActiveTab('pyq')}
+          className="rounded-3xl p-6 sm:p-7 border transition-all cursor-pointer hover:shadow-xl hover:scale-[1.005] relative overflow-hidden group
+            bg-gradient-to-r from-purple-900/10 via-indigo-900/10 to-blue-900/10 border-indigo-300 dark:border-indigo-900/60
+            dark:from-purple-950/40 dark:via-indigo-950/30 dark:to-slate-900 text-sepia-900 dark:text-slate-100 mt-4"
+        >
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
+            <div className="space-y-2 max-w-3xl">
+              <div className="flex items-center space-x-2 flex-wrap gap-1.5">
+                <span className="px-2.5 py-0.5 text-[10px] font-mono font-bold uppercase rounded-md bg-purple-600 text-white shadow-xs">
+                  UPSC CSE Mains 2013–2024 Solved
+                </span>
+                <span className="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded-md bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300 border border-amber-300/40">
+                  Sunep Jamir & Topper Treatises Integrated
+                </span>
+                <span className="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded-md bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">
+                  Model Answers • Diagrams • Books Cited
+                </span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-bold font-display text-sepia-900 dark:text-slate-100 group-hover:text-purple-700 dark:group-hover:text-indigo-300 transition-colors">
+                Mains Model Answer Blueprints & Prelims Option Elimination Master
+              </h3>
+              <p className="text-xs sm:text-sm text-sepia-700 dark:text-slate-300 leading-relaxed">
+                Study 24 comprehensive UPSC Mains GS-I & GS-III Model Answers structured with Introduction, Key Arguments, Topper Value-Additions (quotes & micro-diagrams), and Way Forward, plus 34+ authentic Prelims questions with trap alerts and elimination analysis.
+              </p>
+            </div>
+
+            <div className="flex items-center space-x-3 shrink-0">
+              <div className="px-4 py-2.5 rounded-2xl bg-purple-600 text-white text-xs font-bold shadow-md shadow-purple-600/30 flex items-center space-x-2 group-hover:bg-purple-700 transition-colors">
+                <span>Explore PYQ Vault</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Smart Study Recommender: Time-based Sessions */}

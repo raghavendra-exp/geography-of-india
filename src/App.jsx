@@ -47,6 +47,7 @@ export default function App() {
   const [drillActive, setDrillActive] = useState(false);
   const [simulatorSubTab, setSimulatorSubTab] = useState('monsoon'); // monsoon, crosssection, cropgame
   const [practiceInitialTopic, setPracticeInitialTopic] = useState('All');
+  const [pyqInitialTab, setPyqInitialTab] = useState('master');
 
   // Datasets
   const [datasets, setDatasets] = useState({
@@ -69,6 +70,7 @@ export default function App() {
     economicHuman: {},
     pyq: [],
     pyqMaster: [],
+    mainsPyqMaster: [],
     questions: [],
     loaded: false
   });
@@ -116,6 +118,7 @@ export default function App() {
           economicHuman,
           pyq,
           pyqMaster,
+          mainsPyqMaster,
           questions
         ] = await Promise.all([
           fetch('./data/master-flow.json').then(r => r.json()),
@@ -136,6 +139,7 @@ export default function App() {
           fetch('./data/economic-human-geo.json').then(r => r.json()).catch(() => ({})),
           fetch('./data/prelims-pyqs.json').then(r => r.json()),
           fetch('./data/pyq-master-bank.json').then(r => r.json()).catch(() => []),
+          fetch('./data/mains-pyqs-bank.json').then(r => r.json()).catch(() => []),
           fetch('./data/questions.json').then(r => r.json())
         ]);
 
@@ -158,6 +162,7 @@ export default function App() {
           economicHuman,
           pyq,
           pyqMaster,
+          mainsPyqMaster,
           questions,
           loaded: true
         });
@@ -193,6 +198,9 @@ export default function App() {
     if (item.type === 'open_search') {
       setSearchOpen(true);
       return;
+    }
+    if (item.pyqSubTab) {
+      setPyqInitialTab(item.pyqSubTab);
     }
     if (item.targetTab) {
       setActiveTab(item.targetTab);
@@ -471,6 +479,8 @@ export default function App() {
               <PyqExplorer
                 pyqData={datasets.pyq}
                 pyqMasterData={datasets.pyqMaster}
+                mainsPyqData={datasets.mainsPyqMaster}
+                initialTab={pyqInitialTab}
                 onStartPyqPractice={(year) => {
                   setPracticeInitialTopic('All');
                   setActiveTab('practice');

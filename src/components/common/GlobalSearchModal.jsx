@@ -315,6 +315,58 @@ export default function GlobalSearchModal({
       }
     }
 
+    // 10. UPSC Mains Solved PYQs (2013-2024)
+    if (filter === 'all' || filter === 'mains' || filter === 'pyqs') {
+      const mainsList = datasets.mainsPyqMaster || [];
+      mainsList.forEach(m => {
+        if (
+          m.question.toLowerCase().includes(q) ||
+          m.topic?.toLowerCase().includes(q) ||
+          m.syllabusNode?.toLowerCase().includes(q) ||
+          (m.keywords || []).some(k => k.toLowerCase().includes(q)) ||
+          m.modelAnswer?.introduction?.toLowerCase().includes(q) ||
+          m.modelAnswer?.topperValueAddition?.quoteOrFramework?.toLowerCase().includes(q)
+        ) {
+          results.push({
+            id: `mains_${m.id}`,
+            category: `Mains ${m.paper} (${m.year})`,
+            title: m.question.length > 95 ? m.question.slice(0, 95) + '...' : m.question,
+            subtitle: `${m.topic} • ${m.marks} Marks • ${m.syllabusNode}`,
+            detail: m.modelAnswer?.topperValueAddition?.quoteOrFramework || m.modelAnswer?.introduction?.slice(0, 100) + '...',
+            type: 'mains_pyq_item',
+            targetTab: 'pyq',
+            pyqSubTab: 'mains',
+            raw: m
+          });
+        }
+      });
+    }
+
+    // 11. UPSC Prelims Solved PYQ Master Bank
+    if (filter === 'all' || filter === 'pyqs') {
+      const prelimsList = datasets.pyqMaster || [];
+      prelimsList.forEach(p => {
+        if (
+          p.question.toLowerCase().includes(q) ||
+          p.topic?.toLowerCase().includes(q) ||
+          p.topperTip?.toLowerCase().includes(q) ||
+          (p.options || []).some(opt => opt.text.toLowerCase().includes(q))
+        ) {
+          results.push({
+            id: `prelims_${p.id}`,
+            category: `Prelims PYQ (${p.year})`,
+            title: p.question.length > 95 ? p.question.slice(0, 95) + '...' : p.question,
+            subtitle: `${p.topic} • ${p.difficulty} • Topper Tip: ${p.topperTip?.slice(0, 60)}...`,
+            detail: p.explanation?.slice(0, 100) + '...',
+            type: 'prelims_pyq_item',
+            targetTab: 'pyq',
+            pyqSubTab: 'master',
+            raw: p
+          });
+        }
+      });
+    }
+
     return results.slice(0, 30);
   }, [query, filter, datasets]);
 
@@ -359,6 +411,8 @@ export default function GlobalSearchModal({
         <div className="flex items-center space-x-2 px-4 py-2 border-b border-sepia-300/60 dark:border-slate-800/80 overflow-x-auto text-xs no-scrollbar">
           {[
             { id: 'all', label: 'All Items' },
+            { id: 'mains', label: 'Mains Solved PYQs' },
+            { id: 'pyqs', label: 'Prelims PYQs' },
             { id: 'worldgeo', label: 'World Physical' },
             { id: 'resources', label: 'Resources & Industry' },
             { id: 'geophysical', label: 'Geophysical' },

@@ -36,7 +36,15 @@
             "detail": "Soil Liquefaction (loose water-saturated sandy soils temporarily lose shear strength and behave as a viscous liquid, causing heavy multistory buildings to tilt and sink intact); Ground displacement and fault rupture; Landslides, rockfalls, and snow avalanches; Tsunamis (if submarine fault slips vertically); Firestorms from ruptured natural gas pipelines and electrical short-circuits."
           }
         ],
-        "upscTrap": "The S-wave shadow zone is significantly LARGER than the P-wave shadow zone. The S-wave shadow zone extends continuously from 103° to 180° (over 40% of the globe), whereas the P-wave shadow zone is only a ring between 103° and 142° (P-waves reappear beyond 142°)."
+        "upscTrap": "The S-wave shadow zone is significantly LARGER than the P-wave shadow zone. The S-wave shadow zone extends continuously from 103° to 180° (over 40% of the globe), whereas the P-wave shadow zone is only a ring between 103° and 142° (P-waves reappear beyond 142°).",
+        "himalayanSeismicGap": {
+          "title": "Topper's Seismic Hazard Synthesis: Himalayan Seismic Gaps & Measurement Scales",
+          "points": [
+            "Himalayan Seismic Gaps: Along the 2,400 km Himalayan arc, tectonic stress has accumulated between historical earthquake rupture zones along the Main Himalayan Thrust (MHT). The 'Central Himalayan Seismic Gap' (spanning Uttarakhand and Western Nepal) has not experienced a major mega-quake (M > 8) for over 500 years, storing enough elastic strain energy to unleash catastrophic future seismicity.",
+            "Why Moment Magnitude Scale (Mw) is Superior to Richter Scale: The Richter scale (Ml) measures ground displacement on a Wood-Anderson seismograph and 'saturates' (fails to distinguish) between very large earthquakes (M > 7.5). The Moment Magnitude Scale (Mw) measures the total physical energy released based on: Seismic Moment = Shear Modulus of Rock × Rupture Area of Fault × Average Fault Slip.",
+            "Liquefaction in Soft Sediments: Saturated loose alluvial or lacustrine sands temporarily lose shear strength and behave as a viscous liquid during seismic shaking, causing heavy buildings to tilt or sink (observed in Kathmandu lakebed sediments during 2015 Gorkha earthquake)."
+          ]
+        }
       },
       {
         "id": "tsunami",
@@ -132,7 +140,15 @@
             "detail": "• Marine Ecosystems & Coral Bleaching: Ocean warming and marine heatwaves trigger expulsion of symbiotic zooxanthellae algae, causing mass coral bleaching across the Great Barrier Reef, Lakshadweep, and Andaman reefs; ocean acidification (drop in ocean pH by 0.1 units) impairs shell formation in calcifying organisms (pteropods, oysters).\n• Terrestrial Flora Biome Shifts: Upward alpine treeline migration in the Himalayas; loss of sub-alpine meadows (Bugyals); replacement of moist deciduous broadleaf forests by drought-prone chir pine monocultures in Uttarakhand.\n• Fauna Range Contraction & Phenological Mismatch: Polar bears, walruses, and emperor penguins losing ice breeding habitats; mistimed migration of migratory birds (e.g. at Keoladeo National Park, Bharatpur) due to unseasonal temperature cues; climate refugees and displacement of coastal low-lying communities (Small Island Developing States like Tuvalu, Maldives, and Sundarbans delta communities)."
           }
         ],
-        "upscTrap": "The melting of floating Arctic sea ice does NOT significantly raise global sea levels (as it is already floating in water, obeying Archimedes' principle). Global sea level rise is driven primarily by the melting of LAND-BASED ICE SHEETS (Greenland and Antarctica) and THERMAL EXPANSION of warming seawater!"
+        "upscTrap": "The melting of floating Arctic sea ice does NOT significantly raise global sea levels (as it is already floating in water, obeying Archimedes' principle). Global sea level rise is driven primarily by the melting of LAND-BASED ICE SHEETS (Greenland and Antarctica) and THERMAL EXPANSION of warming seawater!",
+        "criticalFeaturesSynthesis": {
+          "title": "Topper's Environmental Crisis Synthesis: Dying Rivers & Cryosphere Retreat",
+          "points": [
+            "Dying Rivers of India (Ecological Flow Deficit): Rivers like Yamuna, Sabarmati, and Damodar suffer complete ecological death along non-monsoon stretches because upstream diversion for irrigation and drinking deprives the river of its mandatory 'E-flow' (Ecological Flow), turning downstream reaches into toxic sewage conduits.",
+            "Brahmaputra Bank Oscillation & Majuli Shrinking: High seismicity in Assam coupled with massive siltation from young Himalayan terrain causes the braided river channel of the Brahmaputra to oscillate wildly, eroding thousands of hectares of agrarian land and shrinking Majuli, the world's largest river island, from ~1,250 sq km to under 400 sq km.",
+            "Urban Flooding vs Riverine Flooding: Urban flooding is an anthropogenic disaster caused by concretization (reducing soil infiltration from 80% to <10%), encroachment on urban wetlands and tanks (e.g. Pallikaranai in Chennai, Bellandur in Bengaluru), and undersized stormwater drains designed for 12 mm/h rain overwhelmed by climate-induced 50-100 mm/h downpours."
+          ]
+        }
       }
     ]
   }

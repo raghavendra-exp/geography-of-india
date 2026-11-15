@@ -85,7 +85,15 @@
             "detail": "1. Divergent / Constructive: Plates pull apart, magma wells up creating new oceanic crust. Examples: Mid-Atlantic Ridge, East African Rift Valley, Red Sea.\n2. Convergent / Destructive: Plates collide; one plate subducts into mantle or crumples.\n   • Oceanic-Continental (O-C): Oceanic plate subducts forming volcanic arcs and deep trenches (Andes, Cascades; Peru-Chile trench).\n   • Oceanic-Oceanic (O-O): Denser oceanic plate subducts forming island arc-trench systems (Mariana Trench, Japan, Aleutian islands).\n   • Continental-Continental (C-C): Neither subducts due to buoyancy; massive crustal thickening and fold mountains (Himalayas, Alps; no volcanism).\n3. Transform / Conservative: Plates slide past horizontally; crust is neither created nor destroyed; intense shallow earthquakes (San Andreas Fault, North Anatolian Fault)."
           }
         ],
-        "upscTrap": "Continental-Continental convergent boundaries (like the Indo-Eurasian collision in the Himalayas) produce intense earthquakes and fold mountains, but NO active volcanism because the continental crust is too thick and buoyant to melt into volcanic magma!"
+        "upscTrap": "Continental-Continental convergent boundaries (like the Indo-Eurasian collision in the Himalayas) produce intense earthquakes and fold mountains, but NO active volcanism because the continental crust is too thick and buoyant to melt into volcanic magma!",
+        "topperSynthesis": {
+          "title": "Topper's Advanced Synthesis: Wilson Cycle & Orogenic Phases (Sunep Jamir Notes)",
+          "points": [
+            "Wilson Cycle: The 6-stage lifecycle of ocean basins and supercontinents: (1) Embryonic (East African Rift), (2) Juvenile (Red Sea), (3) Mature (Atlantic Ocean with passive margins), (4) Declining (Pacific Ocean with subduction zones), (5) Terminal (Mediterranean Sea), and (6) Relict/Suturing (Himalayan collision).",
+            "Why Andes have volcanoes but Himalayas do not: Andes represent Oceanic-Continental (O-C) convergence where the dense Nazca plate subducts and undergoes dewatering and partial melting at 100-200 km, erupting explosive andesitic magma. Himalayas represent Continental-Continental (C-C) collision between buoyant Indian and Eurasian plates; neither plate subducts deep enough to melt into magma chambers. Hence, Himalayas experience severe earthquakes but NO active volcanism!",
+            "Mid-plate Hotspots: Not all volcanoes occur at plate boundaries. Plumes of hot rock rising from the core-mantle boundary (D'' layer at 2,900 km depth) form stationary hotspots (Hawaii, Réunion, Hoggar/Tibesti in central Sahara). As plates move over them, age-progressive volcanic island chains are created."
+          ]
+        }
       },
       {
         "id": "earthquakes-volcanoes-dist",
@@ -108,7 +116,15 @@
             "detail": "Stationary thermal plumes rising from core-mantle boundary (D'' layer) burn through moving lithosphere. Examples: Hawaiian Emperor Seamount chain (Pacific plate moves NW over hotspot), Yellowstone caldera, Réunion hotspot (which formed the Deccan Traps ~66 Ma as the Indian plate drifted northward)."
           }
         ],
-        "upscTrap": "The Deccan Traps of India were created by fissure volcanism over the Réunion hotspot around 66 million years ago (Cretaceous-Paleogene boundary), NOT by plate boundary subduction."
+        "upscTrap": "The Deccan Traps of India were created by fissure volcanism over the Réunion hotspot around 66 million years ago (Cretaceous-Paleogene boundary), NOT by plate boundary subduction.",
+        "topperSynthesis": {
+          "title": "Topper's Advanced Synthesis: Seismic Geomorphology & Magma Geochemistry",
+          "points": [
+            "Magma Geochemistry: Continental magma is Andesitic/Rhyolitic (high silica ~60-70%, highly viscous, traps gases, causing violent explosive Plinian/Pelean eruptions e.g. Krakatoa). Oceanic magma is Basaltic/Mafic (low silica ~45-50%, rich in Fe & Mg, fluid, gas escapes easily, causing effusive Hawaiian/fissure flows).",
+            "Geomorphological Effects of Earthquakes: Seismic shaking causes ground rupture, sand boils/liquefaction in alluvial floodplains and lakebed sediments (e.g. Kathmandu valley in 2015 Nepal quake), slope failure/avalanches, and compaction of un-consolidated sediments.",
+            "Isoseismal vs Homoseismal Lines: Isoseismal lines connect places experiencing equal seismic intensity (Mercalli scale damage). Homoseismal lines connect places where earthquake waves arrive at the exact same point in time."
+          ]
+        }
       },
       {
         "id": "rocks-rock-cycle",
@@ -364,7 +380,14 @@
             "detail": "• Air Mass: Immense body of air (thousands of km) with uniform temperature and humidity acquired from its source region (Maritime Tropical mT, Continental Polar cP, etc.).\n• Fronts: Transition zones between two contrasting air masses.\n  - Warm Front: Warm air gently rides up over retreating cold wedge; widespread nimbostratus clouds, steady drizzle.\n  - Cold Front: Dense cold air aggressively wedges under warm air, forcing rapid steep uplift; towering cumulonimbus clouds, violent thunderstorms, squall lines.\n  - Occluded Front: Fast-moving cold front completely overtakes warm front, lifting the entire warm sector off the ground."
           }
         ],
-        "upscTrap": "The Subtropical High Pressure Belts ('Horse Latitudes') and Subpolar Low Pressure Belts are DYNAMICALLY induced by Earth's rotation and atmospheric convergence/divergence, NOT thermally induced by temperature!"
+        "upscTrap": "The Subtropical High Pressure Belts ('Horse Latitudes') and Subpolar Low Pressure Belts are DYNAMICALLY induced by Earth's rotation and atmospheric convergence/divergence, NOT thermally induced by temperature!",
+        "topperSynthesis": {
+          "title": "Topper's Advanced Synthesis: Jet Streams Classification & Coriolis Desiccation",
+          "points": [
+            "5 Major Jet Stream Types: (1) Polar Front Jet Stream (westerly, 9-12 km height, associated with polar front), (2) Subtropical Westerly Jet Stream (westerly, 12-14 km height, steering western disturbances into India), (3) Tropical Easterly Jet (easterly, summer season over Tibetan plateau, triggers Indian monsoon low), (4) Polar Night / Stratospheric Jet (polar vortex during winter), and (5) Local Jet Streams (e.g. Somali Low-Level Jet / Findlater Jet driving monsoon winds to Indian west coast).",
+            "Why Major Hot Deserts Lie on Western Margins (20°-30° N): Triple meteorological control: (1) Subtropical high pressure subsidence (descending dry air of Hadley cell), (2) Offshore dry trade winds (shed moisture on east coasts, arrive completely dry on west coasts), and (3) Cold ocean currents (Canary, Benguela, California, Peru) creating severe atmospheric temperature inversions that suppress convection."
+          ]
+        }
       },
       {
         "id": "world-climate-types",

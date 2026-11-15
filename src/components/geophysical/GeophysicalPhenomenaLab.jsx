@@ -15,7 +15,8 @@ import {
   Radio,
   Eye,
   FileText,
-  ExternalLink
+  ExternalLink,
+  Sparkles
 } from 'lucide-react';
 
 const SUBTOPIC_PDF_MAP = {
@@ -264,6 +265,43 @@ export default function GeophysicalPhenomenaLab({
                   ))}
                 </div>
               </div>
+
+              {/* Topper & Seismic/Environmental Synthesis */}
+              {[
+                currentSubtopic.himalayanSeismicGap,
+                currentSubtopic.criticalFeaturesSynthesis,
+                currentSubtopic.topperSynthesis
+              ].filter(Boolean).map((synthesis, sIdx) => (
+                <div key={sIdx} className="p-5 rounded-2xl bg-gradient-to-br from-red-50/70 via-rose-50/40 to-amber-50/50 dark:from-red-950/40 dark:via-rose-950/30 dark:to-slate-900 border border-red-200 dark:border-red-900/60 space-y-3">
+                  <div className="flex items-center space-x-2 text-red-800 dark:text-red-300">
+                    <Sparkles className="w-5 h-5 shrink-0 text-red-600 dark:text-red-400" />
+                    <span className="font-bold text-xs font-mono uppercase tracking-wider">
+                      {synthesis.title}
+                    </span>
+                  </div>
+                  <div className="space-y-2.5 pl-1">
+                    {synthesis.points?.map((pt, pIdx) => {
+                      const parts = pt.split(':');
+                      const hasColon = parts.length > 1;
+                      return (
+                        <div key={pIdx} className="flex items-start space-x-2.5 text-xs sm:text-sm text-sepia-900 dark:text-slate-200">
+                          <span className="w-2 h-2 rounded-full bg-red-500 mt-1.5 shrink-0" />
+                          <p className="leading-relaxed">
+                            {hasColon ? (
+                              <>
+                                <strong className="text-red-950 dark:text-red-300 font-semibold">{parts[0]}:</strong>
+                                <span>{pt.substring(parts[0].length + 1)}</span>
+                              </>
+                            ) : (
+                              <span>{pt}</span>
+                            )}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
 
               {/* Bottom Quick Action Footer */}
               <div className="pt-4 border-t border-sepia-200 dark:border-slate-800 flex items-center justify-between flex-wrap gap-3">
